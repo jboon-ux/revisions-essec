@@ -441,7 +441,7 @@ const courseQIds=s=>s.qcm.map((q,i)=>i).filter(i=>s.chapters.some(c=>c[0]===s.qc
 const chapterName=(s,id)=>Object.fromEntries(s.chapters)[id]||(s.exams||[]).find(e=>e.id===id)?.title||id;
 
 /* Agenda */
-const SESS=[];BOOT.sessions.forEach(s=>s.dates.forEach((d,i)=>SESS.push({sub:s.sub,date:d,time:s.start,end:s.end,room:i===0?s.room:"Campus Cergy",t:s.topics?s.topics[i]:`Séance ${i+1}`,type:"class"})));
+const SESS=[];BOOT.sessions.forEach(s=>s.dates.forEach((d,i)=>SESS.push({sub:s.sub,date:d,time:s.start,end:s.end,room:i===0?s.room:"Campus Cergy",t:s.topics?s.topics[i].replace(/ \((?:\d{1,2} [^)]+)\)$/,""):`Séance ${i+1}`,type:"class"})));
 const AG=[...SESS,...BOOT.events].sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));
 const fut=e=>new Date(e.date+"T"+(e.end||e.time||"23:59"))>=new Date();
 
