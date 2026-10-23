@@ -1,0 +1,723 @@
+<title>Révisions ESSEC MiM 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+<style>
+/* Mise en page : barre latérale fixe (navigation + cours) et zone de travail ; en dessous de 1000 px, barre du haut ; sur téléphone, barre d'onglets en bas.
+   Thème clair unique, choisi délibérément (pas de thème sombre). */
+:root{
+  color-scheme:light;
+  --bg:#F3F4F6; --surface:#FFFFFF; --sunken:#F8F9FA; --ink:#141820; --ink2:#3B4250; --muted:#6A7180; --line:#E2E5EA; --line2:#ECEEF2;
+  --brand:#1A2540; --brand-ink:#FFFFFF; --hover:#F1F3F6;
+  --good:#1D7A4E; --good-bg:#E6F4EC; --bad:#B4322E; --bad-bg:#FBEAE9; --warn:#97600C; --warn-bg:#FAF0DC; --hl:#FFF0A8;
+  --c-mm:#B8355E; --c-acc:#2F4BC4; --c-it:#0B7A6B; --c-law:#A1561A; --c-str:#6A44BC; --c:var(--brand);
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --r:10px; --r-sm:7px;
+  --side:252px;
+  --shadow:0 1px 2px rgba(20,24,32,.04),0 1px 1px rgba(20,24,32,.03);
+}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--ink);font:15px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{line-height:1.2;margin:0;text-wrap:balance;font-weight:600}
+button{font:inherit;color:inherit;cursor:pointer}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px;border-radius:6px}
+mark{background:var(--hl);color:inherit;padding:0 .12em;border-radius:3px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+.lbl{font-size:11.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+
+/* ---------- Coque de l'application ---------- */
+.side{position:fixed;top:0;bottom:0;left:0;width:var(--side);background:var(--surface);border-right:1px solid var(--line);display:flex;flex-direction:column;padding:calc(18px + env(safe-area-inset-top,0px)) 14px calc(16px + env(safe-area-inset-bottom,0px));overflow-y:auto;z-index:20}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;padding:4px 8px 18px}
+.brand .mk{width:32px;height:32px;border-radius:8px;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font:700 13px var(--mono);letter-spacing:.02em}
+.brand b{display:block;font-size:14.5px;font-weight:700;line-height:1.2}
+.brand small{display:block;font-size:12px;color:var(--muted)}
+.sgrp{margin-top:14px}
+.sgrp>.lbl{display:block;padding:0 10px 6px}
+.snav{display:flex;flex-direction:column;gap:1px}
+.snav a{display:flex;align-items:center;gap:10px;text-decoration:none;padding:7px 10px;border-radius:var(--r-sm);font-size:14px;font-weight:500;color:var(--ink2)}
+.snav a:hover{background:var(--hover);color:var(--ink)}
+.snav a.on{background:var(--brand);color:var(--brand-ink)}
+.snav a.on .cnt{color:rgba(255,255,255,.75)}
+.snav svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.8;flex:none}
+.snav .sq{width:10px;height:10px;border-radius:3px;flex:none;margin:0 3px}
+.snav .nm{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.snav .cnt{font:500 12px var(--mono);color:var(--muted)}
+.snav .badge{font:600 11px var(--mono);background:var(--bad);color:#fff;border-radius:99px;padding:0 6px;line-height:18px}
+.sfoot{margin-top:auto;padding:14px 10px 2px;border-top:1px solid var(--line2)}
+.sfoot .row2{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);margin-bottom:6px}
+.sfoot .row2 b{color:var(--ink2);font-weight:600}
+.shell{margin-left:var(--side);min-height:100%}
+main{max-width:1120px;margin:0 auto;padding:32px 36px 72px}
+.topbar{display:none}
+.tabbar{display:none}
+@media (max-width:999px){
+  .side{display:none}
+  .shell{margin-left:0}
+  .topbar{display:flex;position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line);align-items:center;gap:14px;padding:8px 20px}
+  .topbar .brand{padding:0}
+  .topnav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
+  .topnav a{white-space:nowrap;text-decoration:none;padding:7px 11px;border-radius:var(--r-sm);font-size:14px;font-weight:500;color:var(--ink2);display:flex;align-items:center;gap:7px}
+  .topnav a.on{background:var(--brand);color:#fff}
+  .topnav .sq{width:9px;height:9px;border-radius:3px}
+  main{padding:26px 22px 64px}
+}
+@media (max-width:760px){
+  .topnav{display:none}
+  .topbar{padding:10px 16px}
+  main{padding:20px 16px 96px}
+  .tabbar{display:grid;position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--surface);border-top:1px solid var(--line);grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px))}
+  .tabbar a{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:flex;flex-direction:column;align-items:center;gap:3px;text-decoration:none;font-size:10.5px;font-weight:600;color:var(--muted);padding:5px 0;border-radius:8px}
+  .tabbar a.on{color:var(--brand);background:var(--hover)}
+  .tabbar svg{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:1.8}
+  .tabbar .sq{width:12px;height:12px;border-radius:4px;margin:4px}
+}
+.view{animation:in .22s ease both}
+@keyframes in{from{opacity:.001;transform:translateY(4px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.view,.pop,.shake,.fcard{animation:none!important;transition:none!important}}
+
+/* ---------- Composants ---------- */
+.panel,.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+.card{padding:22px}
+.ph{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line2)}
+.ph h2{font-size:15px;font-weight:600}
+.ph a{font-size:13.5px;font-weight:500;color:var(--muted);text-decoration:none}
+.ph a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;background:var(--brand);color:#fff;font-weight:600;padding:9px 16px;border-radius:var(--r-sm);font-size:14px;text-decoration:none;transition:background .15s,border-color .15s}
+.btn:hover{filter:brightness(1.12)}
+.btn.c{background:var(--c)}
+.btn.ghost{background:var(--surface);color:var(--ink);border-color:var(--line)}
+.btn.ghost:hover{background:var(--hover);filter:none}
+.btn.sm{padding:6px 12px;font-size:13.5px}
+.btn[disabled]{opacity:.4;pointer-events:none}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;border-radius:5px;padding:2px 8px;background:var(--line2);color:var(--ink2);white-space:nowrap}
+.pill.red{background:var(--bad-bg);color:var(--bad)} .pill.amb{background:var(--warn-bg);color:var(--warn)} .pill.grn{background:var(--good-bg);color:var(--good)}
+.bar{height:5px;background:var(--line2);border-radius:9px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--c);border-radius:9px;transition:width .5s ease}
+.ring{width:var(--s,74px);height:var(--s,74px);position:relative;flex:0 0 auto}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:8}
+.ring .bg{stroke:var(--line2)} .ring .fg{stroke:var(--c);stroke-linecap:round;stroke-dasharray:283;stroke-dashoffset:283;transition:stroke-dashoffset .9s cubic-bezier(.2,.8,.2,1)}
+.ring b{position:absolute;inset:0;display:grid;place-items:center;font:600 var(--fs,16px) var(--mono)}
+.seg{display:inline-flex;background:var(--line2);border-radius:8px;padding:3px;gap:2px;flex-wrap:wrap}
+.seg button,.seg a{border:0;background:none;padding:6px 12px;border-radius:6px;font-weight:500;font-size:13.5px;color:var(--muted);text-decoration:none}
+.seg .on{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(20,24,32,.1)}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:5px 11px;font-size:13.5px;font-weight:500;color:var(--ink2)}
+.chip.on{border-color:var(--c);background:color-mix(in srgb,var(--c) 8%,var(--surface));color:var(--ink)}
+.kbd{font:500 11px var(--mono);border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 5px;color:var(--muted);background:var(--sunken)}
+.skel{height:120px;border-radius:var(--r);background:linear-gradient(90deg,var(--line2) 25%,var(--sunken) 50%,var(--line2) 75%);background-size:200% 100%;animation:sh 1.2s infinite}
+@keyframes sh{to{background-position:-200% 0}}
+.sq{display:inline-block;width:10px;height:10px;border-radius:3px;background:var(--c);flex:none}
+
+/* ---------- En-têtes de page ---------- */
+.hello,.pgh{margin-bottom:24px}
+.eyebrow{font-size:13px;color:var(--muted);margin-bottom:6px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.eyebrow a{text-decoration:none}
+.eyebrow a:hover{color:var(--ink)}
+.hello h1,.pgh h1{font-family:var(--serif);font-size:clamp(26px,3.4vw,34px);font-weight:700;letter-spacing:-.01em}
+.hello p{margin:6px 0 0;font-size:15px;color:var(--ink2)}
+.hello p b{color:var(--bad);font-weight:600}
+.meta{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:8px;font-size:13.5px;color:var(--muted)}
+.meta b{color:var(--ink2);font-weight:500}
+
+/* ---------- Tableau de bord ---------- */
+.nextc{display:flex;align-items:center;gap:14px;padding:16px 20px;margin-bottom:20px;text-decoration:none}
+.nextc:hover{background:var(--sunken)}
+.nextc .sq{width:12px;height:12px}
+.nextc .t{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.nextc b{font-size:17px;font-weight:600}
+.nextc small{font-size:13.5px;color:var(--muted)}
+.nextc .go{font-size:20px;color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:20px}
+.kpi{padding:16px 20px;border-left:1px solid var(--line2);min-width:0;display:flex;flex-direction:column;gap:4px;text-decoration:none}
+.kpi:first-child{border-left:0}
+a.kpi:hover{background:var(--sunken)}
+.kpi .v{font-size:20px;font-weight:600;line-height:1.25;font-variant-numeric:tabular-nums}
+.kpi .v.sm{font-size:15px;line-height:1.35}
+.kpi .s{font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kpi .s.hot{color:var(--bad);font-weight:600}
+.kpi .bar{margin-top:6px}
+@media (max-width:900px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:nth-child(3){border-left:0}.kpi:nth-child(n+3){border-top:1px solid var(--line2)}}
+.dash{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:1320px){.dash{grid-template-columns:minmax(0,1fr)}}
+.ctab{width:100%;border-collapse:collapse}
+.ctab th{font-size:11.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:left;padding:10px 18px;border-bottom:1px solid var(--line2);white-space:nowrap}
+.ctab td{padding:13px 18px;border-bottom:1px solid var(--line2);vertical-align:middle;font-size:14px}
+.ctab tr:last-child td{border-bottom:0}
+.ctab tbody tr{cursor:pointer}
+.ctab tbody tr:hover td{background:var(--sunken)}
+.cn{display:flex;align-items:center;gap:11px;min-width:0}
+.cn a{text-decoration:none;font-weight:600;color:var(--ink);white-space:nowrap}
+.cn small{display:block;font-size:12.5px;color:var(--muted);font-weight:400}
+.prog{display:flex;align-items:center;gap:10px;min-width:130px}
+.prog .bar{flex:1}
+.prog .mono{font-size:12.5px;color:var(--ink2);width:36px;text-align:right}
+.qa{display:flex;gap:4px}
+.qa a{font-size:12.5px;font-weight:500;text-decoration:none;color:var(--ink2);border:1px solid var(--line);border-radius:6px;padding:3px 8px;background:var(--surface)}
+.qa a:hover{border-color:var(--c);color:var(--c)}
+@media (max-width:760px){.ctab .hide-sm{display:none}.ctab td,.ctab th{padding:12px 14px}}
+.up{list-style:none;margin:0;padding:4px 0}
+.up li{display:grid;grid-template-columns:48px minmax(0,1fr);gap:12px;padding:10px 18px;align-items:start}
+.up li+li{border-top:1px solid var(--line2)}
+.up .dt{text-align:center;line-height:1.1;padding-top:2px}
+.up .dt b{display:block;font:600 18px var(--mono);color:var(--ink)}
+.up .dt small{font-size:11px;font-weight:600;text-transform:uppercase;color:var(--muted)}
+.up .tx{min-width:0;font-size:14px;line-height:1.4}
+.up .tx small{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:12.5px;margin-top:3px;flex-wrap:wrap}
+.qacts{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+
+/* ---------- Matière ---------- */
+.tabsrow{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);margin:0 0 22px;border-bottom:1px solid var(--line)}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.tabs a{white-space:nowrap;text-decoration:none;padding:10px 12px;font-size:14px;font-weight:500;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs a:hover{color:var(--ink)}
+.tabs a.on{color:var(--ink);border-bottom-color:var(--c);font-weight:600}
+@media (max-width:999px){.tabsrow{top:calc(env(safe-area-inset-top,0px) + 51px)}}
+.mast{display:flex;align-items:center;gap:10px;min-width:220px}
+.mast .bar{flex:1;max-width:160px}
+.pgh{display:flex;justify-content:space-between;gap:20px;align-items:flex-end;flex-wrap:wrap}
+.pgh .t{min-width:0;flex:1}
+.src{font-size:13.5px;color:var(--muted);margin:-6px 0 18px;max-width:80ch}
+.chl{list-style:none;margin:0;padding:0}
+.chl li+li{border-top:1px solid var(--line2)}
+.chl a{display:grid;grid-template-columns:44px minmax(0,1fr) auto auto;gap:14px;align-items:center;padding:14px 18px;text-decoration:none}
+.chl a:hover{background:var(--sunken)}
+.chl .n{font:600 13px var(--mono);color:var(--c)}
+.chl b{font-weight:600;font-size:15px}
+.chl small{font-size:13px;color:var(--muted);white-space:nowrap}
+.chl .go{color:var(--muted)}
+.pend{font-size:13.5px;color:var(--muted);margin:14px 2px 0}
+.refnote{background:var(--warn-bg);color:var(--ink2);border-radius:8px;padding:10px 14px;font-size:14px;margin-bottom:16px}
+.reader{max-width:780px;margin:0 auto}
+.rtop{display:flex;align-items:center;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+.rtop .bar{flex:1;min-width:120px}
+.doc{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:34px clamp(18px,4.5vw,48px);box-shadow:var(--shadow);font-size:16px;line-height:1.7}
+.doc h2{font-family:var(--serif);font-size:clamp(23px,3vw,28px);font-weight:700;margin-bottom:18px;letter-spacing:-.005em}
+.doc h4{font-size:17px;font-weight:600;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line2)}
+.doc p{margin:0 0 12px}
+.doc ul,.doc ol{margin:0 0 12px;padding-left:1.3em}
+.doc li{margin:5px 0}
+.doc table{border-collapse:collapse;width:100%;font-size:14px;margin:10px 0 16px;display:block;overflow-x:auto}
+.doc th{background:var(--sunken);text-align:left;padding:8px 11px;font-weight:600;border:1px solid var(--line)}
+.doc td{padding:8px 11px;border:1px solid var(--line);vertical-align:top}
+.doc .f{font:13.5px/1.75 var(--mono);background:var(--sunken);border:1px solid var(--line);border-left:3px solid var(--c);border-radius:6px;padding:12px 16px;margin:12px 0;white-space:pre-wrap;overflow-x:auto}
+.doc .ex{background:var(--sunken);border:1px solid var(--line2);border-radius:8px;padding:14px 18px;margin:14px 0;font-size:15px}
+.doc .ex table{background:var(--surface)}
+.doc .key{background:var(--good-bg);border-radius:8px;padding:14px 18px;margin:12px 0;font-size:15px}
+.doc .warn{background:var(--warn-bg);border-radius:8px;padding:14px 18px;margin:12px 0;font-size:15px}
+.doc .note{color:var(--muted);font-size:14.5px;background:var(--sunken);border-radius:6px;padding:8px 12px}
+.doc .exo{border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:16px 0;background:var(--surface)}
+.doc .exh{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin-bottom:8px}
+.doc .exh b{font-size:16px;font-weight:600}
+.doc .exsrc{font-size:12.5px;color:var(--muted)}
+.doc .cg{font-size:11.5px;font-weight:600;border-radius:5px;padding:2px 8px;margin-left:auto}
+.doc .cg.off{background:var(--good-bg);color:var(--good)} .doc .cg.prop{background:var(--warn-bg);color:var(--warn)}
+.doc details.cor{margin-top:10px;border-top:1px solid var(--line2);padding-top:8px}
+.doc details.cor>summary{cursor:pointer;font-weight:600;font-size:14.5px;color:var(--c);padding:4px 0;list-style:none}
+.doc details.cor>summary::before{content:"▸ ";} .doc details.cor[open]>summary::before{content:"▾ ";}
+.doc details.cor>div{padding-top:6px}
+.doc .cgnote{font-size:13.5px;color:var(--muted);margin:0 0 8px}
+.rnav{display:flex;justify-content:space-between;gap:10px;margin-top:18px;flex-wrap:wrap}
+
+/* Essentiel et Infos */
+.ess{max-width:780px;display:flex;flex-direction:column;gap:12px}
+.es{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px 22px;box-shadow:var(--shadow)}
+.esh{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.esh .n{font:600 12.5px var(--mono);color:var(--c)}
+.esh h3{font-size:16px;flex:1}
+.es ul{margin:0;padding-left:1.15em}
+.es li{margin:6px 0;line-height:1.55}
+.es li.fm{list-style:none;margin-left:-1.15em;font:13.5px/1.6 var(--mono);background:var(--sunken);border-left:3px solid var(--c);border-radius:6px;padding:6px 12px}
+.evl{list-style:none;padding:0!important}
+.evl li{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;padding:7px 0;border-bottom:1px solid var(--line2)}
+.evl li:last-child{border-bottom:0}
+.evl .mono{color:var(--muted);font-size:12.5px;min-width:120px}
+.es .pdfs{max-width:none}
+.pdfs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;max-width:780px}
+.pdf{display:flex;gap:14px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px;text-decoration:none}
+.pdf:hover{border-color:var(--c)}
+.pdf .ico{width:38px;height:46px;border-radius:5px;background:var(--c);color:#fff;font:600 10.5px var(--mono);display:grid;place-items:end center;padding-bottom:6px;flex:0 0 auto}
+.pdf b{font-weight:600}
+.pdf small{display:block;color:var(--muted);font-size:13px}
+.cheat{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.cb{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px}
+.cb h3{font-size:16px;color:var(--c);margin-bottom:8px}
+.cb ul{margin:0;padding-left:1.1em;font-size:14.5px}
+.cb li{margin:4px 0}
+
+/* ---------- Devoirs ---------- */
+.dvl{display:grid;grid-template-columns:320px minmax(0,1fr);gap:20px;align-items:start}
+.dvlist{display:flex;flex-direction:column;gap:6px;position:sticky;top:24px}
+.dvi{display:grid;grid-template-columns:42px minmax(0,1fr) auto;gap:12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:11px 13px;text-decoration:none;transition:border-color .15s,box-shadow .15s}
+.dvi:hover{border-color:#C9CED7}
+.dvi.on{border-color:var(--c);box-shadow:0 0 0 1px var(--c)}
+.dvi.past{opacity:.55}
+.dvi-d{text-align:center;line-height:1.05}
+.dvi-d b{display:block;font:600 19px var(--mono);color:var(--ink)}
+.dvi-d small{font-size:11px;color:var(--muted);text-transform:uppercase;font-weight:600}
+.dvi-t{min-width:0;display:flex;flex-direction:column;gap:3px}
+.dvi-t small{font-size:12px;color:var(--muted);font-weight:500;display:flex;align-items:center;gap:6px}
+.dvi-t small::before{content:"";width:8px;height:8px;border-radius:2px;background:var(--c);flex:none}
+.dvi-t b{font-size:14px;line-height:1.3;font-weight:600}
+.mini{height:3px;background:var(--line2);border-radius:4px;overflow:hidden;margin-top:4px}
+.mini i{display:block;height:100%;background:var(--c);transition:width .3s}
+.due{font:600 11.5px var(--mono);color:var(--muted);white-space:nowrap;background:var(--line2);border-radius:5px;padding:2px 7px}
+.due.hot{background:var(--bad-bg);color:var(--bad)}
+.dvsep{margin:12px 4px 2px;font-size:11.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.dvx{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:28px clamp(18px,3.5vw,34px);box-shadow:var(--shadow)}
+.dvx .back{display:none;font-weight:600;font-size:14px;text-decoration:none;color:var(--muted);margin-bottom:12px}
+.tag{font-size:12px;font-weight:600;border-radius:5px;padding:2px 8px;background:color-mix(in srgb,var(--c) 11%,var(--surface));color:var(--c)}
+.tag.ghost{background:var(--line2);color:var(--ink2)}
+.dvh h2{font-family:var(--serif);font-size:clamp(23px,2.8vw,28px);font-weight:700;margin:12px 0 18px}
+.facts{display:grid;grid-template-columns:1.7fr .8fr 1fr 1.2fr;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+@media (max-width:1000px){.facts{grid-template-columns:1fr 1fr}}
+.facts div{padding:10px 14px;display:flex;flex-direction:column;gap:2px;border-left:1px solid var(--line2);background:var(--sunken)}
+.facts div:first-child{border-left:0}
+@media (max-width:1000px){.facts div:nth-child(3){border-left:0}.facts div:nth-child(n+3){border-top:1px solid var(--line2)}}
+.facts b{font-size:14px;line-height:1.35;font-weight:600}
+.facts .cd{font:600 16px var(--mono)} .facts .cd.hot{color:var(--bad)}
+.pg{display:flex;align-items:center;gap:10px;margin-top:14px}
+.pg .bar{flex:1}
+.pg .mono{font-size:12.5px;color:var(--muted)}
+.brief{font-size:16px;line-height:1.6;margin:22px 0 14px;color:var(--ink)}
+.box{background:var(--sunken);border:1px solid var(--line2);border-radius:8px;padding:12px 16px;margin-bottom:10px}
+.box p{margin:3px 0 0;font-size:14.5px}
+.box.warn{background:var(--warn-bg);border-color:transparent} .box.warn .lbl{color:var(--warn)}
+.sec{font-size:15px;font-weight:600;margin:28px 0 12px;text-transform:none}
+.qlist,.fin{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.qi,.fi{display:flex;gap:14px;align-items:flex-start;border:1px solid var(--line);border-radius:8px;padding:14px 16px;transition:background .15s}
+.fi{padding:9px 14px;align-items:center;font-size:14.5px}
+.qi.done,.fi.done{background:var(--sunken)}
+.qi.done .qb>p,.qi.done .qh b,.fi.done span{color:var(--muted)}
+.fi.done span{text-decoration:line-through}
+.tick{flex:none;width:22px;height:22px;border-radius:6px;border:1.5px solid #C5CAD3;background:var(--surface);display:grid;place-items:center;margin-top:1px;padding:0;transition:all .15s}
+.tick:hover{border-color:var(--c)}
+.done>.tick{background:var(--c);border-color:var(--c)}
+.done>.tick::after{content:"";width:5px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:translate(0,-1px) rotate(45deg)}
+.qb{min-width:0;flex:1}
+.qh{display:flex;gap:10px;align-items:baseline}
+.qn{font:600 12.5px var(--mono);color:var(--c);flex:none}
+.qh b{font-size:15.5px;line-height:1.35;font-weight:600}
+.qb>p{margin:5px 0 0;font-size:14.5px;line-height:1.55;color:var(--ink2)}
+.how{margin-top:10px;border-radius:6px;background:var(--sunken);border:1px solid var(--line2)}
+.how summary{cursor:pointer;font-size:13.5px;font-weight:600;color:var(--c);padding:7px 12px}
+.how ol{margin:0;padding:0 14px 10px 32px;font-size:14px}
+.how li{margin:4px 0}
+.tips ul{margin:0;padding:14px 18px 14px 34px;background:var(--sunken);border:1px solid var(--line2);border-radius:8px;font-size:14.5px}
+.tips li{margin:5px 0}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--line);border-radius:6px;padding:6px 12px;font-size:13.5px;font-weight:500;text-decoration:none;background:var(--surface)}
+.links a:hover{border-color:var(--c);color:var(--c)}
+.links a span{color:var(--muted)}
+.depot{margin-top:18px}
+@media (max-width:900px){
+  .dvl{grid-template-columns:minmax(0,1fr)}
+  .dvlist{position:static}
+  .dvl:not(.has) .dvd{display:none}
+  .dvl.has .dvlist{display:none}
+  .dvx .back{display:inline-block}
+  .view:has(.dvl.has)>.hello{display:none}
+}
+
+/* ---------- QCM ---------- */
+.qstart{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:16px}
+.qs{display:flex;flex-direction:column;gap:4px;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;box-shadow:var(--shadow);transition:border-color .15s}
+.qs:hover{border-color:var(--c)}
+.qs b{font-size:16px;font-weight:600}
+.qs span{color:var(--muted);font-size:13.5px}
+.qs .big{font:600 26px var(--mono);color:var(--c)}
+details.more{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 18px}
+details.more summary{font-weight:600;cursor:pointer;font-size:14px}
+details.more .in{display:flex;flex-direction:column;gap:14px;margin-top:14px}
+.qrun{max-width:760px;margin:0 auto}
+.qhead{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.qhead .bar{flex:1;min-width:120px}
+.streak{font:600 12.5px var(--mono);color:var(--warn);background:var(--warn-bg);padding:2px 8px;border-radius:5px}
+.timer{font:600 13.5px var(--mono);background:var(--line2);padding:2px 9px;border-radius:5px}
+.timer.low{background:var(--bad-bg);color:var(--bad)}
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:26px clamp(18px,4vw,32px);box-shadow:var(--shadow)}
+.qchap{font-size:12.5px;font-weight:600;color:var(--c);margin-bottom:8px}
+.qtext{font-size:18px;font-weight:600;line-height:1.45;margin:0 0 18px}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{display:flex;gap:12px;align-items:flex-start;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:12px 14px;font-size:15px;line-height:1.45;transition:border-color .12s,background .12s}
+.opt .l{font:600 12.5px var(--mono);width:24px;height:24px;border-radius:5px;display:grid;place-items:center;background:var(--line2);color:var(--ink2);flex:0 0 auto}
+.opt:hover:not([disabled]){border-color:var(--c);background:var(--sunken)}
+.opt.sel{border-color:var(--c);background:color-mix(in srgb,var(--c) 6%,var(--surface))}
+.opt.right{border-color:var(--good);background:var(--good-bg)} .opt.right .l{background:var(--good);color:#fff}
+.opt.wrong{border-color:var(--bad);background:var(--bad-bg)} .opt.wrong .l{background:var(--bad);color:#fff}
+.opt[disabled]{cursor:default}
+.pop{animation:pop .3s ease}
+@keyframes pop{40%{transform:scale(1.01)}}
+.shake{animation:shake .3s ease}
+@keyframes shake{20%,60%{transform:translateX(-4px)}40%,80%{transform:translateX(4px)}}
+.expl{margin-top:16px;padding:12px 16px;border-radius:8px;background:var(--sunken);border:1px solid var(--line2);font-size:14.5px;animation:in .2s ease}
+.expl b.ok{color:var(--good)} .expl b.ko{color:var(--bad)}
+.qfoot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:16px;flex-wrap:wrap}
+.res{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:18px;align-items:start}
+@media (max-width:860px){.res{grid-template-columns:minmax(0,1fr)}}
+.res h2{font-family:var(--serif)}
+.chaprow{display:grid;grid-template-columns:minmax(0,1fr) 110px 46px;gap:10px;align-items:center;font-size:13.5px;padding:5px 0}
+.rev{border:1px solid var(--line);border-radius:8px;padding:12px 15px;margin-bottom:8px;background:var(--surface);font-size:14.5px}
+.rev .q{font-weight:600;margin-bottom:6px}
+.rev .ko{color:var(--bad)} .rev .ok{color:var(--good)}
+
+/* ---------- Cartes ---------- */
+.fcw{max-width:640px;margin:0 auto}
+.flip{perspective:1400px}
+.fcard{position:relative;height:290px;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.8,.2,1);cursor:pointer}
+.fcard.on{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:0 4px 16px rgba(20,24,32,.05);display:flex;flex-direction:column;justify-content:center;padding:30px 34px;overflow:auto}
+.face .lbl{position:absolute;top:16px;left:20px}
+.face .pill{position:absolute;top:13px;right:16px}
+.face p{margin:0;font:700 24px/1.3 var(--serif)}
+.face.back{transform:rotateY(180deg);border-color:var(--c)}
+.face.back p{font:400 18px/1.55 var(--sans)}
+.rate{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.rate button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:11px 6px;font-weight:600;font-size:14px}
+.rate .no{color:var(--bad)} .rate .mid{color:var(--warn)} .rate .yes{color:var(--good)}
+.rate button:hover{background:var(--sunken)}
+.boxes{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-top:18px}
+.boxes div{text-align:center;font-size:12px;color:var(--muted)}
+.boxes b{display:block;font:600 17px var(--mono);color:var(--ink)}
+
+/* ---------- Planning ---------- */
+.week{padding:16px 18px 6px;font-weight:600;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--sunken);border-top:1px solid var(--line2);border-bottom:1px solid var(--line2)}
+.week:first-child{border-top:0;border-radius:var(--r) var(--r) 0 0}
+.li{display:grid;grid-template-columns:92px 3px minmax(0,1fr) auto;gap:14px;align-items:center;padding:11px 18px}
+.li+.li{border-top:1px solid var(--line2)}
+.li .d{font:500 12.5px/1.35 var(--mono);color:var(--muted)}
+.li .s{align-self:stretch;border-radius:2px;background:var(--c)}
+.li .w{min-width:0;font-size:14.5px;line-height:1.35}
+.li .w b{font-weight:600}
+.li .w small{display:block;color:var(--muted);font-size:12.5px}
+</style>
+
+<aside class="side" id="side"></aside>
+<div class="shell">
+<header class="topbar"><a class="brand" href="#/"><span class="mk">MiM</span><span><b>Révisions ESSEC</b><small>MiM 1 · automne 2026</small></span></a><nav class="topnav" id="topnav"></nav></header>
+<main id="main"></main>
+</div>
+<nav class="tabbar" id="tabbar"></nav>
+
+<script>
+const BOOT = {"subjects": [{"id": "mm", "name": "Marketing Management", "short": "Marketing", "prof": "Arnaud De Bruyn", "nq": 121, "nc": 34, "nch": 10, "badge": "Supports Moodle", "full": true}, {"id": "acc", "name": "Refresher Course Accounting", "short": "Accounting", "prof": "Sameh Amer", "nq": 137, "nc": 36, "nch": 13, "badge": "Supports Moodle", "full": true}, {"id": "it", "name": "Managing IT in the Digital Age", "short": "IT", "prof": "Jean-Noël Tronc", "nq": 45, "nc": 12, "nch": 2, "badge": "Supports Moodle", "full": true}, {"id": "law", "name": "Droit des affaires", "short": "Droit", "prof": "Laurent Chedru", "nq": 52, "nc": 14, "nch": 2, "badge": "Supports Moodle", "full": true}, {"id": "str", "name": "Strategy and Management", "short": "Strategy", "prof": "Maxime Brunet", "nq": 29, "nc": 8, "nch": 1, "badge": "Supports Moodle", "full": true}], "sessions": [{"sub": "mm", "start": "16:30", "end": "19:30", "room": "A.030", "dates": ["2026-10-05", "2026-10-12", "2026-10-19", "2026-10-26", "2026-11-02", "2026-11-09", "2026-11-16", "2026-11-23", "2026-11-30", "2026-12-07"], "topics": ["S1 · Introduction, modèles de réponse", "S2 · Segmentation", "S3 · Analyse conjointe (+ enquête en classe)", "S4 · Correction case 1, positioning maps", "S5 · Pricing + coaching term project (+ enquête)", "S6 · Scoring et ciblage", "S7 · Correction case 2, media planning et MMM", "S8 · The dark side of marketing", "S9 · Présentations term project (batch 1)", "S10 · Présentations term project (batch 2)"]}, {"sub": "it", "start": "16:30", "end": "19:30", "room": "A.033", "dates": ["2026-10-06", "2026-10-13", "2026-10-27", "2026-11-03", "2026-11-10", "2026-11-17", "2026-11-24", "2026-12-01"], "topics": ["S1 · Introduction et transformation digitale", "S2 · Stratégie SI et Digital Matrix", "S3 · Sourcing et cloud", "S4 · Projets IT et ERP", "S6 · Données, cybersécurité, résilience", "S7 · Économie des plateformes", "S8 · Régulation du numérique", "S9 · IT, IA et durabilité"]}, {"sub": "it", "start": "13:15", "end": "16:15", "room": "Campus Cergy (samedi)", "dates": ["2026-11-07"], "topics": ["S5 · Data analytics et IA (séance du samedi)"]}, {"sub": "law", "start": "16:30", "end": "19:30", "room": "G.025", "dates": ["2026-10-07", "2026-10-14", "2026-10-21", "2026-10-28", "2026-11-04", "2026-11-18", "2026-11-25", "2026-12-02", "2026-12-09"], "topics": ["S1 · L'entreprise et le droit", "S2 · Créer et structurer une entreprise", "S3 · Gouvernance", "S4 · Financement et développement (ton exposé)", "S5 · Pratique contractuelle", "S6 · Pratique contractuelle (2)", "S7 · Concurrence et droit économique", "S8 · Responsabilité civile et pénale", "S9 · Règlement des litiges"]}, {"sub": "str", "start": "09:00", "end": "12:00", "room": "A.035", "dates": ["2026-10-08", "2026-10-15", "2026-10-22", "2026-11-05", "2026-11-12", "2026-11-19", "2026-11-26", "2026-12-03", "2026-12-10"], "topics": ["S1 · Introduction à la stratégie", "S2 · Analyse externe", "S3 · Analyse interne", "S5 · Plateformes", "S6 · Frontières de la firme : M&A", "S7 · Stratégie et enjeux sociétaux", "S8 · Stratégie et business models", "S9 · Présentations de groupe", "S10 · Présentations de groupe"]}, {"sub": "str", "start": "16:30", "end": "19:30", "room": "Campus Cergy (samedi)", "dates": ["2026-11-28"], "topics": ["Séance du samedi (S4 Business level strategy ? prévue le 29/10 dans les slides)"]}, {"sub": "acc", "start": "13:15", "end": "16:15", "room": "A.034", "dates": ["2026-10-09", "2026-10-16", "2026-10-23", "2026-10-30", "2026-11-06", "2026-11-13", "2026-11-20", "2026-11-27", "2026-12-04", "2026-12-11"], "topics": ["S1 · Fondamentaux, équation du bilan, états financiers", "S2 · Cycle d'exploitation : produits, créances, stocks", "S3 · Immobilisations et amortissement", "S4 · Capitaux propres et dettes", "S5 · Écritures de fin d'exercice", "S6 · Tableau des flux de trésorerie", "S7 · Coûts et seuil de rentabilité", "S8 · Coûts complets, job costing, allocation", "S9 · Activity-Based Costing", "S10 · Budgets et synthèse"]}], "events": [{"sub": "mm", "date": "2026-10-25", "time": "23:59", "type": "due", "t": "Case study 1 (conjoint, segmentation)"}, {"sub": "mm", "date": "2026-11-05", "time": "23:59", "type": "due", "t": "Term project : pitch"}, {"sub": "mm", "date": "2026-11-15", "time": "23:59", "type": "due", "t": "Case study 2 (positioning, pricing)"}, {"sub": "mm", "date": "2026-11-29", "time": "23:59", "type": "due", "t": "Term project (ton groupe C5 présente le 30/11)"}, {"sub": "mm", "date": "2026-10-05", "time": "19:00", "type": "quiz", "t": "Quiz de fin de séance (30 % de la note)"}, {"sub": "mm", "date": "2026-10-12", "time": "19:00", "type": "quiz", "t": "Quiz de fin de séance (30 % de la note)"}, {"sub": "mm", "date": "2026-10-26", "time": "19:00", "type": "quiz", "t": "Quiz de fin de séance (30 % de la note)"}, {"sub": "mm", "date": "2026-11-09", "time": "19:00", "type": "quiz", "t": "Quiz de fin de séance (30 % de la note)"}, {"sub": "mm", "date": "2026-11-16", "time": "19:00", "type": "quiz", "t": "Quiz de fin de séance (30 % de la note)"}, {"sub": "mm", "date": "2026-11-23", "time": "19:00", "type": "quiz", "t": "Quiz de fin de séance (30 % de la note)"}, {"sub": "it", "date": "2026-10-06", "time": "19:30", "type": "quiz", "t": "Quiz Digital Transformation (après le cours)"}, {"sub": "it", "date": "2026-10-13", "time": "16:30", "type": "prep", "t": "Vidéos 2 et 3 à voir avant le cours"}, {"sub": "it", "date": "2026-10-13", "time": "16:30", "type": "prep", "t": "Exercice en classe en groupe : Digital Matrix (groupe E)"}, {"sub": "it", "date": "2026-10-13", "time": "19:30", "type": "quiz", "t": "Quiz Digital Matrix (après le cours)"}, {"sub": "it", "date": "2026-11-07", "time": "13:15", "type": "prep", "t": "Vidéos 4 et 5 à voir avant la séance du samedi"}, {"sub": "it", "date": "2026-11-10", "time": "16:30", "type": "prep", "t": "Vidéo 6 à voir avant le cours"}, {"sub": "it", "date": "2026-11-17", "time": "16:30", "type": "prep", "t": "Vidéos 7, 8 et 9 à voir avant le cours"}, {"sub": "it", "date": "2026-11-17", "time": "19:30", "type": "quiz", "t": "Quiz Platforms (après le cours)"}, {"sub": "it", "date": "2026-12-08", "time": "16:30", "type": "exam", "t": "Examen final Managing IT · 16h30–17h30 (45 %, cheat sheet 2 p.)"}, {"sub": "law", "date": "2026-10-28", "time": "16:30", "type": "due", "t": "Ton exposé : ESG et KYC dans le financement"}, {"sub": "law", "date": "2026-12-16", "time": "16:30", "type": "exam", "t": "QCM final Droit des affaires (60 %)"}, {"sub": "str", "date": "2026-10-21", "time": "23:59", "type": "due", "t": "Mail au professeur pour valider l'entreprise du projet de groupe (avant la séance 3)"}, {"sub": "str", "date": "2026-12-02", "time": "23:59", "type": "due", "t": "Déposer les slides du projet de groupe (avant la dernière séance ; date exacte à confirmer)"}, {"sub": "str", "date": "2026-12-03", "time": "09:00", "type": "exam", "t": "Présentations de groupe Strategy (3 et 10/12, 50 %)"}, {"sub": "acc", "date": "2026-12-15", "time": "09:00", "type": "exam", "t": "Examen final Accounting · matin, DOME (confirmé)"}]};           // manifeste léger : matières, planning, échéances
+const DEV = [{"id": "it-dm", "sub": "it", "t": "Digital Matrix appliquée à l'automobile", "kind": "Exercice en classe", "date": "2026-10-13", "time": "16:30", "weight": "Travaux de groupe (30 %)", "group": "Groupe E", "brief": "En groupe et en 45 minutes pendant le cours, appliquer la Digital Matrix au secteur automobile : qui sont les acteurs, où en est chacun dans la disruption, et comment un acteur historique doit réagir.", "rendu": "3 à 5 slides maximum sur le modèle fourni, exportées en PDF et déposées sur Moodle à la fin des 45 minutes. Noms et numéro de groupe sur la première slide.", "note": "Avant le cours : regarder les vidéos 2 et 3 (Digital Matrix I et II) et ouvrir le modèle pour le connaître.", "qs": [{"t": "Cartographier les acteurs", "d": "Classer les acteurs de l'automobile en trois catégories : les incumbents (constructeurs établis), les tech entrepreneurs (start-up technologiques qui entrent dans le secteur) et les digital giants (grandes entreprises tech qui pèsent sur l'automobile ou y entrent)."}, {"t": "Situer chaque acteur dans les phases", "d": "Pour chaque acteur, dire dans quelle phase de la disruption il se trouve : experimentation at the edge, collision at the core ou reinvention at the root. Des acteurs différents peuvent être à des phases différentes."}, {"t": "Recommander la réponse d'un incumbent", "d": "Se mettre à la place d'un constructeur établi : quelles actions stratégiques face aux tech entrepreneurs et aux digital giants ? S'appuyer sur la Rules Matrix."}], "final": ["Modèle rempli, 3 à 5 slides", "Noms et groupe sur la slide 1", "PDF déposé sur Moodle", "Après le cours : quiz Digital Matrix"], "links": [["Modèle Digital Matrix et Rules Matrix", "https://moodle.essec.fr/mod/assign/view.php?id=766764"], ["Vidéo 2 · Digital Matrix", "https://moodle.essec.fr/mod/kalvidres/view.php?id=766761"], ["Vidéo 3 · Digital Matrix II", "https://moodle.essec.fr/mod/kalvidres/view.php?id=766762"]], "depot": "https://moodle.essec.fr/mod/assign/view.php?id=766764"}, {"id": "mm-case1", "sub": "mm", "t": "Case study 1 · Internship preferences", "kind": "Case study", "date": "2026-10-25", "time": "23:59", "weight": "20 %", "group": "Groupe A9", "qp": "Q", "brief": "À partir des réponses de la classe à l'enquête sur les préférences de stage, comprendre ce que valorisent les étudiants (analyse conjointe), simuler un marché d'offres de stage, puis segmenter les répondants.", "rendu": "Un PowerPoint autoportant (compréhensible sans oral) : pas de rapport, pas d'Excel. Numéro de groupe dans l'objet et dans le nom du fichier.", "qs": [{"t": "Tendances du marché des stages", "d": "Que proposent aujourd'hui les employeurs, et comment évoluent les attentes des étudiants ? Utiliser des sources récentes et crédibles (presse économique, rapports, enquêtes employeurs) et ne garder que les tendances liées aux attributs de l'enquête."}, {"t": "Ce que les étudiants valorisent en moyenne", "d": "Lancer l'analyse conjointe et commenter les partworths moyens et l'importance de chaque attribut : à quoi tient-on le plus dans une offre de stage ?", "how": ["Importer les réponses : le modèle « Conjoint analysis » est créé automatiquement.", "Le lancer, puis lire les graphiques « Average preference partworths » et « Attribute importance »."]}, {"t": "Simuler un marché de stages", "d": "Inventer 4 à 6 offres de stage réalistes, simuler les parts de marché que chacune obtiendrait (règle du premier choix) et décrire les résultats.", "how": ["Créer un bloc de données : une ligne par offre, une colonne par attribut, avec les noms d'attributs et de niveaux écrits exactement comme dans le design.", "Astuce : générer le gabarit avec « Prepare simulation placeholders ».", "Cocher « Run simulations », choisir le bloc dans « Existing product profiles », type « Existing products only », règle « First-choice »."]}, {"t": "Concevoir l'offre optimale au salaire le plus bas", "d": "Si l'employeur ne peut payer que le salaire le plus bas, quelle offre faut-il proposer pour rester attractif ? Recommander une offre et justifier.", "how": ["Copier le bloc du design, le renommer « Restricted levels » et n'y garder que le salaire le plus bas.", "Relancer avec « …With optimal products » et « Restrict usable levels »."]}, {"t": "Segmenter les répondants", "d": "Regrouper les étudiants selon leurs préférences individuelles. Pour chaque segment : préférences moyennes, profil, un nom, une image et une courte description, comme un persona présentable à des managers. Tester 2 puis 3 segments, et n'aller plus loin que si la scission apporte une différence utile.", "how": ["Exporter les résultats du conjoint en Excel et copier le tableau « Detailed preference partworths » dans un nouveau bloc (identifiant du répondant en 1re colonne).", "Créer un bloc de descripteurs avec les mêmes répondants, dans le même ordre.", "Modèle « Segmentation » : partworths en données de segmentation, « Standardize data » décoché, descripteurs cochés.", "Choisir le nombre de segments avec le dendrogramme et le scree plot."]}], "final": ["PowerPoint mis en forme et autoportant", "Déposé avant dim. 25/10 à 23h59", "Peer evaluations remplies (sinon −1)"], "links": [["Slides S2 · Segmentation", "https://moodle.essec.fr/mod/resource/view.php?id=797301"], ["Slides S3 · Conjoint", "https://moodle.essec.fr/mod/resource/view.php?id=797302"], ["Enginius", "https://moodle.essec.fr/mod/url/view.php?id=779343"], ["Virtual TA", "https://moodle.essec.fr/mod/url/view.php?id=779351"]], "depot": "https://moodle.essec.fr/mod/assign/view.php?id=779365"}, {"id": "law-expo", "sub": "law", "t": "Exposé · ESG et KYC dans le financement", "kind": "Exposé oral", "date": "2026-10-28", "time": "16:30", "weight": "40 %", "group": "Groupe de 3", "brief": "Présenter l'impact des critères ESG et des obligations KYC (connaissance client) sur le financement des entreprises, pendant la séance 4 « Financement et développement ».", "rendu": "Exposé oral de 10 à 15 minutes avec des slides (ou un autre support). Chaque membre du groupe prend la parole.", "note": "Les slides de la séance 4 ne sont pas encore publiées : vérifier à leur sortie qu'elles ne changent pas l'angle de l'exposé.", "qt": "Ce qui est attendu", "qs": [{"t": "Poser le cadre", "d": "En introduction, le cadre juridique et les notions clés : ce que recouvrent les critères ESG et les obligations KYC, et qui y est soumis."}, {"t": "Illustrer concrètement", "d": "Appuyer chaque idée sur des exemples : jurisprudence, cas réels, situations pratiques de financement."}, {"t": "Analyser, pas seulement décrire", "d": "Dégager les enjeux pratiques pour les entreprises et les financeurs, les risques et les solutions possibles."}, {"t": "Structurer", "d": "Introduction claire, progression logique, courte conclusion. Répartir les parties pour que chacun parle."}, {"t": "Citer les sources", "d": "Textes, jurisprudence, doctrine : sur les slides concernées ou sur une dernière slide."}], "final": ["Parties réparties entre les trois membres du groupe", "Slides prêtes", "Répétition chronométrée : entre 10 et 15 min"], "links": [["Consignes sur Moodle", "https://moodle.essec.fr/mod/assign/view.php?id=810947"], ["Slides séance 1", "https://moodle.essec.fr/mod/resource/view.php?id=810948"]]}, {"id": "mm-pitch", "sub": "mm", "t": "Term project · pitch", "kind": "Term project", "date": "2026-11-05", "time": "23:59", "weight": "Inclus dans le term project (30 %)", "group": "Groupe C5", "brief": "Proposer en une slide le sujet du term project : une vraie question marketing que le groupe traitera ensuite avec une enquête et Enginius.", "rendu": "Une seule slide, déposée sur Moodle.", "qt": "Ce que doit contenir la slide", "qs": [{"t": "Le contexte", "d": "Quel sujet, quelle entreprise ou quel marché ?"}, {"t": "La tension", "d": "Où est le problème ? Un écart entre où en est l'entreprise et où elle veut aller, ou une incertitude (lancement d'un produit, par exemple)."}, {"t": "La méthode", "d": "Une ou deux méthodes au maximum parmi segmentation, analyse conjointe, positionnement ou pricing."}], "tips": {"t": "Un bon sujet", "items": ["Un problème précis et soluble, mais ambitieux.", "Pas un sujet tiré du quotidien de l'école.", "S'appuyer sur votre expérience et votre réseau.", "Pouvoir trouver vite des répondants au questionnaire.", "Rester professionnel."]}, "final": ["Slide déposée avant jeu. 5/11 à 23h59"], "links": [["Guide « How to find a good idea »", "https://moodle.essec.fr/mod/resource/view.php?id=779350"]], "depot": "https://moodle.essec.fr/mod/assign/view.php?id=779366"}, {"id": "mm-case2", "sub": "mm", "t": "Case study 2 · Everyday Sneakers", "kind": "Case study", "date": "2026-11-15", "time": "23:59", "weight": "20 %", "group": "Groupe B11", "qp": "Q", "brief": "Analyser le positionnement d'une marque de sneakers du quotidien face à ses concurrentes (carte perceptuelle), recommander un positionnement, puis fixer son prix (Gabor-Granger).", "rendu": "Un PowerPoint autoportant : pas de rapport, pas d'Excel. Numéro de groupe dans l'objet et dans le nom du fichier.", "note": "La marque étudiée et les niveaux de prix testés sont annoncés en classe : penser à les noter.", "qs": [{"t": "Tendances du marché des sneakers", "d": "Qui gagne, qui perd, et sur quelles dimensions ? Sources : presse, rapports, publications financières des marques et distributeurs, enquêtes. À faire avant de regarder les données."}, {"t": "Construire la carte perceptuelle", "d": "Analyse des correspondances sur les notes marque × attribut : combien de dimensions garder, quelle part de la variance expliquent-elles ? Nommer les axes."}, {"t": "Lire les préférences sur la carte", "d": "Projeter la question « quelle marque porteriez-vous la plupart des jours ? » : dans quelle direction monte la préférence ? Quelles zones sont attractives mais vides, ou occupées mais peu attractives ?"}, {"t": "Recommander un positionnement", "d": "Où placer la marque face à ses concurrentes : ce qu'elle doit posséder, ce qu'elle doit concéder, les actions marketing concrètes, et ce que vous ne feriez pas. Tenir compte de ce qui est crédible pour cette marque."}, {"t": "Fixer le prix", "d": "Analyse Gabor-Granger : quel prix maximise le revenu ? Vérifier qu'un maximum existe bien dans la plage testée, et que ce prix est cohérent avec la position sur la carte."}], "final": ["PowerPoint mis en forme et autoportant", "Déposé avant dim. 15/11 à 23h59", "Peer evaluations remplies (sinon −1)"], "links": [["Slides S4 · Positioning", "https://moodle.essec.fr/mod/resource/view.php?id=797303"], ["Slides S5 · Pricing", "https://moodle.essec.fr/mod/resource/view.php?id=797297"], ["Enginius", "https://moodle.essec.fr/mod/url/view.php?id=779343"]], "depot": "https://moodle.essec.fr/mod/assign/view.php?id=779367"}, {"id": "mm-term", "sub": "mm", "t": "Term project · rendu et présentation", "kind": "Présentation", "date": "2026-11-29", "time": "23:59", "weight": "30 %", "group": "Groupe C5 · passe le lun. 30/11", "brief": "Mener l'étude du pitch de bout en bout : questionnaire, collecte, analyses dans Enginius, recommandations. Présentation en classe le lundi 30/11.", "rendu": "Présentation déposée sur Moodle le dimanche 29/11 avant 23h59, puis présentée en classe le lundi 30/11.", "qt": "Les étapes attendues", "qs": [{"t": "Construire le questionnaire", "d": "Une seule thématique creusée en profondeur, mêmes formats et mêmes échelles, pas d'embranchement, échelles de 1 à 7 plutôt que oui/non ou cases à cocher, catégories claires et sans chevauchement, une idée par question."}, {"t": "Collecter et analyser", "d": "Récolter les réponses puis lancer les analyses dans Enginius (lire les tutoriels). Aller en profondeur plutôt qu'en largeur."}, {"t": "Raconter une histoire", "d": "La tension, les données collectées et pourquoi, les analyses, puis seulement les résultats. Ne pas s'attarder sur l'introduction."}, {"t": "Rester rigoureux", "d": "Chaque affirmation appuyée par les données ; poser les critères avant de conclure ; ne rien inventer sur les répondants ; ne pas laisser l'IA réfléchir à votre place."}, {"t": "Soigner les slides", "d": "Lisibles seules et présentables, avec des annexes si besoin. Répéter sans lire ses notes."}], "tips": {"t": "Selon la méthode choisie", "items": ["Positionnement : des marques du même espace perceptuel, des répondants qui connaissent le marché, une question de préférence et un bloc de descripteurs.", "Conjoint : ne pas oublier d'attribut clé, éviter les attributs corrélés (sauf le prix), prévoir des descripteurs pour segmenter.", "Pricing : produit clairement défini, contexte à prix fixe (B2C standardisé), prix le plus haut assez élevé : on interpole, on n'extrapole pas."]}, "final": ["Déposé avant dim. 29/11 à 23h59", "Présentation répétée", "Peer evaluations remplies (sinon −1)"], "links": [["Slides S5 · Coaching term project", "https://moodle.essec.fr/mod/resource/view.php?id=797298"], ["Guide du term project", "https://moodle.essec.fr/mod/resource/view.php?id=779350"], ["Enginius", "https://moodle.essec.fr/mod/url/view.php?id=779343"]], "depot": "https://moodle.essec.fr/mod/assign/view.php?id=779368"}, {"id": "str-projet", "sub": "str", "t": "Projet de groupe · analyse stratégique d'une entreprise", "kind": "Présentation", "date": "2026-12-03", "time": "09:00", "weight": "50 %", "group": "Groupe de 3 ou 4 (à former)", "brief": "Analyser la situation et les perspectives stratégiques d'une entreprise de votre choix, et présenter vos recommandations à la direction.", "rendu": "Présentation de groupe de 15 à 20 minutes, lors des séances 9 ou 10 (3 et 10 décembre). Slides déposées avant la dernière séance.", "note": "Envoyer un mail au professeur avant la séance 3 (jeudi 22 octobre) pour présenter l'entreprise choisie et la faire valider.", "qt": "Ce que doit contenir l'analyse", "qs": [{"t": "Situation actuelle", "d": "Où en est l'entreprise aujourd'hui."}, {"t": "Marché et concurrence", "d": "Analyse du marché et du paysage concurrentiel."}, {"t": "Ressources et capacités", "d": "Les ressources et capacités de l'entreprise."}, {"t": "Défis et opportunités", "d": "Les défis clés, les faiblesses et les opportunités."}, {"t": "Recommandations", "d": "Des recommandations stratégiques claires pour la direction."}], "final": ["Groupe de 3 ou 4 formé", "Entreprise validée par mail avant le 22/10", "Slides déposées avant la dernière séance", "Répétition chronométrée : 15 à 20 min"], "links": [["Slides séance 1 (consignes du projet)", "https://moodle.essec.fr/mod/resource/view.php?id=814048"]]}];
+const SUBJ = BOOT.subjects, BY = Object.fromEntries(SUBJ.map(s=>[s.id,s]));
+const DATA = {};                      // contenu complet chargé à la demande (data/<id>.json)
+const $ = s=>document.querySelector(s);
+const esc = s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const col = id=>`var(--c-${id})`;
+const D = s=>new Date(s+"T00:00");
+const fmt = (s,o={weekday:"short",day:"numeric",month:"short"})=>D(s).toLocaleDateString("fr-FR",o);
+const daysTo = (s,t="00:00")=>Math.ceil((new Date(s+"T"+t)-new Date())/864e5);
+const shuffle = a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const ST={get(k,d){try{const v=localStorage.getItem("rev3:"+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem("rev3:"+k,JSON.stringify(v))}catch(e){}}};
+const qstat=ST.get("q",{}), cbox=ST.get("c",{}), readS=ST.get("r",{});
+const saveQ=()=>ST.set("q",qstat), saveC=()=>ST.set("c",cbox), saveR=()=>ST.set("r",readS);
+let last=ST.get("last",null);
+const setLast=(o)=>{last=o;ST.set("last",o)};
+const mastered=id=>Object.keys(qstat).filter(k=>k.startsWith(id+":")&&qstat[k].last===1).length;
+const errIds=id=>Object.keys(qstat).filter(k=>k.startsWith(id+":")&&qstat[k].last===0).map(k=>+k.split(":")[1]);
+const allErr=()=>SUBJ.reduce((n,s)=>n+errIds(s.id).length,0);
+const known=id=>Object.keys(cbox).filter(k=>k.startsWith(id+":")&&cbox[k]>=4).length;
+
+async function load(id){
+  if(DATA[id])return DATA[id];
+  if(window.__PRE&&window.__PRE[id])return DATA[id]=window.__PRE[id];
+  const r=await fetch(`data/${id}.json`);if(!r.ok)throw new Error("Chargement impossible");return DATA[id]=await r.json();
+}
+
+/* Agenda */
+const SESS=[];BOOT.sessions.forEach(s=>s.dates.forEach((d,i)=>SESS.push({sub:s.sub,date:d,time:s.start,end:s.end,room:i===0?s.room:"Campus Cergy",t:s.topics?s.topics[i]:`Séance ${i+1}`,type:"class"})));
+const AG=[...SESS,...BOOT.events].sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));
+const fut=e=>new Date(e.date+"T"+(e.end||e.time||"23:59"))>=new Date();
+
+/* Icônes */
+const IC={home:'<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/>',cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',task:'<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/>',exam:'<circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/>',grid:'<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',chev:'<path d="M9 6l6 6-6 6"/>'};
+const svg=k=>`<svg viewBox="0 0 24 24">${IC[k]}</svg>`;
+function ring(p,txt,size=74,fs=16){return `<div class="ring" style="--s:${size}px;--fs:${fs}px" data-p="${p}"><svg viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="45"/><circle class="fg" cx="50" cy="50" r="45"/></svg><b>${txt}</b></div>`}
+function animRings(){requestAnimationFrame(()=>document.querySelectorAll(".ring").forEach(r=>{r.querySelector(".fg").style.strokeDashoffset=283*(1-(+r.dataset.p||0))}))}
+
+/* Routage par hash : #/ · #/mm · #/mm/cours/3 · #/mm/qcm · #/mm/cartes · #/mm/essentiel · #/mm/pdf · #/examen · #/planning · #/erreurs */
+const route=()=>{const p=location.hash.replace(/^#\/?/,"").split("/").filter(Boolean);return {a:p[0]||"",b:p[1]||"",c:p[2]}};
+window.addEventListener("hashchange",()=>{clearInterval(window._tm);quiz=null;render();window.scrollTo(0,0)});
+// Un lien vers la page déjà affichée la réinitialise (ex. « QCM » pendant une série)
+document.addEventListener("click",e=>{const a=e.target.closest('a[href^="#/"]');if(a&&a.getAttribute("href")===location.hash){e.preventDefault();clearInterval(window._tm);quiz=null;render();window.scrollTo(0,0)}});
+
+function nav(){
+  const r=route(),e=allErr(),nd=nDev();
+  const pct=s=>Math.round(mastered(s.id)/Math.max(1,s.nq)*100);
+  const main=[["","Tableau de bord",svg("grid"),""],["devoirs","Devoirs",svg("task"),nd?`<span class="cnt">${nd}</span>`:""],["planning","Planning",svg("cal"),""],["examen","Examen blanc",svg("exam"),e?`<span class="badge" title="Erreurs à revoir">${e}</span>`:""]];
+  const wk=semWeek();
+  $("#side").innerHTML=`<a class="brand" href="#/"><span class="mk">MiM</span><span><b>Révisions ESSEC</b><small>MiM 1 · automne 2026</small></span></a>
+  <div class="sgrp"><nav class="snav">${main.map(([k,l,i,x])=>`<a href="#/${k}" class="${r.a===k?"on":""}">${i}<span class="nm">${l}</span>${x}</a>`).join("")}</nav></div>
+  <div class="sgrp"><span class="lbl">Cours</span><nav class="snav">${SUBJ.map(s=>`<a href="#/${s.id}" class="${r.a===s.id?"on":""}" title="${esc(s.name)}"><span class="sq" style="background:${col(s.id)}"></span><span class="nm">${esc(s.short==="IT"?"Managing IT":s.short)}</span><span class="cnt">${pct(s)} %</span></a>`).join("")}</nav></div>
+  <div class="sfoot"><div class="row2"><span>Semestre</span><b>Semaine ${wk.n} sur ${wk.of}</b></div><div class="bar" style="--c:var(--brand)"><i style="width:${wk.n/wk.of*100}%"></i></div></div>`;
+  $("#topnav").innerHTML=[["","Tableau de bord",""],...SUBJ.map(s=>[s.id,s.short,`<span class="sq" style="background:${col(s.id)}"></span>`]),["devoirs","Devoirs",""],["planning","Planning",""],["examen","Examen blanc",""]].map(([k,l,i])=>`<a href="#/${k}" class="${r.a===k?"on":""}">${i}${l}</a>`).join("");
+  $("#tabbar").innerHTML=[["","Accueil",svg("grid")],...SUBJ.map(s=>[s.id,s.short,`<span class="sq" style="background:${col(s.id)}"></span>`]),["devoirs","Devoirs",svg("task")]].map(([k,l,i])=>`<a href="#/${k}" class="${r.a===k?"on":""}">${i}${l}</a>`).join("");
+}
+/* Semaine du semestre : du lundi 5 octobre à la semaine des examens (14 décembre) */
+function semWeek(){const a=D("2026-10-05"),n=Math.floor((new Date()-a)/6048e5)+1,of=11;return {n:Math.min(of,Math.max(1,n)),of}}
+
+async function render(){
+  nav();const r=route(),m=$("#main");if(r.b==="pdf")r.b="infos";
+  if(BY[r.a]){
+    const s=BY[r.a];document.documentElement.style.setProperty("--c",col(s.id));
+    if(!DATA[s.id]){m.innerHTML=`<div class="view"><div class="skel"></div><div class="skel" style="margin-top:14px;height:220px"></div></div>`;try{await load(s.id)}catch(err){m.innerHTML=`<div class="card">Impossible de charger ${esc(s.name)}. Recharge la page.</div>`;return}if(route().a!==s.id)return}
+    m.innerHTML=`<div class="view">${subject(DATA[s.id],r.b||"cours",r.c)}</div>`;bindSubject(DATA[s.id],r.b||"cours",r.c);
+  }else{
+    document.documentElement.style.setProperty("--c","var(--ink)");
+    if(r.a==="planning")m.innerHTML=`<div class="view">${planning()}</div>`,bindPlanning();
+    else if(r.a==="devoirs")m.innerHTML=`<div class="view">${devoirs(r.b)}</div>`,bindDevoirs();
+    else if(r.a==="examen"||r.a==="erreurs")m.innerHTML=`<div class="view">${examPage()}</div>`,bindExam();
+    else m.innerHTML=`<div class="view">${home()}</div>`,bindHome();
+  }
+  animRings();
+}
+
+/* ---------- Tableau de bord ---------- */
+const TYP={due:["À rendre","red"],exam:["Examen","red"],quiz:["Quiz","amb"],prep:["À préparer",""]};
+const whenTxt=(d,t)=>{const n=calDays(d);return n===0?`aujourd'hui ${t}`:n===1?`demain ${t}`:`${fmt(d)} · ${t}`};
+function home(){
+  const now=new Date(),h=now.getHours(),hi=h<5||h>=18?"Bonsoir":"Bonjour",wk=semWeek();
+  const nd=AG.find(e=>fut(e)&&(e.type==="due"||e.type==="exam"));
+  const nc=AG.find(e=>fut(e)&&e.type==="class"&&BY[e.sub]);
+  const tq=SUBJ.reduce((a,s)=>a+s.nq,0),mq=SUBJ.reduce((a,s)=>a+mastered(s.id),0);
+  const [fd]=dvSorted();
+  const kpi=nc?`<a class="panel nextc" href="#/${nc.sub}/cours" style="--c:${col(nc.sub)}"><span class="sq"></span><span class="t"><span class="lbl">Prochain cours</span><b>${esc(BY[nc.sub].name)}</b><small>${esc(whenTxt(nc.date,nc.time))} · ${esc(nc.t.replace(/^S\d+ · /,""))}</small></span><span class="go">→</span></a>`:"";
+  const rows=SUBJ.map(s=>{const p=mastered(s.id)/Math.max(1,s.nq);const nx=SESS.find(e=>e.sub===s.id&&fut(e));const ex=BOOT.events.find(e=>e.sub===s.id&&e.type==="exam"&&fut(e));
+    return `<tr data-go="#/${s.id}" style="--c:${col(s.id)}"><td><div class="cn"><span class="sq"></span><span><a href="#/${s.id}">${esc(s.name)}</a><small>${esc(s.prof)} · ${s.nch} chap. · ${s.nq} QCM</small></span></div></td>
+    <td><div class="prog"><div class="bar"><i style="width:${p*100}%"></i></div><span class="mono">${Math.round(p*100)} %</span></div></td>
+    <td class="hide-sm mono" style="font-size:13px;color:var(--ink2)">${nx?fmt(nx.date):"—"}</td>
+    <td class="hide-sm">${ex?`<span class="pill ${daysTo(ex.date,ex.time)<=21?"red":""}">J−${daysTo(ex.date,ex.time)}</span>`:'<span class="muted">—</span>'}</td></tr>`}).join("");
+  const up=AG.filter(e=>fut(e)&&e.type!=="class"&&BY[e.sub]).slice(0,7);
+  return `<div class="hello"><div class="eyebrow">${now.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long"})} · semaine ${wk.n} sur ${wk.of}</div><h1>${hi} Judith</h1></div>
+  ${kpi}
+  <div class="dash">
+   <section class="panel"><div class="ph"><h2>Mes cours</h2><span class="muted" style="font-size:13px">Progression = QCM réussis</span></div>
+    <div style="overflow-x:auto"><table class="ctab"><thead><tr><th>Cours</th><th>Progression</th><th class="hide-sm">Prochain cours</th><th class="hide-sm">Examen</th></tr></thead><tbody>${rows}</tbody></table></div></section>
+   <section class="panel"><div class="ph"><h2>À venir</h2><a href="#/planning">Planning complet →</a></div>
+    <ul class="up">${up.map(e=>{const [t,c]=TYP[e.type]||["",""];return `<li style="--c:${col(e.sub)}"><div class="dt"><b>${D(e.date).getDate()}</b><small>${D(e.date).toLocaleDateString("fr-FR",{month:"short"}).replace(".","")}</small></div><div class="tx">${esc(e.t)}<small><span class="sq"></span>${esc(BY[e.sub].short)} · ${e.time}${t?` <span class="pill ${c}">${t}</span>`:""}</small></div></li>`}).join("")||'<li><div></div><div class="tx muted">Rien à venir.</div></li>'}</ul></section>
+  </div>
+  <div class="qacts"><a class="btn" href="#/devoirs">Ouvrir les devoirs</a><a class="btn ghost" href="#/examen">Lancer un examen blanc</a>${allErr()?`<a class="btn ghost" href="#/examen">Revoir mes ${allErr()} erreurs</a>`:""}</div>`;
+}
+function bindHome(){document.querySelectorAll("tr[data-go]").forEach(tr=>tr.onclick=e=>{if(e.target.closest("a"))return;location.hash=tr.dataset.go})}
+
+/* ---------- Matière ---------- */
+function subject(s,tab,arg){
+  const b=BY[s.id];const p=mastered(s.id)/b.nq;
+  const tabs=[["cours","Cours"],["essentiel","Essentiel"],["qcm","QCM"],["cartes","Cartes"],["infos","Infos"]];
+  let body="";
+  if(tab==="cours")body=arg!==undefined?reader(s,+arg):chapters(s);
+  else if(tab==="essentiel")body=essentiel(s);
+  else if(tab==="qcm")body=`<div id="qz"></div>`;
+  else if(tab==="cartes")body=`<div id="fc"></div>`;
+  else body=infos(s);
+  const nx=SESS.find(e=>e.sub===s.id&&fut(e)),ex=BOOT.events.find(e=>e.sub===s.id&&e.type==="exam"&&fut(e));
+  return `<div class="pgh"><div class="t"><div class="eyebrow"><a href="#/">Tableau de bord</a><span>/</span><span>Cours</span></div><h1>${esc(s.name)}</h1>
+   <div class="meta"><span class="mono">${esc(s.code)}</span><span>${esc(s.prof)}</span>${nx?`<span>Prochain cours <b>${esc(whenTxt(nx.date,nx.time))}</b></span>`:""}${ex?`<span>Examen <b>${fmt(ex.date)}</b> <span class="pill ${daysTo(ex.date,ex.time)<=21?"red":""}">J−${daysTo(ex.date,ex.time)}</span></span>`:""}</div></div>
+   <div class="mast"><span class="lbl">Maîtrise</span><div class="bar"><i style="width:${p*100}%"></i></div><span class="mono" style="font-size:13px">${Math.round(p*100)} %</span></div></div>
+  <div class="tabsrow"><nav class="tabs">${tabs.map(([k,l])=>`<a href="#/${s.id}/${k}" class="${tab===k?"on":""}">${l}</a>`).join("")}</nav></div>${body}`;
+}
+function chapters(s){
+  const R=readS[s.id]||[];const cnt=c=>s.qcm.filter(q=>q[0]===c).length;
+  return `<section class="panel"><div class="ph"><h2>Chapitres</h2><span class="muted" style="font-size:13px">${R.length} lu${R.length>1?"s":""} sur ${s.fr.length}</span></div><ul class="chl">${s.fr.map((x,i)=>`<li><a href="#/${s.id}/cours/${i}"><span class="n">${String(i+1).padStart(2,"0")}</span><b>${esc(x[1])}</b><span class="row" style="gap:8px">${R.includes(i)?'<span class="pill grn">Lu</span>':""}<small>${cnt(x[0])} QCM</small></span><svg class="go" viewBox="0 0 24 24" width="16" height="16" style="stroke:currentColor;fill:none;stroke-width:2">${IC.chev}</svg></a></li>`).join("")}</ul></section>${s.pending&&s.pending.length?`<p class="pend">À venir, dès que les slides seront publiées : ${s.pending.map(esc).join(" · ")}</p>`:""}`;
+}
+let lang=ST.get("lang","fr");
+function reader(s,i){
+  const L=s[lang],x=L[i];if(!x)return chapters(s);const n=L.length;const R=readS[s.id]||[];const q=s.qcm.filter(z=>z[0]===x[0]).length;
+  setLast({sub:s.id,href:`#/${s.id}/cours/${i}`,t:`${BY[s.id].short} · ${x[1]}`});
+  return `<div class="reader"><div class="rtop"><a class="btn ghost sm" href="#/${s.id}/cours">← Chapitres</a><span class="mono muted">${i+1} / ${n}</span><div class="bar"><i style="width:${(i+1)/n*100}%"></i></div><span class="seg"><button data-lang="fr" class="${lang==="fr"?"on":""}">FR</button><button data-lang="en" class="${lang==="en"?"on":""}">EN</button></span></div>
+  <article class="doc"><h2>${esc(x[1])}</h2>${x[2]}</article>
+  <div class="rnav">${i>0?`<a class="btn ghost" href="#/${s.id}/cours/${i-1}">← Précédent</a>`:"<span></span>"}<div class="row"><button class="btn ghost" id="mark">${R.includes(i)?"✓ Lu":"Marquer comme lu"}</button><button class="btn c" id="chq" data-ch="${x[0]}">Tester ce chapitre · ${q}</button></div>${i<n-1?`<a class="btn ghost" href="#/${s.id}/cours/${i+1}">Suivant →</a>`:"<span></span>"}</div></div>`;
+}
+function essentiel(s){
+  const name=Object.fromEntries(s.chapters),idx=Object.fromEntries(s.fr.map((x,i)=>[x[0],i]));
+  return `<div class="ess">${s.ess.map(([c,pts],k)=>`<section class="es"><div class="esh"><span class="n">${String(k+1).padStart(2,"0")}</span><h3>${esc(name[c])}</h3><a class="btn ghost sm" href="#/${s.id}/cours/${idx[c]}">Relire</a></div><ul>${pts.map(p=>p.startsWith("= ")?`<li class="fm">${esc(p.slice(2))}</li>`:`<li>${esc(p)}</li>`).join("")}</ul></section>`).join("")}</div>`}
+function infos(s){
+  const ev=BOOT.events.filter(e=>e.sub===s.id&&fut(e));
+  return `<div class="ess">
+  ${ev.length?`<section class="es"><div class="esh"><h3>Prochaines échéances</h3></div><ul class="evl">${ev.map(e=>`<li><span class="mono">${fmt(e.date)} · ${e.time}</span>${esc(e.t)}${e.type==="exam"?' <span class="pill red">Examen</span>':e.type==="due"?' <span class="pill red">À rendre</span>':e.type==="prep"?' <span class="pill">À préparer</span>':' <span class="pill amb">Quiz</span>'}</li>`).join("")}</ul></section>`:""}
+  ${s.infos.map(([ti,it])=>`<section class="es"><div class="esh"><h3>${esc(ti)}</h3></div><ul>${it.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></section>`).join("")}
+  <section class="es"><div class="esh"><h3>Fiches PDF</h3></div>${pdfs(s)}</section></div>`}
+function pdfs(s){return `<div class="pdfs"><a class="pdf" href="pdf/${s.id}-fr.pdf" target="_blank" rel="noopener"><span class="ico">PDF</span><span><b>Fiche complète · français</b><small>Cours, essentiel, infos, glossaire, ${s.qcm.length} QCM corrigés</small></span></a><a class="pdf" href="pdf/${s.id}-en.pdf" target="_blank" rel="noopener"><span class="ico">PDF</span><span><b>Revision notes · English</b><small>Course notes in English</small></span></a></div><p class="muted" style="margin:12px 0 0;font-size:14px">Les mêmes PDF sont rangés dans le dossier ESSEC de ton Bureau.</p>`}
+function bindSubject(s,tab,arg){
+  document.querySelectorAll("[data-lang]").forEach(b=>b.onclick=()=>{lang=b.dataset.lang;ST.set("lang",lang);render()});
+  const mk=$("#mark");if(mk)mk.onclick=()=>{const R=readS[s.id]=readS[s.id]||[];const i=+arg;if(!R.includes(i))R.push(i);saveR();mk.textContent="✓ Lu"};
+  const cq=$("#chq");if(cq)cq.onclick=()=>{const ids=s.qcm.map((q,i)=>i).filter(i=>s.qcm[i][0]===cq.dataset.ch);pending={items:shuffle(ids).map(i=>[s.id,i]),mode:"train",title:"Chapitre"};location.hash=`#/${s.id}/qcm`};
+  if(tab==="qcm")qcmTab(s);
+  if(tab==="cartes")cardsTab(s);
+}
+
+/* ---------- QCM ---------- */
+let quiz=null,pending=null;
+function qcmTab(s){
+  const el=$("#qz");
+  if(pending){const p=pending;pending=null;startQuiz(p.items,p);return drawQuiz(el)}
+  const err=errIds(s.id),neverOk=s.qcm.map((q,i)=>i).filter(i=>qstat[s.id+":"+i]?.last!==1);
+  let sel=new Set(s.chapters.map(c=>c[0])),mode="train",n=20;
+  el.innerHTML=`<div class="qstart">
+   <button class="qs" data-go="quick"><span class="big">10</span><b>Série rapide</b><span>Questions au hasard, correction immédiate</span></button>
+   <button class="qs" data-go="new"><span class="big">${neverOk.length}</span><b>Pas encore réussies</b><span>Pour couvrir tout le programme</span></button>
+   <button class="qs" data-go="err" ${err.length?"":"disabled style='opacity:.5'"}><span class="big">${err.length}</span><b>Mes erreurs</b><span>Les questions ratées la dernière fois</span></button></div>
+  <details class="more"><summary>Personnaliser (chapitres, nombre, mode examen)</summary><div class="in">
+   <div class="row" id="chips">${s.chapters.map(c=>`<button class="chip on" data-c="${c[0]}">${esc(c[1])}</button>`).join("")}</div>
+   <div class="row"><span class="seg" id="qn">${[10,20,40,0].map(k=>`<button data-n="${k}" class="${k===20?"on":""}">${k||"Toutes"}</button>`).join("")}</span><span class="seg" id="qm"><button data-m="train" class="on">Entraînement</button><button data-m="exam">Examen chronométré</button></span></div>
+   <div class="row"><button class="btn c" id="qgo">Commencer</button><span class="muted" id="qinfo"></span></div></div></details>
+  <p class="muted" style="font-size:13.5px;margin-top:14px">Raccourcis : <span class="kbd">1</span>–<span class="kbd">4</span> pour répondre, <span class="kbd">Entrée</span> pour continuer.</p>`;
+  const go=(ids,o)=>{startQuiz(ids.map(i=>[s.id,i]),Object.assign({title:BY[s.id].short},o));drawQuiz(el)};
+  el.querySelector('[data-go="quick"]').onclick=()=>go(shuffle(s.qcm.map((q,i)=>i)).slice(0,10),{mode:"train"});
+  el.querySelector('[data-go="new"]').onclick=()=>go(shuffle(neverOk).slice(0,20),{mode:"train"});
+  el.querySelector('[data-go="err"]').onclick=()=>err.length&&go(shuffle(err),{mode:"train"});
+  const pool=()=>s.qcm.map((q,i)=>i).filter(i=>sel.has(s.qcm[i][0]));
+  const upd=()=>{const p=pool().length;$("#qinfo").textContent=`${n?Math.min(n,p):p} questions sur ${p}`;$("#qgo").disabled=!p};
+  el.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{const c=b.dataset.c;sel.has(c)?sel.delete(c):sel.add(c);b.classList.toggle("on");upd()});
+  el.querySelectorAll("#qn button").forEach(b=>b.onclick=()=>{n=+b.dataset.n;el.querySelectorAll("#qn button").forEach(x=>x.classList.toggle("on",x===b));upd()});
+  el.querySelectorAll("#qm button").forEach(b=>b.onclick=()=>{mode=b.dataset.m;el.querySelectorAll("#qm button").forEach(x=>x.classList.toggle("on",x===b))});
+  $("#qgo").onclick=()=>{let p=shuffle(pool());if(n)p=p.slice(0,n);go(p,{mode})};
+  upd();
+}
+function startQuiz(items,o){quiz={items,i:0,ans:items.map(()=>null),mode:o.mode||"train",title:o.title||"QCM",done:false,t0:Date.now(),limit:o.limit||(o.mode==="exam"?items.length*75:0),streak:0,best:0};clearInterval(window._tm)}
+const Q=k=>{const [s,i]=quiz.items[k];return {s,i,q:DATA[s].qcm[i]}};
+function record(k){const {s,i,q}=Q(k);const ok=quiz.ans[k]===q[3];const id=s+":"+i;const st=qstat[id]||{n:0,ok:0};st.n++;if(ok)st.ok++;st.last=ok?1:0;qstat[id]=st;saveQ()}
+function drawQuiz(el){
+  el=el||$("#qz");if(!el)return;
+  if(quiz.done)return result(el);
+  const k=quiz.i,{s,q}=Q(k),n=quiz.items.length,a=quiz.ans[k],shown=quiz.mode==="train"&&a!==null;
+  const chap=Object.fromEntries(DATA[s].chapters)[q[0]];
+  el.innerHTML=`<div class="qrun" style="--c:${col(s)}"><div class="qhead"><span class="lbl">${esc(quiz.title)}</span><span class="mono">${k+1}/${n}</span><div class="bar"><i style="width:${k/n*100}%"></i></div>${quiz.streak>=3?`<span class="streak">🔥 ${quiz.streak}</span>`:""}${quiz.limit?`<span class="timer" id="tm"></span>`:""}<button class="btn ghost sm" id="qx">Arrêter</button></div>
+  <div class="qcard" id="qc"><div class="qchap">${esc(BY[s].short)} · ${esc(chap)}</div><p class="qtext">${esc(q[1])}</p>
+  <div class="opts">${q[2].map((o,j)=>{let c="";if(shown){if(j===q[3])c="right";else if(j===a)c="wrong"}else if(a===j)c="sel";return `<button class="opt ${c}" data-o="${j}" ${shown?"disabled":""}><span class="l">${"ABCD"[j]}</span><span>${esc(o)}</span></button>`}).join("")}</div>
+  ${shown?`<div class="expl">${a===q[3]?'<b class="ok">Bonne réponse.</b>':`<b class="ko">Réponse : ${"ABCD"[q[3]]}.</b>`} ${esc(q[4])}</div>`:""}</div>
+  <div class="qfoot"><button class="btn ghost" id="qp" ${k===0?"disabled":""}>←</button>${quiz.mode==="exam"?`<span class="muted">${quiz.ans.filter(x=>x!==null).length}/${n} répondues</span>`:""}<button class="btn c" id="qn2" ${quiz.mode==="train"&&a===null?"disabled":""}>${k+1<n?"Suivante →":(quiz.mode==="exam"?"Rendre la copie":"Voir le résultat")}</button></div></div>`;
+  el.querySelectorAll(".opt").forEach(b=>b.onclick=()=>choose(+b.dataset.o));
+  $("#qp").onclick=()=>{quiz.i--;drawQuiz()};$("#qn2").onclick=next;
+  $("#qx").onclick=()=>{if(quiz.mode==="exam")finish();else{quiz=null;clearInterval(window._tm);render()}};
+  if(quiz.limit){clearInterval(window._tm);const tick=()=>{const r=quiz.limit-Math.floor((Date.now()-quiz.t0)/1000),t=$("#tm");if(!t)return clearInterval(window._tm);if(r<=0)return finish();t.textContent=`${Math.floor(r/60)}:${String(r%60).padStart(2,"0")}`;t.classList.toggle("low",r<60)};tick();window._tm=setInterval(tick,1000)}
+}
+function choose(j){const k=quiz.i;if(quiz.mode==="train"&&quiz.ans[k]!==null)return;quiz.ans[k]=j;
+  if(quiz.mode==="train"){record(k);const ok=j===Q(k).q[3];quiz.streak=ok?quiz.streak+1:0;quiz.best=Math.max(quiz.best,quiz.streak);drawQuiz();const c=$("#qc");c&&c.classList.add(ok?"pop":"shake");nav()}else drawQuiz()}
+function next(){if(quiz.mode==="train"&&quiz.ans[quiz.i]===null)return;if(quiz.i+1<quiz.items.length){quiz.i++;drawQuiz()}else finish()}
+function finish(){clearInterval(window._tm);if(quiz.mode==="exam")quiz.items.forEach((_,k)=>{if(quiz.ans[k]!==null)record(k);else{const {s,i}=Q(k);const st=qstat[s+":"+i]||{n:0,ok:0};st.n++;st.last=0;qstat[s+":"+i]=st}});saveQ();quiz.done=true;quiz.time=Math.round((Date.now()-quiz.t0)/1000);nav();drawQuiz()}
+function result(el){
+  const n=quiz.items.length;let ok=0;const by={};
+  quiz.items.forEach((_,k)=>{const {s,q}=Q(k);const key=s+"|"+q[0];by[key]=by[key]||{s,c:q[0],n:0,ok:0};by[key].n++;if(quiz.ans[k]===q[3]){ok++;by[key].ok++}});
+  const p=ok/n,wrong=quiz.items.map((_,k)=>k).filter(k=>quiz.ans[k]!==Q(k).q[3]);
+  el.innerHTML=`<div class="res"><div class="card" style="text-align:center">${ring(p,`${ok}/${n}`,150,26)}<h2 style="margin:14px 0 4px;font-size:26px">${p>=.85?"Excellent":p>=.65?"Bien joué":p>=.4?"Ça avance":"À retravailler"}</h2>
+   <p class="muted" style="margin:0 0 14px">${(p*20).toFixed(1).replace(".",",")}/20${quiz.best>=3?` · meilleure série ${quiz.best}`:""}${quiz.time?` · ${Math.floor(quiz.time/60)} min ${quiz.time%60} s`:""}</p>
+   <div style="text-align:left">${Object.values(by).map(b=>`<div class="chaprow"><span>${esc(Object.fromEntries(DATA[b.s].chapters)[b.c])}</span><div class="bar"><i style="width:${b.ok/b.n*100}%;background:${b.ok/b.n>=.7?"var(--good)":b.ok/b.n>=.4?"var(--warn)":"var(--bad)"}"></i></div><span class="mono">${b.ok}/${b.n}</span></div>`).join("")}</div>
+   <div class="row" style="justify-content:center;margin-top:16px"><button class="btn c" id="ag">Nouvelle série</button>${wrong.length?`<button class="btn ghost" id="rw">Refaire les ${wrong.length} erreurs</button>`:""}</div></div>
+   <div>${wrong.length?wrong.map(k=>{const {q}=Q(k),a=quiz.ans[k];return `<div class="rev"><div class="q">${esc(q[1])}</div>${a===null?'<span class="ko">Sans réponse</span>':`<span class="ko">✗ ${esc(q[2][a])}</span>`}<br><span class="ok">✓ ${esc(q[2][q[3]])}</span><p class="muted" style="margin:6px 0 0;font-size:14px">${esc(q[4])}</p></div>`}).join(""):'<div class="card">Aucune erreur.</div>'}</div></div>`;
+  animRings();
+  $("#ag").onclick=()=>{quiz=null;render()};
+  const rw=$("#rw");if(rw)rw.onclick=()=>{startQuiz(shuffle(wrong.map(k=>quiz.items[k])),{mode:"train",title:"Erreurs"});drawQuiz(el)};
+}
+document.addEventListener("keydown",e=>{if(e.target.matches("input,textarea"))return;
+  if(quiz&&!quiz.done&&$(".qrun")){if(/^[1-4]$/.test(e.key)){const j=+e.key-1;if(j<Q(quiz.i).q[2].length)choose(j)}else if(e.key==="Enter"){e.preventDefault();next()}return}
+  if($("#fcard")){if(e.key===" "){e.preventDefault();flip()}else if(fcF&&["1","2","3"].includes(e.key))rate(+e.key)}});
+
+/* ---------- Cartes (Leitner) ---------- */
+let fcQ=[],fcI=0,fcF=false,fcS=null;
+function cardsTab(s){fcS=s.id;fcQ=shuffle(s.cards.map((c,i)=>i)).sort((a,b)=>(cbox[s.id+":"+a]||0)-(cbox[s.id+":"+b]||0));fcI=0;fcF=false;drawCards()}
+function drawCards(){
+  const s=DATA[fcS],el=$("#fc");if(!el)return;const bx=[0,1,2,3,4,5].map(b=>s.cards.filter((c,i)=>(cbox[s.id+":"+i]||0)===b).length);
+  const boxes=`<div class="boxes">${["Nouv.","B1","B2","B3","B4","B5"].map((l,k)=>`<div><b>${bx[k]}</b>${l}</div>`).join("")}</div>`;
+  if(fcI>=fcQ.length){el.innerHTML=`<div class="fcw card" style="text-align:center"><h2>Série terminée</h2><p class="muted">${known(s.id)} cartes sur ${s.cards.length} sont en boîte 4 ou 5.</p><button class="btn c" id="again">Nouvelle série</button>${boxes}</div>`;$("#again").onclick=()=>cardsTab(s);return}
+  const i=fcQ[fcI],c=s.cards[i],b=cbox[s.id+":"+i]||0;
+  el.innerHTML=`<div class="fcw"><div class="qhead"><span class="mono">${fcI+1}/${fcQ.length}</span><div class="bar"><i style="width:${fcI/fcQ.length*100}%"></i></div></div>
+  <div class="flip"><div class="fcard ${fcF?"on":""}" id="fcard" tabindex="0" role="button" aria-label="Retourner la carte"><div class="face"><span class="lbl">Question</span><span class="pill">${b?"Boîte "+b:"Nouvelle"}</span><p>${esc(c[0])}</p></div><div class="face back"><span class="lbl">Réponse</span><p>${esc(c[1])}</p></div></div></div>
+  ${fcF?`<div class="rate"><button class="no" data-r="1">À revoir <span class="kbd">1</span></button><button class="mid" data-r="2">Presque <span class="kbd">2</span></button><button class="yes" data-r="3">Je savais <span class="kbd">3</span></button></div>`:`<div class="row" style="justify-content:center;margin-top:14px"><button class="btn c" id="show">Voir la réponse</button><span class="muted">ou <span class="kbd">Espace</span></span></div>`}${boxes}</div>`;
+  $("#fcard").onclick=flip;const sh=$("#show");if(sh)sh.onclick=flip;el.querySelectorAll("[data-r]").forEach(x=>x.onclick=()=>rate(+x.dataset.r));
+}
+function flip(){fcF=!fcF;const c=$("#fcard");if(c&&fcF){c.classList.add("on");setTimeout(drawCards,260)}else drawCards()}
+function rate(r){if(!fcF)return;const k=fcS+":"+fcQ[fcI],b=cbox[k]||0;cbox[k]=r===1?1:r===2?Math.max(1,b):Math.min(5,b+1);saveC();if(r===1)fcQ.push(fcQ[fcI]);fcI++;fcF=false;drawCards()}
+
+/* ---------- Examen blanc et erreurs ---------- */
+function examPage(){
+  const e=allErr();
+  return `<div class="hello"><div class="eyebrow">Entraînement</div><h1>Examen blanc</h1><p>Questions tirées au hasard, chronométrées, corrigées à la fin.</p></div>
+  <div id="qz"><div class="qstart" style="margin-top:22px">
+   ${SUBJ.map(s=>`<button class="qs" style="--c:${col(s.id)}" data-ex="${s.id}"><span class="big">30</span><b>${esc(s.short)}</b><span>30 questions · 35 minutes</span></button>`).join("")}
+   ${BY.acc?`<button class="qs" style="--c:${col("acc")}" data-ex="exfa"><span class="big">12</span><b>Sujet type FA (Moodle)</b><span>Les 12 QCM de l'examen type · 18 minutes</span></button>`:""}
+   <button class="qs" data-ex="all"><span class="big">40</span><b>Toutes les matières</b><span>40 questions · 45 minutes</span></button>
+   <button class="qs" data-ex="err" ${e?"":"disabled style='opacity:.5'"}><span class="big">${e}</span><b>Mes erreurs</b><span>Toutes matières, correction immédiate</span></button></div></div>`;
+}
+async function bindExam(){
+  document.querySelectorAll("[data-ex]").forEach(b=>b.onclick=async()=>{
+    const k=b.dataset.ex;const ids=k==="all"||k==="err"?SUBJ.map(s=>s.id):k==="exfa"?["acc"]:[k];
+    b.querySelector("b").textContent="Chargement…";await Promise.all(ids.map(load));
+    let items,o;
+    if(k==="exfa"){items=DATA.acc.qcm.map((q,i)=>[ "acc",i]).filter(([,i])=>DATA.acc.qcm[i][0]==="exfa");o={mode:"exam",title:"Sujet type FA",limit:18*60}}
+    else if(k==="err"){items=shuffle(ids.flatMap(id=>errIds(id).map(i=>[id,i])));o={mode:"train",title:"Mes erreurs"}}
+    else if(k==="all"){const per=ids.map(id=>shuffle(DATA[id].qcm.map((q,i)=>[id,i])));items=[];let j=0;while(items.length<40&&per.some(p=>p.length)){const p=per[j++%per.length];if(p.length)items.push(p.pop())}items=shuffle(items);o={mode:"exam",title:"Examen blanc",limit:45*60}}
+    else{items=shuffle(DATA[k].qcm.map((q,i)=>[k,i])).slice(0,30);o={mode:"exam",title:"Examen blanc "+BY[k].short,limit:35*60}}
+    startQuiz(items,o);drawQuiz($("#qz"))});
+}
+
+/* ---------- Devoirs ---------- */
+const dvs=ST.get("dv2",{});
+const dvFut=d=>new Date(d.date+"T"+d.time)>=new Date();
+const nDev=()=>DEV.filter(dvFut).length;
+const calDays=s=>{const t=new Date();t.setHours(0,0,0,0);return Math.round((D(s)-t)/864e5)};
+const rel=d=>{if(!dvFut(d))return "Passé";const n=calDays(d.date);return n===0?"Aujourd'hui":n===1?"Demain":`J−${n}`};
+const urg=d=>dvFut(d)&&calDays(d.date)<=3;
+const dvKeys=d=>[...d.qs.map((_,i)=>d.id+":q"+i),...(d.final||[]).map((_,i)=>d.id+":f"+i)];
+const dvProg=d=>{const k=dvKeys(d);return [k.filter(x=>dvs[x]).length,k.length]};
+const dvSorted=()=>{const f=DEV.filter(dvFut).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time)),p=DEV.filter(d=>!dvFut(d)).sort((a,b)=>(b.date+b.time).localeCompare(a.date+a.time));return [f,p]};
+function devoirs(id){
+  const [f,p]=dvSorted();const wide=matchMedia("(min-width:861px)").matches;
+  const cur=DEV.find(d=>d.id===id)||(wide?(f[0]||p[0]):null);
+  const item=d=>{const [a,n]=dvProg(d);return `<a class="dvi${cur&&cur.id===d.id?" on":""}${dvFut(d)?"":" past"}" href="#/devoirs/${d.id}" style="--c:${col(d.sub)}">
+    <span class="dvi-d"><b>${D(d.date).getDate()}</b><small>${D(d.date).toLocaleDateString("fr-FR",{month:"short"}).replace(".","")}</small></span>
+    <span class="dvi-t"><small>${esc(BY[d.sub].short)} · ${esc(d.kind)}</small><b>${esc(d.t)}</b><span class="mini"><i style="width:${n?a/n*100:0}%"></i></span></span>
+    <span class="due${urg(d)?" hot":""}">${rel(d)}</span></a>`};
+  return `<div class="hello"><div class="eyebrow">Case studies, exposés, projets</div><h1>Devoirs</h1><p>${f.length} à rendre${f[0]?` · le prochain : <b>${esc(rel(f[0]).toLowerCase())}</b>`:""}</p></div>
+  <div class="dvl${id?" has":""}"><aside class="dvlist">${f.map(item).join("")}${p.length?`<div class="dvsep">Passés</div>${p.map(item).join("")}`:""}</aside>
+  <section class="dvd">${cur?dvDetail(cur):""}</section></div>`;
+}
+function dvDetail(d){
+  const [a,n]=dvProg(d);const pre=d.qp||"";
+  const chk=(k,cls,inner)=>`<li class="${cls}${dvs[k]?" done":""}"><button class="tick" data-k="${k}" aria-pressed="${!!dvs[k]}" aria-label="Marquer comme fait"></button>${inner}</li>`;
+  return `<article class="dvx" style="--c:${col(d.sub)}">
+  <a class="back" href="#/devoirs">← Tous les devoirs</a>
+  <header class="dvh"><div class="row"><span class="tag">${esc(BY[d.sub].name)}</span><span class="tag ghost">${esc(d.kind)}</span></div>
+   <h2>${esc(d.t)}</h2>
+   <div class="facts"><div><span class="lbl">Échéance</span><b>${fmt(d.date,{weekday:"long",day:"numeric",month:"long"})} · ${d.time.replace(":","h")}</b></div><div><span class="lbl">Dans</span><b class="cd${urg(d)?" hot":""}">${rel(d)}</b></div><div><span class="lbl">Poids</span><b>${esc(d.weight)}</b></div><div><span class="lbl">Groupe</span><b>${esc(d.group)}</b></div></div>
+   <div class="pg"><div class="bar"><i id="pgb" style="width:${n?a/n*100:0}%"></i></div><span class="mono" id="pgt">${a}/${n}</span></div></header>
+  <p class="brief">${esc(d.brief)}</p>
+  <div class="box"><span class="lbl">À rendre</span><p>${esc(d.rendu)}</p></div>
+  ${d.note?`<div class="box warn"><span class="lbl">À noter</span><p>${esc(d.note)}</p></div>`:""}
+  <h3 class="sec">${esc(d.qt||"L'énoncé")}</h3>
+  <ol class="qlist">${d.qs.map((q,i)=>chk(d.id+":q"+i,"qi",`<div class="qb"><div class="qh"><span class="qn">${pre}${i+1}</span><b>${esc(q.t)}</b></div><p>${esc(q.d)}</p>${q.how?`<details class="how"><summary>Comment faire dans Enginius</summary><ol>${q.how.map(h=>`<li>${esc(h)}</li>`).join("")}</ol></details>`:""}</div>`)).join("")}</ol>
+  ${d.tips?`<div class="tips"><h3 class="sec">${esc(d.tips.t)}</h3><ul>${d.tips.items.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:""}
+  ${d.final&&d.final.length?`<h3 class="sec">Avant de rendre</h3><ul class="fin">${d.final.map((x,i)=>chk(d.id+":f"+i,"fi",`<span>${esc(x)}</span>`)).join("")}</ul>`:""}
+  <h3 class="sec">Supports</h3>
+  <div class="links">${d.links.map(([l,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}<span>↗</span></a>`).join("")}</div>
+  ${d.depot?`<a class="btn c depot" href="${esc(d.depot)}" target="_blank" rel="noopener">Déposer sur Moodle ↗</a>`:""}
+  </article>`;
+}
+function bindDevoirs(){document.querySelectorAll(".dvx .tick").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(dvs[k])delete dvs[k];else dvs[k]=1;ST.set("dv2",dvs);
+  b.closest("li").classList.toggle("done",!!dvs[k]);b.setAttribute("aria-pressed",!!dvs[k]);
+  const d=DEV.find(x=>k.startsWith(x.id+":"));const [a,n]=dvProg(d);$("#pgb").style.width=a/n*100+"%";$("#pgt").textContent=a+"/"+n;
+  const it=document.querySelector(`.dvi[href="#/devoirs/${d.id}"] .mini i`);if(it)it.style.width=a/n*100+"%"})}
+
+/* ---------- Planning ---------- */
+let pf="all";
+function planning(){
+  const list=AG.filter(e=>fut(e)&&(pf==="all"||e.sub===pf));let out="",wk="";
+  list.forEach(e=>{const d=D(e.date),m=new Date(d);m.setDate(d.getDate()-((d.getDay()+6)%7));const k=m.toISOString().slice(0,10);if(k!==wk){wk=k;out+=`<div class="week">Semaine du ${fmt(k,{day:"numeric",month:"long"})}</div>`}
+    const nm=BY[e.sub]?BY[e.sub].short:e.sub;const tag=e.type==="due"?'<span class="pill red">À rendre</span>':e.type==="exam"?'<span class="pill red">Examen</span>':e.type==="quiz"?'<span class="pill amb">Quiz</span>':e.type==="prep"?'<span class="pill">À préparer</span>':"";
+    out+=`<div class="li" style="--c:${BY[e.sub]?col(e.sub):"var(--muted)"}"><div class="d">${fmt(e.date)}<br>${e.time}</div><div class="s"></div><div class="w"><b>${esc(e.type==="class"?(BY[e.sub]?BY[e.sub].name:e.sub):e.t)}</b><small>${esc(e.type==="class"?e.t+" · "+e.room:nm)}</small></div>${tag}</div>`});
+  return `<div class="hello"><div class="eyebrow">Semaine ${semWeek().n} sur ${semWeek().of}</div><h1>Planning</h1><p>Cours, rendus, quiz et examens à venir. Tout est aussi dans ton Calendrier Apple.</p></div>
+  <div class="row" style="margin:0 0 14px"><span class="seg" id="pf"><button data-f="all" class="${pf==="all"?"on":""}">Tout</button>${SUBJ.map(s=>`<button data-f="${s.id}" class="${pf===s.id?"on":""}">${esc(s.short)}</button>`).join("")}</span></div>
+  <div class="panel" style="overflow:hidden">${out||'<p class="muted" style="padding:16px 18px;margin:0">Rien à venir.</p>'}</div>`;
+}
+function bindPlanning(){document.querySelectorAll("#pf button").forEach(b=>b.onclick=()=>{pf=b.dataset.f;render()})}
+
+render();
+</script>
