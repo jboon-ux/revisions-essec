@@ -423,7 +423,7 @@ const allErr=()=>SUBJ.reduce((n,s)=>n+errIds(s.id).length,0);
 async function load(id){
   if(DATA[id])return DATA[id];
   if(window.__PRE&&window.__PRE[id])return DATA[id]=window.__PRE[id];
-  const r=await fetch(`data/${id}.json?v=20261030-fin-pq2`);if(!r.ok)throw new Error("Chargement impossible");return DATA[id]=await r.json();
+  const r=await fetch(`data/${id}.json?v=20261030-fin-pq3`);if(!r.ok)throw new Error("Chargement impossible");return DATA[id]=await r.json();
 }
 
 const courseQIds=s=>s.qcm.map((q,i)=>i).filter(i=>s.chapters.some(c=>c[0]===s.qcm[i][0]));
