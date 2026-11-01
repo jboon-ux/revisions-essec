@@ -6,7 +6,7 @@
  "code": "DEVD31118",
  "lang": "FR",
  "src": true,
- "srcnote": "Chapitres 1 à 3 rédigés à partir des supports des séances 1 à 3 publiés sur Moodle ; plan des séances et modalités tirés des supports et de la répartition des exposés. Les autres supports ne sont pas encore en ligne : ces chapitres présentent les notions de référence du thème annoncé (droit français), à compléter avec les slides harmonisées.",
+ "srcnote": "Chapitres 1 à 4 rédigés à partir des supports des séances 1 à 4 publiés sur Moodle ; plan des séances et modalités tirés des supports et de la répartition des exposés. Les autres supports ne sont pas encore en ligne : ces chapitres présentent les notions de référence du thème annoncé (droit français), à compléter avec les slides harmonisées.",
  "eval": "Examen oral (exposé en groupe) : 40 %. Examen final : QCM pendant la dernière séance, 60 %, sur les slides harmonisées. Participation : jusqu'à +2 points, sans malus.",
  "chapters": [
   [
@@ -20,6 +20,10 @@
   [
    "gouv",
    "Gouvernance (21 oct.)"
+  ],
+  [
+   "fin",
+   "Financement des entreprises (28 oct.)"
   ]
  ],
  "fr": [
@@ -37,6 +41,11 @@
    "gouv",
    "S3 · Gouvernance (21 oct.)",
    "\n\n<h4>Qu'est-ce que la gouvernance ?</h4>\n<ul><li>La gouvernance est la manière dont la société est <b>dirigée, administrée et contrôlée</b>.</li>\n<li>Le <b>contrôle</b> appartient aux actionnaires, à qui l'organe d'administration doit rendre des comptes.</li>\n<li>L'<b>administration</b> revient à l'organe d'administration (ex. : le conseil d'administration dans les SA).</li>\n<li>La <b>direction</b> revient à l'organe de direction (ex. : DG et DGD dans les SA), dont dépendent les services opérationnels.</li>\n<li>S'y ajoutent des <b>organes consultatifs</b> : comités d'audit, de rémunérations, de nominations.</li></ul>\n<h4>L'objectif de la gouvernance</h4>\n<ul><li><b>Approche « shareholder »</b> : maximisation de la valeur actionnariale ; logique et aisément quantifiable, mais souvent critiquée.</li>\n<li><b>Approche « stakeholder »</b> : la société a un rôle sociétal au-delà de la création de valeur ; efficacité débattue (qui sont les parties prenantes ? comment arbitrer leurs intérêts divergents ?). Pour Milton Friedman, la responsabilité de l'entreprise est d'être profitable.</li>\n<li><b>L'intérêt social</b> : central dans beaucoup de systèmes juridiques (dont la France), mais non clairement défini.</li></ul>\n<h4>Les sources des règles</h4>\n<table><tr><th>Source</th><th>Ce qu'il faut retenir</th></tr>\n<tr><td><b>Lois et règlements</b></td><td>Importance variable selon les formes sociales : plus de liberté en SAS, moins dans les SA (grandes sociétés)</td></tr>\n<tr><td><b>Statuts</b></td><td>Fixent les grandes lignes de la gouvernance (majorités, pouvoirs des dirigeants), sous réserve des dispositions légales d'ordre public</td></tr>\n<tr><td><b>Pactes d'actionnaires</b></td><td>Arrangements privés entre actionnaires ; applicables uniquement aux signataires ; publics pour les sociétés cotées</td></tr>\n<tr><td><b>Soft law</b></td><td>Spécifique aux sociétés cotées (ex. code AFEP-MEDEF) ; sanction réputationnelle : le « name and shame »</td></tr></table>\n<h4>L'impact de la structure actionnariale</h4>\n<ul><li><b>Actionnaire unique</b> : pas de difficulté particulière de gouvernance.</li>\n<li><b>Plusieurs actionnaires (non cotées)</b> — startups, venture capital, private equity : organisation sur-mesure via les statuts, usage fréquent des pactes d'actionnaires, structure SAS privilégiée pour sa flexibilité.</li>\n<li><b>Sociétés cotées</b> : rôle central de la loi et contrôle par l'AMF (SEC, FCA) ; règles strictes (publicité, OPA) ; structure SA, moins flexible mais requise. Ce sont elles qui posent les enjeux de gouvernance les plus critiques.</li></ul>\n<h4>Les actionnaires : décisions et droits</h4>\n<ul><li><b>Décisions collectives en AG</b> : approbation des comptes, élection des administrateurs, fusions, dissolutions… AGO : majorité simple (par défaut) ; AGE : majorité des 2/3 (règles variables selon les juridictions).</li>\n<li><b>Droits individuels</b> : information (questions en AG, accès aux documents sociaux), initiative (convoquer une AG à partir de 5 % du capital, déposer des résolutions de 0,5 % à 5 %), justice (responsabilité des dirigeants via l'action <i>ut singuli</i>, expertise de gestion).</li>\n<li><b>Quorums et majorités</b> : en SARL (ancien régime), décisions ordinaires au quorum de 50 % des parts à la 1<sup>re</sup> convocation puis sans condition ; en SA, AGO au quorum d'1/5 des actions à la 1<sup>re</sup> convocation puis sans condition ; AGE au quorum d'1/4 puis 1/5 en 2<sup>e</sup> convocation, majorité des 2/3. En SAS : librement fixé par les statuts.</li>\n<li><b>Processus</b> : convocation → fixation de l'ordre du jour → information en temps utile → délibération → décision (puis veto et contestation possibles).</li></ul>\n<h4>Typologie et conflits entre actionnaires</h4>\n<ul><li>Principe : <b>une action = une voix</b> ; exceptions possibles (droits de vote multiples, possibilité étendue par le droit européen).</li>\n<li>Institutionnels vs détail (« retail ») ; passifs (« buy and hold ») vs actifs (activistes) ; profils variés (familles, private equity, OPCVM).</li>\n<li><b>Acteurs parallèles</b> : proxy advisors (recommandations de vote, cruciales pour les investisseurs passifs) et associations de défense des actionnaires.</li>\n<li><b>Contrôlant vs minoritaires</b> : moins de coûts d'agence au niveau du conseil, mais risque de conflits d'intérêts (gestion au profit d'une autre entité, pression sur le cours). L'<b>abus de majorité</b> ouvre un recours, mais restreint à des cas très spécifiques ; les protections varient selon les législations.</li></ul>\n<h4>Conseil d'administration et dirigeants</h4>\n<ul><li><b>L'organe d'administration</b> désigne les dirigeants, détermine les orientations et contrôle leur action ; il prépare l'ordre du jour et convoque l'AG.</li>\n<li><b>Les dirigeants</b> gèrent la société (pouvoirs très étendus) : direction en interne, représentation et action à l'extérieur.</li>\n<li><b>Articulation délicate</b> : la fusion DG/Président (le PDG) donne l'« unité de commandement », mais crée un risque de conflits d'intérêts.</li></ul>\n<table><tr><th>Forme</th><th>Dirigeants obligatoires</th><th>Dirigeants facultatifs</th></tr>\n<tr><td><b>SARL</b></td><td>Gérant</td><td>Co-gérant</td></tr>\n<tr><td><b>SA moniste</b></td><td>Administrateurs (3 à 18, 24 en cas de fusion) ; PCA + DG, ou PDG</td><td>Directeur(s) général(aux) délégué(s)</td></tr>\n<tr><td><b>SA dualiste</b></td><td>Directoire (3 à 5, 7 si cotée) ; président du directoire ou directeur général unique</td><td>Directeur général, directeur général délégué</td></tr>\n<tr><td><b>SAS</b></td><td>Président</td><td>Librement organisé par les statuts</td></tr></table>\n<h4>Désignation et représentation</h4>\n<ul><li><b>Désignation statutaire</b> : dans les SNC, par défaut, tous les associés sont gérants.</li>\n<li><b>En cours de vie sociale</b> : par les associés en assemblée ; transitoirement, par cooptation.</li>\n<li><b>Désignation directe</b> (gérants des sociétés de personnes, président de SAS, par l'assemblée ou l'associé unique) ou <b>indirecte</b> (par l'organe collégial de contrôle, CA ou CS).</li>\n<li><b>Représentation externe</b> : gérant(s) (SARL), PDG/DG (SA moniste), président du directoire ou DGU (SA dualiste), président (SAS).</li>\n<li><b>Délégations de pouvoirs</b> : un signataire doit tenir un pouvoir d'engagement d'un mandataire social (nom sur l'extrait Kbis), qui peut déléguer puis subdéléguer ; le notaire « vérifie les pouvoirs » (illustration : la chaîne de délégations chez Bouygues Immobilier).</li></ul>\n<h4>Incitations et contrôle</h4>\n<ul><li><b>La carotte</b> : rémunération fixe (salaire) et variable (actions, stock-options), pour aligner les intérêts sur la performance.</li>\n<li><b>Le bâton</b> : responsabilité politique (droits d'actionnaire), civile (devoirs fiduciaires, efficacité variable), pénale (ex. abus de biens sociaux), et la réputation (« name and shame » des codes de gouvernance).</li>\n<li><b>Autres règles</b> : transparence (obligations déclaratives financières et extra-financières, commissaires aux comptes, audit de durabilité), parité (40 % de femmes au CA), cumul des mandats ; codétermination et rôle crucial du CSE en France.</li>\n<li><b>Contrôle</b> : tribunaux, autorité de marché, commissaires aux comptes, comités spécialisés, organes de contrôle (CA/CS) et actionnaires.</li></ul>\n"
+  ],
+  [
+   "fin",
+   "S4 · Financement des entreprises (28 oct.)",
+   "\n<h4>Les sources de financement</h4>\n<ul><li>Grande diversité, classable selon l'<b>instrument</b> (dette, capital, instruments hybrides, autofinancement, subventions), l'<b>objet</b> (financement court terme d'actif circulant, long terme d'actif immobilisé, croissance externe), le <b>prêteur</b> (banque, fonds d'investissement, marché obligataire, crowdfunding) et l'<b>emprunteur</b> (taille de bilan, solvabilité).</li>\n<li>Les <b>sociétés cotées</b> ont accès à la plus large palette de sources de financement.</li>\n<li><b>Sûreté</b> : droit particulier en garantie du paiement d'une créance — <b>personnelle</b> (ex. cautionnement) ou <b>réelle</b> (ex. hypothèque). <b>Garantie</b> : terme générique = sûretés + autres mécanismes (ex. clause de réserve de propriété).</li></ul>\n<h4>Capital ou dette ?</h4>\n<table><tr><th>Capital (equity)</th><th>Dette</th></tr>\n<tr><td>Mode de financement <b>le plus risqué</b> pour l'investisseur, mais retour <b>illimité</b> → focus : <b>profitabilité</b>. C'est ce qui explique que les actionnaires contrôlent la société.</td><td>Risque <b>variable</b> selon la <b>subordination</b>, retour <b>limité</b> → focus : <b>solvabilité</b>.</td></tr></table>\n<h4>Le financement en capital</h4>\n<ul><li><b>Apports</b> (en numéraire ou en nature) à la constitution de la société ou moyennant une <b>augmentation de capital</b> → contribution au <b>capital social</b>.</li>\n<li><b>Capital minimal</b> dans certaines formes sociales (notamment la SA en France) : protection théorique des créanciers, en réalité <b>inefficace</b>.</li>\n<li>Source de financement « confortable » : <b>aucune obligation légale</b> de payer des dividendes, mais parfois une <b>nécessité économique</b> pour demeurer attractif → effet de signal d'un <b>dividende annuel fixe</b> (+ <b>rachats d'actions</b> pour les distributions variables).</li>\n<li><b>Dilution</b> : les actionnaires qui ne souscrivent pas ont une participation moindre en proportion du capital total → perte de « pouvoir politique ».</li>\n<li>Protection des actionnaires existants : le <b>droit préférentiel de souscription</b> (DPS). Sa suppression exige la <b>majorité renforcée</b> de l'AG <b>et</b> l'absence de vote du bénéficiaire.</li></ul>\n<h4>L'introduction en bourse (IPO)</h4>\n<ul><li><b>Offre au public de titres</b>, généralement suivie d'une <b>introduction en bourse</b> (cotation). Avantages : accès à de <b>nouveaux investisseurs</b> et <b>liquidité</b> ; inconvénient : <b>coûts de compliance</b>. Illustration en séance : l'IPO d'Uber à la bourse de New York.</li>\n<li>Information substantielle à donner au public : <b>règlement Prospectus</b> (UE), <b>Securities Act 1933</b> (US).</li>\n<li>Exceptions importantes : offre à un <b>cercle restreint</b> d'investisseurs (150 personnes max → « placement privé ») ou à des <b>investisseurs qualifiés</b> (professionnels avertis).</li>\n<li>Sociétés cotées : <b>obligations de transparence</b> importantes, droit des <b>offres publiques</b> (offres d'acquérir tout le capital d'une société cotée), supervision par l'<b>AMF</b>.</li></ul>\n<h4>Les actions de préférence</h4>\n<ul><li>Actions assorties de « <b>droits particuliers de toute nature</b> » (art. <b>L. 228-11</b> C. com.) → rupture avec l'égalité de principe entre actionnaires.</li>\n<li><b>Droits de vote multiples</b> : traditionnellement limités aux <b>SAS</b>, sur le point d'être <b>largement ouverts</b> sous certaines conditions aux <b>SA</b> cotées ou non → impulsion du droit européen (<b>directive 2024/1080</b>).</li>\n<li>Enjeu : <b>préserver le contrôle des actionnaires fondateurs</b> malgré leur dilution (IPO, entrée de nouveaux investisseurs). À l'étranger : admission variable ; usage fréquent dans la tech américaine (Meta, Google).</li></ul>\n<h4>Le financement par la dette</h4>\n<ul><li>Très grande <b>diversité</b> : émission d'<b>obligations</b> (sur les marchés ou non), prêts classiques, phénomène récent du « <b>private credit</b> » par des institutions non bancaires.</li>\n<li><b>Effet de levier</b> : rentabilité accrue du capital, mais <b>risque de défaut accru</b> + <b>effet de discipline</b> du management.</li>\n<li><b>Avantage fiscal</b> : déduction des intérêts. <b>Pas de dilution</b> des actionnaires.</li>\n<li>Importance centrale de la <b>documentation contractuelle</b> (modalités de la créance : taux d'intérêt, maturité ; protection du créancier) : les créanciers ne comptent pas sur la loi, contrairement aux actionnaires (devoirs fiduciaires).</li></ul>\n<h4>Les clauses importantes des contrats de dette</h4>\n<ul><li>Socle : <b>maturité, intérêt, montant principal</b>. <b>Subordination</b> : qui est payé en premier entre créanciers concurrents.</li>\n<li><b>Déclarations</b> (« representations and warranties », à ne pas confondre avec les covenants) : situation financière, endettement préexistant, absence de procédure collective en cours, validité juridique de l'engagement.</li>\n<li><b>Covenants positifs</b> : maintien de certains ratios financiers (ex. dette nette / EBITDA), fourniture régulière des états financiers, maintien des actionnaires principaux et dirigeants au capital.</li>\n<li><b>Covenants négatifs</b> : encadrement des distributions de dividendes et des endettements additionnels, pas de cessions d'actifs significatifs.</li>\n<li><b>Remboursement anticipé</b> : exigibilité notamment en cas de <b>bris de covenant</b>, souvent renégociée avec le prêteur (qui n'a pas forcément intérêt à provoquer le défaut de l'emprunteur).</li></ul>\n<h4>Sûretés et garanties</h4>\n<ul><li>Enjeu : accroître la <b>solvabilité</b> de l'emprunteur → le créancier dispose d'un <b>accès préférentiel</b> au patrimoine de l'emprunteur ou d'un tiers.</li>\n<li>Efficacité dépendante des conditions de mise en œuvre, en particulier en cas de <b>procédure collective</b> (« faillite ») : le juge peut-il bloquer la mise en œuvre de la sûreté ? Y a-t-il concurrence avec d'autres créanciers ?</li>\n<li>Droit français : très grande diversité (<b>nantissement, hypothèque, cession Dailly, cautionnement</b>…), chacune dotée d'un régime différent et d'une efficacité variable — compliqué et peu flexible.</li>\n<li>Droits étrangers plus efficaces : la « <b>floating charge</b> » UK, garantie flottante sur <b>tout le patrimoine</b> du débiteur — avantage pour le débiteur (libre utilisation et disposition des actifs), avantage pour le créancier (sûreté sur l'ensemble du patrimoine).</li></ul>\n<h4>Typologie des instruments financiers</h4>\n<ul><li><b>Instruments financiers</b> = <b>titres financiers</b> (titres de capital — actions…, titres de créance — obligations…, parts d'OPC) + <b>contrats financiers</b> (produits dérivés reconnus).</li>\n<li><b>Parts sociales</b> : sociétés de personnes et SARL. <b>Actions</b> : sociétés par actions (SA, SAS, SE, SCA).</li>\n<li><b>Valeurs mobilières</b> = titres de capital (droits sociaux) + titres de créance (obligations) ; certaines VM sont « composées ».</li></ul>\n"
   ]
  ],
  "en": [
@@ -54,6 +63,11 @@
    "gouv",
    "S3 · Corporate governance (21 Oct)",
    "\n\n<h4>What is corporate governance?</h4>\n<ul><li>Governance is the way a company is <b>directed, administered and controlled</b>.</li>\n<li><b>Control</b> belongs to the shareholders, to whom the board must account.</li>\n<li><b>Administration</b> belongs to the board (e.g. the conseil d'administration in an SA).</li>\n<li><b>Management</b> belongs to the executive body (e.g. DG and DGD in an SA), which the operational teams report to.</li>\n<li>Plus <b>advisory bodies</b>: audit, remuneration and nomination committees.</li></ul>\n<h4>The purpose of governance</h4>\n<ul><li><b>Shareholder approach</b>: maximising shareholder value; logical and easy to quantify, but often criticised.</li>\n<li><b>Stakeholder approach</b>: the company has a societal role beyond value creation; effectiveness debated (who are the stakeholders? how to arbitrate diverging interests?). For Milton Friedman, a company's responsibility is to be profitable.</li>\n<li><b>Intérêt social</b>: central in many legal systems (including France) but not clearly defined.</li></ul>\n<h4>Sources of the rules</h4>\n<table><tr><th>Source</th><th>What to remember</th></tr>\n<tr><td><b>Laws and regulations</b></td><td>Weight varies by company form: more freedom in a SAS, less in an SA (large companies)</td></tr>\n<tr><td><b>Articles (statuts)</b></td><td>Set the broad lines of governance (majorities, officers' powers), subject to mandatory law</td></tr>\n<tr><td><b>Shareholder agreements</b></td><td>Private arrangements between shareholders; binding on signatories only; public for listed companies</td></tr>\n<tr><td><b>Soft law</b></td><td>Specific to listed companies (e.g. the AFEP-MEDEF code); reputational sanction: \"name and shame\"</td></tr></table>\n<h4>Impact of the ownership structure</h4>\n<ul><li><b>Single shareholder</b>: no particular governance difficulty.</li>\n<li><b>Several shareholders (unlisted)</b> — startups, venture capital, private equity: tailor-made organisation through the articles, frequent use of shareholder agreements, SAS form preferred for its flexibility.</li>\n<li><b>Listed companies</b>: central role of the law and AMF (SEC, FCA) oversight; strict rules (disclosure, takeovers); SA form, less flexible but required. They raise the most critical governance issues.</li></ul>\n<h4>Shareholders: decisions and rights</h4>\n<ul><li><b>Collective decisions at the general meeting</b>: approval of accounts, election of directors, mergers, dissolutions… Ordinary GM: simple majority (default); extraordinary GM: two-thirds majority (rules vary by jurisdiction).</li>\n<li><b>Individual rights</b>: information (questions at the GM, access to company documents), initiative (call a GM from 5% of capital, table resolutions from 0.5% to 5%), litigation (officers' liability via the actio ut singuli, management review).</li>\n<li><b>Quorums and majorities</b>: SARL (old regime) ordinary decisions at 50% quorum on first call then no quorum; SA ordinary GM at one-fifth of voting shares on first call then none; extraordinary GM at one-fourth then one-fifth, two-thirds majority. SAS: freely set by the articles.</li>\n<li><b>Process</b>: convening → agenda → timely information → deliberation → decision (then possible veto and challenge).</li></ul>\n<h4>Shareholder types and conflicts</h4>\n<ul><li>Default rule: <b>one share = one vote</b>; possible exceptions (multiple voting rights, extended by EU law).</li>\n<li>Institutional vs retail; passive (\"buy and hold\") vs active (activists); varied profiles (families, private equity, funds).</li>\n<li><b>Parallel actors</b>: proxy advisors (voting recommendations, crucial for passive investors) and shareholder associations.</li>\n<li><b>Controlling vs minority shareholders</b>: fewer agency costs at board level, but risk of conflicts of interest; <b>abuse of majority</b> claims exist but are restricted to very specific cases; protection varies across jurisdictions.</li></ul>\n<h4>Board and officers</h4>\n<ul><li><b>The board</b> appoints the officers, sets the strategy and oversees their action; it prepares the agenda and convenes the GM.</li>\n<li><b>The officers</b> manage the company (very broad powers): internal leadership, external representation.</li>\n<li><b>A delicate balance</b>: combining chair and CEO (the PDG) gives \"unity of command\" but creates a conflict-of-interest risk.</li></ul>\n<table><tr><th>Form</th><th>Mandatory officers</th><th>Optional officers</th></tr>\n<tr><td><b>SARL</b></td><td>Gérant</td><td>Co-gérant</td></tr>\n<tr><td><b>SA moniste</b></td><td>Directors (3 to 18, 24 in case of merger); chair + CEO, or PDG</td><td>Deputy CEO(s) (DGD)</td></tr>\n<tr><td><b>SA dualiste</b></td><td>Management board (3 to 5, 7 if listed); chair of the board or sole CEO</td><td>CEO, deputy CEO</td></tr>\n<tr><td><b>SAS</b></td><td>Président</td><td>Freely organised by the articles</td></tr></table>\n<h4>Appointment and representation</h4>\n<ul><li><b>Appointment in the articles</b>: in an SNC, all partners are gérants by default.</li>\n<li><b>During the company's life</b>: by the members in general meeting; temporarily by co-optation.</li>\n<li><b>Direct appointment</b> (gérants of partnerships, SAS président, by the meeting or the sole member) or <b>indirect</b> (by the collegial oversight body, board or supervisory board).</li>\n<li><b>External representation</b>: gérant(s) (SARL), PDG/DG (one-tier SA), chair of the management board or sole CEO (two-tier SA), président (SAS).</li>\n<li><b>Delegations of authority</b>: a signatory must hold power to bind the company from a corporate officer (named on the Kbis extract), who may delegate and sub-delegate; the notary \"checks the powers\" (illustration: the Bouygues Immobilier delegation chain).</li></ul>\n<h4>Incentives and oversight</h4>\n<ul><li><b>The carrot</b>: fixed pay (salary) and variable pay (shares, stock options) to align interests with performance.</li>\n<li><b>The stick</b>: political liability (shareholder rights), civil liability (fiduciary duties, variable effectiveness), criminal sanctions (e.g. abus de biens sociaux), and reputation (\"name and shame\" under governance codes).</li>\n<li><b>Other rules</b>: transparency (financial and non-financial disclosure, statutory auditors, sustainability audit), gender balance (40% women on boards), limits on combined offices; co-determination and the crucial role of the CSE in France.</li>\n<li><b>Oversight</b>: courts, the market authority, statutory auditors, specialised committees, oversight bodies (board/supervisory board) and shareholders.</li></ul>\n"
+  ],
+  [
+   "fin",
+   "S4 · Business financing (28 Oct)",
+   "\n<h4>Sources of financing</h4>\n<ul><li>A wide variety, classifiable by <b>instrument</b> (debt, equity, hybrid instruments, self-financing, subsidies), by <b>purpose</b> (short-term funding of working capital, long-term funding of fixed assets, external growth), by <b>lender</b> (bank, investment fund, bond market, crowdfunding) and by <b>borrower</b> (balance-sheet size, solvency).</li>\n<li><b>Listed companies</b> have access to the widest range of financing sources.</li>\n<li><b>Sûreté</b> (security interest): a specific right securing payment of a claim - <b>personal</b> (e.g. cautionnement / guarantee by a person) or <b>real</b> (e.g. hypothèque / mortgage). <b>Garantie</b>: the generic term = sûretés + other mechanisms (e.g. retention-of-title clause).</li></ul>\n<h4>Equity or debt?</h4>\n<table><tr><th>Equity</th><th>Debt</th></tr>\n<tr><td>The <b>riskiest</b> financing for the investor, but with <b>unlimited</b> return → focus: <b>profitability</b>. This is why shareholders control the company.</td><td><b>Variable</b> risk depending on <b>subordination</b>, <b>limited</b> return → focus: <b>solvency</b>.</td></tr></table>\n<h4>Equity financing</h4>\n<ul><li><b>Contributions</b> (in cash or in kind) at incorporation or through a <b>share capital increase</b> → they feed the <b>share capital</b>.</li>\n<li><b>Minimum capital</b> rules in some company forms (notably the French SA): theoretical creditor protection, in practice <b>ineffective</b>.</li>\n<li>A \"comfortable\" source of funding: <b>no legal obligation</b> to pay dividends, but sometimes an <b>economic necessity</b> to stay attractive → signalling effect of a <b>fixed annual dividend</b> (+ <b>share buybacks</b> for variable distributions).</li>\n<li><b>Dilution</b>: shareholders who do not subscribe end up with a smaller share of the total capital → loss of \"political power\".</li>\n<li>Protection of existing shareholders: the <b>pre-emptive subscription right</b> (DPS). Cancelling it requires a <b>reinforced majority</b> of the general meeting <b>and</b> no vote by the beneficiary.</li></ul>\n<h4>Going public (IPO)</h4>\n<ul><li>An <b>offer of securities to the public</b>, generally followed by a <b>stock exchange listing</b>. Benefits: access to <b>new investors</b> and <b>liquidity</b>; drawback: <b>compliance costs</b>. Class illustration: Uber's IPO on the New York Stock Exchange.</li>\n<li>Substantial information must be given to the public: the EU <b>Prospectus Regulation</b>, the US <b>Securities Act 1933</b>.</li>\n<li>Key exceptions: offers to a <b>restricted circle</b> of investors (150 persons max → \"private placement\") or to <b>qualified investors</b> (sophisticated professionals).</li>\n<li>Listed companies: extensive <b>transparency obligations</b>, <b>takeover bid</b> rules (offers to acquire all the capital of a listed company), supervision by the <b>AMF</b> (French markets regulator).</li></ul>\n<h4>Preference shares</h4>\n<ul><li>Shares carrying \"<b>special rights of any kind</b>\" (art. <b>L. 228-11</b> of the Commercial Code) → a departure from the principle of equality among shareholders.</li>\n<li><b>Multiple voting rights</b>: traditionally limited to the <b>SAS</b>, about to be <b>broadly opened</b>, under conditions, to <b>SA</b> companies whether listed or not → driven by EU law (<b>directive 2024/1080</b>).</li>\n<li>Stakes: <b>preserving the founders' control</b> despite dilution (IPO, new investors coming in). Abroad: varying acceptance; frequent in US tech (Meta, Google).</li></ul>\n<h4>Debt financing</h4>\n<ul><li>A very wide <b>variety</b>: <b>bond</b> issues (on the markets or not), classic loans, the recent \"<b>private credit</b>\" phenomenon from non-bank institutions.</li>\n<li><b>Leverage effect</b>: higher return on equity, but <b>higher default risk</b> + a <b>disciplining effect</b> on management.</li>\n<li><b>Tax advantage</b>: interest is deductible. <b>No dilution</b> of shareholders.</li>\n<li>Contractual documentation is central (terms of the claim: interest rate, maturity; creditor protection): creditors do <b>not</b> rely on the law, unlike shareholders (fiduciary duties).</li></ul>\n<h4>Key clauses in debt contracts</h4>\n<ul><li>Core terms: <b>maturity, interest, principal</b>. <b>Subordination</b>: who gets paid first among competing creditors.</li>\n<li><b>Representations and warranties</b> (not to be confused with covenants): statements about the borrower's position - financial situation, pre-existing debt, no ongoing collective (insolvency) proceedings, legal validity of the commitment.</li>\n<li><b>Positive covenants</b>: maintain certain financial ratios (e.g. net debt / EBITDA), deliver financial statements regularly, keep the main shareholders and managers invested.</li>\n<li><b>Negative covenants</b>: limits on dividend distributions and additional debt, no significant asset disposals.</li>\n<li><b>Early repayment</b> (acceleration): the debt becomes due notably on a <b>covenant breach</b>, but is often renegotiated with the lender (who has no real interest in triggering the borrower's default).</li></ul>\n<h4>Security interests and guarantees</h4>\n<ul><li>Purpose: increase the borrower's <b>solvency</b> → the creditor gets <b>preferential access</b> to the assets of the borrower or a third party.</li>\n<li>Effectiveness depends on enforcement conditions, especially in <b>collective (insolvency) proceedings</b>: can the judge block enforcement? Is there competition with other creditors?</li>\n<li>French law: a very wide variety (nantissement / pledge, hypothèque / mortgage, cession Dailly, cautionnement...), each with its own regime and variable effectiveness - complex and inflexible.</li>\n<li>More effective foreign mechanisms: the UK \"<b>floating charge</b>\", a floating security over the debtor's <b>entire assets</b> - good for the debtor (free use and disposal of assets), good for the creditor (security over the whole estate).</li></ul>\n<h4>Types of financial instruments</h4>\n<ul><li><b>Financial instruments</b> = <b>securities</b> (equity securities - shares..., debt securities - bonds..., units in collective investment funds) + <b>financial contracts</b> (recognised derivatives).</li>\n<li><b>Parts sociales</b>: partnerships and the SARL. <b>Actions</b> (shares): companies limited by shares (SA, SAS, SE, SCA).</li>\n<li><b>Valeurs mobilières</b> (transferable securities) = equity securities + debt securities (bonds); some are \"compound\" securities.</li></ul>\n"
   ]
  ],
  "ess": [
@@ -90,6 +104,17 @@
     "Le CA désigne et contrôle les dirigeants ; le PDG cumule présidence et direction : efficacité vs conflits d'intérêts.",
     "SA moniste : 3-18 administrateurs (24 si fusion) ; dualiste : directoire 3-5 (7 si cotée) ; SAS : président ; SNC : tous associés gérants.",
     "Délégations de pouvoirs en chaîne vérifiées sur Kbis ; carotte (rémunération) et bâton (responsabilités, réputation) ; parité 40 % de femmes au CA."
+   ]
+  ],
+  [
+   "fin",
+   [
+    "= Capital : risque maximal pour l'investisseur, gain illimité, focus profitabilité → contrôle par les actionnaires ; dette : rendement limité, risque selon la subordination, focus solvabilité.",
+    "Aucune obligation légale de dividendes, mais signal positif du dividende annuel fixe (+ rachats d'actions) ; dilution des non-souscrivants ; DPS supprimable seulement à la majorité renforcée de l'AG, sans le vote du bénéficiaire.",
+    "IPO : prospectus obligatoire (règlement UE / Securities Act 1933), sauf placement privé (cercle restreint de 150 investisseurs max) ou investisseurs qualifiés ; société cotée = transparence + AMF.",
+    "Actions de préférence (art. L. 228-11 C. com.) : droits particuliers ; droits de vote multiples bientôt ouverts aux SA (directive 2024/1080) pour préserver le contrôle des fondateurs.",
+    "Dette : effet de levier, intérêts déductibles, pas de dilution ; protection du créancier par le contrat (R&W, covenants positifs/négatifs, subordination), pas par la loi.",
+    "Sûreté = droit en garantie d'une créance (personnelle : cautionnement ; réelle : hypothèque) ; « garantie » = terme générique ; floating charge UK = sûreté flottante sur tout le patrimoine du débiteur."
    ]
   ]
  ],
@@ -132,7 +157,7 @@
   "intro": "D'après les slides de la séance 1",
   "struct": "D'après les slides de la séance 2",
   "gouv": "D'après les slides de la séance 3",
-  "fin": "Contenu de référence · slides pas encore publiées",
+  "fin": "D'après les slides de la séance 4",
   "contrat": "Contenu de référence · slides pas encore publiées",
   "conc": "Contenu de référence · slides pas encore publiées",
   "resp": "Contenu de référence · slides pas encore publiées",
@@ -1063,11 +1088,226 @@
    ],
    0,
    "Codétermination et représentation des salariés."
+  ],
+  [
+   "fin",
+   "Quel mode de financement est le plus risqué pour l'investisseur ?",
+   [
+    "La dette obligataire",
+    "Le capital (equity)",
+    "L'autofinancement",
+    "Les subventions"
+   ],
+   1,
+   "Capital = risque maximal mais retour illimité, focus profitabilité ; c'est ce qui explique que les actionnaires contrôlent la société."
+  ],
+  [
+   "fin",
+   "Que deviennent les apports en numéraire ou en nature effectués à la constitution de la société ou lors d'une augmentation de capital ?",
+   [
+    "Ils forment une dette de la société",
+    "Ils sont remboursables au bout de cinq ans",
+    "Ils constituent une réserve indisponible",
+    "Ils contribuent au capital social"
+   ],
+   3,
+   "Les apports alimentent le capital social ; le capital minimal (SA) ne protège les créanciers qu'en théorie."
+  ],
+  [
+   "fin",
+   "Une société est-elle légalement tenue de verser des dividendes ?",
+   [
+    "Oui, dès qu'elle dégage un bénéfice",
+    "Oui, si elle est cotée",
+    "Non : aucune obligation légale, mais parfois une nécessité économique pour rester attractive",
+    "Oui, sauf décision contraire de l'AG"
+   ],
+   2,
+   "Le capital est un financement « confortable » ; un dividende annuel fixe (complété par des rachats d'actions) envoie un signal positif au marché."
+  ],
+  [
+   "fin",
+   "Qu'est-ce que la dilution ?",
+   [
+    "La baisse de participation relative des actionnaires qui ne souscrivent pas à l'augmentation de capital",
+    "La perte de valeur des actifs de la société",
+    "La conversion d'actions en obligations",
+    "Le rachat par la société de ses propres titres"
+   ],
+   0,
+   "Les actionnaires qui ne souscrivent pas perdent du « pouvoir politique »."
+  ],
+  [
+   "fin",
+   "À quoi sert le droit préférentiel de souscription (DPS) ?",
+   [
+    "À renforcer le droit de vote des fondateurs",
+    "À protéger les actionnaires existants contre la dilution",
+    "À garantir le paiement des dividendes",
+    "À prioriser le remboursement des créanciers"
+   ],
+   1,
+   "Le DPS permet aux actionnaires en place de maintenir leur part du capital."
+  ],
+  [
+   "fin",
+   "Comment le DPS peut-il être supprimé ?",
+   [
+    "À la majorité simple de l'AG",
+    "Par décision du conseil d'administration",
+    "Par le tribunal de commerce",
+    "À la majorité renforcée de l'AG, sans le vote du bénéficiaire"
+   ],
+   3,
+   "Double condition : majorité renforcée de l'AG et absence de vote du bénéficiaire."
+  ],
+  [
+   "fin",
+   "Qu'est-ce qu'une IPO ?",
+   [
+    "Une émission d'obligations sur le marché",
+    "Une offre au public de titres, généralement suivie d'une cotation en bourse",
+    "Un prêt syndiqué international",
+    "Une fusion entre deux sociétés cotées"
+   ],
+   1,
+   "Avantages : nouveaux investisseurs et liquidité ; inconvénient : coûts de compliance (illustration du cours : Uber à la bourse de New York)."
+  ],
+  [
+   "fin",
+   "Quels textes encadrent l'information du public lors d'une IPO ?",
+   [
+    "La directive 2024/1080 et le Code de commerce",
+    "Le RGPD et le droit des sociétés",
+    "Le règlement Prospectus (UE) et le Securities Act 1933 (US)",
+    "Aucun texte : la liberté contractuelle suffit"
+   ],
+   2,
+   "Une information substantielle doit être donnée au public avant l'offre."
+  ],
+  [
+   "fin",
+   "Dans quels cas une offre de titres échappe-t-elle au régime complet de l'offre au public ?",
+   [
+    "Quand elle vise un cercle restreint d'investisseurs (150 personnes max → « placement privé ») ou des investisseurs qualifiés",
+    "Quand elle dépasse 1 M€",
+    "Quand elle est faite par une société non cotée",
+    "Quand l'AMF donne son accord préalable"
+   ],
+   0,
+   "Exceptions importantes au prospectus : cercle restreint et investisseurs qualifiés (professionnels avertis)."
+  ],
+  [
+   "fin",
+   "Que sont les actions de préférence ?",
+   [
+    "Des actions réservées aux salariés",
+    "Des obligations convertibles",
+    "Des actions sans droit de vote, interdites en France",
+    "Des actions assorties de « droits particuliers de toute nature » (art. L. 228-11 C. com.), en rupture avec l'égalité de principe entre actionnaires"
+   ],
+   3,
+   "Fondement : article L. 228-11 du Code de commerce."
+  ],
+  [
+   "fin",
+   "Quel est l'enjeu principal des droits de vote multiples, sur le point d'être ouverts aux SA sous l'impulsion de la directive 2024/1080 ?",
+   [
+    "Préserver le contrôle des actionnaires fondateurs malgré leur dilution",
+    "Augmenter mécaniquement les dividendes",
+    "Protéger les créanciers en cas de faillite",
+    "Faciliter les offres publiques hostiles"
+   ],
+   0,
+   "Droits de vote multiples : traditionnellement limités aux SAS ; usage fréquent dans la tech américaine (Meta, Google)."
+  ],
+  [
+   "fin",
+   "Quels sont les effets du financement par la dette sur la société ?",
+   [
+    "Risque réduit et rendement illimité pour les prêteurs",
+    "Effet de levier (rentabilité accrue du capital) mais risque de défaut accru et discipline du management ; intérêts déductibles ; pas de dilution",
+    "Dilution des actionnaires et imposition accrue",
+    "Suppression automatique des covenants"
+   ],
+   1,
+   "L'avantage fiscal vient de la déduction des intérêts ; l'effet de levier accroît la rentabilité... et le risque."
+  ],
+  [
+   "fin",
+   "Sur quoi les créanciers comptent-ils principalement pour se protéger ?",
+   [
+    "Les devoirs fiduciaires des dirigeants",
+    "La loi et les règles d'ordre public",
+    "La documentation contractuelle",
+    "La supervision de l'AMF"
+   ],
+   2,
+   "Les créanciers se protègent par le contrat, contrairement aux actionnaires, protégés par les devoirs fiduciaires."
+  ],
+  [
+   "fin",
+   "Que sont les « representations and warranties » ?",
+   [
+    "Des ratios financiers à maintenir",
+    "Des sûretés réelles sur les actifs",
+    "Des déclarations sur la situation de l'emprunteur (situation financière, endettement préexistant, absence de procédure collective, validité juridique), à ne pas confondre avec les covenants",
+    "Des clauses de remboursement anticipé"
+   ],
+   2,
+   "Les R&W constatent une situation ; les covenants imposent un comportement."
+  ],
+  [
+   "fin",
+   "Lequel de ces engagements est un covenant négatif ?",
+   [
+    "Fournir régulièrement les états financiers au prêteur",
+    "Maintenir un ratio dette nette / EBITDA plafonné",
+    "Maintenir les actionnaires principaux et dirigeants au capital",
+    "Ne pas céder d'actifs significatifs, et encadrer dividendes et endettement additionnel"
+   ],
+   3,
+   "Les covenants négatifs interdisent ; les covenants positifs imposent de faire."
+  ],
+  [
+   "fin",
+   "Qu'est-ce qu'une sûreté réelle ?",
+   [
+    "L'engagement d'une personne de payer à la place du débiteur (ex. cautionnement)",
+    "Un droit portant sur un bien, en garantie du paiement d'une créance (ex. hypothèque)",
+    "Une clause de réserve de propriété",
+    "Une garantie donnée par l'État"
+   ],
+   1,
+   "« Garantie » est le terme générique : sûretés + autres mécanismes comme la clause de réserve de propriété."
+  ],
+  [
+   "fin",
+   "Qu'est-ce que la « floating charge » britannique ?",
+   [
+    "Une obligation convertible en actions",
+    "Un prêt subordonné de dernier rang",
+    "Une sûreté limitée à un immeuble déterminé",
+    "Une sûreté flottante sur tout le patrimoine du débiteur, qui garde la libre disposition de ses actifs"
+   ],
+   3,
+   "Avantage pour le débiteur (libre utilisation des actifs) comme pour le créancier (sûreté d'ensemble)."
+  ],
+  [
+   "fin",
+   "Les titres d'une SARL sont :",
+   [
+    "des actions",
+    "des obligations",
+    "des parts sociales",
+    "des contrats financiers"
+   ],
+   2,
+   "Parts sociales = sociétés de personnes et SARL ; actions = sociétés par actions (SA, SAS, SE, SCA). Les valeurs mobilières = titres de capital + titres de créance."
   ]
  ],
  "cards": [],
  "pending": [
-  "Financement et difficultés",
   "Pratique contractuelle",
   "Concurrence",
   "Responsabilité civile et pénale",
@@ -1077,7 +1317,8 @@
  "sessionDates": {
   "intro": "2026-10-07",
   "struct": "2026-10-14",
-  "gouv": "2026-10-21"
+  "gouv": "2026-10-21",
+  "fin": "2026-10-28"
  },
  "infoContent": [
   {
