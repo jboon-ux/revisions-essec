@@ -6,7 +6,7 @@
  "code": "DEVD31118",
  "lang": "FR",
  "src": true,
- "srcnote": "Chapitres 1 à 4 rédigés à partir des supports des séances 1 à 4 publiés sur Moodle ; plan des séances et modalités tirés des supports et de la répartition des exposés. Les autres supports ne sont pas encore en ligne : ces chapitres présentent les notions de référence du thème annoncé (droit français), à compléter avec les slides harmonisées.",
+ "srcnote": "Chapitres 1 à 5 rédigés à partir des supports des séances 1 à 5 publiés sur Moodle ; plan des séances et modalités tirés des supports et de la répartition des exposés. Les autres supports ne sont pas encore en ligne : ces chapitres présentent les notions de référence du thème annoncé (droit français), à compléter avec les slides harmonisées.",
  "eval": "Examen oral (exposé en groupe) : 40 %. Examen final : QCM pendant la dernière séance, 60 %, sur les slides harmonisées. Participation : jusqu'à +2 points, sans malus.",
  "chapters": [
   [
@@ -24,6 +24,10 @@
   [
    "fin",
    "Financement des entreprises (28 oct.)"
+  ],
+  [
+   "contrat",
+   "Pratique contractuelle (4 nov.)"
   ]
  ],
  "fr": [
@@ -46,6 +50,11 @@
    "fin",
    "S4 · Financement des entreprises (28 oct.)",
    "\n<h4>Les sources de financement</h4>\n<ul><li>Grande diversité, classable selon l'<b>instrument</b> (dette, capital, instruments hybrides, autofinancement, subventions), l'<b>objet</b> (financement court terme d'actif circulant, long terme d'actif immobilisé, croissance externe), le <b>prêteur</b> (banque, fonds d'investissement, marché obligataire, crowdfunding) et l'<b>emprunteur</b> (taille de bilan, solvabilité).</li>\n<li>Les <b>sociétés cotées</b> ont accès à la plus large palette de sources de financement.</li>\n<li><b>Sûreté</b> : droit particulier en garantie du paiement d'une créance — <b>personnelle</b> (ex. cautionnement) ou <b>réelle</b> (ex. hypothèque). <b>Garantie</b> : terme générique = sûretés + autres mécanismes (ex. clause de réserve de propriété).</li></ul>\n<h4>Capital ou dette ?</h4>\n<table><tr><th>Capital (equity)</th><th>Dette</th></tr>\n<tr><td>Mode de financement <b>le plus risqué</b> pour l'investisseur, mais retour <b>illimité</b> → focus : <b>profitabilité</b>. C'est ce qui explique que les actionnaires contrôlent la société.</td><td>Risque <b>variable</b> selon la <b>subordination</b>, retour <b>limité</b> → focus : <b>solvabilité</b>.</td></tr></table>\n<h4>Le financement en capital</h4>\n<ul><li><b>Apports</b> (en numéraire ou en nature) à la constitution de la société ou moyennant une <b>augmentation de capital</b> → contribution au <b>capital social</b>.</li>\n<li><b>Capital minimal</b> dans certaines formes sociales (notamment la SA en France) : protection théorique des créanciers, en réalité <b>inefficace</b>.</li>\n<li>Source de financement « confortable » : <b>aucune obligation légale</b> de payer des dividendes, mais parfois une <b>nécessité économique</b> pour demeurer attractif → effet de signal d'un <b>dividende annuel fixe</b> (+ <b>rachats d'actions</b> pour les distributions variables).</li>\n<li><b>Dilution</b> : les actionnaires qui ne souscrivent pas ont une participation moindre en proportion du capital total → perte de « pouvoir politique ».</li>\n<li>Protection des actionnaires existants : le <b>droit préférentiel de souscription</b> (DPS). Sa suppression exige la <b>majorité renforcée</b> de l'AG <b>et</b> l'absence de vote du bénéficiaire.</li></ul>\n<h4>L'introduction en bourse (IPO)</h4>\n<ul><li><b>Offre au public de titres</b>, généralement suivie d'une <b>introduction en bourse</b> (cotation). Avantages : accès à de <b>nouveaux investisseurs</b> et <b>liquidité</b> ; inconvénient : <b>coûts de compliance</b>. Illustration en séance : l'IPO d'Uber à la bourse de New York.</li>\n<li>Information substantielle à donner au public : <b>règlement Prospectus</b> (UE), <b>Securities Act 1933</b> (US).</li>\n<li>Exceptions importantes : offre à un <b>cercle restreint</b> d'investisseurs (150 personnes max → « placement privé ») ou à des <b>investisseurs qualifiés</b> (professionnels avertis).</li>\n<li>Sociétés cotées : <b>obligations de transparence</b> importantes, droit des <b>offres publiques</b> (offres d'acquérir tout le capital d'une société cotée), supervision par l'<b>AMF</b>.</li></ul>\n<h4>Les actions de préférence</h4>\n<ul><li>Actions assorties de « <b>droits particuliers de toute nature</b> » (art. <b>L. 228-11</b> C. com.) → rupture avec l'égalité de principe entre actionnaires.</li>\n<li><b>Droits de vote multiples</b> : traditionnellement limités aux <b>SAS</b>, sur le point d'être <b>largement ouverts</b> sous certaines conditions aux <b>SA</b> cotées ou non → impulsion du droit européen (<b>directive 2024/1080</b>).</li>\n<li>Enjeu : <b>préserver le contrôle des actionnaires fondateurs</b> malgré leur dilution (IPO, entrée de nouveaux investisseurs). À l'étranger : admission variable ; usage fréquent dans la tech américaine (Meta, Google).</li></ul>\n<h4>Le financement par la dette</h4>\n<ul><li>Très grande <b>diversité</b> : émission d'<b>obligations</b> (sur les marchés ou non), prêts classiques, phénomène récent du « <b>private credit</b> » par des institutions non bancaires.</li>\n<li><b>Effet de levier</b> : rentabilité accrue du capital, mais <b>risque de défaut accru</b> + <b>effet de discipline</b> du management.</li>\n<li><b>Avantage fiscal</b> : déduction des intérêts. <b>Pas de dilution</b> des actionnaires.</li>\n<li>Importance centrale de la <b>documentation contractuelle</b> (modalités de la créance : taux d'intérêt, maturité ; protection du créancier) : les créanciers ne comptent pas sur la loi, contrairement aux actionnaires (devoirs fiduciaires).</li></ul>\n<h4>Les clauses importantes des contrats de dette</h4>\n<ul><li>Socle : <b>maturité, intérêt, montant principal</b>. <b>Subordination</b> : qui est payé en premier entre créanciers concurrents.</li>\n<li><b>Déclarations</b> (« representations and warranties », à ne pas confondre avec les covenants) : situation financière, endettement préexistant, absence de procédure collective en cours, validité juridique de l'engagement.</li>\n<li><b>Covenants positifs</b> : maintien de certains ratios financiers (ex. dette nette / EBITDA), fourniture régulière des états financiers, maintien des actionnaires principaux et dirigeants au capital.</li>\n<li><b>Covenants négatifs</b> : encadrement des distributions de dividendes et des endettements additionnels, pas de cessions d'actifs significatifs.</li>\n<li><b>Remboursement anticipé</b> : exigibilité notamment en cas de <b>bris de covenant</b>, souvent renégociée avec le prêteur (qui n'a pas forcément intérêt à provoquer le défaut de l'emprunteur).</li></ul>\n<h4>Sûretés et garanties</h4>\n<ul><li>Enjeu : accroître la <b>solvabilité</b> de l'emprunteur → le créancier dispose d'un <b>accès préférentiel</b> au patrimoine de l'emprunteur ou d'un tiers.</li>\n<li>Efficacité dépendante des conditions de mise en œuvre, en particulier en cas de <b>procédure collective</b> (« faillite ») : le juge peut-il bloquer la mise en œuvre de la sûreté ? Y a-t-il concurrence avec d'autres créanciers ?</li>\n<li>Droit français : très grande diversité (<b>nantissement, hypothèque, cession Dailly, cautionnement</b>…), chacune dotée d'un régime différent et d'une efficacité variable — compliqué et peu flexible.</li>\n<li>Droits étrangers plus efficaces : la « <b>floating charge</b> » UK, garantie flottante sur <b>tout le patrimoine</b> du débiteur — avantage pour le débiteur (libre utilisation et disposition des actifs), avantage pour le créancier (sûreté sur l'ensemble du patrimoine).</li></ul>\n<h4>Typologie des instruments financiers</h4>\n<ul><li><b>Instruments financiers</b> = <b>titres financiers</b> (titres de capital — actions…, titres de créance — obligations…, parts d'OPC) + <b>contrats financiers</b> (produits dérivés reconnus).</li>\n<li><b>Parts sociales</b> : sociétés de personnes et SARL. <b>Actions</b> : sociétés par actions (SA, SAS, SE, SCA).</li>\n<li><b>Valeurs mobilières</b> = titres de capital (droits sociaux) + titres de créance (obligations) ; certaines VM sont « composées ».</li></ul>\n"
+  ],
+  [
+   "contrat",
+   "S5 · Pratique contractuelle (4 nov.)",
+   "\n<h4>Introduction : analyser un contrat commercial</h4>\n<ul><li>Fil conducteur de la séance : un <b>contrat pétrolier de long terme</b> entre <b>Albpetrol Sh.A.</b> (entreprise détenue par l'État albanais) et <b>Stream Oil &amp; Gas Ltd.</b> (le « Contractor », entreprise privée) — un document volontairement truffé de défaillances.</li>\n<li><b>Objectifs</b> : se familiariser avec des documents juridiques longs et complexes en anglais (langue usuelle) ; identifier les sujets et problèmes centraux d'un contrat quelles que soient les règles applicables ; développer une réflexion prospective sur la fonction du contrat pour anticiper les problèmes.</li>\n<li><b>Préparation</b> : comprendre d'abord la logique du contrat à la lecture (≠ usage immédiat de l'IA), puis repérer ses principaux défauts.</li></ul>\n<h4>Les trois phases du contrat</h4>\n<table><tr><th>Phase</th><th>Contenu</th></tr>\n<tr><td><b>1 · Evaluation Period</b></td><td>Étude de viabilité du projet</td></tr>\n<tr><td><b>2 · Exploration Period</b></td><td>Préparation du terrain (deux sous-phases)</td></tr>\n<tr><td><b>3 · Development &amp; Production Period</b></td><td>Extraction du pétrole et partage des profits — contrat de très long terme une fois l'exploitation confirmée</td></tr></table>\n<ul><li><b>Logique économique</b> : projet risqué, de long terme et à forts enjeux — chaque partie doit protéger ses intérêts et être correctement incitée à chaque phase.</li>\n<li>Le découpage en phases ménage des <b>possibilités de sortie</b> pour éviter d'être bloqué si le passage à la phase suivante est inopportun ou impossible.</li></ul>\n<h4>La structure d'un contrat</h4>\n<table><tr><th>Élément</th><th>Rôle</th></tr>\n<tr><td><b>Préambule</b></td><td>Présente le contexte ; peut aider à l'interprétation mais ne crée pas en soi de droits et obligations</td></tr>\n<tr><td><b>Plan</b></td><td>Présente chaque clause ; aide à comprendre la structure avant d'entrer dans la substance</td></tr>\n<tr><td><b>Clauses (« articles »)</b></td><td>Contiennent l'essence de l'accord des parties (suppléées par les annexes) ; elles <b>priment sur les annexes</b></td></tr>\n<tr><td><b>Annexes</b></td><td>Précisions techniques et templates de documents à produire ; elles font partie intégrante du contrat</td></tr></table>\n<h4>La rédaction</h4>\n<ul><li><b>Clarté</b> : définir les termes importants et les procédures de manière claire et détaillée. Ex. : si un expert doit intervenir — qui le nomme ? dans quel délai ? pour quelle mission ? quelle rémunération payée par qui ? que faire en cas de désaccord sur sa désignation ou si l'expert ne peut accomplir sa mission ?</li>\n<li><b>Logique économique</b> : être clair sur ce que l'on cherche à faire avec le contrat.</li>\n<li><b>Templates et précédents</b> : usage fréquent de documents similaires rédigés par le passé ; <b>les adapter à la situation est essentiel</b> (erreurs fréquentes par réutilisation irréfléchie).</li></ul>\n<h4>Allocation du risque</h4>\n<ul><li>Détermine <b>sur qui pèse le risque</b> si les choses ne se passent pas comme prévu : risque de marché (prix, offre), risque réglementaire (évolution législative défavorable), risque environnemental (catastrophe naturelle)…</li>\n<li>Principe : la partie <b>mieux à même de limiter ou d'absorber le coût du risque</b> doit le supporter.</li>\n<li><b>Mécanismes</b> : clause d'<b>effet significatif défavorable (MAC / MAE)</b> — changements défavorables imprévus affectant sensiblement la capacité d'exécution (définis ou non par la loi comme force majeure : v. séance 6) ; <b>résiliation</b> si l'évènement survient ; <b>indemnisation</b> de la partie supportant le coût par l'autre ; <b>clauses d'ajustement de prix / d'indexation</b> (ex. : quantité à délivrer indexée sur le cours du pétrole).</li></ul>\n<h4>Contrôle de la performance</h4>\n<ul><li><b>Objectifs</b> : garantir la transmission effective d'information entre les parties ; garantir l'exécution autant que possible et anticiper les défauts.</li>\n<li><b>Critères et évènements déclencheurs clairs</b> : ex. franchissement d'un seuil dette/EBITDA déclenchant un mécanisme de contrôle.</li>\n<li><b>Mécanismes</b> : obligations de <b>reporting</b> périodique (états financiers) ou ponctuel (évènement spécifique) ; <b>audit</b> (une partie vérifie l'information de l'autre) ; <b>expertise</b> (expert indépendant pour une mission spécifique : caractériser une défaillance, valoriser un droit…). Essentiel de bien définir ces mécanismes (qui désigne qui, dans quel délai…).</li></ul>\n<h4>Les clauses survivant à la résiliation</h4>\n<ul><li>L'efficacité de certaines clauses dépend de leur <b>survie à la résiliation</b> du contrat (assurer la performance, anticiper les défauts).</li>\n<li><b>Confidentialité</b> : protection des informations sensibles ou propriétaires ; définir le périmètre, les exceptions (domaine public, obligation légale de diffuser) et la durée.</li>\n<li><b>Non-concurrence et non-sollicitation</b> : empêcher une partie d'utiliser connaissances ou contacts acquis dans le contrat pour concurrencer l'autre.</li>\n<li><b>Propriété intellectuelle et savoir-faire</b> : clarifier propriété et droits d'usage sur matériels, logiciels et données partagés — crucial en cas de création jointe d'une nouvelle technologie.</li></ul>\n<h4>Droit applicable, tribunaux compétents, résolution des litiges</h4>\n<ul><li>Le <b>choix du droit applicable</b> et celui des <b>tribunaux compétents</b> peuvent (théoriquement) être <b>dissociés</b>.</li>\n<li>Particulièrement utile dans les contrats internationaux : <b>neutralité</b> (arbitrage ou tribunaux d'un pays « neutre »), <b>compétence</b> (juges et règles adaptés — ex. : droit et tribunaux de l'État de New York pour les emprunts « high-yield ») et <b>prédictibilité</b> (règles de conflit).</li>\n<li><b>Résolution en plusieurs étapes</b> (contrats à exécution successive) ≠ recours immédiat aux tribunaux : notification du défaut → recherche de bonne foi d'une solution consensuelle → médiateur si besoin → tribunaux en dernier recours. Clarté essentielle (qui désigne le médiateur, délais…).</li></ul>\n<h4>Cession et changement de contrôle</h4>\n<ul><li>Importance variable selon que l'<b>identité des parties</b> compte ou non (<i>intuitu personæ</i>) : souvent importante pour une prestation de services, pas pour une vente de bien.</li>\n<li><b>Cession</b> : une partie cède ses droits et obligations à une autre personne (nouveau cocontractant). <b>La loi requiert l'accord de l'autre partie</b> ; le contrat peut préciser les modalités de cet accord. Le cédant peut ou non être <b>libéré des dettes passées</b> (par défaut, il ne l'est pas).</li>\n<li><b>Changement de contrôle</b> : même partie, nouveaux actionnaires — <b>libre par défaut</b> ; le contrat peut exiger l'accord écrit de l'autre partie, voire donner un droit de résiliation.</li></ul>\n"
   ]
  ],
  "en": [
@@ -68,6 +77,11 @@
    "fin",
    "S4 · Business financing (28 Oct)",
    "\n<h4>Sources of financing</h4>\n<ul><li>A wide variety, classifiable by <b>instrument</b> (debt, equity, hybrid instruments, self-financing, subsidies), by <b>purpose</b> (short-term funding of working capital, long-term funding of fixed assets, external growth), by <b>lender</b> (bank, investment fund, bond market, crowdfunding) and by <b>borrower</b> (balance-sheet size, solvency).</li>\n<li><b>Listed companies</b> have access to the widest range of financing sources.</li>\n<li><b>Sûreté</b> (security interest): a specific right securing payment of a claim - <b>personal</b> (e.g. cautionnement / guarantee by a person) or <b>real</b> (e.g. hypothèque / mortgage). <b>Garantie</b>: the generic term = sûretés + other mechanisms (e.g. retention-of-title clause).</li></ul>\n<h4>Equity or debt?</h4>\n<table><tr><th>Equity</th><th>Debt</th></tr>\n<tr><td>The <b>riskiest</b> financing for the investor, but with <b>unlimited</b> return → focus: <b>profitability</b>. This is why shareholders control the company.</td><td><b>Variable</b> risk depending on <b>subordination</b>, <b>limited</b> return → focus: <b>solvency</b>.</td></tr></table>\n<h4>Equity financing</h4>\n<ul><li><b>Contributions</b> (in cash or in kind) at incorporation or through a <b>share capital increase</b> → they feed the <b>share capital</b>.</li>\n<li><b>Minimum capital</b> rules in some company forms (notably the French SA): theoretical creditor protection, in practice <b>ineffective</b>.</li>\n<li>A \"comfortable\" source of funding: <b>no legal obligation</b> to pay dividends, but sometimes an <b>economic necessity</b> to stay attractive → signalling effect of a <b>fixed annual dividend</b> (+ <b>share buybacks</b> for variable distributions).</li>\n<li><b>Dilution</b>: shareholders who do not subscribe end up with a smaller share of the total capital → loss of \"political power\".</li>\n<li>Protection of existing shareholders: the <b>pre-emptive subscription right</b> (DPS). Cancelling it requires a <b>reinforced majority</b> of the general meeting <b>and</b> no vote by the beneficiary.</li></ul>\n<h4>Going public (IPO)</h4>\n<ul><li>An <b>offer of securities to the public</b>, generally followed by a <b>stock exchange listing</b>. Benefits: access to <b>new investors</b> and <b>liquidity</b>; drawback: <b>compliance costs</b>. Class illustration: Uber's IPO on the New York Stock Exchange.</li>\n<li>Substantial information must be given to the public: the EU <b>Prospectus Regulation</b>, the US <b>Securities Act 1933</b>.</li>\n<li>Key exceptions: offers to a <b>restricted circle</b> of investors (150 persons max → \"private placement\") or to <b>qualified investors</b> (sophisticated professionals).</li>\n<li>Listed companies: extensive <b>transparency obligations</b>, <b>takeover bid</b> rules (offers to acquire all the capital of a listed company), supervision by the <b>AMF</b> (French markets regulator).</li></ul>\n<h4>Preference shares</h4>\n<ul><li>Shares carrying \"<b>special rights of any kind</b>\" (art. <b>L. 228-11</b> of the Commercial Code) → a departure from the principle of equality among shareholders.</li>\n<li><b>Multiple voting rights</b>: traditionally limited to the <b>SAS</b>, about to be <b>broadly opened</b>, under conditions, to <b>SA</b> companies whether listed or not → driven by EU law (<b>directive 2024/1080</b>).</li>\n<li>Stakes: <b>preserving the founders' control</b> despite dilution (IPO, new investors coming in). Abroad: varying acceptance; frequent in US tech (Meta, Google).</li></ul>\n<h4>Debt financing</h4>\n<ul><li>A very wide <b>variety</b>: <b>bond</b> issues (on the markets or not), classic loans, the recent \"<b>private credit</b>\" phenomenon from non-bank institutions.</li>\n<li><b>Leverage effect</b>: higher return on equity, but <b>higher default risk</b> + a <b>disciplining effect</b> on management.</li>\n<li><b>Tax advantage</b>: interest is deductible. <b>No dilution</b> of shareholders.</li>\n<li>Contractual documentation is central (terms of the claim: interest rate, maturity; creditor protection): creditors do <b>not</b> rely on the law, unlike shareholders (fiduciary duties).</li></ul>\n<h4>Key clauses in debt contracts</h4>\n<ul><li>Core terms: <b>maturity, interest, principal</b>. <b>Subordination</b>: who gets paid first among competing creditors.</li>\n<li><b>Representations and warranties</b> (not to be confused with covenants): statements about the borrower's position - financial situation, pre-existing debt, no ongoing collective (insolvency) proceedings, legal validity of the commitment.</li>\n<li><b>Positive covenants</b>: maintain certain financial ratios (e.g. net debt / EBITDA), deliver financial statements regularly, keep the main shareholders and managers invested.</li>\n<li><b>Negative covenants</b>: limits on dividend distributions and additional debt, no significant asset disposals.</li>\n<li><b>Early repayment</b> (acceleration): the debt becomes due notably on a <b>covenant breach</b>, but is often renegotiated with the lender (who has no real interest in triggering the borrower's default).</li></ul>\n<h4>Security interests and guarantees</h4>\n<ul><li>Purpose: increase the borrower's <b>solvency</b> → the creditor gets <b>preferential access</b> to the assets of the borrower or a third party.</li>\n<li>Effectiveness depends on enforcement conditions, especially in <b>collective (insolvency) proceedings</b>: can the judge block enforcement? Is there competition with other creditors?</li>\n<li>French law: a very wide variety (nantissement / pledge, hypothèque / mortgage, cession Dailly, cautionnement...), each with its own regime and variable effectiveness - complex and inflexible.</li>\n<li>More effective foreign mechanisms: the UK \"<b>floating charge</b>\", a floating security over the debtor's <b>entire assets</b> - good for the debtor (free use and disposal of assets), good for the creditor (security over the whole estate).</li></ul>\n<h4>Types of financial instruments</h4>\n<ul><li><b>Financial instruments</b> = <b>securities</b> (equity securities - shares..., debt securities - bonds..., units in collective investment funds) + <b>financial contracts</b> (recognised derivatives).</li>\n<li><b>Parts sociales</b>: partnerships and the SARL. <b>Actions</b> (shares): companies limited by shares (SA, SAS, SE, SCA).</li>\n<li><b>Valeurs mobilières</b> (transferable securities) = equity securities + debt securities (bonds); some are \"compound\" securities.</li></ul>\n"
+  ],
+  [
+   "contrat",
+   "S5 · Contract practice (4 Nov)",
+   "\n<h4>Introduction: analyzing a commercial contract</h4>\n<ul><li>Running example of the session: a <b>long-term oil contract</b> between <b>Albpetrol Sh.A.</b> (owned by the Albanian state) and <b>Stream Oil &amp; Gas Ltd.</b> (the \"Contractor\", a private company) — a document deliberately full of flaws.</li>\n<li><b>Goals</b>: get comfortable with long, complex legal documents in English (the usual language); identify the central subjects and problems of a contract whatever rules apply to it; develop forward-looking thinking about the contract's function to anticipate problems.</li>\n<li><b>Preparation</b>: first understand the contract's logic by reading it (≠ immediate use of AI), then spot its main defects.</li></ul>\n<h4>The three phases of the contract</h4>\n<table><tr><th>Phase</th><th>Content</th></tr>\n<tr><td><b>1 · Evaluation Period</b></td><td>Viability study</td></tr>\n<tr><td><b>2 · Exploration Period</b></td><td>Ground preparation (two sub-phases)</td></tr>\n<tr><td><b>3 · Development &amp; Production Period</b></td><td>Oil extraction and profit sharing — a very long-term contract once production is confirmed</td></tr></table>\n<ul><li><b>Economic logic</b>: a risky, long-term, high-stakes project — each party must protect its interests and be properly incentivized at each phase.</li>\n<li>Phasing creates <b>exit options</b> so neither party is stuck when moving to the next phase is unwise or impossible.</li></ul>\n<h4>The structure of a contract</h4>\n<table><tr><th>Element</th><th>Role</th></tr>\n<tr><td><b>Preamble</b></td><td>Sets out the context; may help interpretation but creates no rights or obligations by itself</td></tr>\n<tr><td><b>Table of contents</b></td><td>Lists each clause; helps grasp the structure before diving into substance</td></tr>\n<tr><td><b>Clauses (\"articles\")</b></td><td>Hold the essence of the parties' agreement (supplemented by the appendices); they <b>prevail over the appendices</b></td></tr>\n<tr><td><b>Appendices</b></td><td>Technical details and document templates; they are an integral part of the contract</td></tr></table>\n<h4>Drafting</h4>\n<ul><li><b>Clarity</b>: define important terms and procedures clearly and in detail. E.g. if an expert must step in — who appoints them? within what deadline? for what mission? paid how much by whom? what if the parties disagree on the appointment or the expert cannot perform?</li>\n<li><b>Economic logic</b>: be clear about what the contract is meant to achieve.</li>\n<li><b>Templates and precedents</b>: firms frequently reuse similar past documents; <b>adapting them to the situation is essential</b> (thoughtless reuse is a frequent source of errors).</li></ul>\n<h4>Risk allocation</h4>\n<ul><li>Determines <b>who bears the risk</b> when things do not go as planned: market risk (price, supply), regulatory risk (adverse legal change), environmental risk (natural disaster)…</li>\n<li>Principle: the party <b>best placed to limit or absorb the cost of the risk</b> should bear it.</li>\n<li><b>Mechanisms</b>: <b>material adverse change/effect (MAC/MAE)</b> clause — unforeseen adverse changes materially affecting the ability to perform (whether or not defined by law as force majeure: see session 6); <b>termination</b> right if the event occurs; <b>indemnification</b> of the party bearing the cost by the other; <b>price adjustment/indexation</b> clauses (e.g. quantity to deliver indexed on the oil price).</li></ul>\n<h4>Performance control</h4>\n<ul><li><b>Goals</b>: ensure effective information flow between the parties; secure performance as far as possible and anticipate defaults.</li>\n<li><b>Clear criteria and trigger events</b>: e.g. crossing a debt/EBITDA threshold triggering a control mechanism.</li>\n<li><b>Mechanisms</b>: periodic (financial statements) or event-driven <b>reporting</b> obligations; <b>audit</b> (one party verifies the other's information); <b>expert determination</b> (independent expert for a specific mission: characterizing a failure, valuing a right…). Defining these mechanisms precisely is essential (who appoints whom, deadlines…).</li></ul>\n<h4>Clauses surviving termination</h4>\n<ul><li>The effectiveness of some clauses depends on their <b>surviving termination</b> (securing performance, anticipating defaults).</li>\n<li><b>Confidentiality</b>: protecting sensitive or proprietary information; define scope, exceptions (public domain, legal duty to disclose) and duration.</li>\n<li><b>Non-compete and non-solicitation</b>: preventing a party from using knowledge or contacts gained under the contract to compete with the other.</li>\n<li><b>Intellectual property and know-how</b>: clarifying ownership and usage rights over shared materials, software and data — crucial where the contract gives rise to jointly created technology.</li></ul>\n<h4>Governing law, competent courts, dispute resolution</h4>\n<ul><li>The <b>choice of governing law</b> and of <b>competent courts</b> can (theoretically) be <b>separated</b>.</li>\n<li>Especially useful in international contracts: <b>neutrality</b> (arbitration or courts of a \"neutral\" country), <b>competence</b> (skilled judges and suitable rules — e.g. New York law and courts for high-yield bonds) and <b>predictability</b> (conflict-of-law rules).</li>\n<li><b>Multi-tiered dispute resolution</b> (successive-performance contracts) ≠ immediate recourse to courts: default notice → good-faith search for a consensual solution → mediator if needed → courts as a last resort. Clarity is essential (who appoints the mediator, deadlines…).</li></ul>\n<h4>Assignment and change of control</h4>\n<ul><li>Importance varies with whether the <b>identity of the parties</b> matters (<i>intuitu personæ</i>): often key for services, not for a sale of goods.</li>\n<li><b>Assignment</b>: a party transfers its rights and obligations to another person (a new counterparty). <b>The law requires the other party's consent</b>; the contract can spell out how consent is given. The assignor may or may not be <b>released from past debts</b> (by default, it is not).</li>\n<li><b>Change of control</b>: same party, new shareholders — <b>free by default</b>; the contract can require the other party's written consent or even grant a termination right.</li></ul>\n"
   ]
  ],
  "ess": [
@@ -116,6 +130,19 @@
     "Dette : effet de levier, intérêts déductibles, pas de dilution ; protection du créancier par le contrat (R&W, covenants positifs/négatifs, subordination), pas par la loi.",
     "Sûreté = droit en garantie d'une créance (personnelle : cautionnement ; réelle : hypothèque) ; « garantie » = terme générique ; floating charge UK = sûreté flottante sur tout le patrimoine du débiteur."
    ]
+  ],
+  [
+   "contrat",
+   [
+    "Contrat Albpetrol (État albanais) / Stream Oil & Gas : long terme, 3 phases (évaluation, exploration, développement-production) ménageant des sorties ; document truffé de défauts à repérer.",
+    "Structure : préambule (contexte, pas de droits en soi), plan, clauses (l'essence, priment sur les annexes), annexes (technique + templates).",
+    "Rédaction : clarté des définitions et procédures, logique économique, adapter templates et précédents.",
+    "Allocation du risque : supporté par la partie la mieux à même de le limiter/absorber ; MAC/MAE, résiliation, indemnisation, indexation.",
+    "Contrôle de la performance : critères et déclencheurs clairs (seuil dette/EBITDA), reporting, audit, expertise.",
+    "Clauses survivant à la résiliation : confidentialité (périmètre, exceptions, durée), non-concurrence/non-sollicitation, PI et savoir-faire.",
+    "Droit applicable ≠ tribunaux compétents (neutralité, compétence, prédictibilité) ; litiges en plusieurs étapes (bonne foi → médiation → tribunaux).",
+    "Cession : accord de l'autre partie requis par la loi ; cédant non libéré par défaut. Changement de contrôle : libre par défaut."
+   ]
   ]
  ],
  "infos": [
@@ -158,7 +185,7 @@
   "struct": "D'après les slides de la séance 2",
   "gouv": "D'après les slides de la séance 3",
   "fin": "D'après les slides de la séance 4",
-  "contrat": "Contenu de référence · slides pas encore publiées",
+  "contrat": "D'après les slides de la séance 5",
   "conc": "Contenu de référence · slides pas encore publiées",
   "resp": "Contenu de référence · slides pas encore publiées",
   "litige": "Contenu de référence · slides pas encore publiées"
@@ -1304,11 +1331,226 @@
    ],
    2,
    "Parts sociales = sociétés de personnes et SARL ; actions = sociétés par actions (SA, SAS, SE, SCA). Les valeurs mobilières = titres de capital + titres de créance."
+  ],
+  [
+   "contrat",
+   "Dans un contrat commercial, le préambule…",
+   [
+    "Crée des droits et obligations entre les parties",
+    "Présente le contexte et peut aider à l'interprétation, sans créer de droits en soi",
+    "Prime sur les clauses",
+    "Contient les templates de documents"
+   ],
+   1,
+   "Le préambule contextualise ; seules les clauses (suppléées par les annexes) créent l'accord."
+  ],
+  [
+   "contrat",
+   "En cas de contradiction entre une clause et une annexe,…",
+   [
+    "l'annexe prime",
+    "la clause prime",
+    "la plus récente prime",
+    "le préambule tranche"
+   ],
+   1,
+   "Les clauses contiennent l'essence de l'accord et priment sur les annexes."
+  ],
+  [
+   "contrat",
+   "Sur l'usage des templates et précédents par les cabinets :",
+   [
+    "Ils garantissent un contrat sans défaut",
+    "Ils doivent être adaptés à la situation, sous peine d'erreurs fréquentes",
+    "Ils sont interdits en droit français",
+    "Ils dispensent de définir les procédures"
+   ],
+   1,
+   "La réutilisation irréfléchie des précédents est une source fréquente d'erreurs."
+  ],
+  [
+   "contrat",
+   "Le contrat Albpetrol / Stream Oil & Gas sert d'illustration parce que…",
+   [
+    "c'est un modèle de contrat équilibré",
+    "c'est un contrat long terme à enjeux majeurs comportant de nombreuses défaillances",
+    "il est rédigé en français",
+    "il concerne une introduction en bourse"
+   ],
+   1,
+   "Contrat pétrolier de long terme, truffé de défauts à identifier."
+  ],
+  [
+   "contrat",
+   "Le découpage du projet en phases (évaluation, exploration, développement-production) vise notamment à…",
+   [
+    "éviter tout paiement entre les parties",
+    "ménager des possibilités de sortie si la phase suivante est inopportune",
+    "rendre le contrat plus court",
+    "échapper au droit applicable"
+   ],
+   1,
+   "Chaque partie doit pouvoir sortir plutôt que d'être bloquée dans un projet devenu inopportun."
+  ],
+  [
+   "contrat",
+   "En matière d'allocation du risque, le risque doit en général être supporté par…",
+   [
+    "la partie la plus riche",
+    "la partie mieux à même de limiter ou d'absorber le coût du risque",
+    "l'État",
+    "la partie qui a rédigé le contrat"
+   ],
+   1,
+   "Principe d'efficacité : celui qui contrôle le mieux le risque le porte."
+  ],
+  [
+   "contrat",
+   "Une clause MAC / MAE (effet significatif défavorable) couvre…",
+   [
+    "uniquement la force majeure définie par la loi",
+    "des changements défavorables imprévus affectant sensiblement la capacité d'exécution",
+    "les retards de paiement uniquement",
+    "les changements de dirigeants"
+   ],
+   1,
+   "Elle peut être définie ou non par la loi comme un évènement de force majeure (v. séance 6)."
+  ],
+  [
+   "contrat",
+   "Une clause d'ajustement de prix / d'indexation sert à…",
+   [
+    "fixer un prix immuable",
+    "adapter les conditions d'exécution aux nouvelles circonstances",
+    "pénaliser le cocontractant",
+    "choisir le droit applicable"
+   ],
+   1,
+   "Ex. : quantité à délivrer indexée sur le cours du pétrole."
+  ],
+  [
+   "contrat",
+   "Dans le contrôle de la performance, un « évènement déclencheur » typique serait…",
+   [
+    "la signature du contrat",
+    "le franchissement d'un seuil dette/EBITDA",
+    "le changement de logo",
+    "la fin de l'année civile"
+   ],
+   1,
+   "Des critères et déclencheurs clairs activent reporting, audit ou expertise."
+  ],
+  [
+   "contrat",
+   "La clause d'audit, dans un contrat, permet à une partie de…",
+   [
+    "résilier immédiatement",
+    "vérifier l'information délivrée par l'autre partie",
+    "nommer un médiateur",
+    "céder le contrat"
+   ],
+   1,
+   "Audit ≠ expertise : l'expert est indépendant et reçoit une mission spécifique."
+  ],
+  [
+   "contrat",
+   "Une clause de confidentialité bien rédigée définit…",
+   [
+    "uniquement la durée",
+    "le périmètre, les exceptions et la durée",
+    "uniquement les sanctions",
+    "le droit applicable"
+   ],
+   1,
+   "Exceptions typiques : domaine public, obligation légale de diffuser."
+  ],
+  [
+   "contrat",
+   "Les clauses de non-concurrence et non-sollicitation visent à…",
+   [
+    "empêcher l'utilisation des connaissances ou contacts acquis pour concurrencer l'autre partie",
+    "interdire tout recrutement en France",
+    "fixer les prix",
+    "protéger les marques"
+   ],
+   0,
+   "Elles protègent le savoir-faire et les contacts partagés dans la relation contractuelle."
+  ],
+  [
+   "contrat",
+   "Le choix du droit applicable et celui des tribunaux compétents…",
+   [
+    "sont toujours identiques",
+    "peuvent théoriquement être dissociés",
+    "sont interdits en Europe",
+    "reviennent à l'arbitre"
+   ],
+   1,
+   "Utile en international : neutralité, compétence, prédictibilité."
+  ],
+  [
+   "contrat",
+   "Exemple donné en cours d'association droit/juridiction pertinente :",
+   [
+    "droit et tribunaux de l'État de New York pour les emprunts « high-yield »",
+    "droit albanais pour les contrats pétroliers",
+    "droit français pour toutes les obligations",
+    "tribunaux britanniques pour le cloud"
+   ],
+   0,
+   "Compétence recherchée : juges et règles adaptés à la matière."
+  ],
+  [
+   "contrat",
+   "La résolution des litiges « en plusieurs étapes » suppose typiquement…",
+   [
+    "un recours immédiat aux tribunaux",
+    "notification du défaut, solution consensuelle de bonne foi, médiation, puis tribunaux",
+    "un arbitrage obligatoire dès le départ",
+    "l'absence de toute clause"
+   ],
+   1,
+   "Fréquent dans les contrats à exécution successive ; la clarté des modalités est essentielle."
+  ],
+  [
+   "contrat",
+   "Pour la cession d'un contrat, la loi requiert…",
+   [
+    "aucune formalité",
+    "l'accord de l'autre partie",
+    "l'accord du juge",
+    "un acte notarié"
+   ],
+   1,
+   "Le contrat peut préciser les modalités de cet accord."
+  ],
+  [
+   "contrat",
+   "Après une cession de contrat, le cédant est, par défaut,…",
+   [
+    "libéré de toutes les dettes passées",
+    "non libéré des dettes passées",
+    "tenu de payer une indemnité",
+    "déchu de ses droits futurs uniquement"
+   ],
+   1,
+   "La libération du cédant doit être prévue ; elle n'est pas la règle par défaut."
+  ],
+  [
+   "contrat",
+   "Un changement de contrôle (nouveaux actionnaires) est, par défaut,…",
+   [
+    "interdit",
+    "libre, sauf clause exigeant un accord écrit voire un droit de résiliation",
+    "soumis à autorisation administrative",
+    "impossible dans les contrats de services"
+   ],
+   1,
+   "La question pèse d'autant plus que l'identité des parties importe (intuitu personæ)."
   ]
  ],
  "cards": [],
  "pending": [
-  "Pratique contractuelle",
   "Concurrence",
   "Responsabilité civile et pénale",
   "Règlement des litiges"
@@ -1318,7 +1560,8 @@
   "intro": "2026-10-07",
   "struct": "2026-10-14",
   "gouv": "2026-10-21",
-  "fin": "2026-10-28"
+  "fin": "2026-10-28",
+  "contrat": "2026-11-04"
  },
  "infoContent": [
   {
