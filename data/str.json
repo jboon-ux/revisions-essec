@@ -1,1 +1,1060 @@
-{"id": "str", "name": "Strategy and Management", "short": "Strategy", "prof": "Maxime Brunet", "code": "MGTS31103", "lang": "EN", "src": true, "srcnote": "Slides des séances 1 et 2.", "eval": "Participation individuelle 25 % · quiz intermédiaires et final (Wooclap, individuels) 25 % · présentation finale en groupe 50 %.", "chapters": [["intro", "Introduction à la stratégie (8 oct.)"], ["ext", "Analyse externe (15 oct.)"]], "fr": [["intro", "S1 · Introduction à la stratégie (8 oct.)", "\n<h4>Objectifs du cours</h4>\n<p>La question centrale : <b>pourquoi certaines entreprises réussissent-elles mieux que d'autres ?</b> Trois axes : l'<b>analyse de l'industrie</b> (attractivité et dynamique concurrentielle), l'<b>avantage concurrentiel</b> (le construire et le rendre durable) et les <b>stratégies de croissance</b> (diversification, internationalisation).</p>\n<p>Le parcours : maîtriser les outils de stratégie, les appliquer à des cas réels, développer ses capacités d'analyse (diagnostic, travail en équipe, communication écrite et orale), apprendre à formuler des recommandations et à comprendre les défis de leur mise en œuvre.</p>\n<h4>D'où vient le mot « stratégie »</h4>\n<p>Une origine guerrière : du grec <i>stratos</i> (l'armée) et <i>agein</i> (conduire) ; lecture conseillée : <i>L'Art de la guerre</i> de Sun Tzu.</p>\n<p><b>Azincourt (25 octobre 1415, guerre de Cent Ans)</b> : 9 000 Anglais contre plus de 25 000 Français. Les Français misent sur la cavalerie et les armures lourdes ; les Anglais choisissent une vallée étroite, placent leurs archers sur les flancs derrière des pieux et exploitent la boue contre la cavalerie. Résultat : 7 000 à 10 000 morts français contre 300 à 400 anglais. Une victoire sans supériorité numérique : de la stratégie pure.</p>\n<h4>Quelques définitions</h4>\n<table><tr><th>Auteur</th><th>Définition</th></tr>\n<tr><td>Oxford Dictionary</td><td>Un plan d'action destiné à atteindre un objectif de long terme ou global</td></tr>\n<tr><td>Ghemawat (Harvard)</td><td>L'ensemble intégré de choix qui positionne l'entreprise dans son industrie pour générer des rendements financiers supérieurs</td></tr>\n<tr><td>Porter (HBS)</td><td>La stratégie concurrentielle consiste à être différent : offrir une valeur unique par un ensemble distinct d'activités</td></tr>\n<tr><td>Drucker</td><td>La stratégie, c'est choisir ce qu'on ne fera pas</td></tr>\n<tr><td>Mintzberg</td><td>Des régularités dans un flux de décisions</td></tr>\n<tr><td>Sun Tzu</td><td>La stratégie sans tactique est le chemin le plus lent vers la victoire ; la tactique sans stratégie est le bruit avant la défaite</td></tr></table>\n<p>Fil conducteur : <b>des choix, un positionnement, de la valeur de long terme</b>.</p>\n<h4>La « bonne stratégie » selon Rumelt (<i>Good Strategy / Bad Strategy</i>)</h4>\n<p>La stratégie est un ensemble <b>cohérent</b> d'analyses, de concepts, de politiques, d'arguments et d'actions qui répond à un <b>défi</b> à fort enjeu. Trois étapes :</p>\n<ol><li><b>Diagnostic</b> : quel est le vrai problème à résoudre ?</li><li><b>Guiding policy</b> : l'approche d'ensemble choisie pour y répondre.</li><li><b>Actions cohérentes</b> : des étapes concrètes et coordonnées qui mettent la politique en œuvre.</li></ol>\n<div class=\"ex\"><b>Southwest Airlines (fondée en 1967)</b> : comment exister face aux compagnies installées avec leurs réseaux en étoile et leurs services premium ?<br/>Diagnostic : les gens veulent des vols point à point bon marché ; les trajets courts sont sensibles au temps ; pas besoin de repas.<br/>Guiding policy : être la compagnie la moins chère, sur des routes courtes, avec un service rapide et sans fioritures.<br/>Actions : un seul type d'avion (737), rotations de 15 minutes, pas de sièges attribués, aéroports secondaires.<br/>Résultat : la compagnie la plus rentable du monde dans les années 1990–2000, parce que toutes les actions renforcent le même objectif.</div>\n<h4>Repérer une mauvaise stratégie (Rumelt)</h4>\n<ol><li><b>Ne pas affronter le problème</b> : ignorer les réalités difficiles (ex. les relations sociales chez Harvester).</li>\n<li><b>Confondre objectifs et stratégie</b> : la destination n'est pas le chemin (ex. le plan « 20/20 »).</li>\n<li><b>De mauvais objectifs stratégiques</b> : vagues, non mesurables, déconnectés (ex. un plan régional avec 47 stratégies et 178 actions).</li>\n<li><b>Le « fluff »</b> : des mots à la mode sans direction. Ex. un PDG de banque : « notre stratégie fondamentale est l'intermédiation centrée client » : l'intermédiation, c'est ce que fait une banque, et « centrée client » ne veut rien dire.</li></ol>\n<p>Quatre questions pour tester une stratégie : affronte-t-elle le vrai défi ? Y a-t-il une guiding policy cohérente, pas seulement des objectifs ? Les actions sont-elles coordonnées avec cette politique ? Peut-on expliquer pourquoi chaque choix compte ?</p>\n<table><tr><th>Énoncé</th><th>Verdict du cours</th></tr>\n<tr><td>« Nous serons le leader low-cost de notre marché »</td><td>Pas une stratégie : un objectif (comment ? pourquoi nous ?)</td></tr>\n<tr><td>« Baisser les coûts de 15 % par l'optimisation de la supply chain, la réduction des références et l'automatisation »</td><td>Stratégie : actions concrètes et cohérentes</td></tr>\n<tr><td>« Nous dominerons grâce à un service client supérieur »</td><td>Pas une stratégie : vague, tout le monde le dit</td></tr>\n<tr><td>« Investir en R&amp;D, en marketing et dans de nouveaux marchés »</td><td>Fluff : ni diagnostic ni choix</td></tr>\n<tr><td>« Cibler le segment éco premium, modèle DTC, certification durable et communauté de marque »</td><td>Stratégie : diagnostic, guiding policy, actions cohérentes</td></tr></table>\n<h4>Qu'est-ce qu'une décision stratégique ?</h4>\n<p>Elle répond à des attentes, concerne les orientations de moyen et long terme, vise un avantage concurrentiel, implique une allocation de ressources, influence les décisions opérationnelles, porte sur un périmètre défini, tient compte de l'entreprise, du client et de la concurrence, et implique souvent des transformations.</p>\n<h4>Vision, stratégie, tactique</h4>\n<table><tr><th>Niveau</th><th>Question</th><th>Qui</th><th>Contenu</th></tr>\n<tr><td><b>Vision</b></td><td>Pourquoi</td><td>C-level</td><td>Le problème dans son ensemble : quel métier, quel marché attaquer</td></tr>\n<tr><td><b>Stratégie</b></td><td>Quoi</td><td>Top managers</td><td>Comment l'entreprise orchestre ses activités sur le marché</td></tr>\n<tr><td><b>Tactique</b></td><td>Comment</td><td>Managers de terrain</td><td>Comment opérer dans chaque domaine (R&amp;D, marketing, RH, finance…)</td></tr></table>\n<p><b>Mission</b> : l'offre actuelle, qui nous sommes et ce que nous faisons. <b>Vision</b> : le futur, où nous allons et qui nous serons demain.</p>\n<p>Exercice du cours : « baisser les prix de 15 % », « lancer une campagne sur les réseaux sociaux » et « former l'équipe au service premium » sont des <b>tactiques</b> (le comment) ; « devenir le leader low-cost grâce à l'efficacité de la supply chain » et « construire une communauté de clients éco-responsables » sont des <b>stratégies</b> (direction et choix).</p>\n<h4>Comment se construit une stratégie</h4>\n<ol><li><b>Cadrage</b> : vision, objectifs, mission.</li>\n<li><b>Analyse</b> : externe (PESTEL, analyse de l'industrie, groupes stratégiques, forces de Porter) et interne (ressources clés, compétences, chaîne de valeur).</li>\n<li><b>Présentation</b> : stratégie d'entreprise, carte concurrentielle, gouvernance, responsabilité de l'entreprise.</li>\n<li><b>Organisation</b> : structure, organisation, approche opérationnelle, culture, contrôle, communication, conduite du changement.</li></ol>\n<p>Avec des boucles de retour : informations, ajustements, mises à jour.</p>\n<h4>Changer les règles du jeu</h4>\n<ul><li><b>Le jeu de cartes</b> : on gagne grâce à un adversaire faible, à son talent ou à la valeur de ses cartes… ou en jouant seul : c'est l'<b>océan bleu</b>.</li>\n<li><b>Apple face à IBM</b> : IBM est dans un océan rouge (vitesse du processeur, RAM, disque, clients professionnels, guerre des prix). Steve Jobs choisit le design simple et beau, l'expérience, un public large. iMac (1998) → iPod (2001) → iPhone (2007) → iPad (2010) : « la simplicité bat la complexité, la beauté bat les specs ». Apple ne bat pas IBM à son jeu : elle cesse d'y jouer.</li>\n<li><b>Kennedy et la Lune (1961)</b> : les Soviétiques mènent la course (Spoutnik 1957, Gagarine 1961) avec des ressources limitées. Kennedy redéfinit le jeu : un homme sur la Lune avant 1970, ramené sain et sauf. Apollo 11 (1969) coûte environ 280 milliards de dollars de 2024, soit 3 % du PIB américain pendant 10 ans : un effort industriel que les Soviétiques ne peuvent pas suivre.</li>\n<li>Leçon : on ne bat pas un concurrent sur son terrain ; on redéfinit le jeu pour que ses propres forces deviennent décisives. La vraie stratégie peut paraître absurde à court terme et dominer sur 10 ans.</li>\n<li>Bruce Henderson (BCG) : toute stratégie se heurte au conflit entre objectifs et capacités ; tenter l'impossible n'est pas une bonne stratégie, c'est du gaspillage.</li></ul>\n\n"], ["ext", "S2 · Analyse externe (15 oct.)", "\n\n<h4>Pourquoi commencer par l'extérieur ?</h4>\n<ul><li>Définition retenue (Ghemawat, 2010) : la stratégie est <b>l'ensemble intégré de choix qui positionne l'entreprise dans son industrie pour générer des rendements financiers supérieurs sur le long terme</b>.</li>\n<li>Les choix sont à la firme (quoi offrir, à qui, comment) ; <b>le contexte ne l'est pas</b>. Une position n'existe que relativement aux clients, aux rivaux et aux règles : il faut d'abord les lire.</li>\n<li>La rentabilité dépend de l'attractivité de l'industrie et d'événements que personne ne contrôle.</li></ul>\n<h4>Trois couches, quatre canaux</h4>\n<ul><li><b>Macro-environnement</b> : économie, politique et régulation, société, technologie, environnement, droit. Aucune firme seule ne le contrôle.</li>\n<li><b>Industrie</b> : rivaux, nouveaux entrants, fournisseurs, clients et substituts. C'est là que le profit se partage.</li>\n<li><b>La firme</b> : là où l'extérieur rencontre tes choix.</li>\n<li>L'extérieur atteint le profit par quatre canaux : <b>la demande, les coûts, la concurrence et les règles</b>.</li></ul>\n<h4>Modèle 1 · PESTEL (macro-environnement)</h4>\n<ul><li><b>P</b>olitique, <b>E</b>conomique, <b>S</b>ocial, <b>T</b>echnologique, <b>E</b>nvironnemental, <b>L</b>égal.</li>\n<li>Prioriser avec la matrice <b>impact × prévisibilité</b> : fort impact et prévisible → <b>planifier</b> ; fort impact et incertain → <b>préparer des scénarios</b> ; faible impact et prévisible → <b>surveiller</b> ; faible impact et incertain → <b>mettre de côté</b>.</li>\n<li>Exemples Uber : statut des chauffeurs (légal) et voitures autonomes (technologique) = fort impact incertain ; habitudes à la demande (social), coût du capital (économique), interdictions municipales (politique) ; prix du carburant = faible impact prévisible.</li></ul>\n<h4>Modèle 2 · Les cinq forces de Porter (industrie)</h4>\n<p>Qui capture le profit ? <b>Plus les forces sont fortes, plus le potentiel de profit de l'industrie est faible.</b></p>\n<table><tr><th>Force</th><th>Forte quand…</th><th>Exemple</th></tr>\n<tr><td><b>Nouveaux entrants</b></td><td>Entrée bon marché, marques faibles, distribution facile d'accès</td><td>Marques de mode en ligne</td></tr>\n<tr><td><b>Fournisseurs</b></td><td>Peu de fournisseurs, pas d'intrant de substitution, changement coûteux</td><td>Fondeurs de puces et constructeurs auto</td></tr>\n<tr><td><b>Clients</b></td><td>Peu de gros clients, produits semblables, changement facile</td><td>Supermarchés face aux marques alimentaires</td></tr>\n<tr><td><b>Substituts</b></td><td>Un produit différent répond au même besoin à prix comparable</td><td>Streaming plutôt que cinéma</td></tr>\n<tr><td><b>Rivalité</b></td><td>Nombreux acteurs égaux, croissance lente, coûts fixes élevés, peu de différenciation</td><td>Opérateurs télécoms</td></tr></table>\n<h4>Application : les cinq forces d'Uber</h4>\n<ul><li><b>Fournisseurs : moyenne</b> — les chauffeurs sont nombreux et peu formés, mais multi-équipés (Lyft, Bolt, taxis) : Uber paie des bonus pour garder l'offre ; les règles européennes sur le statut des chauffeurs pourraient renchérir les coûts.</li>\n<li><b>Nouveaux entrants : moyenne</b> — effets de réseau et années de subventions dissuadent, mais les robotaxis (Waymo, Tesla) pourraient entrer avec un avantage de coût.</li>\n<li><b>Clients : forte</b> — changement d'appli en quelques secondes, sans coût ; comparaison des prix ; Uber One tente de les verrouiller.</li>\n<li><b>Rivalité : forte</b> — Lyft aux US, Bolt en Europe, DiDi et Grab en Asie ; guerre des prix et des bonus, pas de différenciation produit.</li>\n<li><b>Substituts : moyenne</b> — taxis, transports en commun, vélos, voiture personnelle ; la conduite autonome pourrait remplacer le modèle.</li>\n<li><b>Conclusion</b> : industrie peu attractive ; Uber profite de son échelle et de son écosystème (courses, Eats, Uber One).</li></ul>\n<h4>Modèle 3 · SWOT (la firme dans son contexte)</h4>\n<ul><li><b>Forces et faiblesses : internes</b> — tu les contrôles (ce que tu fais mieux ou moins bien que tes rivaux).</li>\n<li><b>Opportunités et menaces : externes</b> — tu ne les contrôles pas ; elles viennent du PESTEL et des cinq forces.</li>\n<li>Quatre combinaisons : <b>F+O</b> (utiliser ses forces pour saisir l'opportunité), <b>f+O</b> (corriger une faiblesse pour saisir une chance), <b>F+M</b> (utiliser ses forces face à un danger), <b>f+M</b> (réduire son exposition là où une faiblesse rencontre une menace).</li>\n<li><b>Un SWOT ne vaut que s'il débouche sur des choix.</b></li>\n<li>Chez Uber : forces (leader hors Chine, appli unique courses/livraison/fret, données et Uber One) ; faiblesses (chauffeurs non salariés = risque juridique, marges fines, image) ; opportunités (partenariats robotaxis, livraison au-delà de la nourriture, publicité in-app) ; menaces (statut des chauffeurs, robotaxis en propre, guerres de prix locales). Option F+O : devenir la plateforme de demande des flottes de robotaxis avant qu'elles ne construisent la leur.</li></ul>\n<h4>Cas Wooclap : l'industrie aérienne</h4>\n<ul><li><b>Partie 1, 2019</b> — duopole Airbus-Boeing ; carburant et personnel comme premiers coûts ; comparaison des prix en ligne en quelques secondes ; avions et créneaux coûteux et fixes (un siège vide ne rapporte rien) ; trains et voitures en substituts sur les courtes distances. Le diagnostic cinq forces pointe vers le <b>low cost</b>.</li>\n<li><b>La réponse Southwest / Ryanair</b> : un seul type d'avion, routes point-à-point sans hub, rotations rapides et aéroports moins chers, sans fioritures (extras payants). Résultat : <b>47 ans de profit consécutif chez Southwest (1973-2019)</b>, pendant que United, US Airways, Delta, Northwest et American passaient par le Chapter 11 entre 2002 et 2011.</li>\n<li><b>Partie 2, mars 2020</b> — fermeture des frontières, avions cloués au sol, trafic mondial en chute de plus de 90 % au pire du premier confinement.</li>\n<li><b>Ce qui s'est passé</b> : sauvetage (États en soutien — Air France-KLM, Lufthansa — avec des conditions, ex. climatiques), cash (les bilans solides comme Ryanair ont gagné des parts), réinvention (flottes réduites, avions en cargo, recentrage sur le loisir et le domestique).</li></ul>\n<h4>Enseignements</h4>\n<ul><li>Un diagnostic pointe vers une position (les cinq forces montraient où le profit était pressé → low cost).</li>\n<li>Une bonne position peut quand même être frappée : <b>aucune analyse n'élimine les chocs extérieurs</b>, elle aide seulement à les voir venir.</li>\n<li><b>La résilience est un choix stratégique</b> : cash, flexibilité et options décident de qui s'en sort.</li>\n<li>L'analyse externe n'est pas un exercice ponctuel : c'est la façon de garder ses choix à jour.</li>\n<li>Rappel du cadre : la stratégie <b>intentionnelle</b> devient stratégie <b>réalisée et émergente</b> via les leviers de mise en œuvre (structure, systèmes et processus, personnes et récompenses) et le leadership stratégique.</li></ul>\n"]], "en": [["intro", "S1 · Introduction to strategy (8 Oct)", "\n<h4>Course objectives</h4>\n<p>The central question: <b>why do some companies perform better than others?</b> Three themes: <b>industry analysis</b> (attractiveness and competitive dynamics), <b>competitive advantage</b> (building and sustaining it) and <b>growth strategies</b> (diversification, internationalisation).</p>\n<p>Learning journey: master strategy tools, apply them to real cases, develop analytical skills (diagnosis, peer collaboration, written and oral communication), and practise formulating recommendations while understanding implementation challenges.</p>\n<h4>Where the word comes from</h4>\n<p>A military origin: Greek <i>stratos</i> (army) and <i>agein</i> (to lead); recommended reading: Sun Tzu, <i>The Art of War</i>.</p>\n<p><b>Agincourt (25 October 1415, Hundred Years' War)</b>: 9,000 English against more than 25,000 French. The French rely on cavalry and heavy armour; the English choose a narrow valley, place archers on the flanks behind stakes and use the mud against the cavalry. Result: 7,000–10,000 French dead against 300–400 English. Victory without overwhelming force: pure strategy.</p>\n<h4>Some definitions</h4>\n<table><tr><th>Author</th><th>Definition</th></tr>\n<tr><td>Oxford Dictionary</td><td>A plan of action designed to achieve a long-term or overall aim</td></tr>\n<tr><td>Ghemawat (Harvard)</td><td>The integrated set of choices that positions the business in its industry so as to generate superior financial returns</td></tr>\n<tr><td>Porter (HBS)</td><td>Competitive strategy is about being different: delivering unique value through a distinct set of activities</td></tr>\n<tr><td>Drucker</td><td>Strategy is about choosing what not to do</td></tr>\n<tr><td>Mintzberg</td><td>Patterns in streams of decisions</td></tr>\n<tr><td>Sun Tzu</td><td>Strategy without tactics is the slowest route to victory; tactics without strategy is the noise before defeat</td></tr></table>\n<p>Common thread: <b>choices, positioning, long-term value</b>.</p>\n<h4>Good strategy according to Rumelt (<i>Good Strategy / Bad Strategy</i>)</h4>\n<p>Strategy is a <b>coherent</b> set of analyses, concepts, policies, arguments and actions that responds to a high-stakes <b>challenge</b>. Three steps:</p>\n<ol><li><b>Diagnosis</b>: what is the real problem to solve?</li><li><b>Guiding policy</b>: the overall approach chosen to tackle it.</li><li><b>Coherent actions</b>: concrete, coordinated steps that carry out the policy.</li></ol>\n<div class=\"ex\"><b>Southwest Airlines (founded 1967)</b>: how to compete with incumbents' hub-and-spoke networks and premium services?<br/>Diagnosis: people want cheap point-to-point flights; short trips are time-sensitive; no need for meals.<br/>Guiding policy: be the lowest-cost airline on short routes with fast, no-frills service.<br/>Actions: a single aircraft type (737), 15-minute turnarounds, no assigned seats, secondary airports.<br/>Result: the world's most profitable airline in the 1990s–2000s, because every action reinforces the same goal.</div>\n<h4>Spotting bad strategy (Rumelt)</h4>\n<ol><li><b>Failure to face the problem</b>: ignoring difficult realities (e.g. Harvester labour relations).</li>\n<li><b>Mistaking goals for strategy</b>: the destination is not the path (e.g. the \"20/20\" plan).</li>\n<li><b>Bad strategic objectives</b>: vague, unmeasurable, disconnected (e.g. a regional plan with 47 strategies and 178 actions).</li>\n<li><b>Fluff</b>: buzzwords without direction. E.g. a bank CEO: \"our fundamental strategy is one of customer-centric intermediation\": intermediation is what a bank does, and \"customer-centric\" is pure fluff.</li></ol>\n<p>Four questions to test a strategy: does it confront the real challenge? Is there a coherent guiding policy, not just goals? Are actions coordinated with the policy? Can you explain why each choice matters?</p>\n<table><tr><th>Statement</th><th>Verdict in class</th></tr>\n<tr><td>\"We will definitively be the low-cost leader in our market\"</td><td>Not strategy: an objective (how? why us?)</td></tr>\n<tr><td>\"Lower costs 15% via supply chain optimisation, SKU reduction and automation\"</td><td>Strategy: concrete, coherent actions</td></tr>\n<tr><td>\"We will dominate through superior customer service\"</td><td>Not strategy: vague, everyone claims it</td></tr>\n<tr><td>\"Invest in R&amp;D, marketing and new geographic markets\"</td><td>Fluff: no diagnosis, no choice</td></tr>\n<tr><td>\"Focus on the premium eco segment, DTC model, sustainability certification and brand community\"</td><td>Strategy: diagnosis, guiding policy, coherent actions</td></tr></table>\n<h4>What is a strategic decision?</h4>\n<p>It meets expectations, concerns medium/long-term orientations, aims at a competitive advantage, involves resource allocation, influences operational decisions, covers a defined scope, considers the Company, the Customer and the Competition, and often involves transformation.</p>\n<h4>Vision, strategy, tactics</h4>\n<table><tr><th>Level</th><th>Question</th><th>Who</th><th>Content</th></tr>\n<tr><td><b>Vision</b></td><td>Why</td><td>C-level</td><td>The whole problem: which business, which market to attack</td></tr>\n<tr><td><b>Strategy</b></td><td>What</td><td>Top managers</td><td>How the company orchestrates its activities in the market</td></tr>\n<tr><td><b>Tactics</b></td><td>How</td><td>Field managers</td><td>How to operate within each domain (R&amp;D, marketing, HR, finance…)</td></tr></table>\n<p><b>Mission</b>: the current offer, who we are and what we do. <b>Vision</b>: the future, where we are going and who we will be.</p>\n<p>Class exercise: \"lower prices 15%\", \"launch a social media campaign\" and \"train the team on premium service\" are <b>tactics</b> (the how); \"become the low-cost leader via supply chain efficiency\" and \"build an eco-conscious customer community\" are <b>strategies</b> (direction and choices).</p>\n<h4>How a strategy is defined</h4>\n<ol><li><b>Framing</b>: vision, objectives, mission.</li>\n<li><b>Analysis</b>: external (PESTEL, industry analysis, strategic groups, Porter's forces) and internal (key resources, competencies, value chain).</li>\n<li><b>Presentation</b>: corporate strategy, competition map, governance, corporate responsibility.</li>\n<li><b>Organisation</b>: structure, organisation, operating approach, culture, control, communication, change management.</li></ol>\n<p>With feedback loops: information, adjustments, updates.</p>\n<h4>Changing the game</h4>\n<ul><li><b>The card game</b>: you win thanks to a weak opponent, your talent or the value of your cards… or by playing alone: the <b>blue ocean</b>.</li>\n<li><b>Apple vs IBM</b>: IBM is in a red ocean (processor speed, RAM, hard drive, business customers, price war). Steve Jobs chooses simple, beautiful design, the experience, a broad audience. iMac (1998) → iPod (2001) → iPhone (2007) → iPad (2010): \"simplicity beats complexity, beauty beats specs\". Apple did not beat IBM at IBM's game; it stopped playing it.</li>\n<li><b>Kennedy and the Moon (1961)</b>: the Soviets lead the space race (Sputnik 1957, Gagarin 1961) with limited resources. Kennedy redefines the game: a man on the Moon before 1970, returned safely. Apollo 11 (1969) cost about USD 280 billion in 2024 dollars, 3% of US GDP for 10 years: an industrial effort the Soviets could not match.</li>\n<li>Lesson: you do not beat a competitor on its terms; you redefine the game so your strengths become decisive. Real strategy can look stupid in the short term and dominate over 10 years.</li>\n<li>Bruce Henderson (BCG): every strategy meets a conflict between objectives and capabilities; attempting the impossible is not good strategy, just a waste of resources.</li></ul>\n\n"], ["ext", "S2 · External analysis (15 Oct)", "\n\n<h4>Why start outside the firm?</h4>\n<ul><li>The definition used (Ghemawat, 2010): strategy is <b>the integrated set of choices that positions the business in its industry so as to generate superior financial returns over the long run</b>.</li>\n<li>The choices are yours (what to offer, to whom, how); <b>the context is not</b>. A position only exists relative to customers, rivals and rules: read them first.</li>\n<li>Returns depend on how profitable the industry is, and on events nobody controls.</li></ul>\n<h4>Three layers, four channels</h4>\n<ul><li><b>Macro-environment</b>: economy, politics and regulation, society, technology, environment, law. No single firm controls it.</li>\n<li><b>Industry</b>: rivals, new entrants, suppliers, buyers and substitutes. This is where profit gets shared out.</li>\n<li><b>Your firm</b>: where the outside meets your choices.</li>\n<li>The outside reaches your profit through four channels: <b>demand, costs, competition and rules</b>.</li></ul>\n<h4>Model 1 · PESTEL (macro-environment)</h4>\n<ul><li><b>P</b>olitical, <b>E</b>conomic, <b>S</b>ocial, <b>T</b>echnological, <b>E</b>nvironmental, <b>L</b>egal.</li>\n<li>Prioritise with the <b>impact × predictability</b> matrix: high impact and predictable → <b>plan for it</b>; high impact and uncertain → <b>prepare scenarios</b>; low impact and predictable → <b>monitor</b>; low impact and uncertain → <b>set aside</b>.</li>\n<li>Uber examples: driver status (legal) and self-driving cars (technological) = high impact, uncertain; on-demand habits (social), cost of capital (economic), city bans (political); fuel prices = low impact, predictable.</li></ul>\n<h4>Model 2 · Porter's Five Forces (industry)</h4>\n<p>Who captures the profit? <b>The stronger the forces, the lower the industry's profit potential.</b></p>\n<table><tr><th>Force</th><th>Strong when…</th><th>Example</th></tr>\n<tr><td><b>New entrants</b></td><td>Entry is cheap, brands are weak, distribution is easy to reach</td><td>Online fashion brands</td></tr>\n<tr><td><b>Suppliers</b></td><td>Few suppliers, no substitute inputs, switching is costly</td><td>Chip makers selling to carmakers</td></tr>\n<tr><td><b>Buyers</b></td><td>Few large buyers, products look alike, switching is easy</td><td>Supermarkets buying from food brands</td></tr>\n<tr><td><b>Substitutes</b></td><td>A different product meets the same need at a similar price</td><td>Streaming instead of cinema</td></tr>\n<tr><td><b>Rivalry</b></td><td>Many equal players, slow growth, high fixed costs, little differentiation</td><td>Telecom operators</td></tr></table>\n<h4>Application: Uber's Five Forces</h4>\n<ul><li><b>Suppliers: medium</b> — drivers are many and need little training, but they multi-home (Lyft, Bolt, taxis), so Uber pays bonuses to keep supply; EU platform-work rules could raise costs.</li>\n<li><b>New entrants: medium</b> — network effects and years of subsidies deter new apps, but robotaxis (Waymo, Tesla) could enter with a cost advantage.</li>\n<li><b>Buyers: high</b> — riders switch apps in seconds at no cost and compare prices; Uber One tries to lock them in.</li>\n<li><b>Rivalry: high</b> — Lyft in the US, Bolt in Europe, DiDi and Grab in Asia; competition on price and driver bonuses, not product.</li>\n<li><b>Substitutes: medium</b> — taxis, public transport, bikes, scooters, own car; driverless rides could replace the model.</li>\n<li><b>Takeaway</b>: the industry is unattractive; Uber profits from its scale and ecosystem (rides, Eats, Uber One).</li></ul>\n<h4>Model 3 · SWOT (the firm in its context)</h4>\n<ul><li><b>Strengths and weaknesses: internal</b> — you control them (what you do better or worse than rivals).</li>\n<li><b>Opportunities and threats: external</b> — you do not control them; they come from PESTEL and the Five Forces.</li>\n<li>Four combinations: <b>S+O</b> (use strengths to seize opportunities), <b>W+O</b> (fix a gap to seize a chance), <b>S+T</b> (use strengths to face a danger), <b>W+T</b> (reduce exposure where a gap meets a danger).</li>\n<li><b>A SWOT only matters if it ends in choices.</b></li>\n<li>Uber: strengths (leader outside China, one app for rides/delivery/freight, data and Uber One); weaknesses (non-employee drivers = legal risk, thin margins, brand); opportunities (robotaxi partnerships, delivery beyond food, in-app ads); threats (driver status rules, stand-alone robotaxi apps, local price wars). S+O option: become the demand platform for robotaxi fleets before they build their own.</li></ul>\n<h4>Wooclap case: the airline industry</h4>\n<ul><li><b>Part 1, 2019</b> — Airbus-Boeing duopoly; fuel and staff the biggest costs; fares compared online in seconds; costly, fixed planes and slots (an empty seat earns nothing); trains and cars as substitutes on short routes. The Five Forces diagnosis points to <b>low cost</b>.</li>\n<li><b>The Southwest / Ryanair answer</b>: one aircraft type, point-to-point routes without hubs, fast turnarounds and cheaper airports, no frills (paid extras). Result: <b>47 consecutive profitable years at Southwest (1973-2019)</b>, while United, US Airways, Delta, Northwest and American each went through Chapter 11 between 2002 and 2011.</li>\n<li><b>Part 2, March 2020</b> — borders closed, planes grounded, global traffic down more than 90% at the worst of the first lockdown.</li>\n<li><b>What happened</b>: rescue (state support for Air France-KLM and Lufthansa, with conditions such as climate commitments), cash (strong balance sheets like Ryanair took share), reinvention (fleets cut, planes moved to cargo, networks refocused on leisure and domestic routes).</li></ul>\n<h4>Takeaways</h4>\n<ul><li>A diagnosis points to a position (the Five Forces showed where profit was squeezed → low cost).</li>\n<li>A good position can still be hit: <b>no analysis removes outside shocks</b>; it only helps you see them coming.</li>\n<li><b>Resilience is a strategic choice</b>: cash, flexibility and options decide who comes out ahead.</li>\n<li>External analysis is not a one-off: it is how you keep your choices current.</li>\n<li>Framework recap: <b>intended</b> strategy becomes <b>realised and emergent</b> strategy through implementation levers (structure, systems and processes, people and rewards) and strategic leadership.</li></ul>\n"]], "ess": [["intro", ["Question centrale : pourquoi certaines entreprises réussissent-elles mieux que d'autres ?", "Stratégie : du grec stratos (armée) + agein (conduire) ; définitions d'Oxford, Ghemawat, Porter, Drucker, Mintzberg, Sun Tzu → choix, positionnement, valeur de long terme.", "Rumelt : diagnostic → guiding policy → actions cohérentes (ex. Southwest Airlines).", "Mauvaise stratégie : ne pas affronter le problème, confondre objectifs et stratégie, mauvais objectifs, fluff.", "Vision (pourquoi, C-level) → stratégie (quoi, top management) → tactique (comment, terrain).", "Changer les règles du jeu : Apple (océan bleu), Azincourt, Kennedy et la Lune."]], ["ext", ["Analyse externe : les choix sont à la firme, le contexte non. Trois couches : macro (PESTEL), industrie (5 forces), firme.", "Quatre canaux vers le profit : demande, coûts, concurrence, règles.", "PESTEL : prioriser par impact × prévisibilité (planifier, scénarios, surveiller, mettre de côté).", "Cinq forces : entrants, fournisseurs, clients, substituts, rivalité ; plus elles sont fortes, moins l'industrie est profitable.", "SWOT : interne (forces, faiblesses) vs externe (opportunités, menaces, issues du PESTEL et des 5 forces) ; utile seulement s'il finit en choix.", "Uber : clients et rivalité forts → industrie peu attractive ; profit par l'échelle et l'écosystème ; option F+O : plateforme de demande des robotaxis.", "Cas aérien : low cost (un seul avion, point-à-point, rotations rapides) = 47 ans de profit Southwest ; Covid : trafic -90 %, la résilience est un choix (cash, flexibilité, options).", "Stratégie intentionnelle → réalisée et émergente (leviers : structure, systèmes, personnes)."]]], "infos": [["Évaluation", ["Participation individuelle : 25 % (commentaires écrits possibles après chaque séance ; interventions non préparées = négatives).", "Quiz intermédiaires et final, individuels : 25 % (Wooclap en classe, mi-parcours, quiz final).", "Présentation finale en groupe : 50 % (la slide de détail indique 25 % : faire préciser)."]], ["Projet de groupe", ["Groupe de 3 ou 4 ; présentation de 15 à 20 minutes sur les perspectives stratégiques d'une entreprise de votre choix.", "Envoyer un mail au professeur avant la séance 3 (22 octobre) pour faire valider l'entreprise.", "Contenu : situation actuelle, marché et concurrence, ressources et capacités, défis et opportunités, recommandations à la direction.", "Déposer les slides avant la dernière séance ; présentations les 3 et 10 décembre."]], ["Règles", ["Être à l'heure (les retards font perdre des points de participation), chevalet nominatif devant soi.", "Téléphones et ordinateurs rangés quand c'est demandé.", "IA autorisée mais exigences plus élevées : le professeur vérifiera que vous comprenez ce que vous dites."]], ["Programme", ["S1 (8/10) Introduction à la stratégie · S2 (15/10) Analyse externe · S3 (22/10) Analyse interne · S4 Business level strategy (29/10 selon les slides ; MyESSEC prévoit plutôt un samedi 28/11 à 16h30).", "S5 (5/11) Plateformes · S6 (12/11) Frontières de la firme : M&A · S7 (19/11) Stratégie et enjeux sociétaux · S8 (26/11) Stratégie et business models.", "S9–S10 (3 et 10/12) : présentations de groupe."]]], "basis": {"intro": "D'après les slides de la séance 1", "ext": "D'après les slides de la séance 2", "int": "Contenu de référence · slides pas encore publiées", "bus": "Contenu de référence · slides pas encore publiées", "plat": "Contenu de référence · slides pas encore publiées", "ma": "Contenu de référence · slides pas encore publiées", "soc": "Contenu de référence · slides pas encore publiées", "bm": "Contenu de référence · slides pas encore publiées"}, "badge": "Supports Moodle", "qcm": [["intro", "« Devenir le n°1 mondial de notre secteur d'ici 2030 » : selon Rumelt, c'est…", ["Une tactique", "Une bonne stratégie", "Confondre un objectif avec une stratégie", "Un diagnostic"], 2, "La destination n'est pas le chemin."], ["intro", "Un plan régional comportant 47 stratégies et 178 actions illustre…", ["De mauvais objectifs stratégiques (vagues, déconnectés)", "Un océan bleu", "Une stratégie cohérente", "Une tactique"], 0, "Exemple des slides."], ["intro", "Une entreprise ignore la montée d'un concurrent low-cost dans son plan. Quel signe de mauvaise stratégie ?", ["Confondre objectifs et stratégie", "Ne pas affronter le problème", "Aucun", "Le fluff"], 1, "Ignorer les réalités difficiles."], ["intro", "« Augmenter de 20 % le budget publicitaire sur Instagram » est…", ["Une stratégie", "Une vision", "Une mission", "Une tactique"], 3, "Le comment, au niveau opérationnel."], ["intro", "« Nous fabriquons des stylos haut de gamme vendus en Europe » décrit…", ["La mission", "La vision", "Un diagnostic", "Une tactique"], 0, "Mission : ce que nous faisons aujourd'hui ; vision : qui nous serons demain."], ["intro", "Southwest Airlines : quel était le diagnostic ?", ["Les clients veulent des repas à bord", "Il faut une flotte variée", "Les clients veulent des vols point à point bon marché ; les trajets courts sont sensibles au temps", "Il faut des hubs"], 2, "Puis guiding policy (low cost, routes courtes) et actions cohérentes."], ["intro", "Quelle question permet de vérifier qu'une stratégie est réelle selon le cours ?", ["Les actions sont-elles coordonnées avec une guiding policy qui répond au vrai défi ?", "Plaît-elle aux actionnaires ?", "Est-elle ambitieuse ?", "Est-elle chiffrée ?"], 0, "Les quatre questions du diagnostic."], ["intro", "Lequel n'est PAS une caractéristique d'une décision stratégique selon le cours ?", ["Elle tient compte de l'entreprise, du client et de la concurrence", "Elle vise un avantage concurrentiel", "Elle engage des ressources", "Elle concerne le très court terme"], 3, "Elle concerne les orientations de moyen et long terme."], ["intro", "Pour Bruce Henderson (BCG), toute stratégie se heurte à un conflit entre…", ["Actionnaires et salariés", "Court et long terme", "Prix et coûts", "Objectifs et capacités de l'entreprise"], 3, "Tenter l'impossible est un gaspillage de ressources."], ["intro", "Dans le jeu de cartes des slides, « jouer seul » correspond à…", ["L'océan bleu", "La différenciation", "La tactique", "La domination par les coûts"], 0, "Changer de jeu plutôt que battre l'adversaire sur son terrain."], ["intro", "Lequel décrit une bonne stratégie selon Rumelt ?", ["« Cibler le segment éco premium, modèle DTC, certification et communauté de marque »", "« Être le leader low-cost »", "« Nous dominerons grâce à un service client supérieur »", "« Investir en R&D, marketing et nouveaux marchés »"], 0, "Diagnostic, guiding policy et actions cohérentes."], ["intro", "Quelle est la question centrale du cours de Strategy ?", ["Comment recruter ?", "Comment fixer un prix ?", "Pourquoi certaines entreprises réussissent-elles mieux que d'autres ?", "Comment lever des fonds ?"], 2, "Elle structure les trois axes : industrie, avantage concurrentiel, croissance."], ["intro", "D'où vient le mot « stratégie » ?", ["De l'anglais strategy", "De l'arabe", "Du latin strata (couche)", "Du grec stratos (armée) et agein (conduire)"], 3, "Une origine guerrière ; lecture conseillée : Sun Tzu."], ["intro", "À Azincourt (1415), qu'ont fait les Anglais pour l'emporter à 1 contre 3 ?", ["Recruter des mercenaires", "Attaquer de nuit", "Négocier une trêve", "Choisir un terrain étroit, placer les archers sur les flancs et exploiter la boue contre la cavalerie"], 3, "Ils ont transformé le nombre et les armures françaises en handicaps."], ["intro", "« La stratégie, c'est choisir ce qu'on ne fera pas » est attribué à…", ["Ghemawat", "Drucker", "Mintzberg", "Porter"], 1, "Chaque définition insiste sur les choix."], ["intro", "Pour Porter, la stratégie concurrentielle consiste à…", ["Être le moins cher", "Être différent : offrir une valeur unique par un ensemble distinct d'activités", "Copier le leader", "Croître vite"], 1, "Définition citée dans les slides (HBS)."], ["intro", "Mintzberg définit la stratégie comme…", ["Des régularités dans un flux de décisions", "Un objectif chiffré", "Un plan écrit", "Un budget"], 0, "Stratégie observée dans les décisions successives."], ["intro", "Les trois étapes d'une bonne stratégie selon Rumelt :", ["Objectifs, moyens, résultats", "Vision, mission, valeurs", "Analyse, budget, contrôle", "Diagnostic, guiding policy, actions cohérentes"], 3, "Tiré de Good Strategy / Bad Strategy."], ["intro", "Dans l'exemple Southwest Airlines, laquelle est une action cohérente avec la guiding policy ?", ["Des repas gratuits à bord", "Une classe affaires", "Un seul type d'avion (737)", "Des hubs internationaux"], 2, "Aussi : rotations de 15 minutes, pas de sièges attribués, aéroports secondaires."], ["intro", "« Nous serons le leader low-cost de notre marché » est, selon le cours…", ["Une stratégie", "Une tactique", "Une vision", "Un objectif, pas une stratégie"], 3, "Il manque le comment et le pourquoi nous."], ["intro", "« Notre stratégie fondamentale est l'intermédiation centrée client » illustre…", ["Le fluff", "Une bonne stratégie", "Un diagnostic", "Une tactique"], 0, "L'intermédiation, c'est le métier de toute banque ; « centré client » ne veut rien dire."], ["intro", "Lequel n'est PAS un signe de mauvaise stratégie selon Rumelt ?", ["Ne pas affronter le problème", "Le fluff", "Des actions coordonnées autour d'une politique", "Confondre objectifs et stratégie"], 2, "C'est au contraire le signe d'une bonne stratégie."], ["intro", "« Baisser les prix de 15 % » est classé comme…", ["Une stratégie", "Une mission", "Une tactique", "Une vision"], 2, "C'est un moyen d'exécution, pas une direction."], ["intro", "Dans le modèle vision / stratégie / tactique, la stratégie répond à…", ["Quand, au niveau du conseil", "Comment, au niveau du terrain", "Pourquoi, au niveau du C-level", "Quoi, au niveau du top management"], 3, "La vision est le pourquoi, la tactique le comment."], ["intro", "Quelle différence entre mission et vision ?", ["Aucune", "Mission : le futur ; vision : le présent", "Mission : l'offre actuelle, qui nous sommes ; vision : où nous allons", "La mission est chiffrée"], 2, "Définitions des slides."], ["intro", "Quelle étape de construction d'une stratégie comprend PESTEL et les forces de Porter ?", ["Présentation", "Analyse", "Organisation", "Cadrage"], 1, "L'analyse est externe (PESTEL, industrie) et interne (ressources, chaîne de valeur)."], ["intro", "Pourquoi le pari de Kennedy sur la Lune est-il une stratégie brillante selon le cours ?", ["Il était bon marché", "Il a été décidé en 1969", "Les Soviétiques n'étaient pas intéressés", "Il a choisi un terrain où les ressources industrielles, que les Soviétiques n'avaient pas, étaient décisives"], 3, "Apollo 11 : environ 3 % du PIB américain pendant 10 ans."], ["intro", "Ce qu'Apple a fait face à IBM correspond à…", ["Une guerre des prix", "Une stratégie d'océan bleu : ne plus jouer au jeu des specs", "Une imitation", "Une fusion"], 1, "Simplicité et design plutôt que vitesse du processeur."], ["intro", "Selon Bruce Henderson (BCG), tenter l'impossible…", ["Est nécessaire", "Est la meilleure stratégie", "Motive les équipes", "N'est pas une bonne stratégie, c'est un gaspillage de ressources"], 3, "La stratégie se heurte au conflit entre objectifs et capacités."], ["ext", "Selon Ghemawat (2010), la stratégie est…", ["Un plan à 5 ans", "L'ensemble intégré de choix qui positionne l'entreprise pour des rendements supérieurs à long terme", "Une vision inspirante", "Une analyse financière"], 1, "Définition de départ de la séance."], ["ext", "Pourquoi l'analyse stratégique commence-t-elle par l'extérieur ?", ["Parce que c'est plus simple", "Parce qu'une position n'existe que relativement aux clients, rivaux et règles", "Parce que l'intérieur ne change jamais", "Par tradition académique"], 1, "Les choix sont à la firme ; le contexte ne l'est pas."], ["ext", "Quelle couche aucune firme seule ne contrôle ?", ["L'industrie", "La macro-environnement", "La firme", "Le marché"], 1, "Économie, politique, société, technologie, environnement, droit."], ["ext", "Par quels canaux l'extérieur atteint-il le profit ?", ["Demande, coûts, concurrence, règles", "Prix, qualité, service, marque", "Clients, salariés, actionnaires, État", "Offre, demande, prix, marge"], 0, "Quatre canaux."], ["ext", "Lequel ne fait PAS partie du PESTEL ?", ["Politique", "Économique", "Concurrentiel", "Légal"], 2, "La concurrence relève des cinq forces (industrie)."], ["ext", "Facteur à fort impact et incertain : que faire ?", ["Planifier", "Préparer des scénarios", "Surveiller", "Mettre de côté"], 1, "Matrice impact × prévisibilité."], ["ext", "Facteur à faible impact et prévisible : que faire ?", ["Planifier", "Préparer des scénarios", "Surveiller", "L'ignorer totalement"], 2, "Ex. : le prix du carburant pour Uber."], ["ext", "Le pouvoir des fournisseurs est fort quand…", ["Ils sont nombreux", "Peu de fournisseurs, pas d'intrants de substitution, changement coûteux", "Les clients sont fidèles", "L'industrie croît vite"], 1, "Ex. : fondeurs de puces et constructeurs automobiles."], ["ext", "Un substitut est…", ["Un concurrent direct", "Un produit différent qui répond au même besoin à prix comparable", "Un fournisseur intégré", "Une marque blanche"], 1, "Ex. : streaming plutôt que cinéma."], ["ext", "La rivalité est forte quand…", ["Deux firmes dominent", "Nombreux acteurs égaux, croissance lente, coûts fixes élevés, peu de différenciation", "Les entrants sont bloqués", "Les clients sont captifs"], 1, "Ex. : opérateurs télécoms."], ["ext", "Chez Uber, quelles forces sont fortes ?", ["Fournisseurs et entrants", "Clients et rivalité", "Substituts et fournisseurs", "Aucune"], 1, "Changement d'appli sans coût ; guerre des prix avec Lyft, Bolt, DiDi."], ["ext", "Pourquoi le pouvoir des fournisseurs (chauffeurs) d'Uber n'est-il que moyen ?", ["Ils sont salariés", "Nombreux et peu formés, mais multi-équipés, d'où des bonus pour garder l'offre", "Uber fixe leurs salaires", "Ils n'ont aucune alternative"], 1, "Multi-homing sur Lyft, Bolt et applis de taxi."], ["ext", "Conclusion des cinq forces appliquées à Uber…", ["Industrie attractive, entrer vite", "Industrie peu attractive ; Uber profite de son échelle et de son écosystème", "Industrie morte", "Forces toutes faibles"], 1, "Rides, Eats, Uber One."], ["ext", "Dans un SWOT, opportunités et menaces viennent…", ["De l'analyse interne", "Du PESTEL et des cinq forces", "Des états financiers", "Des RH"], 1, "L'externe alimente le bas de la matrice."], ["ext", "La combinaison Forces + Opportunités consiste à…", ["Réduire son exposition", "Utiliser ce qu'on fait de mieux pour saisir ce que le marché offre", "Corriger une faiblesse", "Ignorer les menaces"], 1, "F+O."], ["ext", "Un SWOT est utile seulement si…", ["Il est complet", "Il débouche sur des choix", "Il est validé par le board", "Il est chiffré"], 1, "Sinon, ce n'est qu'une liste."], ["ext", "L'option F+O suggérée pour Uber est…", ["Racheter Lyft", "Devenir la plateforme de demande des flottes de robotaxis", "Quitter l'Europe", "Salarier tous les chauffeurs"], 1, "Avant que les robotaxis ne construisent leur propre appli."], ["ext", "En 2019, le pouvoir des fournisseurs des compagnies aériennes était fort parce que…", ["Le kérosène était gratuit", "Duopole Airbus-Boeing sur les gros avions de ligne", "Les pilotes étaient nombreux", "Les aéroports étaient gratuits"], 1, "Deux constructeurs se partagent le marché."], ["ext", "La recette low cost de Southwest et Ryanair…", ["Hubs et long-courrier", "Un seul type d'avion, point-à-point, rotations rapides, sans fioritures", "Classes premium uniquement", "Alliances mondiales"], 1, "Extras payants, aéroports moins chers."], ["ext", "Combien d'années de profit consécutif pour Southwest (1973-2019) ?", ["10", "25", "47", "60"], 2, "Pendant que les grandes compagnies US passaient par le Chapter 11."], ["ext", "Au pire du premier confinement (2020), le trafic aérien mondial a chuté de…", ["30 %", "50 %", "Plus de 90 %", "10 %"], 2, "Frontières fermées, avions cloués au sol."], ["ext", "L'enseignement principal du cas aérien…", ["Le low cost gagne toujours", "Aucune analyse n'élimine les chocs ; la résilience (cash, flexibilité, options) est un choix stratégique", "L'État ne doit jamais intervenir", "Le long-courrier est mort"], 1, "L'analyse externe est un exercice continu."], ["ext", "La stratégie réalisée diffère de l'intentionnelle à cause…", ["Des erreurs de calcul", "Des leviers de mise en œuvre : structure, systèmes et processus, personnes et récompenses", "Du hasard seulement", "Des actionnaires"], 1, "Stratégie émergente (cadre conceptuel du cours)."]], "cards": [], "pending": ["Analyse interne", "Business level strategy", "Plateformes", "Frontières de la firme : M&A", "Stratégie et enjeux sociétaux", "Stratégie et business models"], "exams": [], "sessionDates": {"intro": "2026-10-08", "ext": "2026-10-15"}, "infoContent": [{"title": "Programme et règles du cours", "fr": "<h4>Programme</h4>\n<table><tr><th>Séance</th><th>Thème</th></tr>\n<tr><td>1 · 8 oct.</td><td>Introduction à la stratégie</td></tr><tr><td>2 · 15 oct.</td><td>Analyse externe</td></tr><tr><td>3 · 22 oct.</td><td>Analyse interne</td></tr><tr><td>4 · 29 oct. selon les slides</td><td>Business level strategy (MyESSEC ne prévoit pas de cours le 29/10 mais un samedi 28/11 à 16h30)</td></tr>\n<tr><td>5 · 5 nov.</td><td>Management stratégique des plateformes</td></tr><tr><td>6 · 12 nov.</td><td>Frontières de la firme : M&amp;A</td></tr><tr><td>7 · 19 nov.</td><td>Stratégie et enjeux sociétaux</td></tr><tr><td>8 · 26 nov.</td><td>Stratégie et business models</td></tr>\n<tr><td>9–10 · 3 et 10 déc.</td><td>Présentations de groupe</td></tr></table>\n<h4>Règles du cours et IA</h4>\n<ul><li>Être à l'heure (les retards font perdre des points de participation), rester respectueux et professionnel, chevalet nominatif devant soi, téléphones et ordinateurs rangés quand c'est demandé.</li>\n<li>L'IA est un outil qu'il serait dommage de ne pas utiliser, à condition de ne pas lui « sous-traiter son cerveau » : objectif clair avant de l'utiliser, questions précises, esprit critique et usage responsable. Les attentes du professeur seront plus élevées et il vérifiera que vous comprenez ce que vous dites.</li></ul>\n", "en": "<h4>Course agenda</h4>\n<table><tr><th>Session</th><th>Topic</th></tr>\n<tr><td>1 · 8 Oct.</td><td>Introduction to strategy</td></tr><tr><td>2 · 15 Oct.</td><td>External analysis</td></tr><tr><td>3 · 22 Oct.</td><td>Internal analysis</td></tr><tr><td>4 · 29 Oct. per the slides</td><td>Business level strategy (MyESSEC shows no class on 29/10 but a Saturday session on 28/11 at 4:30 pm)</td></tr>\n<tr><td>5 · 5 Nov.</td><td>Strategic management of platform businesses</td></tr><tr><td>6 · 12 Nov.</td><td>Firm boundaries: M&amp;A</td></tr><tr><td>7 · 19 Nov.</td><td>Strategy and societal issues</td></tr><tr><td>8 · 26 Nov.</td><td>Strategy and business models</td></tr>\n<tr><td>9–10 · 3 and 10 Dec.</td><td>Group presentations</td></tr></table>\n<h4>Rules and AI</h4>\n<ul><li>Be on time (late arrivals lose participation points), stay respectful and professional, display your name tag, put phones and laptops away when asked.</li>\n<li>AI is a tool and not using it would be a mistake, but do not outsource your brain: define your purpose, ask precise questions, think critically and use it responsibly. Expectations will be higher, and the lecturer will check that you understand what you say.</li></ul>\n"}, {"title": "Supports et préparation", "fr": "<h4>S1 · Introduction à la stratégie (8 oct.)</h4><p class=\"note\">La séance s'est terminée par un premier cas, Alaska Gold Mine, dont le contenu n'est pas dans les slides publiées.</p><h4>S2 · Analyse externe (15 oct.)</h4><p class=\"note\">Séance 2 du 15 octobre, slides publiées sur Moodle : analyse externe (PESTEL, cinq forces, SWOT) et cas Wooclap sur l'industrie aérienne. Le début du deck terminait le cas Alaska Gold Mine et le cadre conceptuel de la séance 1.</p>", "en": "<h4>S1 · Introduction to strategy (8 Oct)</h4><p class=\"note\">The session ended with a first case, Alaska Gold Mine, whose content is not in the published slides.</p><h4>S2 · External analysis (15 Oct)</h4><p class=\"note\">Session 2 of 15 Oct., slides published on Moodle: external analysis (PESTEL, Five Forces, SWOT) and the Wooclap airline case. The deck opened by finishing the Alaska Gold Mine case and the Session 1 conceptual framework.</p>"}]}
+{
+ "id": "str",
+ "name": "Strategy and Management",
+ "short": "Strategy",
+ "prof": "Maxime Brunet",
+ "code": "MGTS31103",
+ "lang": "EN",
+ "src": true,
+ "srcnote": "Slides des séances 1 à 3.",
+ "eval": "Participation individuelle 25 % · quiz intermédiaires et final (Wooclap, individuels) 25 % · présentation finale en groupe 50 %.",
+ "chapters": [
+  [
+   "intro",
+   "Introduction à la stratégie (8 oct.)"
+  ],
+  [
+   "ext",
+   "Analyse externe (15 oct.)"
+  ],
+  [
+   "int",
+   "Analyse interne (22 oct.)"
+  ]
+ ],
+ "fr": [
+  [
+   "intro",
+   "S1 · Introduction à la stratégie (8 oct.)",
+   "\n<h4>Objectifs du cours</h4>\n<p>La question centrale : <b>pourquoi certaines entreprises réussissent-elles mieux que d'autres ?</b> Trois axes : l'<b>analyse de l'industrie</b> (attractivité et dynamique concurrentielle), l'<b>avantage concurrentiel</b> (le construire et le rendre durable) et les <b>stratégies de croissance</b> (diversification, internationalisation).</p>\n<p>Le parcours : maîtriser les outils de stratégie, les appliquer à des cas réels, développer ses capacités d'analyse (diagnostic, travail en équipe, communication écrite et orale), apprendre à formuler des recommandations et à comprendre les défis de leur mise en œuvre.</p>\n<h4>D'où vient le mot « stratégie »</h4>\n<p>Une origine guerrière : du grec <i>stratos</i> (l'armée) et <i>agein</i> (conduire) ; lecture conseillée : <i>L'Art de la guerre</i> de Sun Tzu.</p>\n<p><b>Azincourt (25 octobre 1415, guerre de Cent Ans)</b> : 9 000 Anglais contre plus de 25 000 Français. Les Français misent sur la cavalerie et les armures lourdes ; les Anglais choisissent une vallée étroite, placent leurs archers sur les flancs derrière des pieux et exploitent la boue contre la cavalerie. Résultat : 7 000 à 10 000 morts français contre 300 à 400 anglais. Une victoire sans supériorité numérique : de la stratégie pure.</p>\n<h4>Quelques définitions</h4>\n<table><tr><th>Auteur</th><th>Définition</th></tr>\n<tr><td>Oxford Dictionary</td><td>Un plan d'action destiné à atteindre un objectif de long terme ou global</td></tr>\n<tr><td>Ghemawat (Harvard)</td><td>L'ensemble intégré de choix qui positionne l'entreprise dans son industrie pour générer des rendements financiers supérieurs</td></tr>\n<tr><td>Porter (HBS)</td><td>La stratégie concurrentielle consiste à être différent : offrir une valeur unique par un ensemble distinct d'activités</td></tr>\n<tr><td>Drucker</td><td>La stratégie, c'est choisir ce qu'on ne fera pas</td></tr>\n<tr><td>Mintzberg</td><td>Des régularités dans un flux de décisions</td></tr>\n<tr><td>Sun Tzu</td><td>La stratégie sans tactique est le chemin le plus lent vers la victoire ; la tactique sans stratégie est le bruit avant la défaite</td></tr></table>\n<p>Fil conducteur : <b>des choix, un positionnement, de la valeur de long terme</b>.</p>\n<h4>La « bonne stratégie » selon Rumelt (<i>Good Strategy / Bad Strategy</i>)</h4>\n<p>La stratégie est un ensemble <b>cohérent</b> d'analyses, de concepts, de politiques, d'arguments et d'actions qui répond à un <b>défi</b> à fort enjeu. Trois étapes :</p>\n<ol><li><b>Diagnostic</b> : quel est le vrai problème à résoudre ?</li><li><b>Guiding policy</b> : l'approche d'ensemble choisie pour y répondre.</li><li><b>Actions cohérentes</b> : des étapes concrètes et coordonnées qui mettent la politique en œuvre.</li></ol>\n<div class=\"ex\"><b>Southwest Airlines (fondée en 1967)</b> : comment exister face aux compagnies installées avec leurs réseaux en étoile et leurs services premium ?<br/>Diagnostic : les gens veulent des vols point à point bon marché ; les trajets courts sont sensibles au temps ; pas besoin de repas.<br/>Guiding policy : être la compagnie la moins chère, sur des routes courtes, avec un service rapide et sans fioritures.<br/>Actions : un seul type d'avion (737), rotations de 15 minutes, pas de sièges attribués, aéroports secondaires.<br/>Résultat : la compagnie la plus rentable du monde dans les années 1990–2000, parce que toutes les actions renforcent le même objectif.</div>\n<h4>Repérer une mauvaise stratégie (Rumelt)</h4>\n<ol><li><b>Ne pas affronter le problème</b> : ignorer les réalités difficiles (ex. les relations sociales chez Harvester).</li>\n<li><b>Confondre objectifs et stratégie</b> : la destination n'est pas le chemin (ex. le plan « 20/20 »).</li>\n<li><b>De mauvais objectifs stratégiques</b> : vagues, non mesurables, déconnectés (ex. un plan régional avec 47 stratégies et 178 actions).</li>\n<li><b>Le « fluff »</b> : des mots à la mode sans direction. Ex. un PDG de banque : « notre stratégie fondamentale est l'intermédiation centrée client » : l'intermédiation, c'est ce que fait une banque, et « centrée client » ne veut rien dire.</li></ol>\n<p>Quatre questions pour tester une stratégie : affronte-t-elle le vrai défi ? Y a-t-il une guiding policy cohérente, pas seulement des objectifs ? Les actions sont-elles coordonnées avec cette politique ? Peut-on expliquer pourquoi chaque choix compte ?</p>\n<table><tr><th>Énoncé</th><th>Verdict du cours</th></tr>\n<tr><td>« Nous serons le leader low-cost de notre marché »</td><td>Pas une stratégie : un objectif (comment ? pourquoi nous ?)</td></tr>\n<tr><td>« Baisser les coûts de 15 % par l'optimisation de la supply chain, la réduction des références et l'automatisation »</td><td>Stratégie : actions concrètes et cohérentes</td></tr>\n<tr><td>« Nous dominerons grâce à un service client supérieur »</td><td>Pas une stratégie : vague, tout le monde le dit</td></tr>\n<tr><td>« Investir en R&amp;D, en marketing et dans de nouveaux marchés »</td><td>Fluff : ni diagnostic ni choix</td></tr>\n<tr><td>« Cibler le segment éco premium, modèle DTC, certification durable et communauté de marque »</td><td>Stratégie : diagnostic, guiding policy, actions cohérentes</td></tr></table>\n<h4>Qu'est-ce qu'une décision stratégique ?</h4>\n<p>Elle répond à des attentes, concerne les orientations de moyen et long terme, vise un avantage concurrentiel, implique une allocation de ressources, influence les décisions opérationnelles, porte sur un périmètre défini, tient compte de l'entreprise, du client et de la concurrence, et implique souvent des transformations.</p>\n<h4>Vision, stratégie, tactique</h4>\n<table><tr><th>Niveau</th><th>Question</th><th>Qui</th><th>Contenu</th></tr>\n<tr><td><b>Vision</b></td><td>Pourquoi</td><td>C-level</td><td>Le problème dans son ensemble : quel métier, quel marché attaquer</td></tr>\n<tr><td><b>Stratégie</b></td><td>Quoi</td><td>Top managers</td><td>Comment l'entreprise orchestre ses activités sur le marché</td></tr>\n<tr><td><b>Tactique</b></td><td>Comment</td><td>Managers de terrain</td><td>Comment opérer dans chaque domaine (R&amp;D, marketing, RH, finance…)</td></tr></table>\n<p><b>Mission</b> : l'offre actuelle, qui nous sommes et ce que nous faisons. <b>Vision</b> : le futur, où nous allons et qui nous serons demain.</p>\n<p>Exercice du cours : « baisser les prix de 15 % », « lancer une campagne sur les réseaux sociaux » et « former l'équipe au service premium » sont des <b>tactiques</b> (le comment) ; « devenir le leader low-cost grâce à l'efficacité de la supply chain » et « construire une communauté de clients éco-responsables » sont des <b>stratégies</b> (direction et choix).</p>\n<h4>Comment se construit une stratégie</h4>\n<ol><li><b>Cadrage</b> : vision, objectifs, mission.</li>\n<li><b>Analyse</b> : externe (PESTEL, analyse de l'industrie, groupes stratégiques, forces de Porter) et interne (ressources clés, compétences, chaîne de valeur).</li>\n<li><b>Présentation</b> : stratégie d'entreprise, carte concurrentielle, gouvernance, responsabilité de l'entreprise.</li>\n<li><b>Organisation</b> : structure, organisation, approche opérationnelle, culture, contrôle, communication, conduite du changement.</li></ol>\n<p>Avec des boucles de retour : informations, ajustements, mises à jour.</p>\n<h4>Changer les règles du jeu</h4>\n<ul><li><b>Le jeu de cartes</b> : on gagne grâce à un adversaire faible, à son talent ou à la valeur de ses cartes… ou en jouant seul : c'est l'<b>océan bleu</b>.</li>\n<li><b>Apple face à IBM</b> : IBM est dans un océan rouge (vitesse du processeur, RAM, disque, clients professionnels, guerre des prix). Steve Jobs choisit le design simple et beau, l'expérience, un public large. iMac (1998) → iPod (2001) → iPhone (2007) → iPad (2010) : « la simplicité bat la complexité, la beauté bat les specs ». Apple ne bat pas IBM à son jeu : elle cesse d'y jouer.</li>\n<li><b>Kennedy et la Lune (1961)</b> : les Soviétiques mènent la course (Spoutnik 1957, Gagarine 1961) avec des ressources limitées. Kennedy redéfinit le jeu : un homme sur la Lune avant 1970, ramené sain et sauf. Apollo 11 (1969) coûte environ 280 milliards de dollars de 2024, soit 3 % du PIB américain pendant 10 ans : un effort industriel que les Soviétiques ne peuvent pas suivre.</li>\n<li>Leçon : on ne bat pas un concurrent sur son terrain ; on redéfinit le jeu pour que ses propres forces deviennent décisives. La vraie stratégie peut paraître absurde à court terme et dominer sur 10 ans.</li>\n<li>Bruce Henderson (BCG) : toute stratégie se heurte au conflit entre objectifs et capacités ; tenter l'impossible n'est pas une bonne stratégie, c'est du gaspillage.</li></ul>\n\n"
+  ],
+  [
+   "ext",
+   "S2 · Analyse externe (15 oct.)",
+   "\n\n<h4>Pourquoi commencer par l'extérieur ?</h4>\n<ul><li>Définition retenue (Ghemawat, 2010) : la stratégie est <b>l'ensemble intégré de choix qui positionne l'entreprise dans son industrie pour générer des rendements financiers supérieurs sur le long terme</b>.</li>\n<li>Les choix sont à la firme (quoi offrir, à qui, comment) ; <b>le contexte ne l'est pas</b>. Une position n'existe que relativement aux clients, aux rivaux et aux règles : il faut d'abord les lire.</li>\n<li>La rentabilité dépend de l'attractivité de l'industrie et d'événements que personne ne contrôle.</li></ul>\n<h4>Trois couches, quatre canaux</h4>\n<ul><li><b>Macro-environnement</b> : économie, politique et régulation, société, technologie, environnement, droit. Aucune firme seule ne le contrôle.</li>\n<li><b>Industrie</b> : rivaux, nouveaux entrants, fournisseurs, clients et substituts. C'est là que le profit se partage.</li>\n<li><b>La firme</b> : là où l'extérieur rencontre tes choix.</li>\n<li>L'extérieur atteint le profit par quatre canaux : <b>la demande, les coûts, la concurrence et les règles</b>.</li></ul>\n<h4>Modèle 1 · PESTEL (macro-environnement)</h4>\n<ul><li><b>P</b>olitique, <b>E</b>conomique, <b>S</b>ocial, <b>T</b>echnologique, <b>E</b>nvironnemental, <b>L</b>égal.</li>\n<li>Prioriser avec la matrice <b>impact × prévisibilité</b> : fort impact et prévisible → <b>planifier</b> ; fort impact et incertain → <b>préparer des scénarios</b> ; faible impact et prévisible → <b>surveiller</b> ; faible impact et incertain → <b>mettre de côté</b>.</li>\n<li>Exemples Uber : statut des chauffeurs (légal) et voitures autonomes (technologique) = fort impact incertain ; habitudes à la demande (social), coût du capital (économique), interdictions municipales (politique) ; prix du carburant = faible impact prévisible.</li></ul>\n<h4>Modèle 2 · Les cinq forces de Porter (industrie)</h4>\n<p>Qui capture le profit ? <b>Plus les forces sont fortes, plus le potentiel de profit de l'industrie est faible.</b></p>\n<table><tr><th>Force</th><th>Forte quand…</th><th>Exemple</th></tr>\n<tr><td><b>Nouveaux entrants</b></td><td>Entrée bon marché, marques faibles, distribution facile d'accès</td><td>Marques de mode en ligne</td></tr>\n<tr><td><b>Fournisseurs</b></td><td>Peu de fournisseurs, pas d'intrant de substitution, changement coûteux</td><td>Fondeurs de puces et constructeurs auto</td></tr>\n<tr><td><b>Clients</b></td><td>Peu de gros clients, produits semblables, changement facile</td><td>Supermarchés face aux marques alimentaires</td></tr>\n<tr><td><b>Substituts</b></td><td>Un produit différent répond au même besoin à prix comparable</td><td>Streaming plutôt que cinéma</td></tr>\n<tr><td><b>Rivalité</b></td><td>Nombreux acteurs égaux, croissance lente, coûts fixes élevés, peu de différenciation</td><td>Opérateurs télécoms</td></tr></table>\n<h4>Application : les cinq forces d'Uber</h4>\n<ul><li><b>Fournisseurs : moyenne</b> — les chauffeurs sont nombreux et peu formés, mais multi-équipés (Lyft, Bolt, taxis) : Uber paie des bonus pour garder l'offre ; les règles européennes sur le statut des chauffeurs pourraient renchérir les coûts.</li>\n<li><b>Nouveaux entrants : moyenne</b> — effets de réseau et années de subventions dissuadent, mais les robotaxis (Waymo, Tesla) pourraient entrer avec un avantage de coût.</li>\n<li><b>Clients : forte</b> — changement d'appli en quelques secondes, sans coût ; comparaison des prix ; Uber One tente de les verrouiller.</li>\n<li><b>Rivalité : forte</b> — Lyft aux US, Bolt en Europe, DiDi et Grab en Asie ; guerre des prix et des bonus, pas de différenciation produit.</li>\n<li><b>Substituts : moyenne</b> — taxis, transports en commun, vélos, voiture personnelle ; la conduite autonome pourrait remplacer le modèle.</li>\n<li><b>Conclusion</b> : industrie peu attractive ; Uber profite de son échelle et de son écosystème (courses, Eats, Uber One).</li></ul>\n<h4>Modèle 3 · SWOT (la firme dans son contexte)</h4>\n<ul><li><b>Forces et faiblesses : internes</b> — tu les contrôles (ce que tu fais mieux ou moins bien que tes rivaux).</li>\n<li><b>Opportunités et menaces : externes</b> — tu ne les contrôles pas ; elles viennent du PESTEL et des cinq forces.</li>\n<li>Quatre combinaisons : <b>F+O</b> (utiliser ses forces pour saisir l'opportunité), <b>f+O</b> (corriger une faiblesse pour saisir une chance), <b>F+M</b> (utiliser ses forces face à un danger), <b>f+M</b> (réduire son exposition là où une faiblesse rencontre une menace).</li>\n<li><b>Un SWOT ne vaut que s'il débouche sur des choix.</b></li>\n<li>Chez Uber : forces (leader hors Chine, appli unique courses/livraison/fret, données et Uber One) ; faiblesses (chauffeurs non salariés = risque juridique, marges fines, image) ; opportunités (partenariats robotaxis, livraison au-delà de la nourriture, publicité in-app) ; menaces (statut des chauffeurs, robotaxis en propre, guerres de prix locales). Option F+O : devenir la plateforme de demande des flottes de robotaxis avant qu'elles ne construisent la leur.</li></ul>\n<h4>Cas Wooclap : l'industrie aérienne</h4>\n<ul><li><b>Partie 1, 2019</b> — duopole Airbus-Boeing ; carburant et personnel comme premiers coûts ; comparaison des prix en ligne en quelques secondes ; avions et créneaux coûteux et fixes (un siège vide ne rapporte rien) ; trains et voitures en substituts sur les courtes distances. Le diagnostic cinq forces pointe vers le <b>low cost</b>.</li>\n<li><b>La réponse Southwest / Ryanair</b> : un seul type d'avion, routes point-à-point sans hub, rotations rapides et aéroports moins chers, sans fioritures (extras payants). Résultat : <b>47 ans de profit consécutif chez Southwest (1973-2019)</b>, pendant que United, US Airways, Delta, Northwest et American passaient par le Chapter 11 entre 2002 et 2011.</li>\n<li><b>Partie 2, mars 2020</b> — fermeture des frontières, avions cloués au sol, trafic mondial en chute de plus de 90 % au pire du premier confinement.</li>\n<li><b>Ce qui s'est passé</b> : sauvetage (États en soutien — Air France-KLM, Lufthansa — avec des conditions, ex. climatiques), cash (les bilans solides comme Ryanair ont gagné des parts), réinvention (flottes réduites, avions en cargo, recentrage sur le loisir et le domestique).</li></ul>\n<h4>Enseignements</h4>\n<ul><li>Un diagnostic pointe vers une position (les cinq forces montraient où le profit était pressé → low cost).</li>\n<li>Une bonne position peut quand même être frappée : <b>aucune analyse n'élimine les chocs extérieurs</b>, elle aide seulement à les voir venir.</li>\n<li><b>La résilience est un choix stratégique</b> : cash, flexibilité et options décident de qui s'en sort.</li>\n<li>L'analyse externe n'est pas un exercice ponctuel : c'est la façon de garder ses choix à jour.</li>\n<li>Rappel du cadre : la stratégie <b>intentionnelle</b> devient stratégie <b>réalisée et émergente</b> via les leviers de mise en œuvre (structure, systèmes et processus, personnes et récompenses) et le leadership stratégique.</li></ul>\n"
+  ],
+  [
+   "int",
+   "S3 · Analyse interne (22 oct.)",
+   "<h4>De l'industrie à l'entreprise</h4>\n<p>L'analyse externe indique <b>où se trouve le profit</b> ; l'analyse interne cherche <b>qui peut le capter</b>. Une même industrie, les mêmes chocs, des résultats différents : Southwest et ses rivaux ont subi le pétrole, les récessions et le 11 septembre, mais Southwest a été bénéficiaire de 1973 à 2019 alors que plusieurs rivaux ont fait faillite entre 2002 et 2011.</p>\n<p>Les données illustrent trois écarts : entre industries, dans le temps et entre entreprises d'une même industrie. Dans les slides, les marges opérationnelles sectorielles américaines de janvier 2026 vont de 41 % (logiciels) à 3 % (distribution alimentaire). En industrie manufacturière, l'usine au 90e percentile produit 1,9 fois celle au 10e avec les mêmes intrants mesurés (Syverson). McGahan et Porter (1997) attribuent 32 % de la variance de rentabilité au business, 19 % à l'industrie, 4 % à la maison mère et 2 % à l'année. Ces parts ne couvrent pas toute la variance.</p>\n<h4>Ressources → capacités → avantage concurrentiel</h4>\n<ul><li><b>Ressources</b> : ce que l'entreprise possède ou contrôle (actifs, marque, personnes, savoir-faire).</li><li><b>Capacités</b> : ce qu'elle sait en faire, par ses routines et son organisation.</li><li><b>Avantage concurrentiel</b> : gagner davantage que les rivaux grâce à quelque chose qu'ils ne peuvent pas facilement copier. Les ressources seules ne suffisent pas.</li></ul>\n<p>Ressources <b>tangibles</b> : cash, capacité d'emprunt, usines, flotte, magasins, emplacements. Ressources <b>intangibles</b> : marque, réputation, savoir-faire, brevets, culture, relations, données ; beaucoup n'apparaissent pas au bilan.</p>\n<h4>VRIO : quatre questions (Jay Barney)</h4>\n<ul><li><b>V, Valuable</b> : exploiter une opportunité ou neutraliser une menace ? Le lien avec l'analyse externe.</li><li><b>R, Rare</b> : peu de rivaux la possèdent-ils ?</li><li><b>I, Imperfectly imitable</b> : est-il coûteux de la copier, l'acheter ou la remplacer ?</li><li><b>O, Organized to exploit</b> : les processus et incitations permettent-ils de l'utiliser ?</li></ul>\n<p>Non précieuse → désavantage ; précieuse mais courante → parité ; précieuse et rare mais copiable → avantage temporaire ; les quatre critères → avantage durable. Sans organisation, même une ressource précieuse, rare et difficile à imiter reste un avantage inexploité.</p><table><tr><th>Ressource (exemples des slides)</th><th>V</th><th>R</th><th>I</th><th>O</th><th>Verdict</th></tr><tr><td>Kodak film factories (2010)</td><td>No</td><td>-</td><td>-</td><td>-</td><td>Disadvantage</td></tr><tr><td>Large cash pile</td><td>Yes</td><td>No</td><td>-</td><td>-</td><td>Parity</td></tr><tr><td>Nespresso capsule patents</td><td>Yes</td><td>Yes</td><td>No</td><td>-</td><td>Temporary (copied in 2012)</td></tr><tr><td>Xerox PARC inventions (mouse, windows)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>Unused advantage</td></tr><tr><td>Southwest culture and operating system</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Sustained advantage</td></tr></table>\n<h4>Pourquoi est-ce difficile à copier ?</h4>\n<ul><li><b>Histoire</b> : conditions uniques construites au fil du temps (Coca-Cola, ateliers Hermès).</li><li><b>Ambiguïté causale</b> : même les acteurs ne savent pas isoler ce qui fonctionne (design Apple, narration Pixar).</li><li><b>Complexité sociale</b> : culture, confiance et relations (Southwest, Toyota).</li></ul>\n<p>Les intangibles sont souvent plus durables, mais fragiles (départs, réputation) et difficiles à mesurer. Certains tangibles rares et protégés peuvent aussi durer : licence, mine, créneaux aéroportuaires. L'avantage vient de leur <b>combinaison organisée en capacités</b>.</p>\n<h4>Un avantage peut s'éroder</h4>\n<p>Southwest : un type d'avion, rotations rapides, point-à-point, aéroports secondaires, culture « employees first ». Mais les rivaux copient les tarifs bas, les salaires montent, la flotte et l'IT vieillissent (crise de décembre 2022). Les slides montrent une marge opérationnelle GAAP passant de 20 % en 2015 à 1,5 % en 2025 ; frais de bagages, sièges attribués et premiers licenciements en 2025–26.</p>\n<p>Les ressources peuvent devenir des <b>rigidités</b> : Kodak invente un appareil numérique en 1975 mais protège la pellicule (faillite 2012) ; Nokia ne transpose pas sa force matérielle au logiciel (vente à Microsoft en 2014). <b>Capacités dynamiques (Teece)</b> : détecter le changement, le saisir et reconfigurer les ressources. Exemple : Fujifilm vers la santé et les matériaux. VRIO est une photo : demander combien de temps la ressource restera précieuse.</p>\n<h4>La chaîne de valeur (Porter)</h4>\n<p><b>Activités principales</b> : logistique entrante → opérations → logistique sortante → marketing et ventes → service. <b>Soutien</b> : infrastructure, RH, technologie, achats. Chercher dans quelles activités se trouvent les ressources précieuses et rares.</p>\n<p><b>Zara</b> : données quotidiennes des magasins vers les stylistes ; petites séries près de l'Europe, coupe et teinture en interne ; hubs espagnols réapprovisionnant les magasins environ deux fois par semaine. L'avantage est la <b>boucle magasin → design → usine → magasin</b>, pas une activité seule.</p>\n<p><b>Système d'activités Southwest</b> : 737 unique, équipes flexibles, rotations de 15 minutes dans le schéma de Porter (1996), pas de repas ni de sièges attribués, point-à-point et aéroports secondaires. Chaque activité renforce les autres. Continental Lite copie les prix et le service sans changer son réseau de hubs (1993–95) ; Ryanair reconstruit le système entier. Les slides utilisent aussi des rotations de 10 minutes dans leur rétrospective historique : ce sont deux illustrations distinctes.</p>\n<h4>Où se placer dans la chaîne ?</h4>\n<p>Dans le smartphone : composants → assemblage → marque et logiciel → distribution → applications et services. Le schéma de profit pool est <b>illustratif, pas une mesure</b>. Les marges ci-dessous sont celles des acteurs, avec des périmètres différents, pas une ventilation du profit d'un iPhone.</p><table><tr><th>Acteur / périmètre des slides</th><th>Marge opérationnelle FY2025</th></tr><tr><td>TSMC (fabrication de puces)</td><td>51 %</td></tr><tr><td>Apple (tous produits, exercice clos sept. 2025)</td><td>32 %</td></tr><tr><td>Samsung (division MX & Networks)</td><td>10 %</td></tr><tr><td>Foxconn (assemblage)</td><td>3 %</td></tr></table>\n<p>Apple garde design des puces, iOS, App Store, marque et magasins ; externalise fabrication des puces (TSMC) et assemblage (Foxconn). Les slides citent 49 % du revenu mondial smartphone au T2 2026 (Counterpoint).</p>\n<ul><li><b>Intégration amont</b> : contrôler les intrants (Netflix produit du contenu).</li><li><b>Intégration aval</b> : contrôler la relation client (Apple Stores).</li><li><b>Spécialisation</b> : exceller sur une étape (TSMC).</li><li><b>Goulot d'étranglement</b> : posséder une étape incontournable (ASML).</li></ul>\n<h4>Le conseil : de l'analyse à l'exécution</h4>\n<p>Six familles : cabinets de stratégie (McKinsey, BCG, Bain), spécialistes sectoriels (Oliver Wyman, Roland Berger, Kearney), advisory des Big Four (Strategy&amp;, EY-Parthenon, Deloitte), technologie et mise en œuvre (Accenture, IBM, Capgemini), boutiques (pricing, restructuration, pharma) et équipes internes (stratégie, M&amp;A).</p>\n<p>Repères des slides, <b>approximatifs et non homogènes</b> : « n.d. » = non disponible ; ** = groupe entier, pas seulement l'activité conseil ; * = astérisque de la source pour EY-Parthenon, périmètre non détaillé.</p><table><tr><th>Cabinet</th><th>Spécialité citée</th><th>Effectifs</th><th>Associés</th></tr><tr><td>McKinsey</td><td>Strategy + digital</td><td>≈38–45k</td><td>≈2,500</td></tr><tr><td>BCG</td><td>Strategy + tech/AI</td><td>33,500</td><td>2,000+</td></tr><tr><td>Bain</td><td>Strategy / private equity</td><td>≈19–22k</td><td>n.d.</td></tr><tr><td>Oliver Wyman</td><td>Financial services</td><td>≈7,000</td><td>n.d.</td></tr><tr><td>Kearney</td><td>Operations, sourcing</td><td>≈5,400</td><td>n.d.</td></tr><tr><td>Roland Berger</td><td>European industry</td><td>3,000+</td><td>n.d.</td></tr><tr><td>L.E.K.</td><td>Health care, PE, retail</td><td>≈2,000</td><td>n.d.</td></tr><tr><td>Strategy& (PwC)</td><td>Industry, transformation</td><td>n.d.</td><td>n.d.</td></tr><tr><td>EY-Parthenon</td><td>Deals, PE due diligence</td><td>≈25,000*</td><td>n.d.</td></tr><tr><td>Arthur D. Little</td><td>Innovation, R&D</td><td>n.d.</td><td>n.d.</td></tr><tr><td>Deloitte Consulting</td><td>Transformation, tech</td><td>≈500k**</td><td>n.d.</td></tr><tr><td>Accenture</td><td>Cloud, AI, outsourcing</td><td>≈780k**</td><td>n.d.</td></tr><tr><td>IBM Consulting</td><td>Hybrid cloud, AI</td><td>≈160k</td><td>n.d.</td></tr><tr><td>Capgemini Invent</td><td>Digital transformation</td><td>≈420k**</td><td>n.d.</td></tr><tr><td>KPMG Advisory</td><td>Risk, regulation</td><td>≈276k**</td><td>n.d.</td></tr><tr><td>BearingPoint</td><td>Public sector, banking</td><td>≈6,200</td><td>n.d.</td></tr><tr><td>Simon-Kucher</td><td>Pricing</td><td>≈2,200</td><td>n.d.</td></tr><tr><td>AlixPartners</td><td>Restructuring</td><td>n.d.</td><td>n.d.</td></tr><tr><td>Alvarez & Marsal</td><td>Turnaround, performance</td><td>n.d.</td><td>n.d.</td></tr><tr><td>ZS Associates</td><td>Pharma commercial</td><td>15,000+</td><td>n.d.</td></tr></table>\n<p>Organisation sur trois axes : <b>industrie, fonction, géographie</b>. McKinsey : plus de 130 villes/65 pays, pas de siège unique ; QuantumBlack et McKinsey Digital, revenu ≈16 Md$. BCG : plus de 100 villes/50 pays, siège Boston depuis 1963 ; BCG X, revenu 14,4 Md$ (2025). Ce sont des repères cités par le support, pas des chiffres actualisés séparément.</p>\n<h4>Carrière et modèle économique du conseil</h4>\n<p>Analyst : données/modèles/slides ; consultant : un chantier ; manager : équipe/client ; principal : plusieurs projets et vente ; partner : relation client ; senior partner : practices et bureaux.</p><table><tr><th>Grade</th><th>Durée au grade</th><th>Rémunération totale US</th><th>Brut France</th></tr><tr><td>Intern</td><td>2–3 months</td><td>Pro rata</td><td>n.d.</td></tr><tr><td>Business Analyst</td><td>2–3 years</td><td>$110–160k</td><td>≈€50–60k</td></tr><tr><td>Consultant / Associate</td><td>2–3 years</td><td>$200–285k</td><td>≈€80–105k</td></tr><tr><td>Engagement Manager</td><td>2–3 years</td><td>$280–400k</td><td>≈€135–185k</td></tr><tr><td>Associate Partner / Principal</td><td>2–4 years</td><td>$400–700k</td><td>≈€230–260k</td></tr><tr><td>Partner</td><td>5–7 years</td><td>$0.7–1.5M</td><td>≈€300–400k</td></tr><tr><td>Senior Partner</td><td>10+ years</td><td>$1–5M+</td><td>n.d.</td></tr></table>\n<p><b>Ordres de grandeur seulement</b> : US estimations 2026 de blogs, bonus et partage des profits inclus ; France presse ≈2022. Ce ne sont pas des salaires garantis ni une comparaison à périmètre égal. Modèle pyramidal : partenaires → principals/managers → consultants → analystes. Les slides donnent ≈5–6 % d'associés parmi les effectifs, 5–10 % des recrutés juniors devenant associés, et 2–4 ans de présence pour beaucoup avant l'industrie, le PE ou les start-up.</p>\n<h4>Due diligence : réunir les deux analyses</h4>\n<p>Missions : stratégie corporate, croissance/entrée sur un marché, M&amp;A, transformation, coûts/performance, pricing/commercial. La due diligence sert aux acquisitions, alliances/joint ventures et financements (VC/PE). Les types cités incluent financière, technique, commerciale, juridique, client, vendeur et tiers.</p><table><tr><th>Contrôle</th><th>Question</th></tr><tr><td>Commercial (S2)</td><td>Marché attractif ? Position de la cible ?</td></tr><tr><td>Opérationnel (S3)</td><td>Possède-t-elle les ressources et capacités annoncées ?</td></tr><tr><td>Financier</td><td>Comptes fiables ? Bon prix ?</td></tr><tr><td>Juridique</td><td>Contrats, risques et obligations ?</td></tr><tr><td>Technique</td><td>Revue de code et analyse technologique ?</td></tr></table>\n<p>Exemple commercial illustré : executive summary, market opportunity, product &amp; tech, customers &amp; KPIs, operations &amp; go-to-market, growth plan, financials. Exemple financier illustré : résultats clés, activité, historique, qualité du résultat, bilan/BFR/dette nette, cash-flow. Les images sont des exemples de structure de rapport, pas un cas chiffré à résoudre.</p>"
+  ]
+ ],
+ "en": [
+  [
+   "intro",
+   "S1 · Introduction to strategy (8 Oct)",
+   "\n<h4>Course objectives</h4>\n<p>The central question: <b>why do some companies perform better than others?</b> Three themes: <b>industry analysis</b> (attractiveness and competitive dynamics), <b>competitive advantage</b> (building and sustaining it) and <b>growth strategies</b> (diversification, internationalisation).</p>\n<p>Learning journey: master strategy tools, apply them to real cases, develop analytical skills (diagnosis, peer collaboration, written and oral communication), and practise formulating recommendations while understanding implementation challenges.</p>\n<h4>Where the word comes from</h4>\n<p>A military origin: Greek <i>stratos</i> (army) and <i>agein</i> (to lead); recommended reading: Sun Tzu, <i>The Art of War</i>.</p>\n<p><b>Agincourt (25 October 1415, Hundred Years' War)</b>: 9,000 English against more than 25,000 French. The French rely on cavalry and heavy armour; the English choose a narrow valley, place archers on the flanks behind stakes and use the mud against the cavalry. Result: 7,000–10,000 French dead against 300–400 English. Victory without overwhelming force: pure strategy.</p>\n<h4>Some definitions</h4>\n<table><tr><th>Author</th><th>Definition</th></tr>\n<tr><td>Oxford Dictionary</td><td>A plan of action designed to achieve a long-term or overall aim</td></tr>\n<tr><td>Ghemawat (Harvard)</td><td>The integrated set of choices that positions the business in its industry so as to generate superior financial returns</td></tr>\n<tr><td>Porter (HBS)</td><td>Competitive strategy is about being different: delivering unique value through a distinct set of activities</td></tr>\n<tr><td>Drucker</td><td>Strategy is about choosing what not to do</td></tr>\n<tr><td>Mintzberg</td><td>Patterns in streams of decisions</td></tr>\n<tr><td>Sun Tzu</td><td>Strategy without tactics is the slowest route to victory; tactics without strategy is the noise before defeat</td></tr></table>\n<p>Common thread: <b>choices, positioning, long-term value</b>.</p>\n<h4>Good strategy according to Rumelt (<i>Good Strategy / Bad Strategy</i>)</h4>\n<p>Strategy is a <b>coherent</b> set of analyses, concepts, policies, arguments and actions that responds to a high-stakes <b>challenge</b>. Three steps:</p>\n<ol><li><b>Diagnosis</b>: what is the real problem to solve?</li><li><b>Guiding policy</b>: the overall approach chosen to tackle it.</li><li><b>Coherent actions</b>: concrete, coordinated steps that carry out the policy.</li></ol>\n<div class=\"ex\"><b>Southwest Airlines (founded 1967)</b>: how to compete with incumbents' hub-and-spoke networks and premium services?<br/>Diagnosis: people want cheap point-to-point flights; short trips are time-sensitive; no need for meals.<br/>Guiding policy: be the lowest-cost airline on short routes with fast, no-frills service.<br/>Actions: a single aircraft type (737), 15-minute turnarounds, no assigned seats, secondary airports.<br/>Result: the world's most profitable airline in the 1990s–2000s, because every action reinforces the same goal.</div>\n<h4>Spotting bad strategy (Rumelt)</h4>\n<ol><li><b>Failure to face the problem</b>: ignoring difficult realities (e.g. Harvester labour relations).</li>\n<li><b>Mistaking goals for strategy</b>: the destination is not the path (e.g. the \"20/20\" plan).</li>\n<li><b>Bad strategic objectives</b>: vague, unmeasurable, disconnected (e.g. a regional plan with 47 strategies and 178 actions).</li>\n<li><b>Fluff</b>: buzzwords without direction. E.g. a bank CEO: \"our fundamental strategy is one of customer-centric intermediation\": intermediation is what a bank does, and \"customer-centric\" is pure fluff.</li></ol>\n<p>Four questions to test a strategy: does it confront the real challenge? Is there a coherent guiding policy, not just goals? Are actions coordinated with the policy? Can you explain why each choice matters?</p>\n<table><tr><th>Statement</th><th>Verdict in class</th></tr>\n<tr><td>\"We will definitively be the low-cost leader in our market\"</td><td>Not strategy: an objective (how? why us?)</td></tr>\n<tr><td>\"Lower costs 15% via supply chain optimisation, SKU reduction and automation\"</td><td>Strategy: concrete, coherent actions</td></tr>\n<tr><td>\"We will dominate through superior customer service\"</td><td>Not strategy: vague, everyone claims it</td></tr>\n<tr><td>\"Invest in R&amp;D, marketing and new geographic markets\"</td><td>Fluff: no diagnosis, no choice</td></tr>\n<tr><td>\"Focus on the premium eco segment, DTC model, sustainability certification and brand community\"</td><td>Strategy: diagnosis, guiding policy, coherent actions</td></tr></table>\n<h4>What is a strategic decision?</h4>\n<p>It meets expectations, concerns medium/long-term orientations, aims at a competitive advantage, involves resource allocation, influences operational decisions, covers a defined scope, considers the Company, the Customer and the Competition, and often involves transformation.</p>\n<h4>Vision, strategy, tactics</h4>\n<table><tr><th>Level</th><th>Question</th><th>Who</th><th>Content</th></tr>\n<tr><td><b>Vision</b></td><td>Why</td><td>C-level</td><td>The whole problem: which business, which market to attack</td></tr>\n<tr><td><b>Strategy</b></td><td>What</td><td>Top managers</td><td>How the company orchestrates its activities in the market</td></tr>\n<tr><td><b>Tactics</b></td><td>How</td><td>Field managers</td><td>How to operate within each domain (R&amp;D, marketing, HR, finance…)</td></tr></table>\n<p><b>Mission</b>: the current offer, who we are and what we do. <b>Vision</b>: the future, where we are going and who we will be.</p>\n<p>Class exercise: \"lower prices 15%\", \"launch a social media campaign\" and \"train the team on premium service\" are <b>tactics</b> (the how); \"become the low-cost leader via supply chain efficiency\" and \"build an eco-conscious customer community\" are <b>strategies</b> (direction and choices).</p>\n<h4>How a strategy is defined</h4>\n<ol><li><b>Framing</b>: vision, objectives, mission.</li>\n<li><b>Analysis</b>: external (PESTEL, industry analysis, strategic groups, Porter's forces) and internal (key resources, competencies, value chain).</li>\n<li><b>Presentation</b>: corporate strategy, competition map, governance, corporate responsibility.</li>\n<li><b>Organisation</b>: structure, organisation, operating approach, culture, control, communication, change management.</li></ol>\n<p>With feedback loops: information, adjustments, updates.</p>\n<h4>Changing the game</h4>\n<ul><li><b>The card game</b>: you win thanks to a weak opponent, your talent or the value of your cards… or by playing alone: the <b>blue ocean</b>.</li>\n<li><b>Apple vs IBM</b>: IBM is in a red ocean (processor speed, RAM, hard drive, business customers, price war). Steve Jobs chooses simple, beautiful design, the experience, a broad audience. iMac (1998) → iPod (2001) → iPhone (2007) → iPad (2010): \"simplicity beats complexity, beauty beats specs\". Apple did not beat IBM at IBM's game; it stopped playing it.</li>\n<li><b>Kennedy and the Moon (1961)</b>: the Soviets lead the space race (Sputnik 1957, Gagarin 1961) with limited resources. Kennedy redefines the game: a man on the Moon before 1970, returned safely. Apollo 11 (1969) cost about USD 280 billion in 2024 dollars, 3% of US GDP for 10 years: an industrial effort the Soviets could not match.</li>\n<li>Lesson: you do not beat a competitor on its terms; you redefine the game so your strengths become decisive. Real strategy can look stupid in the short term and dominate over 10 years.</li>\n<li>Bruce Henderson (BCG): every strategy meets a conflict between objectives and capabilities; attempting the impossible is not good strategy, just a waste of resources.</li></ul>\n\n"
+  ],
+  [
+   "ext",
+   "S2 · External analysis (15 Oct)",
+   "\n\n<h4>Why start outside the firm?</h4>\n<ul><li>The definition used (Ghemawat, 2010): strategy is <b>the integrated set of choices that positions the business in its industry so as to generate superior financial returns over the long run</b>.</li>\n<li>The choices are yours (what to offer, to whom, how); <b>the context is not</b>. A position only exists relative to customers, rivals and rules: read them first.</li>\n<li>Returns depend on how profitable the industry is, and on events nobody controls.</li></ul>\n<h4>Three layers, four channels</h4>\n<ul><li><b>Macro-environment</b>: economy, politics and regulation, society, technology, environment, law. No single firm controls it.</li>\n<li><b>Industry</b>: rivals, new entrants, suppliers, buyers and substitutes. This is where profit gets shared out.</li>\n<li><b>Your firm</b>: where the outside meets your choices.</li>\n<li>The outside reaches your profit through four channels: <b>demand, costs, competition and rules</b>.</li></ul>\n<h4>Model 1 · PESTEL (macro-environment)</h4>\n<ul><li><b>P</b>olitical, <b>E</b>conomic, <b>S</b>ocial, <b>T</b>echnological, <b>E</b>nvironmental, <b>L</b>egal.</li>\n<li>Prioritise with the <b>impact × predictability</b> matrix: high impact and predictable → <b>plan for it</b>; high impact and uncertain → <b>prepare scenarios</b>; low impact and predictable → <b>monitor</b>; low impact and uncertain → <b>set aside</b>.</li>\n<li>Uber examples: driver status (legal) and self-driving cars (technological) = high impact, uncertain; on-demand habits (social), cost of capital (economic), city bans (political); fuel prices = low impact, predictable.</li></ul>\n<h4>Model 2 · Porter's Five Forces (industry)</h4>\n<p>Who captures the profit? <b>The stronger the forces, the lower the industry's profit potential.</b></p>\n<table><tr><th>Force</th><th>Strong when…</th><th>Example</th></tr>\n<tr><td><b>New entrants</b></td><td>Entry is cheap, brands are weak, distribution is easy to reach</td><td>Online fashion brands</td></tr>\n<tr><td><b>Suppliers</b></td><td>Few suppliers, no substitute inputs, switching is costly</td><td>Chip makers selling to carmakers</td></tr>\n<tr><td><b>Buyers</b></td><td>Few large buyers, products look alike, switching is easy</td><td>Supermarkets buying from food brands</td></tr>\n<tr><td><b>Substitutes</b></td><td>A different product meets the same need at a similar price</td><td>Streaming instead of cinema</td></tr>\n<tr><td><b>Rivalry</b></td><td>Many equal players, slow growth, high fixed costs, little differentiation</td><td>Telecom operators</td></tr></table>\n<h4>Application: Uber's Five Forces</h4>\n<ul><li><b>Suppliers: medium</b> — drivers are many and need little training, but they multi-home (Lyft, Bolt, taxis), so Uber pays bonuses to keep supply; EU platform-work rules could raise costs.</li>\n<li><b>New entrants: medium</b> — network effects and years of subsidies deter new apps, but robotaxis (Waymo, Tesla) could enter with a cost advantage.</li>\n<li><b>Buyers: high</b> — riders switch apps in seconds at no cost and compare prices; Uber One tries to lock them in.</li>\n<li><b>Rivalry: high</b> — Lyft in the US, Bolt in Europe, DiDi and Grab in Asia; competition on price and driver bonuses, not product.</li>\n<li><b>Substitutes: medium</b> — taxis, public transport, bikes, scooters, own car; driverless rides could replace the model.</li>\n<li><b>Takeaway</b>: the industry is unattractive; Uber profits from its scale and ecosystem (rides, Eats, Uber One).</li></ul>\n<h4>Model 3 · SWOT (the firm in its context)</h4>\n<ul><li><b>Strengths and weaknesses: internal</b> — you control them (what you do better or worse than rivals).</li>\n<li><b>Opportunities and threats: external</b> — you do not control them; they come from PESTEL and the Five Forces.</li>\n<li>Four combinations: <b>S+O</b> (use strengths to seize opportunities), <b>W+O</b> (fix a gap to seize a chance), <b>S+T</b> (use strengths to face a danger), <b>W+T</b> (reduce exposure where a gap meets a danger).</li>\n<li><b>A SWOT only matters if it ends in choices.</b></li>\n<li>Uber: strengths (leader outside China, one app for rides/delivery/freight, data and Uber One); weaknesses (non-employee drivers = legal risk, thin margins, brand); opportunities (robotaxi partnerships, delivery beyond food, in-app ads); threats (driver status rules, stand-alone robotaxi apps, local price wars). S+O option: become the demand platform for robotaxi fleets before they build their own.</li></ul>\n<h4>Wooclap case: the airline industry</h4>\n<ul><li><b>Part 1, 2019</b> — Airbus-Boeing duopoly; fuel and staff the biggest costs; fares compared online in seconds; costly, fixed planes and slots (an empty seat earns nothing); trains and cars as substitutes on short routes. The Five Forces diagnosis points to <b>low cost</b>.</li>\n<li><b>The Southwest / Ryanair answer</b>: one aircraft type, point-to-point routes without hubs, fast turnarounds and cheaper airports, no frills (paid extras). Result: <b>47 consecutive profitable years at Southwest (1973-2019)</b>, while United, US Airways, Delta, Northwest and American each went through Chapter 11 between 2002 and 2011.</li>\n<li><b>Part 2, March 2020</b> — borders closed, planes grounded, global traffic down more than 90% at the worst of the first lockdown.</li>\n<li><b>What happened</b>: rescue (state support for Air France-KLM and Lufthansa, with conditions such as climate commitments), cash (strong balance sheets like Ryanair took share), reinvention (fleets cut, planes moved to cargo, networks refocused on leisure and domestic routes).</li></ul>\n<h4>Takeaways</h4>\n<ul><li>A diagnosis points to a position (the Five Forces showed where profit was squeezed → low cost).</li>\n<li>A good position can still be hit: <b>no analysis removes outside shocks</b>; it only helps you see them coming.</li>\n<li><b>Resilience is a strategic choice</b>: cash, flexibility and options decide who comes out ahead.</li>\n<li>External analysis is not a one-off: it is how you keep your choices current.</li>\n<li>Framework recap: <b>intended</b> strategy becomes <b>realised and emergent</b> strategy through implementation levers (structure, systems and processes, people and rewards) and strategic leadership.</li></ul>\n"
+  ],
+  [
+   "int",
+   "S3 · Internal analysis (22 Oct.)",
+   "<h4>From the industry to the firm</h4><p>External analysis shows <b>where profit is</b>; internal analysis asks <b>who can capture it</b>. Southwest and its legacy rivals faced the same oil prices, recessions and 9/11, yet Southwest earned a profit every year from 1973 to 2019 while several rivals went bankrupt in 2002–2011.</p>\n<p>Differences exist across industries, over time and within one industry. The slides show US industry operating margins from 41% (software) to 3% (grocery retail), January 2026. A manufacturing plant at the 90th percentile produces 1.9 times the output at the 10th with the same measured inputs (Syverson). McGahan and Porter (1997): business-specific effects explain 32% of profitability variance, industry 19%, corporate parent 4%, year 2%. These shares do not explain all variance.</p>\n<h4>Resources → capabilities → competitive advantage</h4><p><b>Resources</b> are what the firm owns or controls: assets, brands, people, know-how. <b>Capabilities</b> are what it can do with them through routines and organization. <b>Competitive advantage</b> means earning more than rivals through something they cannot easily copy. Resources alone do not win.</p>\n<p><b>Tangible</b>: cash, borrowing capacity, plants, fleets, stores, locations. <b>Intangible</b>: brands, reputation, know-how, patents, culture, relationships and data; many sit outside the balance sheet.</p>\n<h4>VRIO: four tests (Jay Barney)</h4><ul><li><b>Valuable</b>: exploits an opportunity or neutralizes a threat, linking to external analysis.</li><li><b>Rare</b>: few rivals possess it.</li><li><b>Imperfectly imitable</b>: costly to copy, buy or replace.</li><li><b>Organized to exploit</b>: processes and incentives can use it.</li></ul><p>Not valuable → disadvantage; valuable but common → parity; valuable and rare but imitable → temporary advantage; all four → sustained advantage. Without organization, a valuable, rare and hard-to-copy resource is an unused advantage.</p><table><tr><th>Resource in the slides</th><th>V</th><th>R</th><th>I</th><th>O</th><th>Verdict</th></tr><tr><td>Kodak film factories (2010)</td><td>No</td><td>-</td><td>-</td><td>-</td><td>Disadvantage</td></tr><tr><td>Large cash pile</td><td>Yes</td><td>No</td><td>-</td><td>-</td><td>Parity</td></tr><tr><td>Nespresso capsule patents</td><td>Yes</td><td>Yes</td><td>No</td><td>-</td><td>Temporary (copied in 2012)</td></tr><tr><td>Xerox PARC inventions (mouse, windows)</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td>Unused advantage</td></tr><tr><td>Southwest culture and operating system</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Sustained advantage</td></tr></table>\n<h4>Three barriers to imitation</h4><ul><li><b>History</b>: built over years under unique conditions (Coca-Cola, Hermès workshops).</li><li><b>Causal ambiguity</b>: even insiders cannot isolate what makes it work (Apple design, Pixar storytelling).</li><li><b>Social complexity</b>: culture, trust and relationships (Southwest, Toyota).</li></ul><p>Intangibles often last longer but are fragile and hard to measure. Scarce, protected tangible assets can also last: licences, mines or airport slots. What lasts is the <b>combination organized into capabilities</b>.</p>\n<h4>Advantage erodes; strengths become rigidities</h4><p>Southwest's edge combined one aircraft type, fast turns, point-to-point routes, secondary airports and an employees-first culture. Rivals copied low fares; wages rose and the fleet and IT aged (December 2022 meltdown). The slides show GAAP operating margin dropping from 20% in 2015 to 1.5% in 2025, and bag fees, assigned seats and first layoffs in 2025–26.</p><p>Kodak built a digital camera in 1975 but protected profitable film (bankruptcy 2012). Nokia's hardware strength did not transfer to software (phone unit sold to Microsoft in 2014). <b>Dynamic capabilities (Teece)</b>: sense change, seize it, reshape resources. Fujifilm moved into health care and materials. VRIO is a snapshot: ask how long a resource stays valuable.</p>\n<h4>Porter's value chain and activity systems</h4><p><b>Primary activities</b>: inbound logistics → operations → outbound logistics → marketing and sales → service. <b>Support</b>: infrastructure, HR, technology, procurement. Locate valuable and rare resources within activities.</p><p><b>Zara</b>: daily store data to designers, small batches close to Europe, in-house cutting and dyeing, Spanish hubs restocking stores about twice weekly. The advantage is the <b>store → design → factory → store loop</b>, not one activity.</p><p><b>Southwest</b>: one 737 type, flexible crews, 15-minute turns in Porter's 1996 activity map, no meals or assigned seats, point-to-point and secondary airports. Activities reinforce one another. Continental Lite copied low fares and no-frills service but kept its hub network (1993–95); Ryanair rebuilt the whole system. The historical retrospective elsewhere in the slides uses 10-minute turns: these are distinct illustrations.</p>\n<h4>Where to play in the industry chain</h4><p>Smartphones: components → assembly → brand/software → distribution → apps/services. The profit-pool drawing is <b>illustrative, not measured data</b>. These margins have different company/division scopes and are not shares of one iPhone's profit.</p><table><tr><th>Player / scope in the slides</th><th>FY2025 operating margin</th></tr><tr><td>TSMC (chip making)</td><td>51%</td></tr><tr><td>Apple (all products, year to Sept. 2025)</td><td>32%</td></tr><tr><td>Samsung (MX & Networks)</td><td>10%</td></tr><tr><td>Foxconn (assembly)</td><td>3%</td></tr></table>\n<p>Apple keeps chip design, iOS, App Store, brand and stores in-house; outsources chip making to TSMC and assembly to Foxconn. The slides cite 49% of global smartphone revenue in Q2 2026 (Counterpoint).</p><ul><li><b>Backward integration</b>: control inputs (Netflix content).</li><li><b>Forward integration</b>: control customers (Apple stores).</li><li><b>Specialize</b>: excel at one stage (TSMC).</li><li><b>Own the bottleneck</b>: control an unavoidable stage (ASML).</li></ul>\n<h4>Consulting: advice through execution</h4><p>Six families: strategy houses (McKinsey, BCG, Bain); strategy specialists (Oliver Wyman, Roland Berger, Kearney); Big Four advisory (Strategy&amp;, EY-Parthenon, Deloitte); tech/implementation (Accenture, IBM, Capgemini); boutiques (pricing, restructuring, pharma); in-house strategy/M&amp;A.</p><p><b>Approximate, non-comparable slide figures</b>: n.d. = unavailable; ** = whole group, not consulting unit; * reproduces the source's EY-Parthenon marker, whose scope is not specified.</p><table><tr><th>Firm</th><th>Focus cited</th><th>People</th><th>Partners</th></tr><tr><td>McKinsey</td><td>Strategy + digital</td><td>≈38–45k</td><td>≈2,500</td></tr><tr><td>BCG</td><td>Strategy + tech/AI</td><td>33,500</td><td>2,000+</td></tr><tr><td>Bain</td><td>Strategy / private equity</td><td>≈19–22k</td><td>n.d.</td></tr><tr><td>Oliver Wyman</td><td>Financial services</td><td>≈7,000</td><td>n.d.</td></tr><tr><td>Kearney</td><td>Operations, sourcing</td><td>≈5,400</td><td>n.d.</td></tr><tr><td>Roland Berger</td><td>European industry</td><td>3,000+</td><td>n.d.</td></tr><tr><td>L.E.K.</td><td>Health care, PE, retail</td><td>≈2,000</td><td>n.d.</td></tr><tr><td>Strategy& (PwC)</td><td>Industry, transformation</td><td>n.d.</td><td>n.d.</td></tr><tr><td>EY-Parthenon</td><td>Deals, PE due diligence</td><td>≈25,000*</td><td>n.d.</td></tr><tr><td>Arthur D. Little</td><td>Innovation, R&D</td><td>n.d.</td><td>n.d.</td></tr><tr><td>Deloitte Consulting</td><td>Transformation, tech</td><td>≈500k**</td><td>n.d.</td></tr><tr><td>Accenture</td><td>Cloud, AI, outsourcing</td><td>≈780k**</td><td>n.d.</td></tr><tr><td>IBM Consulting</td><td>Hybrid cloud, AI</td><td>≈160k</td><td>n.d.</td></tr><tr><td>Capgemini Invent</td><td>Digital transformation</td><td>≈420k**</td><td>n.d.</td></tr><tr><td>KPMG Advisory</td><td>Risk, regulation</td><td>≈276k**</td><td>n.d.</td></tr><tr><td>BearingPoint</td><td>Public sector, banking</td><td>≈6,200</td><td>n.d.</td></tr><tr><td>Simon-Kucher</td><td>Pricing</td><td>≈2,200</td><td>n.d.</td></tr><tr><td>AlixPartners</td><td>Restructuring</td><td>n.d.</td><td>n.d.</td></tr><tr><td>Alvarez & Marsal</td><td>Turnaround, performance</td><td>n.d.</td><td>n.d.</td></tr><tr><td>ZS Associates</td><td>Pharma commercial</td><td>15,000+</td><td>n.d.</td></tr></table>\n<p>Three organizing axes: <b>industry, function, geography</b>. McKinsey: 130+ cities in 65 countries, no single headquarters; QuantumBlack and McKinsey Digital; ≈$16bn revenue. BCG: 100+ cities in 50+ countries, Boston headquarters since 1963; BCG X; $14.4bn revenue (2025). These are slide reference figures, not independently updated counts.</p>\n<h4>Consulting careers and economics</h4><p>Analysts handle data/models/first slides; consultants own workstreams; managers run teams and clients; principals manage several projects and sell work; partners own client relationships; senior partners lead practices and offices.</p><table><tr><th>Grade</th><th>Years at grade</th><th>US total pay</th><th>France gross</th></tr><tr><td>Intern</td><td>2–3 months</td><td>Pro rata</td><td>n.d.</td></tr><tr><td>Business Analyst</td><td>2–3 years</td><td>$110–160k</td><td>≈€50–60k</td></tr><tr><td>Consultant / Associate</td><td>2–3 years</td><td>$200–285k</td><td>≈€80–105k</td></tr><tr><td>Engagement Manager</td><td>2–3 years</td><td>$280–400k</td><td>≈€135–185k</td></tr><tr><td>Associate Partner / Principal</td><td>2–4 years</td><td>$400–700k</td><td>≈€230–260k</td></tr><tr><td>Partner</td><td>5–7 years</td><td>$0.7–1.5M</td><td>≈€300–400k</td></tr><tr><td>Senior Partner</td><td>10+ years</td><td>$1–5M+</td><td>n.d.</td></tr></table>\n<p><b>Orders of magnitude only</b>: US 2026 blog estimates include bonus/profit share; France press figures date to ≈2022. Not guaranteed salaries or like-for-like measures. Pyramid: partners → principals/managers → consultants → analysts. Slides cite ≈5–6% of staff as partners, 5–10% of entry hires eventually becoming partners, and 2–4 years as a common stay before industry, PE or startups.</p>\n<h4>Due diligence combines both toolboxes</h4><p>Assignments: corporate strategy, growth/market entry, M&amp;A, transformation, cost/performance, pricing/commercial. Due diligence supports acquisitions, alliances/joint ventures and VC/PE funding. Listed types include financial, technical, commercial, legal, customer, vendor and third-party.</p><table><tr><th>Check</th><th>Question</th></tr><tr><td>Commercial (S2)</td><td>Market attractiveness and target position?</td></tr><tr><td>Operational (S3)</td><td>Does the target have the resources and capabilities it claims?</td></tr><tr><td>Financial</td><td>Reliable accounts? Right price?</td></tr><tr><td>Legal</td><td>Contracts, risks, obligations?</td></tr><tr><td>Technical</td><td>Code review and technology analysis?</td></tr></table>\n<p>The illustrated commercial report covers executive summary, market opportunity, product &amp; tech, customers &amp; KPIs, operations &amp; go-to-market, growth plan and financials. The financial example covers key findings, business overview, historical trading, quality of earnings, balance sheet/working capital/net debt and cash flow. These images illustrate report structures, not a numerical exercise to solve.</p>"
+  ]
+ ],
+ "ess": [
+  [
+   "intro",
+   [
+    "Question centrale : pourquoi certaines entreprises réussissent-elles mieux que d'autres ?",
+    "Stratégie : du grec stratos (armée) + agein (conduire) ; définitions d'Oxford, Ghemawat, Porter, Drucker, Mintzberg, Sun Tzu → choix, positionnement, valeur de long terme.",
+    "Rumelt : diagnostic → guiding policy → actions cohérentes (ex. Southwest Airlines).",
+    "Mauvaise stratégie : ne pas affronter le problème, confondre objectifs et stratégie, mauvais objectifs, fluff.",
+    "Vision (pourquoi, C-level) → stratégie (quoi, top management) → tactique (comment, terrain).",
+    "Changer les règles du jeu : Apple (océan bleu), Azincourt, Kennedy et la Lune."
+   ]
+  ],
+  [
+   "ext",
+   [
+    "Analyse externe : les choix sont à la firme, le contexte non. Trois couches : macro (PESTEL), industrie (5 forces), firme.",
+    "Quatre canaux vers le profit : demande, coûts, concurrence, règles.",
+    "PESTEL : prioriser par impact × prévisibilité (planifier, scénarios, surveiller, mettre de côté).",
+    "Cinq forces : entrants, fournisseurs, clients, substituts, rivalité ; plus elles sont fortes, moins l'industrie est profitable.",
+    "SWOT : interne (forces, faiblesses) vs externe (opportunités, menaces, issues du PESTEL et des 5 forces) ; utile seulement s'il finit en choix.",
+    "Uber : clients et rivalité forts → industrie peu attractive ; profit par l'échelle et l'écosystème ; option F+O : plateforme de demande des robotaxis.",
+    "Cas aérien : low cost (un seul avion, point-à-point, rotations rapides) = 47 ans de profit Southwest ; Covid : trafic -90 %, la résilience est un choix (cash, flexibilité, options).",
+    "Stratégie intentionnelle → réalisée et émergente (leviers : structure, systèmes, personnes)."
+   ]
+  ],
+  [
+   "int",
+   [
+    "Analyse externe : où est le profit ? Analyse interne : qui peut le capter ? Les effets propres au business comptent plus que l’industrie dans les données citées.",
+    "Ressources (ce que la firme possède) → capacités (ce qu’elle sait faire) → avantage concurrentiel.",
+    "VRIO : Valuable, Rare, Imperfectly imitable, Organized to exploit. Parité ≠ avantage temporaire ≠ avantage durable ; sans O, avantage inexploité.",
+    "Imitation freinée par l’histoire, l’ambiguïté causale et la complexité sociale. Les capacités dynamiques permettent de détecter, saisir et reconfigurer.",
+    "Chaîne de valeur : activités principales et de soutien ; Zara et Southwest gagnent par un système d’activités qui se renforcent.",
+    "Choisir sa place : intégration amont/aval, spécialisation, contrôle d’un goulot. Les marges des acteurs de la chaîne ne sont pas directement comparables.",
+    "Conseil : six familles ; organisation industrie × fonction × géographie ; modèle pyramidal. Chiffres d’effectifs/salaires approximatifs, datés et à périmètres différents.",
+    "Due diligence commerciale = marché/position (S2), opérationnelle = ressources/capacités (S3), complétées par les experts financiers, juridiques et techniques."
+   ]
+  ]
+ ],
+ "infos": [
+  [
+   "Évaluation",
+   [
+    "Participation individuelle : 25 % (commentaires écrits possibles après chaque séance ; interventions non préparées = négatives).",
+    "Quiz intermédiaires et final, individuels : 25 % (Wooclap en classe, mi-parcours, quiz final).",
+    "Présentation finale en groupe : 50 % (la slide de détail indique 25 % : faire préciser)."
+   ]
+  ],
+  [
+   "Projet de groupe",
+   [
+    "Groupe de 3 ou 4 ; présentation de 15 à 20 minutes sur les perspectives stratégiques d'une entreprise de votre choix.",
+    "Envoyer un mail au professeur avant la séance 3 (22 octobre) pour faire valider l'entreprise.",
+    "Contenu : situation actuelle, marché et concurrence, ressources et capacités, défis et opportunités, recommandations à la direction.",
+    "Déposer les slides avant la dernière séance ; présentations les 3 et 10 décembre."
+   ]
+  ],
+  [
+   "Règles",
+   [
+    "Être à l'heure (les retards font perdre des points de participation), chevalet nominatif devant soi.",
+    "Téléphones et ordinateurs rangés quand c'est demandé.",
+    "IA autorisée mais exigences plus élevées : le professeur vérifiera que vous comprenez ce que vous dites."
+   ]
+  ],
+  [
+   "Programme",
+   [
+    "S1 (8/10) Introduction à la stratégie · S2 (15/10) Analyse externe · S3 (22/10) Analyse interne · S4 Business level strategy (29/10 selon les slides ; MyESSEC prévoit plutôt un samedi 28/11 à 16h30).",
+    "S5 (5/11) Plateformes · S6 (12/11) Frontières de la firme : M&A · S7 (19/11) Stratégie et enjeux sociétaux · S8 (26/11) Stratégie et business models.",
+    "S9–S10 (3 et 10/12) : présentations de groupe."
+   ]
+  ]
+ ],
+ "basis": {
+  "intro": "D'après les slides de la séance 1",
+  "ext": "D'après les slides de la séance 2",
+  "int": "D'après les slides de la séance 3",
+  "bus": "Contenu de référence · slides pas encore publiées",
+  "plat": "Contenu de référence · slides pas encore publiées",
+  "ma": "Contenu de référence · slides pas encore publiées",
+  "soc": "Contenu de référence · slides pas encore publiées",
+  "bm": "Contenu de référence · slides pas encore publiées"
+ },
+ "badge": "Supports Moodle",
+ "qcm": [
+  [
+   "intro",
+   "« Devenir le n°1 mondial de notre secteur d'ici 2030 » : selon Rumelt, c'est…",
+   [
+    "Une tactique",
+    "Une bonne stratégie",
+    "Confondre un objectif avec une stratégie",
+    "Un diagnostic"
+   ],
+   2,
+   "La destination n'est pas le chemin."
+  ],
+  [
+   "intro",
+   "Un plan régional comportant 47 stratégies et 178 actions illustre…",
+   [
+    "De mauvais objectifs stratégiques (vagues, déconnectés)",
+    "Un océan bleu",
+    "Une stratégie cohérente",
+    "Une tactique"
+   ],
+   0,
+   "Exemple des slides."
+  ],
+  [
+   "intro",
+   "Une entreprise ignore la montée d'un concurrent low-cost dans son plan. Quel signe de mauvaise stratégie ?",
+   [
+    "Confondre objectifs et stratégie",
+    "Ne pas affronter le problème",
+    "Aucun",
+    "Le fluff"
+   ],
+   1,
+   "Ignorer les réalités difficiles."
+  ],
+  [
+   "intro",
+   "« Augmenter de 20 % le budget publicitaire sur Instagram » est…",
+   [
+    "Une stratégie",
+    "Une vision",
+    "Une mission",
+    "Une tactique"
+   ],
+   3,
+   "Le comment, au niveau opérationnel."
+  ],
+  [
+   "intro",
+   "« Nous fabriquons des stylos haut de gamme vendus en Europe » décrit…",
+   [
+    "La mission",
+    "La vision",
+    "Un diagnostic",
+    "Une tactique"
+   ],
+   0,
+   "Mission : ce que nous faisons aujourd'hui ; vision : qui nous serons demain."
+  ],
+  [
+   "intro",
+   "Southwest Airlines : quel était le diagnostic ?",
+   [
+    "Les clients veulent des repas à bord",
+    "Il faut une flotte variée",
+    "Les clients veulent des vols point à point bon marché ; les trajets courts sont sensibles au temps",
+    "Il faut des hubs"
+   ],
+   2,
+   "Puis guiding policy (low cost, routes courtes) et actions cohérentes."
+  ],
+  [
+   "intro",
+   "Quelle question permet de vérifier qu'une stratégie est réelle selon le cours ?",
+   [
+    "Les actions sont-elles coordonnées avec une guiding policy qui répond au vrai défi ?",
+    "Plaît-elle aux actionnaires ?",
+    "Est-elle ambitieuse ?",
+    "Est-elle chiffrée ?"
+   ],
+   0,
+   "Les quatre questions du diagnostic."
+  ],
+  [
+   "intro",
+   "Lequel n'est PAS une caractéristique d'une décision stratégique selon le cours ?",
+   [
+    "Elle tient compte de l'entreprise, du client et de la concurrence",
+    "Elle vise un avantage concurrentiel",
+    "Elle engage des ressources",
+    "Elle concerne le très court terme"
+   ],
+   3,
+   "Elle concerne les orientations de moyen et long terme."
+  ],
+  [
+   "intro",
+   "Pour Bruce Henderson (BCG), toute stratégie se heurte à un conflit entre…",
+   [
+    "Actionnaires et salariés",
+    "Court et long terme",
+    "Prix et coûts",
+    "Objectifs et capacités de l'entreprise"
+   ],
+   3,
+   "Tenter l'impossible est un gaspillage de ressources."
+  ],
+  [
+   "intro",
+   "Dans le jeu de cartes des slides, « jouer seul » correspond à…",
+   [
+    "L'océan bleu",
+    "La différenciation",
+    "La tactique",
+    "La domination par les coûts"
+   ],
+   0,
+   "Changer de jeu plutôt que battre l'adversaire sur son terrain."
+  ],
+  [
+   "intro",
+   "Lequel décrit une bonne stratégie selon Rumelt ?",
+   [
+    "« Cibler le segment éco premium, modèle DTC, certification et communauté de marque »",
+    "« Être le leader low-cost »",
+    "« Nous dominerons grâce à un service client supérieur »",
+    "« Investir en R&D, marketing et nouveaux marchés »"
+   ],
+   0,
+   "Diagnostic, guiding policy et actions cohérentes."
+  ],
+  [
+   "intro",
+   "Quelle est la question centrale du cours de Strategy ?",
+   [
+    "Comment recruter ?",
+    "Comment fixer un prix ?",
+    "Pourquoi certaines entreprises réussissent-elles mieux que d'autres ?",
+    "Comment lever des fonds ?"
+   ],
+   2,
+   "Elle structure les trois axes : industrie, avantage concurrentiel, croissance."
+  ],
+  [
+   "intro",
+   "D'où vient le mot « stratégie » ?",
+   [
+    "De l'anglais strategy",
+    "De l'arabe",
+    "Du latin strata (couche)",
+    "Du grec stratos (armée) et agein (conduire)"
+   ],
+   3,
+   "Une origine guerrière ; lecture conseillée : Sun Tzu."
+  ],
+  [
+   "intro",
+   "À Azincourt (1415), qu'ont fait les Anglais pour l'emporter à 1 contre 3 ?",
+   [
+    "Recruter des mercenaires",
+    "Attaquer de nuit",
+    "Négocier une trêve",
+    "Choisir un terrain étroit, placer les archers sur les flancs et exploiter la boue contre la cavalerie"
+   ],
+   3,
+   "Ils ont transformé le nombre et les armures françaises en handicaps."
+  ],
+  [
+   "intro",
+   "« La stratégie, c'est choisir ce qu'on ne fera pas » est attribué à…",
+   [
+    "Ghemawat",
+    "Drucker",
+    "Mintzberg",
+    "Porter"
+   ],
+   1,
+   "Chaque définition insiste sur les choix."
+  ],
+  [
+   "intro",
+   "Pour Porter, la stratégie concurrentielle consiste à…",
+   [
+    "Être le moins cher",
+    "Être différent : offrir une valeur unique par un ensemble distinct d'activités",
+    "Copier le leader",
+    "Croître vite"
+   ],
+   1,
+   "Définition citée dans les slides (HBS)."
+  ],
+  [
+   "intro",
+   "Mintzberg définit la stratégie comme…",
+   [
+    "Des régularités dans un flux de décisions",
+    "Un objectif chiffré",
+    "Un plan écrit",
+    "Un budget"
+   ],
+   0,
+   "Stratégie observée dans les décisions successives."
+  ],
+  [
+   "intro",
+   "Les trois étapes d'une bonne stratégie selon Rumelt :",
+   [
+    "Objectifs, moyens, résultats",
+    "Vision, mission, valeurs",
+    "Analyse, budget, contrôle",
+    "Diagnostic, guiding policy, actions cohérentes"
+   ],
+   3,
+   "Tiré de Good Strategy / Bad Strategy."
+  ],
+  [
+   "intro",
+   "Dans l'exemple Southwest Airlines, laquelle est une action cohérente avec la guiding policy ?",
+   [
+    "Des repas gratuits à bord",
+    "Une classe affaires",
+    "Un seul type d'avion (737)",
+    "Des hubs internationaux"
+   ],
+   2,
+   "Aussi : rotations de 15 minutes, pas de sièges attribués, aéroports secondaires."
+  ],
+  [
+   "intro",
+   "« Nous serons le leader low-cost de notre marché » est, selon le cours…",
+   [
+    "Une stratégie",
+    "Une tactique",
+    "Une vision",
+    "Un objectif, pas une stratégie"
+   ],
+   3,
+   "Il manque le comment et le pourquoi nous."
+  ],
+  [
+   "intro",
+   "« Notre stratégie fondamentale est l'intermédiation centrée client » illustre…",
+   [
+    "Le fluff",
+    "Une bonne stratégie",
+    "Un diagnostic",
+    "Une tactique"
+   ],
+   0,
+   "L'intermédiation, c'est le métier de toute banque ; « centré client » ne veut rien dire."
+  ],
+  [
+   "intro",
+   "Lequel n'est PAS un signe de mauvaise stratégie selon Rumelt ?",
+   [
+    "Ne pas affronter le problème",
+    "Le fluff",
+    "Des actions coordonnées autour d'une politique",
+    "Confondre objectifs et stratégie"
+   ],
+   2,
+   "C'est au contraire le signe d'une bonne stratégie."
+  ],
+  [
+   "intro",
+   "« Baisser les prix de 15 % » est classé comme…",
+   [
+    "Une stratégie",
+    "Une mission",
+    "Une tactique",
+    "Une vision"
+   ],
+   2,
+   "C'est un moyen d'exécution, pas une direction."
+  ],
+  [
+   "intro",
+   "Dans le modèle vision / stratégie / tactique, la stratégie répond à…",
+   [
+    "Quand, au niveau du conseil",
+    "Comment, au niveau du terrain",
+    "Pourquoi, au niveau du C-level",
+    "Quoi, au niveau du top management"
+   ],
+   3,
+   "La vision est le pourquoi, la tactique le comment."
+  ],
+  [
+   "intro",
+   "Quelle différence entre mission et vision ?",
+   [
+    "Aucune",
+    "Mission : le futur ; vision : le présent",
+    "Mission : l'offre actuelle, qui nous sommes ; vision : où nous allons",
+    "La mission est chiffrée"
+   ],
+   2,
+   "Définitions des slides."
+  ],
+  [
+   "intro",
+   "Quelle étape de construction d'une stratégie comprend PESTEL et les forces de Porter ?",
+   [
+    "Présentation",
+    "Analyse",
+    "Organisation",
+    "Cadrage"
+   ],
+   1,
+   "L'analyse est externe (PESTEL, industrie) et interne (ressources, chaîne de valeur)."
+  ],
+  [
+   "intro",
+   "Pourquoi le pari de Kennedy sur la Lune est-il une stratégie brillante selon le cours ?",
+   [
+    "Il était bon marché",
+    "Il a été décidé en 1969",
+    "Les Soviétiques n'étaient pas intéressés",
+    "Il a choisi un terrain où les ressources industrielles, que les Soviétiques n'avaient pas, étaient décisives"
+   ],
+   3,
+   "Apollo 11 : environ 3 % du PIB américain pendant 10 ans."
+  ],
+  [
+   "intro",
+   "Ce qu'Apple a fait face à IBM correspond à…",
+   [
+    "Une guerre des prix",
+    "Une stratégie d'océan bleu : ne plus jouer au jeu des specs",
+    "Une imitation",
+    "Une fusion"
+   ],
+   1,
+   "Simplicité et design plutôt que vitesse du processeur."
+  ],
+  [
+   "intro",
+   "Selon Bruce Henderson (BCG), tenter l'impossible…",
+   [
+    "Est nécessaire",
+    "Est la meilleure stratégie",
+    "Motive les équipes",
+    "N'est pas une bonne stratégie, c'est un gaspillage de ressources"
+   ],
+   3,
+   "La stratégie se heurte au conflit entre objectifs et capacités."
+  ],
+  [
+   "ext",
+   "Selon Ghemawat (2010), la stratégie est…",
+   [
+    "Un plan à 5 ans",
+    "L'ensemble intégré de choix qui positionne l'entreprise pour des rendements supérieurs à long terme",
+    "Une vision inspirante",
+    "Une analyse financière"
+   ],
+   1,
+   "Définition de départ de la séance."
+  ],
+  [
+   "ext",
+   "Pourquoi l'analyse stratégique commence-t-elle par l'extérieur ?",
+   [
+    "Parce que c'est plus simple",
+    "Parce qu'une position n'existe que relativement aux clients, rivaux et règles",
+    "Parce que l'intérieur ne change jamais",
+    "Par tradition académique"
+   ],
+   1,
+   "Les choix sont à la firme ; le contexte ne l'est pas."
+  ],
+  [
+   "ext",
+   "Quelle couche aucune firme seule ne contrôle ?",
+   [
+    "L'industrie",
+    "La macro-environnement",
+    "La firme",
+    "Le marché"
+   ],
+   1,
+   "Économie, politique, société, technologie, environnement, droit."
+  ],
+  [
+   "ext",
+   "Par quels canaux l'extérieur atteint-il le profit ?",
+   [
+    "Demande, coûts, concurrence, règles",
+    "Prix, qualité, service, marque",
+    "Clients, salariés, actionnaires, État",
+    "Offre, demande, prix, marge"
+   ],
+   0,
+   "Quatre canaux."
+  ],
+  [
+   "ext",
+   "Lequel ne fait PAS partie du PESTEL ?",
+   [
+    "Politique",
+    "Économique",
+    "Concurrentiel",
+    "Légal"
+   ],
+   2,
+   "La concurrence relève des cinq forces (industrie)."
+  ],
+  [
+   "ext",
+   "Facteur à fort impact et incertain : que faire ?",
+   [
+    "Planifier",
+    "Préparer des scénarios",
+    "Surveiller",
+    "Mettre de côté"
+   ],
+   1,
+   "Matrice impact × prévisibilité."
+  ],
+  [
+   "ext",
+   "Facteur à faible impact et prévisible : que faire ?",
+   [
+    "Planifier",
+    "Préparer des scénarios",
+    "Surveiller",
+    "L'ignorer totalement"
+   ],
+   2,
+   "Ex. : le prix du carburant pour Uber."
+  ],
+  [
+   "ext",
+   "Le pouvoir des fournisseurs est fort quand…",
+   [
+    "Ils sont nombreux",
+    "Peu de fournisseurs, pas d'intrants de substitution, changement coûteux",
+    "Les clients sont fidèles",
+    "L'industrie croît vite"
+   ],
+   1,
+   "Ex. : fondeurs de puces et constructeurs automobiles."
+  ],
+  [
+   "ext",
+   "Un substitut est…",
+   [
+    "Un concurrent direct",
+    "Un produit différent qui répond au même besoin à prix comparable",
+    "Un fournisseur intégré",
+    "Une marque blanche"
+   ],
+   1,
+   "Ex. : streaming plutôt que cinéma."
+  ],
+  [
+   "ext",
+   "La rivalité est forte quand…",
+   [
+    "Deux firmes dominent",
+    "Nombreux acteurs égaux, croissance lente, coûts fixes élevés, peu de différenciation",
+    "Les entrants sont bloqués",
+    "Les clients sont captifs"
+   ],
+   1,
+   "Ex. : opérateurs télécoms."
+  ],
+  [
+   "ext",
+   "Chez Uber, quelles forces sont fortes ?",
+   [
+    "Fournisseurs et entrants",
+    "Clients et rivalité",
+    "Substituts et fournisseurs",
+    "Aucune"
+   ],
+   1,
+   "Changement d'appli sans coût ; guerre des prix avec Lyft, Bolt, DiDi."
+  ],
+  [
+   "ext",
+   "Pourquoi le pouvoir des fournisseurs (chauffeurs) d'Uber n'est-il que moyen ?",
+   [
+    "Ils sont salariés",
+    "Nombreux et peu formés, mais multi-équipés, d'où des bonus pour garder l'offre",
+    "Uber fixe leurs salaires",
+    "Ils n'ont aucune alternative"
+   ],
+   1,
+   "Multi-homing sur Lyft, Bolt et applis de taxi."
+  ],
+  [
+   "ext",
+   "Conclusion des cinq forces appliquées à Uber…",
+   [
+    "Industrie attractive, entrer vite",
+    "Industrie peu attractive ; Uber profite de son échelle et de son écosystème",
+    "Industrie morte",
+    "Forces toutes faibles"
+   ],
+   1,
+   "Rides, Eats, Uber One."
+  ],
+  [
+   "ext",
+   "Dans un SWOT, opportunités et menaces viennent…",
+   [
+    "De l'analyse interne",
+    "Du PESTEL et des cinq forces",
+    "Des états financiers",
+    "Des RH"
+   ],
+   1,
+   "L'externe alimente le bas de la matrice."
+  ],
+  [
+   "ext",
+   "La combinaison Forces + Opportunités consiste à…",
+   [
+    "Réduire son exposition",
+    "Utiliser ce qu'on fait de mieux pour saisir ce que le marché offre",
+    "Corriger une faiblesse",
+    "Ignorer les menaces"
+   ],
+   1,
+   "F+O."
+  ],
+  [
+   "ext",
+   "Un SWOT est utile seulement si…",
+   [
+    "Il est complet",
+    "Il débouche sur des choix",
+    "Il est validé par le board",
+    "Il est chiffré"
+   ],
+   1,
+   "Sinon, ce n'est qu'une liste."
+  ],
+  [
+   "ext",
+   "L'option F+O suggérée pour Uber est…",
+   [
+    "Racheter Lyft",
+    "Devenir la plateforme de demande des flottes de robotaxis",
+    "Quitter l'Europe",
+    "Salarier tous les chauffeurs"
+   ],
+   1,
+   "Avant que les robotaxis ne construisent leur propre appli."
+  ],
+  [
+   "ext",
+   "En 2019, le pouvoir des fournisseurs des compagnies aériennes était fort parce que…",
+   [
+    "Le kérosène était gratuit",
+    "Duopole Airbus-Boeing sur les gros avions de ligne",
+    "Les pilotes étaient nombreux",
+    "Les aéroports étaient gratuits"
+   ],
+   1,
+   "Deux constructeurs se partagent le marché."
+  ],
+  [
+   "ext",
+   "La recette low cost de Southwest et Ryanair…",
+   [
+    "Hubs et long-courrier",
+    "Un seul type d'avion, point-à-point, rotations rapides, sans fioritures",
+    "Classes premium uniquement",
+    "Alliances mondiales"
+   ],
+   1,
+   "Extras payants, aéroports moins chers."
+  ],
+  [
+   "ext",
+   "Combien d'années de profit consécutif pour Southwest (1973-2019) ?",
+   [
+    "10",
+    "25",
+    "47",
+    "60"
+   ],
+   2,
+   "Pendant que les grandes compagnies US passaient par le Chapter 11."
+  ],
+  [
+   "ext",
+   "Au pire du premier confinement (2020), le trafic aérien mondial a chuté de…",
+   [
+    "30 %",
+    "50 %",
+    "Plus de 90 %",
+    "10 %"
+   ],
+   2,
+   "Frontières fermées, avions cloués au sol."
+  ],
+  [
+   "ext",
+   "L'enseignement principal du cas aérien…",
+   [
+    "Le low cost gagne toujours",
+    "Aucune analyse n'élimine les chocs ; la résilience (cash, flexibilité, options) est un choix stratégique",
+    "L'État ne doit jamais intervenir",
+    "Le long-courrier est mort"
+   ],
+   1,
+   "L'analyse externe est un exercice continu."
+  ],
+  [
+   "ext",
+   "La stratégie réalisée diffère de l'intentionnelle à cause…",
+   [
+    "Des erreurs de calcul",
+    "Des leviers de mise en œuvre : structure, systèmes et processus, personnes et récompenses",
+    "Du hasard seulement",
+    "Des actionnaires"
+   ],
+   1,
+   "Stratégie émergente (cadre conceptuel du cours)."
+  ],
+  [
+   "int",
+   "L’analyse interne cherche surtout à expliquer…",
+   [
+    "Où se trouve le profit dans une industrie",
+    "Qui peut capter le profit grâce à ses ressources et capacités",
+    "Le taux directeur",
+    "La taille du marché uniquement"
+   ],
+   1,
+   "L’externe situe le profit ; l’interne explique les écarts entre firmes."
+  ],
+  [
+   "int",
+   "Une capacité est…",
+   [
+    "Un actif détenu",
+    "Une menace externe",
+    "Ce que la firme sait faire de ses ressources",
+    "Un résultat financier"
+   ],
+   2,
+   "Routines et organisation transforment les ressources en résultats."
+  ],
+  [
+   "int",
+   "Lequel est une ressource intangible ?",
+   [
+    "La réputation",
+    "Une usine",
+    "La trésorerie",
+    "Une flotte"
+   ],
+   0,
+   "Marque, réputation, culture et relations sont intangibles."
+  ],
+  [
+   "int",
+   "Dans VRIO, V relie la ressource à…",
+   [
+    "La rémunération des associés",
+    "L’âge de l’entreprise",
+    "La taille du bilan",
+    "Une opportunité ou une menace externe"
+   ],
+   3,
+   "Une ressource est précieuse si elle exploite une opportunité ou neutralise une menace."
+  ],
+  [
+   "int",
+   "Une ressource précieuse mais détenue par tous les rivaux donne…",
+   [
+    "Un avantage durable",
+    "La parité concurrentielle",
+    "Un avantage inexploité",
+    "Un désavantage systématique"
+   ],
+   1,
+   "V sans R permet de rester dans le jeu."
+  ],
+  [
+   "int",
+   "Une ressource précieuse et rare mais facile à copier donne…",
+   [
+    "Un avantage temporaire",
+    "Toujours un avantage durable",
+    "Aucun intérêt",
+    "Une intégration aval"
+   ],
+   0,
+   "L’imitation permet aux rivaux de rattraper la firme."
+  ],
+  [
+   "int",
+   "Xerox PARC illustre dans les slides…",
+   [
+    "Une ressource sans valeur",
+    "Une ressource courante",
+    "Un avantage inexploité faute d’organisation",
+    "Une pénurie de cash"
+   ],
+   2,
+   "V, R, I sont satisfaits mais pas O."
+  ],
+  [
+   "int",
+   "Une relation fournisseur fondée sur la confiance est difficile à copier par…",
+   [
+    "Un effet de taux de change",
+    "La seule taille de l’usine",
+    "Une réglementation universelle",
+    "La complexité sociale"
+   ],
+   3,
+   "L’avantage tient aux relations et à la confiance entre personnes."
+  ],
+  [
+   "int",
+   "L’ambiguïté causale signifie que…",
+   [
+    "La ressource est illégale",
+    "On ne peut pas isoler exactement ce qui crée la réussite",
+    "Les concurrents manquent de cash",
+    "Tous les actifs sont visibles"
+   ],
+   1,
+   "Même les acteurs peuvent peiner à expliquer ce qui fonctionne."
+  ],
+  [
+   "int",
+   "Selon Teece, les capacités dynamiques consistent à…",
+   [
+    "Détecter, saisir et reconfigurer",
+    "Figer les routines existantes",
+    "Acheter tous les concurrents",
+    "Conserver les actifs à tout prix"
+   ],
+   0,
+   "S’adapter évite que les forces deviennent des rigidités."
+  ],
+  [
+   "int",
+   "Quel est un exemple d’activité de soutien dans la chaîne de Porter ?",
+   [
+    "Logistique entrante",
+    "Service après-vente",
+    "Ressources humaines",
+    "Ventes"
+   ],
+   2,
+   "Les activités de soutien comprennent infrastructure, RH, technologie et achats."
+  ],
+  [
+   "int",
+   "L’avantage de Zara vient surtout…",
+   [
+    "D’une publicité identique aux rivaux",
+    "De stocks permanents très élevés",
+    "D’un prix toujours le plus bas",
+    "De la boucle magasin-design-usine-magasin"
+   ],
+   3,
+   "Le système combine données, petites séries et réapprovisionnement rapide."
+  ],
+  [
+   "int",
+   "Pourquoi Continental Lite n’a-t-il pas reproduit Southwest ?",
+   [
+    "Il conservait son réseau de hubs en copiant seulement certains éléments",
+    "Il a copié tout le système",
+    "Il ne vendait aucun billet",
+    "Les prix bas ne comptent jamais"
+   ],
+   0,
+   "Le système d’activités doit être cohérent ; copier des éléments isolés ne suffit pas."
+  ],
+  [
+   "int",
+   "Netflix produisant son contenu illustre…",
+   [
+    "Une intégration aval",
+    "Une intégration amont",
+    "Une ressource non précieuse",
+    "La parité"
+   ],
+   1,
+   "L’entreprise contrôle un intrant."
+  ],
+  [
+   "int",
+   "Apple ouvrant ses magasins illustre…",
+   [
+    "Une intégration amont",
+    "Une ambiguïté causale",
+    "Une intégration aval",
+    "Une sortie du marché"
+   ],
+   2,
+   "Elle contrôle davantage la relation client."
+  ],
+  [
+   "int",
+   "Le graphique de profit pool des smartphones est…",
+   [
+    "Une mesure exacte des profits par iPhone",
+    "Un bilan consolidé",
+    "Une prévision contractuelle",
+    "Une illustration non mesurée"
+   ],
+   3,
+   "Les slides distinguent explicitement illustration et données mesurées."
+  ],
+  [
+   "int",
+   "Peut-on lire 32 % Apple et 3 % Foxconn comme des parts du profit d’un iPhone ?",
+   [
+    "Oui, elles s’additionnent à 100 %",
+    "Non : ce sont des marges avec des périmètres distincts",
+    "Oui, même exercice signifie même périmètre",
+    "Seulement si on ajoute Samsung"
+   ],
+   1,
+   "Apple couvre tous ses produits, Samsung une division, etc."
+  ],
+  [
+   "int",
+   "Les trois axes d’organisation d’un cabinet sont…",
+   [
+    "Industrie, fonction, géographie",
+    "Cash, dette, capitaux propres",
+    "Prix, volume, marge",
+    "Tangible, intangible, externe"
+   ],
+   0,
+   "Les slides comparent notamment McKinsey et BCG sur ces axes."
+  ],
+  [
+   "int",
+   "Comment lire les salaires de conseil des slides ?",
+   [
+    "Comme des salaires garantis en France aujourd’hui",
+    "Comme des montants nets identiques partout",
+    "Comme des ordres de grandeur datés et de périmètres différents",
+    "Comme des coûts facturés au client"
+   ],
+   2,
+   "US : estimations 2026 ; France : presse ≈2022 ; total pay et brut ne sont pas identiques."
+  ],
+  [
+   "int",
+   "La due diligence opérationnelle vérifie…",
+   [
+    "Seulement les taux d’intérêt",
+    "Seulement les contrats",
+    "Uniquement l’attractivité du marché",
+    "Les ressources et capacités annoncées par la cible"
+   ],
+   3,
+   "Elle mobilise l’analyse interne de la séance 3."
+  ],
+  [
+   "int",
+   "La due diligence commerciale mobilise surtout…",
+   [
+    "L’analyse du marché et de la position concurrentielle",
+    "La maintenance des serveurs uniquement",
+    "La paie interne uniquement",
+    "La fiscalité uniquement"
+   ],
+   0,
+   "Elle applique les outils de l’analyse externe de la séance 2."
+  ],
+  [
+   "int",
+   "Un actif tangible peut-il soutenir un avantage durable ?",
+   [
+    "Jamais",
+    "Oui, s’il est rare et protégé, comme certains créneaux ou une mine",
+    "Seulement s’il n’a aucune valeur",
+    "Dès qu’il apparaît au bilan"
+   ],
+   1,
+   "Les slides nuancent l’avantage habituel des intangibles."
+  ]
+ ],
+ "cards": [],
+ "pending": [
+  "Business level strategy",
+  "Plateformes",
+  "Frontières de la firme : M&A",
+  "Stratégie et enjeux sociétaux",
+  "Stratégie et business models"
+ ],
+ "exams": [],
+ "sessionDates": {
+  "intro": "2026-10-08",
+  "ext": "2026-10-15",
+  "int": "2026-10-22"
+ },
+ "infoContent": [
+  {
+   "title": "Programme et règles du cours",
+   "fr": "<h4>Programme</h4>\n<table><tr><th>Séance</th><th>Thème</th></tr>\n<tr><td>1 · 8 oct.</td><td>Introduction à la stratégie</td></tr><tr><td>2 · 15 oct.</td><td>Analyse externe</td></tr><tr><td>3 · 22 oct.</td><td>Analyse interne</td></tr><tr><td>4 · 29 oct. selon les slides</td><td>Business level strategy (MyESSEC ne prévoit pas de cours le 29/10 mais un samedi 28/11 à 16h30)</td></tr>\n<tr><td>5 · 5 nov.</td><td>Management stratégique des plateformes</td></tr><tr><td>6 · 12 nov.</td><td>Frontières de la firme : M&amp;A</td></tr><tr><td>7 · 19 nov.</td><td>Stratégie et enjeux sociétaux</td></tr><tr><td>8 · 26 nov.</td><td>Stratégie et business models</td></tr>\n<tr><td>9–10 · 3 et 10 déc.</td><td>Présentations de groupe</td></tr></table>\n<h4>Règles du cours et IA</h4>\n<ul><li>Être à l'heure (les retards font perdre des points de participation), rester respectueux et professionnel, chevalet nominatif devant soi, téléphones et ordinateurs rangés quand c'est demandé.</li>\n<li>L'IA est un outil qu'il serait dommage de ne pas utiliser, à condition de ne pas lui « sous-traiter son cerveau » : objectif clair avant de l'utiliser, questions précises, esprit critique et usage responsable. Les attentes du professeur seront plus élevées et il vérifiera que vous comprenez ce que vous dites.</li></ul>\n",
+   "en": "<h4>Course agenda</h4>\n<table><tr><th>Session</th><th>Topic</th></tr>\n<tr><td>1 · 8 Oct.</td><td>Introduction to strategy</td></tr><tr><td>2 · 15 Oct.</td><td>External analysis</td></tr><tr><td>3 · 22 Oct.</td><td>Internal analysis</td></tr><tr><td>4 · 29 Oct. per the slides</td><td>Business level strategy (MyESSEC shows no class on 29/10 but a Saturday session on 28/11 at 4:30 pm)</td></tr>\n<tr><td>5 · 5 Nov.</td><td>Strategic management of platform businesses</td></tr><tr><td>6 · 12 Nov.</td><td>Firm boundaries: M&amp;A</td></tr><tr><td>7 · 19 Nov.</td><td>Strategy and societal issues</td></tr><tr><td>8 · 26 Nov.</td><td>Strategy and business models</td></tr>\n<tr><td>9–10 · 3 and 10 Dec.</td><td>Group presentations</td></tr></table>\n<h4>Rules and AI</h4>\n<ul><li>Be on time (late arrivals lose participation points), stay respectful and professional, display your name tag, put phones and laptops away when asked.</li>\n<li>AI is a tool and not using it would be a mistake, but do not outsource your brain: define your purpose, ask precise questions, think critically and use it responsibly. Expectations will be higher, and the lecturer will check that you understand what you say.</li></ul>\n"
+  },
+  {
+   "title": "Supports et préparation",
+   "fr": "<h4>S1 · Introduction à la stratégie (8 oct.)</h4><p class=\"note\">La séance s'est terminée par un premier cas, Alaska Gold Mine, dont le contenu n'est pas dans les slides publiées.</p><h4>S2 · Analyse externe (15 oct.)</h4><p class=\"note\">Séance 2 du 15 octobre, slides publiées sur Moodle : analyse externe (PESTEL, cinq forces, SWOT) et cas Wooclap sur l'industrie aérienne. Le début du deck terminait le cas Alaska Gold Mine et le cadre conceptuel de la séance 1.</p>",
+   "en": "<h4>S1 · Introduction to strategy (8 Oct)</h4><p class=\"note\">The session ended with a first case, Alaska Gold Mine, whose content is not in the published slides.</p><h4>S2 · External analysis (15 Oct)</h4><p class=\"note\">Session 2 of 15 Oct., slides published on Moodle: external analysis (PESTEL, Five Forces, SWOT) and the Wooclap airline case. The deck opened by finishing the Alaska Gold Mine case and the Session 1 conceptual framework.</p>"
+  }
+ ]
+}
