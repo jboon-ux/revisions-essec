@@ -413,6 +413,10 @@ if(!ST.get("structure20261023",false)){
  const oldRead=readS.mm||[];readS.mm=oldRead.filter(i=>![3,6,8].includes(i)).map(i=>i-[3,6,8].filter(v=>v<i).length);
  ST.set("q",qstat);ST.set("r",readS);ST.set("last",null);ST.set("structure20261023",true);try{localStorage.removeItem("rev3:c")}catch(e){}
 }
+if(!ST.get("finTopics20261104",false)){
+ const oldFin=readS.fin||[];readS.fin=oldFin.map(i=>i===0?1:i).filter((v,i,a)=>a.indexOf(v)===i);
+ ST.set("r",readS);ST.set("finTopics20261104",true);
+}
 const saveQ=()=>ST.set("q",qstat), saveR=()=>ST.set("r",readS);
 let last=ST.get("last",null);
 const setLast=(o)=>{last=o;ST.set("last",o)};
@@ -423,7 +427,7 @@ const allErr=()=>SUBJ.reduce((n,s)=>n+errIds(s.id).length,0);
 async function load(id){
   if(DATA[id])return DATA[id];
   if(window.__PRE&&window.__PRE[id])return DATA[id]=window.__PRE[id];
-  const r=await fetch(`data/${id}.json?v=20261104-fin2`);if(!r.ok)throw new Error("Chargement impossible");return DATA[id]=await r.json();
+  const r=await fetch(`data/${id}.json?v=20261104-fin3`);if(!r.ok)throw new Error("Chargement impossible");return DATA[id]=await r.json();
 }
 
 const courseQIds=s=>s.qcm.map((q,i)=>i).filter(i=>s.chapters.some(c=>c[0]===s.qcm[i][0]));
@@ -648,7 +652,7 @@ function examPage(sub,examId){
   return `<div class="hello"><div class="eyebrow">Entraînement</div><h1>Examen blanc</h1><p>Sujets, questions ouvertes et corrigés, rangés par matière. Les cours restent dans l'onglet Cours.</p></div>
   <div id="qz"><div class="ess">${subjects.map(s=>`<section class="es" style="--c:${col(s.id)}"><div class="esh"><h3>${esc(s.name)}</h3><button class="btn ghost sm" data-ex="${s.id}"><b>Tirage aléatoire</b> · QCM des sujets</button></div>
     <ul class="evl">${(DATA[s.id].exams||[]).map(x=>`<li><a href="#/examen/${s.id}/${x.id}"><b>${esc(x.title)}</b> →</a><span class="muted">${DATA[s.id].qcm.filter(q=>q[0]===x.id).length?` · ${DATA[s.id].qcm.filter(q=>q[0]===x.id).length} QCM + sujet et corrigés`:' · exercices et corrigés'}</span></li>`).join("")}</ul></section>`).join("")}</div>
-  <p class="muted">Seuls les sujets Accounting sont conservés pour le moment. Les autres examens blancs seront utiles quand le cours sera complet. Les QCM de cours restent dans chaque matière.</p>
+  <p class="muted">Les sujets sont rangés par matière ; les QCM de cours restent dans chaque matière.</p>
   <div class="row"><button class="btn ghost" data-ex="err" ${e?"":"disabled"}><b>Mes erreurs</b> · ${e}</button></div></div>`;
 }
 function bindExam(){
