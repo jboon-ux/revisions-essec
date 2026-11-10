@@ -181,7 +181,284 @@
   "t7": "Plan du cours du polycopié papier ; pages du topic pas encore numérisées."
  },
  "badge": "Polycopié papier",
- "qcm": [],
+ "qcm": [
+  [
+   "t1",
+   "According to the course, corporate finance addresses three questions. Which of the following is NOT one of them?",
+   [
+    "What long-term investments should the firm engage in?",
+    "How can the firm raise the money for the required investments?",
+    "How much short-term cash flow does a company need?",
+    "What dividend yield maximizes the firm's share price?"
+   ],
+   3,
+   "The three questions are long-term investments, raising the money, and short-term cash flow needs. Dividend policy is not listed among them in Topic 1."
+  ],
+  [
+   "t1",
+   "True or false: to create value, only the size of expected cash flows matters.",
+   [
+    "True",
+    "False - only the timing matters",
+    "False - the size, timing AND risk of cash flows all count",
+    "False - only the risk matters"
+   ],
+   2,
+   "The course states that the size, timing and risk of the cash flows should all be evaluated."
+  ],
+  [
+   "t1",
+   "A financial manager creates value mainly by…",
+   [
+    "cutting all costs whatever the impact on growth",
+    "making smart investment decisions and smart financing decisions",
+    "maximizing short-term accounting profit",
+    "avoiding all forms of debt"
+   ],
+   1,
+   "Smart investment + smart financing decisions - in other words, raising more money than it costs."
+  ],
+  [
+   "t1",
+   "The main activity of a bank, as presented in the course, is to…",
+   [
+    "transform long-term deposits into short-term loans",
+    "transform short-term deposits into long-term loans",
+    "print money for the central bank",
+    "insure corporations against default risk"
+   ],
+   1,
+   "Banks collect short-term deposits and transform them into long-term loans to individuals and businesses."
+  ],
+  [
+   "t1",
+   "Match the client segment: merchant services (e.g. payment services) and treasury management are typical activities of…",
+   [
+    "retail banking",
+    "commercial banking",
+    "corporate & investment banking",
+    "private equity"
+   ],
+   1,
+   "The course table assigns business loans, treasury/cash-flow services and merchant services to commercial banking (SMEs)."
+  ],
+  [
+   "t1",
+   "Which of these is NOT an institutional investor named in the course?",
+   [
+    "An insurance company",
+    "A pension fund",
+    "A sovereign wealth fund",
+    "An individual investing her own savings online"
+   ],
+   3,
+   "An individual investing her own money is a retail investor. Insurance companies, pension funds, sovereign wealth funds and endowments are institutional."
+  ],
+  [
+   "t1",
+   "True or false: institutional investors account for most of financial trading volumes, but retail trading has been rising quickly since Covid.",
+   [
+    "True",
+    "False - retail investors dominate volumes",
+    "False - retail trading has been falling since Covid",
+    "False - volumes are split exactly 50/50"
+   ],
+   0,
+   "Institutional investors dominate volumes, BUT retail trading has risen quickly post-Covid, worldwide."
+  ],
+  [
+   "t1",
+   "Global third-party assets under management (delegated asset management) evolved roughly from…",
+   [
+    "$60 trillion in 2013 to $121 trillion in 2023",
+    "$6 trillion in 2013 to $12 trillion in 2023",
+    "$121 trillion in 2013 to $60 trillion in 2023",
+    "$145 trillion in 2014 to $127 trillion in 2024"
+   ],
+   0,
+   "From $60T (2013) to $121T (2023), source McKinsey 2024. The $145T/$127T figures are bond vs equity market sizes."
+  ],
+  [
+   "t1",
+   "Hedge funds and Private Equity funds are described in the course as…",
+   [
+    "retail banking products",
+    "'alternative' investments accessible to a handful of investors",
+    "government-guaranteed vehicles",
+    "short-term deposit products"
+   ],
+   1,
+   "They are 'alternative' investments accessible to a handful of investors, unlike ETFs/mutual funds set up by asset managers."
+  ],
+  [
+   "t1",
+   "Issuing debt means the issuer has…",
+   [
+    "a discretionary choice to pay interest when profits allow",
+    "a contractual obligation to make periodic interest payments and repay the principal at maturity",
+    "to give creditors a voting seat on the board",
+    "an obligation lasting the infinite life of the security"
+   ],
+   1,
+   "Debt = contractual obligation: periodic fixed or floating interest plus repayment of principal (face value) at maturity."
+  ],
+  [
+   "t1",
+   "In the Debt vs Equity comparison of the course, which line is correct?",
+   [
+    "Debt: payments discretionary - Equity: payments contractually fixed",
+    "Debt: infinite life - Equity: finite life",
+    "Debt: interest is tax-deductible for the firm - Equity: dividends are not",
+    "Debt: issued only by corporations - Equity: issued by governments and corporations"
+   ],
+   2,
+   "Interest is tax-deductible, dividends are not. Debt payments are contractually fixed with finite life; equity dividends are discretionary with infinite life. Governments issue debt, not equity."
+  ],
+  [
+   "t1",
+   "Bank loans versus corporate bonds, according to the course:",
+   [
+    "bank loans are unmonitored lending used by listed firms; bonds are monitored lending used by small private firms",
+    "bank loans imply systematic monitoring and are prevalent among small, non-listed firms; bonds are often unmonitored, dispersed lending prevalent among listed firms",
+    "both involve the same pool of homogeneous lenders",
+    "bonds are not tradable, unlike bank loans"
+   ],
+   1,
+   "Bank loans = monitored, few homogeneous lenders, typical of small private firms. Corporate bonds = 'unmonitored', dispersed investors, typical of listed and large private firms. Bonds are securities, i.e. tradable."
+  ],
+  [
+   "t1",
+   "In 2024, the global bond market and equity market sizes were approximately…",
+   [
+    "$127 trillion for bonds, $145 trillion for equity",
+    "equal at about $135 trillion each",
+    "$145 trillion for bonds, $127 trillion for equity",
+    "$93 trillion for bonds, $69 trillion for equity"
+   ],
+   2,
+   "Bond market $145T > equity market $127T in 2024 (SIFMA 2025). The $93T/$69T pair is the 2014 situation."
+  ],
+  [
+   "t1",
+   "The market for sovereign bonds is roughly…",
+   [
+    "twice as big as the market for corporate bonds",
+    "half the size of the corporate bond market",
+    "limited to U.S. Treasury Bills",
+    "smaller than the equity market of France only"
+   ],
+   0,
+   "Sovereign bond market ≈ nearly twice the corporate bond market, per the course."
+  ],
+  [
+   "t1",
+   "A domestic-currency government bond is often called 'risk-free' because…",
+   [
+    "governments never default, by definition",
+    "the taxing power (raise taxes or print money) allows the issuer to meet its obligations",
+    "it carries the highest yield on the market",
+    "it is guaranteed by the rating agencies"
+   ],
+   1,
+   "The taxing power - the ability to raise taxes or print money - is what backs the 'risk-free' label in the course."
+  ],
+  [
+   "t1",
+   "In the U.S. Treasury securities table, 'Notes' have a maturity of…",
+   [
+    "less than 1 year",
+    "1 year up to 10 years",
+    "10 to 20 years",
+    "more than 20 years"
+   ],
+   1,
+   "Bills < 1 year; Notes 1-10 years; Bonds 10-20 years. (Abroad: Gilts UK, Bunds Germany, OAT France.)"
+  ],
+  [
+   "t1",
+   "The yield on a corporate debt security is based on the risk-free rate with adjustments for…",
+   [
+    "credit (default) risk, liquidity, tax status and special provisions",
+    "the CEO's reputation only",
+    "inflation only",
+    "the dividend payout ratio"
+   ],
+   0,
+   "The four adjustments named in the course: credit (default) risk [DP], liquidity [L], tax status [TA], special provisions [SP] (e.g. callable or convertible bond)."
+  ],
+  [
+   "t1",
+   "The difference between the yield on a debt security and the risk-free rate of the same maturity is called…",
+   [
+    "the coupon rate",
+    "the risk premium",
+    "the credit rating",
+    "the face value"
+   ],
+   1,
+   "That difference is the risk premium, per the course definition."
+  ],
+  [
+   "t1",
+   "True or false: according to the two stylized facts in the course, the credit risk premium is a negative function of the rating and the risk premium of different ratings evolves over time.",
+   [
+    "True",
+    "False - a worse rating means a lower premium",
+    "False - risk premia are constant over time",
+    "False - both facts are inverted"
+   ],
+   0,
+   "The worse the rating, the higher the premium (negative function of rating), and premia across ratings change over time."
+  ],
+  [
+   "t1",
+   "A shareholder is a 'residual owner' because…",
+   [
+    "she is paid before all debtholders in bankruptcy",
+    "she has a residual claim on the firm's assets after all debt and tax liabilities are paid",
+    "she receives a fixed contractual dividend",
+    "she can force the company into bankruptcy for not paying a dividend"
+   ],
+   1,
+   "Shareholders are paid last, after all debt and tax liabilities. Dividends are discretionary and non-payment cannot force bankruptcy."
+  ],
+  [
+   "t1",
+   "The two-part rate of return on corporate stock is made of…",
+   [
+    "interest payments and principal repayment",
+    "capital gains and periodical dividend payments",
+    "coupons and maturity value",
+    "voting rights and dividends"
+   ],
+   1,
+   "Stock return = capital gains + dividend payments - the debt vocabulary (interest, principal, coupon) does not apply."
+  ],
+  [
+   "t1",
+   "Comparing common and preferred shareholders in the course table:",
+   [
+    "preferred shareholders generally have voting rights; common shareholders do not",
+    "the preferred shareholder has a fixed, higher-priority dividend and is senior to the common shareholder in bankruptcy, but junior to debtholders",
+    "the common shareholder is senior to the debtholder in bankruptcy",
+    "both can force the corporation into bankruptcy for not paying dividends"
+   ],
+   1,
+   "Preferred = fixed dividend with higher priority, senior to common but junior to debt; common = voting rights, potentially unlimited but not guaranteed dividend, lowest priority."
+  ],
+  [
+   "t1",
+   "Equity analysts, as presented in the course,…",
+   [
+    "measure the default risk of bond issues",
+    "rate company stocks and issue recommendations from 'Sell' to 'Buy' in an Analyst Note",
+    "set the risk-free rate",
+    "audit the firm's tax statements"
+   ],
+   1,
+   "Equity analysis is the equity-market equivalent of credit rating: analysts rate stocks from 'Sell' to 'Buy', forecast earnings and publish Analyst Notes. Default risk belongs to rating agencies (S&P, Moody's, Fitch)."
+  ]
+ ],
  "cards": [],
  "pending": [],
  "exams": [
