@@ -6,7 +6,7 @@
  "code": "IDSI31135",
  "lang": "EN",
  "src": true,
- "srcnote": "Programme officiel et slides des séances 1 à 4 publiées sur Moodle ; consigne de l'exercice en classe sur la Digital Matrix. Les autres slides ne sont pas encore publiées : ces chapitres présentent les notions de référence du thème annoncé.",
+ "srcnote": "Programme officiel et slides publiées sur Moodle (séances 1-4, 6 et 7) ; consigne de l'exercice en classe sur la Digital Matrix. Les autres slides ne sont pas encore publiées : ces chapitres présentent les notions de référence du thème annoncé.",
  "eval": "Examen final écrit, papier : 45 % (mardi 8 décembre, 16h30–17h30, horaire confirmé sur la page Moodle du cours ; vrai/faux, QCM et questions ouvertes ; cheat sheet de 2 pages autorisée). Travaux de groupe en classe : 30 %. Participation orale : 25 %. Présence obligatoire.",
  "chapters": [
   [
@@ -28,6 +28,10 @@
   [
    "cyber",
    "Données et cybersécurité (10 nov.)"
+  ],
+  [
+   "plat",
+   "Plateformes et économie numérique (17 nov.)"
   ]
  ],
  "fr": [
@@ -55,6 +59,11 @@
    "cyber",
    "S6 · Données, cybersécurité et cyber-résilience (10 nov.)",
    "\n<h4>Objectifs de la séance</h4>\n<ul><li>Comprendre les enjeux de la protection des données personnelles (data privacy).</li><li>Connaître la cybersécurité et la cybercriminalité.</li><li>Maîtriser le concept de cyber-résilience.</li></ul>\n<h4>La protection des données à l'ère numérique</h4>\n<ul><li><b>Surveillance dystopique</b> : Google peut suivre la majeure partie de la vie de ses utilisateurs ; les grandes plateformes admettent officiellement collecter de très nombreuses données (Statista).</li>\n<li><b>« Services for free? Or are you a cheap date? »</b> : les entreprises paient pour obtenir des points de données sur les consommateurs (prix moyens en USD, 2017 - Statista) ; le « gratuit » se paie en données.</li>\n<li><b>Contre-mesures possibles</b> : faire appliquer les lois existantes sur la vie privée et la concurrence (RGPD, démantèlement des monopoles de données) ; informer les utilisateurs (informés des coulisses du capitalisme de surveillance, ils réclament protection et alternatives) ; nouvelles formes de régulation (interdire certaines collectes et utilisations, avantager les entreprises qui rompent avec le capitalisme de surveillance, nouvelles lois collectives).</li></ul>\n<h4>RGPD et AI Act</h4>\n<ul><li><b>RGPD</b> (en vigueur depuis 2018) : règlement complet sur la protection des données personnelles (collecte, transfert, traitement, stockage) ; accorde des droits aux citoyens européens - droit à l'information, droit à l'effacement - et impose des obligations aux sous-traitants de données.</li>\n<li><b>AI Act</b> (en vigueur depuis 2025) : catégorisation par le risque - interdiction des applications à « risque inacceptable » (ex. notation sociale), exigences strictes pour les systèmes « à haut risque » (RH, infrastructures critiques), règles allégées pour les risques moindres ; objectif : faire de l'Europe un pôle d'IA de confiance, alignant innovation, droits fondamentaux et durabilité.</li></ul>\n<h4>Autres cadres européens clés</h4>\n<ul><li><b>Digital Services Act</b> (2023) : responsabilité des plateformes en ligne sur les contenus, la transparence et les systèmes algorithmiques (marketplaces, réseaux sociaux, intermédiaires).</li>\n<li><b>Data Act et Data Governance Act</b> (2023) : partage, portabilité et réutilisation des données ; les données générées par les machines doivent être accessibles non seulement au fabricant mais aussi à celui qui possède ou exploite la machine (agriculture connectée, industrie 4.0).</li>\n<li><b>Digital Markets Act</b> (2024) : cible les plateformes « gatekeepers » (Google, Meta) ; concurrence loyale et interopérabilité entre écosystèmes numériques.</li></ul>\n<h4>Cas Palantir</h4>\n<ul><li>Entreprise co-fondée par Alexandre Karp (avec Peter Thiel) : nouvelles solutions contre de nouvelles menaces, ou menace pour les libertés civiles ? Étude de cas en séance (vidéos).</li></ul>\n<h4>La cybercriminalité : 4 catégories</h4>\n<ul><li><b>I. Contre les individus</b> : usurpation d'identité par malware, phishing et arnaques, spoofing, BEC (Business Email Compromise), cyberharcèlement, cyberstalking, fraude au recrutement en ligne, ingénierie sociale, « digital arrest », cyberextorsion visant les individus, arnaques aux rencontres / catfishing.</li>\n<li><b>II. Contre la propriété (actifs numériques)</b> : distribution de malwares (virus, vers, chevaux de Troie, rançongiciels, spyware, adware, keyloggers, botnets, PUP), piratage / accès non autorisé, violations de données, atteinte à la propriété intellectuelle, attaques DoS et DDoS, attaques de mots de passe, Man-in-the-Middle, injection SQL, XSS, tunneling DNS, exploits zero-day, fraude publicitaire.</li>\n<li><b>III. Contre les organisations et les gouvernements</b> : cyberespionnage / attaques étatiques, attaques de la chaîne d'approvisionnement, cyberterrorisme, cyberextorsion (visée organisationnelle), fraude financière et bancaire, fraude e-commerce, blanchiment électronique, « fraud factories ».</li>\n<li><b>IV. Contre la société</b> : trafic de drogue en ligne, diffusion de contenus interdits, CSAM, contenus faisant l'apologie du terrorisme, cybertraite sexuelle.</li></ul>\n<h4>Impact massif et croissant</h4>\n<ul><li>Coût mondial de la cybercriminalité : <b>8,15 billions de dollars en 2023</b>, attendu à <b>10,5 billions en 2025</b> ; pour la France : <b>93,46 milliards de dollars</b>.</li>\n<li>Les services publics sont des cibles privilégiées : 30 hôpitaux français touchés par des rançongiciels en 2022-2023. En 2023 : 69 % des attaques visent des entreprises, 20 % des collectivités, 11 % la santé.</li></ul>\n<h4>Résilience et cyber-résilience</h4>\n<ul><li><b>Résilience</b> (infrastructures critiques) : capacité d'une entité à <b>anticiper, résister, se relever et s'adapter</b> face à des conditions adverses (stress, attaques, compromissions), tout en continuant à délivrer ses services essentiels (électricité, eau, transports, santé, finance).</li>\n<li><b>Cyber-résilience</b> : construire des systèmes non seulement sécurisés mais intrinsèquement robustes et flexibles, capables de fonctionner et de récupérer vite face à des cybermenaces inévitables. <b>Au-delà de la cybersécurité classique</b> : la prévention parfaite est impossible ; approche holistique intégrant cybersécurité et résilience organisationnelle et opérationnelle.</li></ul>\n<h4>Trois crises récentes, un mode de crise permanent</h4>\n<ul><li><b>Le « Microsoft bug » (19 juillet 2024)</b> : en réalité causé par la mise à jour de <b>Falcon Sensor</b>, logiciel de l'éditeur de cybersécurité <b>CrowdStrike</b>. L'assureur Parametrix estime le coût total à <b>5,4 milliards de dollars</b> pour les entreprises du Fortune 500 (hors Microsoft) : santé ≈ 2 Mds $ (secteur le plus touché en valeur), banque &gt; 1 Mds $, transport ≈ 860 M$, IT ≈ 560 M$. Le transport a la plus forte perte moyenne par entreprise (143 M$, contre 112 M$ IT, 64 M$ santé, 71 M$ banque).</li>\n<li><b>La grande panne ibérique (mai 2025)</b> : blackout en Espagne et au Portugal.</li>\n<li><b>L'attaque cyber de la chaîne du froid des supermarchés en France (octobre 2026)</b>.</li></ul>\n<h4>Risques et menaces</h4>\n<ul><li><b>Naturels</b> : inondation, tempête, séisme, sécheresse, activité volcanique. <b>Technologiques</b> : explosion accidentelle, accident industriel. <b>Sanitaires</b> : pandémie, épidémie. <b>D'origine humaine</b> : cyberattaque, désinformation.</li>\n<li>Menaces d'origine humaine : armée (guerres, conflits), cyber (cyberattaques, rançongiciels, espionnage), terroriste (attentats, radicalisation), hybride (désinformation, pressions économiques).</li></ul>\n<h4>Le bug de l'an 2000 (Y2K, 1998-2000)</h4>\n<ul><li>Première fois dans l'histoire : une cause <b>entièrement technologique</b> pour une menace mondiale. En COBOL, les dates codées YYMMDD au lieu de YYYYMMDD (31 déc. 1999 = 991231 ; 2000 = 00 ⇒ « date négative »).</li>\n<li>Correction estimée entre <b>300 et 600 milliards de dollars</b> ; évaluation du risque difficile ; pression des États-Unis et de l'industrie IT ; collision avec le passage à l'euro pour l'Europe ; pénurie générale de ressources et de compétences.</li></ul>\n<h4>La centrale du Blayais (27 décembre 1999)</h4>\n<ul><li>Une chaîne de défaillances déclenchée par un événement extrême : la surcote et les vagues dépassent la digue, l'eau entre dans les bâtiments et galeries techniques, les alimentations électriques externes sont touchées ; les marges de sûreté sont réduites mais l'accident majeur est évité.</li>\n<li><b>Leçon de résilience</b> : un système peut échouer non parce que chaque composant est défectueux, mais parce qu'un seul événement défait plusieurs couches de protection supposées indépendantes.</li></ul>\n<h4>Pourquoi la cyber-résilience devient centrale</h4>\n<ul><li>Covid-19 a révélé le besoin d'infrastructures numériques rapides et robustes ; 5G, IoT, télémédecine, services publics numériques se déploient ; l'IA et le traitement cloud en temps réel aggravent la cyberdépendance.</li>\n<li><b>11 septembre 2001, le « big test » de l'IP</b> : réseaux télécoms Europe-US saturés, la voix sur IP devient essentielle ; les failles de sécurité poussent les agences à demander plus d'accès aux données de communication (Echelon, NSA, CTA 2001).</li></ul>\n<h4>La réponse de l'État : la Stratégie nationale de résilience (SNR)</h4>\n<ul><li>Approuvée en <b>avril 2022</b>, pilotée par le <b>SGDSN</b> (Secrétariat général de la défense et de la sécurité nationale) auprès du Premier ministre ; associe collectivités, opérateurs économiques, société civile et population.</li>\n<li>Mise en œuvre alignée sur les nouvelles régulations européennes depuis janvier 2025 : <b>CER</b>, <b>NIS-2</b>, <b>DORA</b>.</li></ul>\n<h4>Le nouveau cadre réglementaire européen</h4>\n<ul><li><b>Directive CER</b> (Critical Entities Resilience, adoptée 2022, appliquée depuis 2024) : entités critiques de <b>10 secteurs clés</b> (énergie, santé, finance, transport, cloud, data centers…). L'article 17 crée un statut spécial pour les entités présentes dans au moins six États membres. Obligations : notification des incidents perturbant les services essentiels, contrôles et tests des mécanismes de réponse, évaluation des risques, mesures de prévention (protection physique, protocoles de gestion des risques, gestion du personnel), vérification des antécédents du personnel, normes d'usage de certaines technologies.</li>\n<li><b>Directive NIS-2</b> (adoptée 2022, remplace NIS de 2016) : environ <b>160 000 entités européennes</b> concernées ; secteurs élargis (énergie, santé, transport, banque…) ; entités « essentielles » et « importantes » ; notification des incidents graves <b>sous 24 heures</b>, gestion des risques, audits, sécurisation des chaînes d'approvisionnement ; amendes jusqu'à <b>10 M€ ou 2 % du chiffre d'affaires mondial</b> ; coopération renforcée avec <b>EU-CyCLONe</b> ; en France, l'<b>ANSSI</b>.</li>\n<li><b>Règlement DORA</b> : résilience opérationnelle numérique du secteur financier, applicable depuis le <b>17 janvier 2025</b>.</li></ul>\n<h4>Les moyens de l'État français contre la cybercriminalité</h4>\n<ul><li>Ministères (Premier ministre, Défense, Intérieur, Justice, Économie/Finances/Industrie, Affaires étrangères, ministre délégué au Numérique) ; administrations interministérielles (SGDSN/ANSSI, SGDSN/VIGINUM, DINUM…) ; administrations dédiées civiles et militaires (OFAC - ex-OCLCTIC, DGA-MI - ex-CELAR, DGSE/DGSI, ambassadeur pour le numérique) ; autorités indépendantes (ARCEP, ARCOM, CNIL, CADA) ; recherche et lieux de partage (INRIA, CNRS, Cyber Campus).</li>\n<li><b>OFAC</b> (Office anti-cybercriminalité, créé en novembre 2023) : office central de la Police nationale pour enquêter sur la cybercriminalité (cyberattaques, fraudes en ligne, démantèlement de plateformes illicites) ; en octobre 2026 : 160 agents et 45 antennes ou détachements régionaux.</li>\n<li><b>ARIANE</b> (annoncée en 2026) : nouvelle autorité numérique de l'État regroupant DINUM et DITP auprès du Premier ministre pour standardiser et sécuriser les SI de l'État - une réforme de cybersécurité et d'administration numérique, pas une force de police.</li></ul>\n<h4>Les 5 enseignements clés</h4>\n<ul><li>1. <b>La protection des données est une responsabilité business</b> : au-delà de l'obligation légale (RGPD), elle construit la confiance, protège la réputation et les relations clients.</li>\n<li>2. <b>La cybercriminalité est un risque business, pas seulement un problème IT</b> : rançongiciels, phishing, vols de données et attaques de fournisseurs peuvent stopper les opérations et menacer la survie de l'organisation.</li>\n<li>3. <b>Les personnes sont la première ligne de défense et une vulnérabilité potentielle</b> : sensibilisation, authentification forte, contrôle des accès et procédures claires réduisent fortement les risques.</li>\n<li>4. <b>La dépendance numérique crée des risques systémiques</b> : une seule vulnérabilité (cloud, éditeur, systèmes connectés) peut toucher de nombreuses organisations et perturber des services physiques.</li>\n<li>5. <b>La cyber-résilience compte autant que la prévention</b> : aucune organisation n'élimine toutes les menaces ; elle doit aussi détecter vite, contenir l'impact, maintenir les services critiques et reprendre ses opérations.</li></ul>\n"
+  ],
+  [
+   "plat",
+   "S7 · Plateformes et économie numérique (17 nov.)",
+   "\n<h4>Objectifs de la séance (slides)</h4>\n<ul><li>Maîtriser les lois économiques fondamentales des marchés numériques : effets de réseau, coût marginal nul, lock-in.</li>\n<li>Analyser les modèles économiques des plateformes et leurs stratégies de monétisation.</li>\n<li>Comprendre le déplacement de la valeur du hardware vers le logiciel et le cloud.</li>\n<li>Identifier les goulets d'étranglement physiques mondiaux qui structurent la suprématie technologique (semi-conducteurs, data centers).</li></ul>\n\n<h4>L'économie numérique en chiffres : le grand basculement des capitalisations</h4>\n<ul><li><b>Le basculement sur 20 ans</b> : le top 10 mondial de 2005 (pétrole, banque, industrie) vs aujourd'hui (Big Tech et infrastructure IA : Microsoft, Apple, Nvidia, Alphabet, Amazon, Meta).</li>\n<li><b>Fait clé</b> : les entreprises de logiciel et de tech comptent pour plus de 80 % de la création de valeur du S&P 500 sur la dernière décennie.</li>\n<li><b>Le paradoxe de la valorisation</b> : des géants tech « asset-light » (peu d'actifs physiques) génèrent un retour sur capital investi (ROIC) supérieur aux géants industriels.</li></ul>\n\n<h4>Les 3 lois économiques fondamentales de l'économie numérique</h4>\n<ul><li><b>1. Loi de Metcalfe et effets de réseau</b> : V ∝ N² — la valeur croît avec le carré du nombre d'utilisateurs. Effets de réseau directs et indirects. C'est pourquoi les marchés numériques penchent naturellement vers le « Winner-Takes-All » ou « Winner-Takes-Most ».</li>\n<li><b>2. Coût marginal zéro et scalabilité infinie</b> : la 1re copie d'un logiciel coûte 100 M$, la 10 000 000e coûte 0,00 $ — contraste avec les limites de la production physique.</li>\n<li><b>3. Coûts de changement élevés et lock-in</b> : les écosystèmes numériques créent de la « stickiness » (ex. écosystème Apple iOS, stack Microsoft 365 en entreprise).</li></ul>\n\n<h4>Les modèles économiques dominants</h4>\n<ul><li><b>L'économie de l'attention et la publicité (AdTech)</b> : la donnée comme matière première. Les services grand public gratuits monétisent le comportement des utilisateurs et l'analyse prédictive (Meta, Alphabet).</li>\n<li><b>Abonnement et SaaS</b> : le passage des licences perpétuelles au revenu récurrent (ARR/MRR). Modèles à forte marge (> 80 % de marge brute).</li>\n<li><b>IaaS / « péages » du cloud</b> : le modèle utility du computing. AWS, Microsoft Azure et Google Cloud agissent comme des « tollbooths » (péages) de l'infrastructure numérique pour toutes les applis et entreprises. Fait : AWS génère durablement la majorité du résultat opérationnel total d'Amazon.</li></ul>\n\n<h4>L'économie de l'attention, concept fondamental des réseaux sociaux</h4>\n<ul><li>Dans l'économie de l'attention, l'attention est le « moteur » qui crée la valeur.</li>\n<li>Terme popularisé par Herbert Simon (prix Nobel) : « a wealth of information creates a poverty of attention » (une abondance d'information crée une pauvreté d'attention).</li>\n<li>Économie de l'attention = signaux algorithmiques (like, partage, secondes de visionnage…) ⇒ monétisation.</li></ul>\n\n<h4>Plateformisation : l'architecture des marchés multi-faces</h4>\n<ul><li><b>Agrégateurs vs plateformes</b> : les plateformes connectent acheteurs/vendeurs, créateurs/spectateurs, chauffeurs/passagers (Uber, Airbnb, App Store).</li>\n<li><b>Take-rates et capture de valeur</b> : les plateformes prélèvent 15 % à 30 % de commission simplement en gérant la confiance, la découverte et les rails de paiement.</li></ul>\n\n<h4>Le cas Tesla : le véhicule défini par le logiciel</h4>\n<ul><li><b>Bascule hardware → logiciel</b> : les constructeurs traditionnels (OEM) bâtissaient la valeur sur les moteurs et l'assemblage mécanique ; les VE modernes et véhicules autonomes sont des « ordinateurs sur roues ».</li>\n<li><b>Migration de la valeur</b> : logiciel, connectivité et gestion de batterie représentent désormais 50 à 60 % de la valeur des voitures nouvelle génération.</li>\n<li><b>Disparité des marges</b> : marges de l'automobile traditionnelle (5–8 %) vs marges logiciel/abonnement (70 % +). Les fonctions logicielles (FSD, upgrades de performance) débloquent de la valeur client à vie après la vente.</li></ul>\n\n<h4>Les goulets d'étranglement et monopoles matériels de la cyber-économie</h4>\n<ul><li><b>Le goulot des semi-conducteurs</b> — concentration extrême de la chaîne :<ul><li><b>ASML (Pays-Bas)</b> : monopole mondial à 100 % sur les machines de lithographie EUV nécessaires aux puces avancées.</li><li><b>TSMC (Taïwan)</b> : fabrique plus de 90 % des microchips les plus avancés du monde.</li><li><b>Nvidia (USA)</b> : monopole sur les architectures GPU qui alimentent les charges de travail IA modernes.</li></ul></li>\n<li><b>Data centers et contraintes d'énergie</b> : puissance de calcul, data centers et réseaux électriques sont les nouveaux goulets d'étranglement industriels des années 2020.</li></ul>\n\n<h4>En résumé</h4>\n<ul><li>1. La domination des marchés se déplace vers les actifs à coût marginal nul.</li>\n<li>2. Les effets de réseau produisent des dynamiques de « Winner-Takes-All ».</li>\n<li>3. La valeur migre du hardware vers le logiciel et le cloud.</li>\n<li>4. Les chaînes d'approvisionnement tech mondiales ont des goulets d'étranglement critiques à point de défaillance unique.</li></ul>\n"
   ]
  ],
  "en": [
@@ -82,6 +91,11 @@
    "cyber",
    "S6 · Data privacy, cyber security and cyber resilience (10 Nov)",
    "\n<h4>Session goals</h4>\n<ul><li>Understand the stakes of data privacy and data protection.</li><li>Know more about cyber security and cyber crime.</li><li>Be familiar with the concept of cyber resilience.</li></ul>\n<h4>Data protection in the digital age</h4>\n<ul><li><b>Dystopian surveillance</b>: Google can track most of its users' life; major tech companies officially admit to collecting large amounts of data (Statista).</li>\n<li><b>\"Services for free? Or are you a cheap date?\"</b>: firms pay for data points on consumers (average prices in USD, 2017 - Statista); \"free\" services are paid for with data.</li>\n<li><b>Possible countermeasures</b>: enforce existing privacy and anti-trust laws (GDPR, breaking up data monopolies); inform users (once informed of surveillance capitalism's backstage operations, users want protection and alternatives); new forms of regulation (outlaw certain data collection and use practices, advantage companies that break with surveillance-capitalist practices, new collective laws).</li></ul>\n<h4>GDPR and the AI Act</h4>\n<ul><li><b>GDPR</b> (effective since 2018): comprehensive data protection and privacy regulation covering the collection, transfer, processing and storage of personal data; grants EU citizens rights (right to be informed, right to erasure) and sets obligations for data processors.</li>\n<li><b>EU AI Act</b> (effective since 2025): risk-based categorisation - bans \"unacceptable risk\" applications (e.g. social scoring), imposes strict requirements for \"high-risk\" systems (HR, critical infrastructure) and lighter rules for lower-risk AI; seeks to establish Europe as a hub for trustworthy AI, aligning innovation with fundamental rights and sustainability.</li></ul>\n<h4>Further key European frameworks</h4>\n<ul><li><b>Digital Services Act</b> (since 2023): online platforms' accountability for content, transparency and algorithmic systems (digital marketplaces, social media, intermediaries).</li>\n<li><b>Data Act &amp; Data Governance Act</b> (since 2023): data sharing, portability and reuse across sectors; machine-generated data must be accessible not only to the manufacturer but also to whoever owns or operates the machine (smart farming, industry 4.0).</li>\n<li><b>Digital Markets Act</b> (since 2024): targets gatekeeper platforms (Google, Meta); fair competition and interoperability across digital ecosystems.</li></ul>\n<h4>The Palantir case</h4>\n<ul><li>Company co-founded by Alexandre Karp (with Peter Thiel): new solutions against new threats, or a threat for civil liberties? Case discussed in class (videos).</li></ul>\n<h4>Cyber crime: 4 categories</h4>\n<ul><li><b>I. Crimes against individuals</b>: malware identity theft, phishing and scams, spoofing, Business Email Compromise (BEC), cyberbullying and online harassment, cyberstalking, online recruitment fraud, social engineering, digital arrest, individual-focused cyber extortion, online dating scams / catfishing.</li>\n<li><b>II. Crimes against property (digital assets)</b>: malware distribution (viruses, worms, trojans, ransomware, spyware, adware, keyloggers, botnets, PUPs), hacking / unauthorized access, data breaches, intellectual property infringement, DoS and DDoS attacks, password attacks, Man-in-the-Middle, SQL injection, cross-site scripting (XSS), DNS tunneling, zero-day exploits, ad-fraud.</li>\n<li><b>III. Crimes against organizations and governments</b>: cyber espionage / state-sponsored attacks, supply chain attacks, cyberterrorism, organizational cyber extortion, financial and banking fraud, e-commerce fraud, electronic money laundering, fraud factories.</li>\n<li><b>IV. Crimes against society</b>: online drug trafficking, distribution of prohibited/illegal content, CSAM, content advocating terrorism, cyber sex trafficking.</li></ul>\n<h4>Massive and growing impact</h4>\n<ul><li>Global cybercrime costs reached <b>$8.15 trillion in 2023</b> and are expected to hit <b>$10.5 trillion by 2025</b>; France's cost is <b>$93.46 billion</b>.</li>\n<li>Public services are prime targets: 30 French hospitals faced ransomware attacks between 2022 and 2023. In 2023, 69% of attacks hit companies, 20% local authorities and 11% healthcare.</li></ul>\n<h4>Resilience and cyber resilience</h4>\n<ul><li><b>Resilience</b> (critical infrastructures): an entity's ability to <b>anticipate, withstand, recover from and adapt to</b> adverse conditions, stresses, attacks or compromises, while continuously delivering its intended outcomes (electricity, water, transportation, healthcare, financial systems).</li>\n<li><b>Cyber resilience</b>: building systems that are not just secure but inherently robust and flexible enough to maintain functionality and recover rapidly in the face of inevitable cyber challenges. <b>Beyond traditional cybersecurity</b>: perfect prevention is impossible; a holistic approach integrating cybersecurity with broader organizational and operational resilience.</li></ul>\n<h4>Three recent crises, a permanent crisis mode</h4>\n<ul><li><b>The \"Microsoft bug\" (19 July 2024)</b>: actually caused by an update of <b>Falcon Sensor</b>, software by cybersecurity company <b>CrowdStrike</b>. Insurer Parametrix estimates the total cost at <b>$5.4 billion</b> for Fortune 500 companies (excluding Microsoft): healthcare ≈ $2B (most affected in value), banking &gt; $1B, transportation ≈ $860M, IT ≈ $560M. Transportation also has the highest average loss per company ($143M, vs $112M IT, $64M health, $71M banking).</li>\n<li><b>The Great Iberian Blackout (May 2025)</b>: Spain and Portugal.</li>\n<li><b>The supermarkets cold-chain cyber attack in France (October 2026)</b>.</li></ul>\n<h4>Risks and threats</h4>\n<ul><li><b>Natural</b>: flood, storm, earthquake, drought, volcanic activity. <b>Technological</b>: accidental explosion, industrial accident. <b>Health</b>: pandemic, epidemic. <b>Human-origin</b>: cyberattack, disinformation.</li>\n<li>Human-made threats: armed (wars, conflicts), cyber (cyberattacks, ransomware, espionage), terrorist (attacks, radicalization), hybrid (disinformation, economic pressures).</li></ul>\n<h4>The Year 2000 bug (Y2K, 1998-2000)</h4>\n<ul><li>First time in history: an <b>entirely technological cause</b> for a global threat. In COBOL, dates were coded YYMMDD instead of YYYYMMDD (31 December 1999 = 991231; 2000 = 00 ⇒ \"negative date\").</li>\n<li>Correction estimated between <b>$300 and $600 billion</b>; difficult risk assessment; pressure from the United States and the IT industry; collision with the changeover to the euro for Europe; general shortage of resources and skills.</li></ul>\n<h4>The Blayais nuclear plant (27 December 1999)</h4>\n<ul><li>A chain of failures triggered by one extreme event: storm surge and waves overtopped the protective dyke, floodwater entered buildings and underground technical galleries, external power supplies were affected; safety margins were reduced but a major nuclear accident was avoided.</li>\n<li><b>The resilience lesson</b>: a system can fail not because every component is defective, but because one event defeats several supposedly independent layers of protection.</li></ul>\n<h4>Why cyber resilience is becoming central</h4>\n<ul><li>Covid-19 highlighted the need for strong high-speed digital infrastructure; 5G, IoT, telemedicine and digital public services keep expanding; AI and real-time cloud data processing deepen cyber dependence.</li>\n<li><b>September 11, 2001, the \"big test\" of IP</b>: Europe-US telecom networks overloaded, voice over IP became essential; security gaps led agencies to seek greater access to communication data (Echelon, NSA, CTA 2001).</li></ul>\n<h4>The State's answer: the National Resilience Strategy (SNR)</h4>\n<ul><li>Approved in <b>April 2022</b>, led by the <b>SGDSN</b> (General Secretariat for Defence and National Security) under the Prime Minister; involves local authorities, economic operators, civil society and the population.</li>\n<li>Implementation aligned with new European regulations since January 2025: <b>CER</b>, <b>NIS-2</b>, <b>DORA</b>.</li></ul>\n<h4>The new European regulatory framework</h4>\n<ul><li><b>CER Directive</b> (Critical Entities Resilience, adopted 2022, enforced since 2024): critical entities in <b>10 key sectors</b> (energy, health, finance, transport, cloud, data centers…). Article 17 creates a special status for entities providing essential services in at least six Member States. Obligations: incident notification, controls and tests of response mechanisms, risk assessment, prevention measures (physical protection, risk management protocols, staff management), background checks on staff, standards for the use of certain technologies.</li>\n<li><b>NIS-2 Directive</b> (adopted 2022, replacing the 2016 NIS directive): about <b>160,000 EU entities</b>; broader sector coverage (energy, health, transport, banking…); \"essential\" and \"important\" entity types; serious incidents reported <b>within 24 hours</b>, risk management, audits, supply chain security; fines up to <b>€10 million or 2% of global turnover</b>; improved cooperation with <b>EU-CyCLONe</b>; in France, the <b>ANSSI</b>.</li>\n<li><b>DORA Regulation</b>: digital operational resilience of the financial sector, applicable since <b>17 January 2025</b>.</li></ul>\n<h4>France's resources against cyber crime</h4>\n<ul><li>Ministries (Prime Minister, Defence, Interior, Justice, Economy/Finance/Industry, Foreign Affairs, Minister Delegate for Digital Affairs); interministerial administrations (SGDSN/ANSSI, SGDSN/VIGINUM, DINUM…); dedicated civil and military administrations (OFAC - ex-OCLCTIC, DGA-MI - ex-CELAR, DGSE/DGSI, Ambassador for Digital Affairs); independent administrative authorities (ARCEP, ARCOM, CNIL, CADA); research and sharing places (INRIA, CNRS, Cyber Campus).</li>\n<li><b>OFAC</b> (Office anti-cybercriminalité, created in November 2023): the French National Police's central office for investigating cybercrime (cyberattacks, online fraud, dismantling illicit platforms); as of October 2026: 160 staff and 45 regional branches or detachments.</li>\n<li><b>ARIANE</b> (announced 2026): a new digital authority of the French State bringing together DINUM and DITP under the Prime Minister to standardise and secure government IT - a cybersecurity and digital-government reform, not a police force.</li></ul>\n<h4>Five key learnings</h4>\n<ul><li>1. <b>Data privacy is a business responsibility</b>: beyond the GDPR legal obligation, it builds trust, protects reputation and maintains customer relationships.</li>\n<li>2. <b>Cybercrime is a business risk, not just an IT problem</b>: ransomware, phishing, data theft and attacks on suppliers can disrupt operations, generate financial losses and threaten an organisation's survival.</li>\n<li>3. <b>People are both the first line of defence and a potential vulnerability</b>: awareness, strong authentication, access controls and clear procedures significantly reduce cyber risks.</li>\n<li>4. <b>Digital dependency creates systemic risks</b>: a single vulnerability (cloud providers, software vendors, connected systems) can affect multiple organisations and disrupt physical services.</li>\n<li>5. <b>Cyber resilience matters as much as prevention</b>: no organisation can eliminate every threat; it must also detect attacks quickly, contain their impact, maintain critical services and recover operations.</li></ul>\n"
+  ],
+  [
+   "plat",
+   "S7 · Platforms and the digital economy (17 Nov)",
+   "\n<h4>Session learning goals (slides)</h4>\n<ul><li>Master the core economic laws governing digital markets: network effects, zero marginal cost, lock-in.</li>\n<li>Analyze platform business models and monetization strategies.</li>\n<li>Understand the shifting value chain from hardware to software &amp; cloud.</li>\n<li>Identify the global physical bottlenecks driving tech supremacy (semiconductors, data centers).</li></ul>\n\n<h4>The digital economy in numbers: the great market cap shift</h4>\n<ul><li><b>The 20-year flip</b>: the global top 10 in 2005 (oil, banking, manufacturing) vs today (Big Tech &amp; AI infrastructure: Microsoft, Apple, Nvidia, Alphabet, Amazon, Meta).</li>\n<li><b>Key fact</b>: software &amp; tech firms account for over 80% of S&P 500 value creation over the past decade.</li>\n<li><b>The valuation paradox</b>: \"asset-light\" tech giants generate higher returns on invested capital (ROIC) than industrial giants.</li></ul>\n\n<h4>The 3 fundamental economic laws of the digital economy</h4>\n<ul><li><b>1. Metcalfe's Law &amp; network effects</b>: V ∝ N² — value scales with the square of user nodes. Direct vs indirect network effects. Why digital markets naturally gravitate toward \"Winner-Takes-All\" or \"Winner-Takes-Most\" dynamics.</li>\n<li><b>2. Zero marginal cost &amp; infinite scalability</b>: producing the 1st copy of software costs $100M, the 10,000,000th copy costs $0.00 — in contrast with physical manufacturing limits.</li>\n<li><b>3. High switching costs &amp; lock-in</b>: digital ecosystems create stickiness (e.g. the Apple iOS ecosystem, the Microsoft 365 enterprise stack).</li></ul>\n\n<h4>Dominant business models</h4>\n<ul><li><b>The attention economy &amp; advertising (AdTech)</b>: data as raw material. Free consumer services monetize user behavior and predictive analytics (Meta, Alphabet).</li>\n<li><b>Subscription &amp; SaaS</b>: the shift from perpetual licenses to recurring revenue (ARR/MRR). High-margin models (&gt;80% gross margin).</li>\n<li><b>IaaS / cloud \"tollbooths\"</b>: the utility model of computing. AWS, Microsoft Azure and Google Cloud act as digital infrastructure tollbooths for every app and business on earth. Fact: AWS consistently generates the majority of Amazon's total operating profit.</li></ul>\n\n<h4>The attention economy, a fundamental concept in the social media economy</h4>\n<ul><li>In the attention economy, attention is the \"engine\" that drives value.</li>\n<li>The term was popularized by Nobel laureate Herbert Simon: \"a wealth of information creates a poverty of attention\".</li>\n<li>Attention economy = algorithmic signals (like, share, seconds of watch time, etc.) ⇒ monetization.</li></ul>\n\n<h4>Platformization: multi-sided market architecture</h4>\n<ul><li><b>Aggregators vs platforms</b>: platforms connect buyers/sellers, creators/viewers, drivers/riders (Uber, Airbnb, App Store).</li>\n<li><b>Take-rates &amp; value capture</b>: platforms extract 15% to 30% take-rates simply by managing trust, discovery and payment rails.</li></ul>\n\n<h4>The Tesla case: software-defined vehicles</h4>\n<ul><li><b>Hardware vs software paradigm shift</b>: traditional automakers (OEMs) built value on engines and mechanical assembly; modern EVs and autonomous vehicles are \"computers on wheels\".</li>\n<li><b>Value migration</b>: software, connectivity and battery management now represent 50-60%+ of vehicle value contribution in next-gen cars.</li>\n<li><b>Margin disparity</b>: legacy auto margins (5-8%) vs software/subscription margins (70%+). Software features (FSD, performance upgrades) unlock post-sale lifetime customer value.</li></ul>\n\n<h4>Bottlenecks &amp; hardware monopolies: the backbone of the cyber economy</h4>\n<ul><li><b>The semiconductor bottleneck</b> — extreme supply chain concentration:<ul><li><b>ASML (Netherlands)</b>: 100% global monopoly on EUV lithography machines required for advanced chips.</li><li><b>TSMC (Taiwan)</b>: manufactures &gt;90% of the world's most advanced microchips.</li><li><b>Nvidia (USA)</b>: monopoly on GPU architectures powering modern AI workloads.</li></ul></li>\n<li><b>Data centers &amp; energy constraints</b>: compute power, data centers and power grid constraints are the new industrial bottlenecks of the 2020s.</li></ul>\n\n<h4>Summary</h4>\n<ul><li>1. Market dominance moves to assets with zero marginal cost.</li>\n<li>2. Network effects drive \"Winner-Takes-All\" market dynamics.</li>\n<li>3. Value is migrating from hardware to software &amp; cloud layers.</li>\n<li>4. Global tech supply chains have critical single-point bottlenecks.</li></ul>\n"
   ]
  ],
  "ess": [
@@ -145,6 +159,19 @@
     "RGPD (2018), AI Act (2025, par le risque), DSA (2023), Data Act/DGA (2023), DMA (2024, gatekeepers).",
     "NIS-2 (2022) : ≈ 160 000 entités, notification sous 24 h, amendes jusqu'à 10 M€ ou 2 % du CA mondial ; CER (2022/2024, 10 secteurs) ; DORA (17 janv. 2025, finance).",
     "SNR française (avril 2022, SGDSN) ; OFAC (nov. 2023, police - cybercriminalité) ; ARIANE (2026, DINUM + DITP - SI de l'État)."
+   ]
+  ],
+  [
+   "plat",
+   [
+    "3 lois de l'économie numérique : loi de Metcalfe (V ∝ N², effets de réseau directs et indirects → winner-takes-all/most) ; coût marginal zéro (1re copie 100 M$, la 10 millionième 0 $ → scalabilité infinie) ; coûts de changement élevés et lock-in (écosystème Apple iOS, stack Microsoft 365).",
+    "Bascule des capitalisations : top 10 mondial 2005 = pétrole/banque/industrie → aujourd'hui Big Tech et infra IA ; les tech comptent pour plus de 80 % de la création de valeur du S&P 500 sur 10 ans ; des géants « asset-light » font un meilleur ROIC que les industriels.",
+    "Économie de l'attention : l'attention est le moteur de valeur (Herbert Simon : « a wealth of information creates a poverty of attention ») ; signaux algorithmiques (like, partage, temps de visionnage) ⇒ monétisation (Meta, Alphabet ; la donnée comme matière première).",
+    "Modèles dominants : publicité/AdTech (services gratuits monétisant le comportement), abonnement/SaaS (licence perpétuelle → revenu récurrent ARR/MRR, marge brute > 80 %), IaaS (AWS, Azure, Google Cloud = « péages » de l'infrastructure numérique ; AWS = majorité du résultat opérationnel d'Amazon).",
+    "Plateformes multi-faces : connectent acheteurs/vendeurs, créateurs/spectateurs, chauffeurs/passagers (Uber, Airbnb, App Store) et prélèvent 15 à 30 % de take-rate pour la confiance, la découverte et les rails de paiement.",
+    "Cas Tesla : le véhicule devient un « ordinateur sur roues » ; logiciel, connectivité et batterie = 50-60 % de la valeur des voitures nouvelle génération ; marges auto traditionnelle 5-8 % vs logiciel 70 % + ; les fonctions logicielles (FSD) créent de la valeur client à vie après la vente.",
+    "Goulets d'étranglement physiques : ASML = monopole mondial (100 %) sur la lithographie EUV ; TSMC fabrique > 90 % des puces les plus avancées ; Nvidia = monopole sur les GPU pour l'IA ; data centers et énergie = nouveaux goulots des années 2020.",
+    "Résumé du cours : la domination va aux actifs à coût marginal nul ; les effets de réseau produisent du winner-takes-all ; la valeur migre vers le logiciel et le cloud ; les chaînes tech ont des goulots critiques à point de défaillance unique."
    ]
   ]
  ],
@@ -1352,12 +1379,203 @@
    ],
    1,
    "Les 5 enseignements : responsabilité business (données), risque business (cybercriminalité), personnes = première ligne de défense, dépendance numérique = risques systémiques, résilience aussi importante que prévention."
+  ],
+  [
+   "plat",
+   "Selon la loi de Metcalfe, la valeur d'un réseau est proportionnelle…",
+   [
+    "Au nombre d'utilisateurs (N)",
+    "Au carré du nombre d'utilisateurs (N²)",
+    "Au logarithme du nombre d'utilisateurs",
+    "Au nombre de serveurs"
+   ],
+   1,
+   "V ∝ N² : la valeur croît avec le carré des nœuds utilisateurs. Avec les effets de réseau (directs et indirects), cela explique les dynamiques « Winner-Takes-All / Winner-Takes-Most » des marchés numériques."
+  ],
+  [
+   "plat",
+   "« La 1re copie d'un logiciel coûte 100 M$, la 10 000 000e coûte 0,00 $ » illustre…",
+   [
+    "La loi de Moore",
+    "Le coût marginal zéro et la scalabilité infinie",
+    "Le lock-in",
+    "L'économie de l'attention"
+   ],
+   1,
+   "Contrast avec la production physique : une fois le logiciel développé (coût fixe élevé), chaque copie supplémentaire ne coûte rien — la domination se déplace vers les actifs à coût marginal nul."
+  ],
+  [
+   "plat",
+   "Pourquoi les marchés numériques tendent-ils vers le « Winner-Takes-All » ?",
+   [
+    "À cause des brevets logiciels",
+    "Grâce aux effets de réseau (loi de Metcalfe) combinés au coût marginal nul",
+    "À cause des régulations antitrust",
+    "Parce que les clients aiment les monopoles"
+   ],
+   1,
+   "Les effets de réseau rendent le leader de plus en plus attractif (V ∝ N²), et le coût marginal nul lui permet de servir tout le marché : le gagnant prend tout ou presque."
+  ],
+  [
+   "plat",
+   "Qu'est-ce que le « lock-in » dans l'économie numérique ?",
+   [
+    "Une clause de confidentialité",
+    "Des coûts de changement élevés qui rendent le client captif d'un écosystème",
+    "Un blocage technique des serveurs",
+    "Une exclusivité d'app store"
+   ],
+   1,
+   "3e loi du cours : les écosystèmes créent de la stickiness — ex. l'écosystème Apple iOS ou la stack Microsoft 365 en entreprise, dont il est coûteux de sortir."
+  ],
+  [
+   "plat",
+   "Quelle part de la création de valeur du S&P 500 sur la dernière décennie vient des entreprises de logiciel et de tech, selon le cours ?",
+   [
+    "Environ 20 %",
+    "Environ 50 %",
+    "Plus de 80 %",
+    "100 %"
+   ],
+   2,
+   "Fait clé des slides. Le top 10 mondial de 2005 (pétrole, banque, industrie) a cédé la place à la Big Tech et à l'infrastructure IA (Microsoft, Apple, Nvidia, Alphabet, Amazon, Meta)."
+  ],
+  [
+   "plat",
+   "Le « paradoxe de la valorisation » désigne le fait que…",
+   [
+    "Les géants tech « asset-light » génèrent un ROIC supérieur aux géants industriels",
+    "Les industriels valent plus cher que les tech",
+    "Les entreprises tech ne font pas de bénéfices",
+    "Les marchés surévaluent le pétrole"
+   ],
+   0,
+   "Peu d'actifs physiques mais des rendements sur capital investi supérieurs : la valeur est dans le logiciel et les actifs à coût marginal nul, pas dans l'outil industriel."
+  ],
+  [
+   "plat",
+   "Qui a popularisé l'expression liée à l'économie de l'attention : « a wealth of information creates a poverty of attention » ?",
+   [
+    "Jeff Bezos",
+    "Herbert Simon",
+    "Tim Berners-Lee",
+    "Clayton Christensen"
+   ],
+   1,
+   "Herbert Simon, prix Nobel. Dans l'économie de l'attention, l'attention est le moteur de valeur : signaux algorithmiques (like, partage, temps de visionnage) ⇒ monétisation."
+  ],
+  [
+   "plat",
+   "Dans le modèle publicitaire (AdTech) de Meta ou Alphabet, quelle est la « matière première » ?",
+   [
+    "Le contenu créé par les marques",
+    "Les données des utilisateurs",
+    "La bande passante",
+    "Le matériel des data centers"
+   ],
+   1,
+   "Data as raw material : les services gratuits monétisent le comportement des utilisateurs et l'analyse prédictive via la publicité ciblée."
+  ],
+  [
+   "plat",
+   "Qu'est-ce qui caractérise le passage de la licence perpétuelle au SaaS ?",
+   [
+    "Des marges plus faibles",
+    "Le passage au revenu récurrent (ARR/MRR) avec des marges brutes > 80 %",
+    "La fin des mises à jour",
+    "Un paiement unique plus élevé"
+   ],
+   1,
+   "Subscription & SaaS : revenu récurrent et prévisible, modèles à très forte marge brute (> 80 %)."
+  ],
+  [
+   "plat",
+   "Pourquoi AWS, Azure et Google Cloud sont-ils qualifiés de « tollbooths » (péages) ?",
+   [
+    "Ils bloquent l'accès aux données",
+    "Chaque appli et entreprise passe par leur infrastructure et paie un péage d'usage",
+    "Ils facturent des amendes",
+    "Ils vendent des serveurs physiques"
+   ],
+   1,
+   "Modèle utility du computing : ils prélèvent un péage sur l'infrastructure numérique de toute l'économie. Fait du cours : AWS génère durablement la majorité du résultat opérationnel d'Amazon."
+  ],
+  [
+   "plat",
+   "Quel take-rate les plateformes prélèvent-elles typiquement, selon le cours ?",
+   [
+    "1 à 3 %",
+    "5 à 10 %",
+    "15 à 30 %",
+    "50 à 70 %"
+   ],
+   2,
+   "15 % à 30 % pour la gestion de la confiance, de la découverte et des rails de paiement (Uber, Airbnb, App Store : marchés multi-faces connectant deux côtés)."
+  ],
+  [
+   "plat",
+   "Que connecte une plateforme multi-faces, à la différence d'un simple agrégateur ?",
+   [
+    "Uniquement des acheteurs",
+    "Deux côtés ou plus : acheteurs/vendeurs, créateurs/spectateurs, chauffeurs/passagers",
+    "Des serveurs entre eux",
+    "Des fournisseurs et l'État"
+   ],
+   1,
+   "Les plateformes organisent des marchés multi-faces (Uber, Airbnb, App Store) et capturent la valeur via le take-rate."
+  ],
+  [
+   "plat",
+   "Dans le cas Tesla, quelle part de la valeur des voitures nouvelle génération vient du logiciel, de la connectivité et de la gestion de batterie ?",
+   [
+    "10-20 %",
+    "30-40 %",
+    "50-60 %",
+    "90-100 %"
+   ],
+   2,
+   "Les véhicules modernes sont des « ordinateurs sur roues » : 50-60 %+ de la valeur migre vers le logiciel. Marges auto traditionnelle 5-8 % vs logiciel/abonnement 70 % + (FSD, upgrades → valeur client à vie)."
+  ],
+  [
+   "plat",
+   "Quelle entreprise détient le monopole mondial (100 %) sur les machines de lithographie EUV ?",
+   [
+    "TSMC",
+    "Nvidia",
+    "ASML",
+    "Intel"
+   ],
+   2,
+   "ASML (Pays-Bas) : seul fabricant au monde des machines EUV nécessaires aux puces avancées — point de défaillance unique de la chaîne."
+  ],
+  [
+   "plat",
+   "Qui fabrique plus de 90 % des microchips les plus avancés du monde ?",
+   [
+    "Samsung (Corée)",
+    "TSMC (Taïwan)",
+    "Intel (USA)",
+    "SMIC (Chine)"
+   ],
+   1,
+   "TSMC. Avec ASML (EUV) et Nvidia (GPU pour l'IA), c'est l'un des trois goulots d'étranglement à monopole de la chaîne des semi-conducteurs."
+  ],
+  [
+   "plat",
+   "Selon le cours, quels sont les nouveaux goulots d'étranglement industriels des années 2020 ?",
+   [
+    "Le pétrole et le gaz",
+    "La puissance de calcul, les data centers et les contraintes de réseaux électriques",
+    "Les aciéries",
+    "Les transports maritimes"
+   ],
+   1,
+   "Data centers & energy constraints : le compute et l'énergie limitent désormais la croissance de la cyber-économie, comme les semi-conducteurs."
   ]
  ],
  "cards": [],
  "pending": [
   "Data et IA",
-  "Économie des plateformes",
   "Régulation du numérique",
   "IT, IA et durabilité"
  ],
@@ -1367,7 +1585,8 @@
   "dm": "2026-10-13",
   "cloud": "2026-10-27",
   "proj": "2026-11-03",
-  "cyber": "2026-11-10"
+  "cyber": "2026-11-10",
+  "plat": "2026-11-17"
  },
  "infoContent": [
   {
