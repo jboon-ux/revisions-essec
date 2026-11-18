@@ -428,7 +428,6 @@ async function load(id){
   if(DATA[id])return DATA[id];
   if(window.__PRE&&window.__PRE[id])return DATA[id]=window.__PRE[id];
   const r=await fetch(`data/${id}.json?v=20261118-lawc6`);if(!r.ok)throw new Error("Chargement impossible");return DATA[id]=await r.json();
->>>>>>> 0f8403d (Droit : chapitre S6 « Pratique contractuelle (2) » (support officiel « Cours 6 - Contrats » publié sur Moodle, séance du 18 nov.) — formation et vices du consentement, période précontractuelle (NDA, LOI), ordre public, pactes d'actionnaires, SPA, interprétation, sanctions — essentiel et 14 QCM)
 }
 
 const courseQIds=s=>s.qcm.map((q,i)=>i).filter(i=>s.chapters.some(c=>c[0]===s.qcm[i][0]));
