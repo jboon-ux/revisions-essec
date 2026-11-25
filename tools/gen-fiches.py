@@ -41,7 +41,7 @@ def build(sid, lang):
     if False: out.append(f'<p class="readings"><b>{t["pend"]}:</b> ' + E(' · '.join(d['pending'])) + '</p>')
     for i, (cid, title) in enumerate(d['chapters']):
         e = ess.get(cid, [])
-        eh = f'<div class="key"><b>{t["ess"]}.</b><ul>' + ''.join(f'<li>{x}</li>' for x in e) + '</ul></div>' if e else ''
+        eh = ''
         out.append(f'<h1 class="ch"><span class="num">{i+1:02d}</span>{E(title)}</h1>{eh}{op(synth(trim(body(cid))))}')
     ex = []
     if ex:
