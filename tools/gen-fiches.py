@@ -64,6 +64,6 @@ def build(sid, lang):
             h = x.get(lang) or x.get('fr') or x.get('en')
             out.append(f'<h4>{E(TT.get(x["title"], x["title"]) if lang == "en" else x["title"])}</h4>{h}')
     return f'<!DOCTYPE html><html lang="{lang}"><head><meta charset="utf-8"><title>{E(d["name"])}</title><style>{CSS}</style></head><body>{"".join(out)}</body></html>'
-for sid in ('mm', 'it', 'law', 'str', 'fin'):
+for sid in ('mm', 'it', 'law', 'str'):  # fin: fiche rédigée à la main dans tools/fin-sheet.html
     for lang in (json.load(open(f'{ROOT}/data/{sid}.json'))['lang'].lower(),):
         h = build(sid, lang); open(f'/tmp/fiche-{sid}-{lang}.html', 'w').write(h); print(sid, lang, len(h))

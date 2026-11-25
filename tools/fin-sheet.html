@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Finance: formulas, definitions, decision rules</title><style>
+@page{size:A4;margin:13mm 13mm 14mm}
+body{font:10pt/1.45 'Atkinson Hyperlegible',-apple-system,'Segoe UI',sans-serif;color:#1c2430;margin:0}
+h1{font-size:19pt;margin:0 0 2px} .sub{color:#666;font-size:9.5pt;margin-bottom:6px}
+h2{font-size:13pt;margin:14px 0 4px;border-bottom:2.5px solid #7A5C2E;padding-bottom:2px;break-after:avoid} h2 span{color:#7A5C2E}
+h3{font-size:10.5pt;margin:8px 0 2px;color:#20304a;break-after:avoid}
+.f{font:9.5pt/1.55 ui-monospace,Menlo,monospace;background:#f5f3ee;border-left:3px solid #7A5C2E;border-radius:4px;padding:5px 9px;margin:4px 0;break-inside:avoid;white-space:pre-wrap}
+.d{background:#E7EEFB;border-radius:5px;padding:5px 9px;margin:4px 0;break-inside:avoid}
+.r{background:#E6F4EC;border-radius:5px;padding:5px 9px;margin:4px 0;break-inside:avoid}
+.w{background:#FAF0DC;border-radius:5px;padding:5px 9px;margin:4px 0;break-inside:avoid}
+b.l{display:inline-block;font-size:8pt;letter-spacing:.06em;text-transform:uppercase;margin-right:5px}
+.d b.l{color:#2a4d9b}.r b.l{color:#1D7A4E}.w b.l{color:#97600C}
+table{border-collapse:collapse;width:100%;margin:4px 0;font-size:9pt;break-inside:avoid}th,td{border:1px solid #d5dae2;padding:2px 6px;text-align:left;vertical-align:top}th{background:#f0f2f6}
+</style></head><body>
+<h1>Finance · formulas, definitions, decision rules</h1><div class="sub">Topics 1 to 5 · ESSEC MiM 1</div>
+
+<h2><span>1</span> Corporate finance and financial markets</h2>
+<div class="d"><b class="l">Def</b>Corporate finance = 3 questions: which long-term investments, how to raise the money, how much short-term cash flow.</div>
+<div class="d"><b class="l">Def</b>Debt = contractual fixed payments, finite life, tax-deductible. Equity = discretionary dividends, infinite life, not tax-deductible.</div>
+<table><tr><th></th><th>Debt</th><th>Equity</th></tr><tr><td>Payments</td><td>Contractually fixed (interest)</td><td>Discretionary (dividends)</td></tr><tr><td>Maturity</td><td>Fixed, finite</td><td>Infinite</td></tr><tr><td>Tax deductible for the firm</td><td>Yes</td><td>No</td></tr></table>
+<table><tr><th></th><th>Common stock</th><th>Preferred stock</th></tr><tr><td>Vote</td><td>Yes</td><td>Generally no</td></tr><tr><td>Dividend</td><td>Potentially unlimited, not guaranteed</td><td>Fixed, priority over common, not guaranteed</td></tr><tr><td>Bankruptcy claim</td><td>Lowest (residual)</td><td>Senior to common, junior to debt</td></tr></table>
+<div class="d"><b class="l">Def</b>Stock return = capital gains + dividends. Shareholders = residual owners.</div>
+<div class="d"><b class="l">Def</b>Bank loans = monitored lending (small private firms). Corporate bonds = unmonitored, dispersed investors (listed firms). Banks transform short-term deposits into long-term loans.</div>
+<div class="d"><b class="l">Def</b>Institutional investors: insurance companies, pension funds, sovereign wealth funds, endowments and foundations.</div>
+<div class="f">Risk premium = yield − risk-free rate (same maturity)
+Corporate yield = risk-free rate + default risk + liquidity + tax status + special provisions</div>
+<div class="r"><b class="l">Rule</b>Government bond in its own currency = risk-free. Lower rating → higher risk premium; premiums change over time. Analysts rate stocks "Sell" to "Buy"; rating agencies rate debt (investment grade to junk).</div>
+<div class="d"><b class="l">Data</b>2024: bond market $145T > equity market $127T; sovereign bonds ≈ 2× corporate bonds.</div>
+
+<h2><span>2</span> Time value of money (additivity of value)</h2>
+<div class="f">FV = C0 × (1 + r)^T            PV = CT / (1 + r)^T
+NPV = PV of inflows − PV of costs
+PV = Σ Ct / (1 + r)^t  (t = 0..T)     value is additive; PV and FV give the same decision
+Effective annual rate: EAR = (1 + r/m)^m − 1
+Compounding m times a year: FV = C0 × (1 + r/m)^(m×T)
+Continuous compounding: FV = C0 × e^(rT)
+Perpetuity: PV = C / r            Growing perpetuity: PV = C / (r − g)
+Annuity: PV = C × [1/r − 1/(r(1+r)^T)] = C × a(T, r)
+Geometric series: a(1 − q^(n+1)) / (1 − q);  if q &lt; 1 and n → ∞: a / (1 − q)
+Annuity due: PV0 = C + C × a(r, T−1)       Deferred annuity: discount twice</div>
+<div class="w"><b class="l">Trap</b>Unless stated otherwise, cash flows occur at the end of the period (date 0 = now). "4% compounded quarterly": 4% is the stated rate, quarterly rate = 4%/4 = 1%, EAR = 1.01^4 − 1 = 4.06%. "4% compounded yearly": 4% is the EAR. The EAR is the rate that really matters.</div>
+
+<h2><span>3</span> Cash is king (financial statements and cash flow)</h2>
+<div class="f">Balance sheet: Assets = Liabilities + Shareholder's Equity
+NWC = short-term assets − short-term liabilities
+NWC = Shareholder's Equity + Long-Term Debt − Fixed Assets
+Income statement: Revenue − Expenses = Income
+Operating cash flow = EBIT − Taxes + Depreciation
+FCF = Operating cash flow − Capital spending − Addition to NWC     (cash free for investors)
+Cash identity: CF(A) = CF(B) + CF(S)
+  CF to creditors CF(B) = interest paid − net new borrowing (change in long-term debt)
+  CF to shareholders CF(S) = dividends + share repurchases − new equity issued
+Operating cycle = inventory period + accounts receivable period
+Cash cycle = Operating cycle − Accounts payable period     (periods in days: days in inventory, receivables, payables)</div>
+<div class="d"><b class="l">Def</b>Book (accounting) value = historical cost adjusted for depreciation. Market value = price at which willing buyers and sellers trade. Much of a firm's true value is not on the balance sheet (management, proprietary assets...). Depreciation and deferred taxes are noncash items; income is not cash flow.</div>
+<div class="d"><b class="l">Def</b>Operating working capital (OWC) = short-term operating assets − short-term operating liabilities. Excess cash is a financing or strategic item, not operating. The need for OWC comes from unsynchronised flows: you pay suppliers before customers pay you.</div>
+<h3>Current assets policy</h3>
+<table><tr><th></th><th>Flexible</th><th>Restrictive</th></tr><tr><td>What</td><td>Extended trade credit, high inventory, large cash and securities</td><td>Refuse credit, low inventory, low cash</td></tr><tr><td>Cost / risk</td><td>Carrying costs (low return, cost of financing inventory)</td><td>Shortage costs (default on payments, lost suppliers, stock-outs, lost customers)</td></tr></table>
+<h3>Financing current assets</h3>
+<table><tr><th>Approach</th><th>How</th><th>Cost / risk</th></tr>
+<tr><td>Maturity matching</td><td>Temporary needs with short-term debt; permanent needs (and fixed assets) with permanent resources</td><td>Reference approach</td></tr>
+<tr><td>Aggressive</td><td>Part of permanent current assets financed short term</td><td>Cheaper if the yield curve slopes up; riskier: interest rate risk, refinancing risk, loss of autonomy</td></tr>
+<tr><td>Conservative</td><td>Part of temporary current assets financed long term</td><td>Safe but usually costly (idle cash); can make sense if the curve slopes down</td></tr></table>
+<div class="d"><b class="l">Factors</b>Predictability and seasonality of revenues, competition, bargaining power with banks, term structure of interest rates, planned expenditures.</div>
+
+<h2><span>4-5</span> NPV and investment rules</h2>
+<div class="f">NPV = PV(inflows) − PV(outflows) = Σ CFt / (1 + r)^t
+Operating CF = EBIT − taxes + Depr = EBIT(1−τ) + Depr
+             = Revenue(1−τ) − Cost(1−τ) + Depr × τ      (Depr × τ = depreciation tax shield)
+Total CF = Operating CF − Capital spending − Investment in NWC
+After-tax salvage = sale price − τ × (sale price − book value)
+Fisher: (1 + r_nom) = (1 + r_real) × (1 + π)
+Payback = number of years to recover the initial cost
+IRR: rate such that NPV = 0
+Check: cash flows −200, 50, 100, 150 → IRR ≈ 19.44%</div>
+<div class="r"><b class="l">Rule NPV</b>Accept if NPV &gt; 0. Discount rate = required return = cost of capital = opportunity cost of funds. Positive NPV raises firm value (value additivity). In efficient markets NPV = 0 (price = fundamental value); NPV = 0 is not a bad deal.</div>
+<div class="r"><b class="l">Choosing</b>Unlimited funds and no mutually exclusive projects: take all NPV &gt; 0. Budget constraint or mutually exclusive projects: take the feasible combination with the maximal sum of NPVs.</div>
+<div class="r"><b class="l">Cash flows</b>Use incremental after-tax cash flows. Exclude sunk costs and accounting earnings. Include opportunity costs, side effects (synergy, erosion) and incremental costs. Debt effect (interest) is left out: assume debt is independent of the project. NWC investment comes from higher inventory, cash buffer, sales on credit, lower payables.</div>
+<div class="r"><b class="l">Inflation</b>Discount nominal cash flows at the nominal rate, real cash flows at the real rate: same NPV.</div>
+<div class="r"><b class="l">Payback</b>Accept if payback ≤ cutoff. Weak: ignores time value, ignores cash flows after the cutoff, biased against long-term projects, arbitrary cutoff, may accept NPV &lt; 0. Strong: simple, biased toward liquidity. Discounted payback uses discounted cash flows.</div>
+<div class="r"><b class="l">IRR</b>Accept if IRR &gt; required return; among alternatives, highest IRR. If C0 &lt; 0 and all later flows &gt; 0: IRR &gt; r ⇔ NPV &gt; 0. IRR is the x-axis intercept of the NPV profile. NPV gives a dollar value, IRR a rate.</div>
+<div class="w"><b class="l">IRR traps</b>Multiple IRRs: K sign changes → up to K IRRs (e.g. −200, 200, 800, −800 → 0% and 100%): do not use the IRR.
+Scale problem: A (−1, +2) IRR 100% vs B (−10, +15) IRR 50%: compare NPVs or the incremental IRR (IRR of B − A).
+Timing problem: A (−10,000; 10,000; 1,000; 1,000) IRR 16.04% vs B (−10,000; 1,000; 1,000; 12,000) IRR 12.94%; NPV profiles cross at 10.55% (below it B is better, above it A). IRR assumes reinvestment at the IRR; use NPV or the incremental IRR.</div>
+<div class="d"><b class="l">Why NPV</b>Uses all cash flows, discounts them properly, assumes reinvestment at the discount rate.</div>
+</body></html>
