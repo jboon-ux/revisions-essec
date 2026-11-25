@@ -97,7 +97,7 @@ def chapters():
         ess = dict((x[0], x[1]) for x in a['ess']).get(cid, [])
         essh = ''
         if ess:
-            essh = '<div class="key"><b>In one look.</b><ul>' + ''.join(f'<li>{html.escape(str(x))}</li>' for x in ess) + '</ul></div>'
+            essh = ''
         # open all details for print
         body = body.replace('<details class="cor">', '<details class="cor" open>')
         out.append(f'<h1 class="ch"><span class="num">{cls}</span>{html.escape(title.split("·",1)[1].strip())}</h1>'

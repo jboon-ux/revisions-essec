@@ -1,395 +1,395 @@
 {
-"str": {
-"title": {
-"intro": "Introduction to strategy (8 Oct)",
-"ext": "External analysis (15 Oct)",
-"int": "Internal analysis (22 Oct)",
-"bls": "Business strategy (S4)",
-"plt": "Platforms, internet and AI (S5)",
-"ma": "Boundaries of the firm: M&A (S6)"
-},
-"eval": "Individual participation 25% · interim and final quizzes (Wooclap, individual) 25% · final group presentation 50%.",
-"pending": [
-"Strategy and societal issues"
-],
-"ess": {
-"intro": [
-"Core question: why do some companies perform better than others?",
-"Rumelt: diagnosis → guiding policy → coherent actions (e.g. Southwest Airlines).",
-"Bad strategy: avoiding the problem, confusing goals with strategy, bad objectives, fluff.",
-"Vision (why, C-level) → strategy (what, top management) → tactics (how, field).",
-"Changing the rules of the game: Apple (blue ocean)."
-],
-"ext": [
-"External analysis: the firm chooses, the context does not. Three layers: macro (PESTEL), industry (5 forces), firm.",
-"Four channels to profit: demand, costs, competition, rules.",
-"PESTEL: prioritise by impact × predictability (plan, scenarios, monitor, set aside).",
-"Five forces: entrants, suppliers, buyers, substitutes, rivalry; the stronger they are, the less profitable the industry.",
-"SWOT: internal (strengths, weaknesses) vs external (opportunities, threats, from PESTEL and the 5 forces); useful only if it ends in a choice.",
-"Uber: strong buyers and rivalry → unattractive industry; profit through scale and ecosystem; S+O option: demand platform for robotaxis.",
-"Airline case: low cost (one aircraft type, point-to-point, fast turnarounds) = 47 years of Southwest profit; Covid: traffic -90%, resilience is a choice (cash, flexibility, options).",
-"Intended strategy → realised and emergent strategy (levers: structure, systems, people)."
-],
-"int": [
-"External analysis: where is the profit? Internal analysis: who can capture it? Business-specific effects matter more than industry in the data cited.",
-"Resources (what the firm owns) → capabilities (what it can do) → competitive advantage.",
-"VRIO: Valuable, Rare, Imperfectly imitable, Organized to exploit. Parity ≠ temporary advantage ≠ sustained advantage; without O, unexploited advantage.",
-"Imitation is slowed by history, causal ambiguity and social complexity. Dynamic capabilities: sense, seize, reconfigure.",
-"Value chain: primary and support activities; Zara and Southwest win through a system of activities that reinforce each other.",
-"Choosing a place: upstream/downstream integration, specialisation, control of a bottleneck. Margins along the chain are not directly comparable.",
-"Consulting: six families; organised by industry × function × geography; pyramid model. Headcount/salary figures are approximate, dated and on different scopes.",
-"Commercial due diligence = market/position (S2), operational = resources/capabilities (S3), completed by financial, legal and technical experts."
-],
-"bls": [
-"Business strategy = 3 choices: who (which customers), what (which needs, which promise), how (which resources and activities). Choosing also means giving up.",
-"Competitive advantage: create more value than rivals, as the customer perceives it. WTP €100, price €70, cost €50 → customer surplus €30, margin €20.",
-"Two levers: lower cost (more margin, or lower price at equal margin) or raise willingness to pay (differentiation). The advantage exists only if customers see it (Bezos: the customer is a guest, we are the host).",
-"Porter: 2 sources of advantage (cost, differentiation) × 2 scopes (broad market, narrow segment) = cost leadership (Ryanair, Lidl), differentiation (Apple, Zara), cost focus (Dacia, hotelF1), differentiation focus (Hermès, Ferrari).",
-"Cost leadership: lowest cost for an acceptable product, price at market level; low cost is not low price. Sources: scale, learning, simplicity, cheap inputs.",
-"Differentiation: the test is that the premium the customer pays exceeds the cost of the difference (Hermès: craft and scarcity; Zara: speed).",
-"Focus: serve one segment better (risk: niche too small); hybrid (IKEA, Toyota): more value at moderate cost, possible with a strong system despite Porter's \"stuck in the middle\" warning.",
-"Fit (Porter 1996): a position = a system of coherent activities + trade-offs (Ryanair: one aircraft, secondary airports, fast turnarounds, no connections). Without trade-offs, no position.",
-"Each strategy answers the 5 forces differently: cost protects against price wars and powerful buyers; differentiation builds loyalty and makes offers incomparable.",
-"Advantage cycle: build → exploit → imitate → erode → renew. Erosion by imitation, technology, low-end entrants, tastes. Responses: defend, extend, renew. Price advantages erode fast, culture-based ones slowly.",
-"Fashion thread: four firms, one wardrobe. Operating margin: Hermès 41%, Inditex ≈20%, H&M 8%, Shein ≈4% (last full year; Hermès, H&M, Shein 2025, Inditex fiscal 2024). Each margin reflects a positioning choice.",
-"Reading the positions: Primark and Ryanair = cost leadership; Hermès = differentiation focus; Apple = differentiation; Zara and IKEA = hybrids; Shein = cost + speed; H&M = debatable (cheaper than Zara? more fashionable than Primark?).",
-"Why customers choose: only two levers: pay less (low price, no frills) or get more (quality, design, brand, speed, trust). Cost works on the first, differentiation on the second.",
-"New market space (\"blue ocean\"): make competition irrelevant (Cirque du Soleil: theatre + circus); hard to repeat, easy to imitate once proven."
-],
-"plt": [
-"4-question reading method: which cost/barrier falls (5 forces) → where is durable value (VRIN) → which decision is forced (rivals) → which risk/trade-off. The object changes, not the method.",
-"Schumpeter (1942): creative destruction: innovation replaces the old economy, it does not add to it. Christensen (1997): low-end disruption: a simple, cheaper offer wins the bottom of the market then moves up. Often both (Amazon started with books).",
-"Internet: 4 costs fall to (almost) zero: search, copy, distribute, match (Goldfarb & Tucker, 2019) → easy entry, intermediaries lose their paid role.",
-"Near-zero marginal cost: fixed cost is the barrier; scale pays (the biggest can price lowest); free becomes possible if a second payer exists (advertisers, other side).",
-"Long tail (Anderson 2004): niches added up can rival hits; Elberse (2008) nuance: hits still carry a large share of revenue.",
-"Pipeline (Zara) sells, platform (Vinted) connects: it owns the connection between the two sides, neither the item nor the sale. Most firms are hybrids (Zalando).",
-"4 network effects: direct (messaging), cross-side (Airbnb hosts/travellers), negative (spam, congestion), local (ride-hailing per city). They raise the entry barrier but each has a limit.",
-"Chicken-and-egg of a two-sided market: seed one side, subsidise, go local, do things that don't scale (Airbnb NY 2009: door-to-door photos, revenue ×2).",
-"Who pays = a strategic choice: monetise the side that values the transaction most (Vinted: buyers pay, sellers free); this decides which side to attract first.",
-"4 platform risks: leakage (dealing outside), quality/moderation (central cost), regulation (DMA 2022/1925 applicable since 2023, session 7), dependence on one player's rules.",
-"Models: free funded by ads (Amazon ads $68.6bn in 2025, launched 2012); sell the outcome not the product (Rolls-Royce Power-by-the-Hour, 1962); subscription = initial revenue dip, pays only if customers stay (Adobe: revenue -7.9% in 2013 while subscription +69%).",
-"SaaS: ARR = MRR × 12; NRR > 100% = growth without new customers; churn = losses that cost years; Rule of 40 = growth + margin (30% + 15% = 45).",
-"Amazon 2025: AWS = 18% of net sales ($716.9bn) but 57% of operating income ($80bn): the most visible business is not the profit engine; strategy is the portfolio."
-],
-"ma": [
-"Corporate strategy: which businesses to be in, which stages of the value chain, which countries; M&A moves a boundary, and selling a business is also a strategic choice.",
-"An acquisition is an action, not a strategy (Rumelt): for each deal ask which diagnosis it answers and why buy rather than build or ally (borrow).",
-"5 reasons to buy tied to course tools: scale → 5 forces (Vusion-Pricer); control of a stage → value chain (Amazon-Whole Foods); capability → VRIO (Facebook-Instagram, Vusion-Memory); enter a market → entry barriers (Walmart-Jet.com); transform → corporate (Microsoft-Nokia, failure).",
-"Build: full control and its culture, but slow (choose if you have the skills and time). Borrow: speed and shared risk, but dependence (if access is enough). Buy: speed + control, but premium and integration risk (if control is needed and integration possible). Capron & Mitchell (2012).",
-"Organic vs acquisition: organic costs no premium but takes years; acquisition brings customers, team and know-how at once at the price of a premium and a culture merger.",
-"Cited M&A failure rate: 70-90% (Christensen et al., HBR 2011); 12 cents lost per dollar spent at announcement (1998-2001, Moeller et al.). The seller usually captures the premium.",
-"Value for the buyer = synergies - premium - integration costs. Cost synergies are often delivered, revenue synergies often disappoint; winner's curse in auctions.",
-"Failure factors: overpaying, overestimated synergies, culture clash, slow integration, distraction from the core, ignored regulators. Failures are decided before signing or in the first 100 days.",
-"Strategic buyer (synergies, pays cash or shares, can pay more) vs financial buyer (return then resale, cash often with debt, founders often kept).",
-"3 valuation methods: comparables (multiple × metric, depends on the market), precedent transactions (include control premium, e.g. Pricer +29.6%), DCF (sensitive to assumptions). EV - net debt = equity value. Maximum price = standalone value + synergies actually capturable.",
-"Divestment in 6 steps: prepare → approach → first offers → due diligence → signing → closing. Dual track: sale and fundraising in parallel to test price and keep a fallback.",
-"Price is also terms: earn-out and warranties (private), premium and fairness opinion (listed), carve-out, LBO, stock merger (who controls?).",
-"After closing: prepare → reassure (day 1) → organise (100 days) → integrate (years 1-3). Degrees of integration (Haspeslagh & Jemison): absorption, symbiosis, holding, preservation, depending on need for resource sharing × need for autonomy.",
-"M&A follows the cost of money: record 2021 ($6.8tn), trough 2022-23, record megadeals in 2025 (68 deals > $10bn). In 2024 buyers sought savings (59% scale), in 2025 growth and capabilities (60% scope), per Bain."
-]
-},
-"infos": [
-[
-"Assessment",
-[
-"Individual participation: 25% (written comments possible after each session; unprepared interventions count negatively).",
-"Interim and final quizzes, individual: 25% (Wooclap in class; mid-term quiz 19 Nov, final quiz 3 Dec).",
-"Final group presentation: 50%. Official grading: diagnosis 30% (PESTEL, 5 forces, VRIN), recommendation 40% (platform, boundaries or business model, with risks), clarity 15%, questions 15%; same grade for the whole group."
-]
-],
-[
-"Group project",
-[
-"Group of 3 or 4; 15-20 minute presentation + 5 minutes of questions on the strategic outlook of a company of your choice (enough public data; not a case seen in class; first come, first served).",
-"Email the professor before 19 November to get the company validated, with the group members' names.",
-"Content: current situation, market and competition, resources and capabilities, challenges and opportunities, clear recommendations to management (3-5 year strategy, risks included, societal issues section).",
-"Upload the slides before the presentation; presentations on 3 and 10 December."
-]
-],
-[
-"Rules",
-[
-"Be on time (lateness costs participation points), name card in front of you.",
-"Phones and laptops put away when asked.",
-"AI allowed but higher expectations: the professor will check that you understand what you say."
-]
-]
-]
-},
-"mm": {
-"title": {
-"cadre": "Framework and models (5 Oct)",
-"seg": "Segmentation (12 Oct)",
-"conj": "Conjoint analysis (19 Oct)",
-"pos": "Positioning (26 Oct)",
-"price": "Pricing (2 Nov)",
-"score": "Scoring and targeting (9 Nov)",
-"resalloc": "Resource allocation (16 Nov)",
-"synth": "Summary"
-},
-"eval": "Case study 1: 20% · Case study 2: 20% · Term project: 30%. No final exam. Individual grades adjusted by peer evaluations.",
-"pending": [
-"S8"
-],
-"ess": {
-"cadre": [
-"Marketing = identify (or create), acquire and keep customers, profitably.",
-"Model = stylised representation of reality, built for a specific purpose.",
-"Response model: links a marketing effort to sales (S-curve between a minimum and a maximum).",
-"Allocating a budget in proportion to market share ignores the marginal response to spending.",
-"No model is true, some are useful: 50% data, 50% manager."
-],
-"seg": [
-"Good segment: distinct, homogeneous, identifiable, substantial, useful.",
-"Bases = why segments differ (needs, benefits). Descriptors = who they are and how to reach them (age, income, media).",
-"Form segments on bases, never on descriptors.",
-"d(a,b) = √Σ (xa − xb)²",
-"Different scales → standardise.",
-"Dendrogram: cut before the big jump. Scree plot: look for the elbow.",
-"Discriminant analysis: predict the segment from descriptors; hit rate = correctly classified / total."
-],
-"conj": [
-"Product = bundle of attribute levels; utility = sum of partworths (0-100 scale).",
-"Attribute importance = gap between its best and worst partworth.",
-"Minimum profiles = Σ (levels − 1) + 1   (5 attributes × 5 levels → 21)",
-"Estimation: regression of ratings on 0/1 variables; choice-based conjoint uses a binary regression.",
-"Choice rules: first choice (house), share of preference (meal), logit (clothing), alpha-rule (known shares).",
-"Design: 4 to 6 attributes, 2 to 4 levels, no correlated attributes.",
-"Simulations: new product, new entrant, cannibalisation, niches."
-],
-"pos": [
-"Perceptual map: close = strong competition, on dimensions relevant to customers.",
-"Vectors: same direction = correlated; opposite = negatively correlated; 90° = independent; far from origin = significant.",
-"Orthogonal projection to rank brands on an attribute.",
-"Perceptions matter more than reality (Volvo, the drill, Débitel); wishful marketing is a \"death wish\".",
-"The map is relative; the analyst interprets the axes.",
-"Add preferences: a distinctive position may interest nobody."
-],
-"price": [
-"Profit = (Price − Cost) × Volume",
-"Value salami: created value lies between the seller's minimum price and the buyer's maximum price; the price shares it.",
-"Strategies: cost, competition, demand, value, discrimination.",
-"Value-in-use = costs the product saves the customer (seals: $35).",
-"Discrimination: different prices by reservation price; limits: arbitrage, legality, feeling of unfairness.",
-"Gabor-Granger: purchase intent at randomly shown prices → optimal price; interpolate, don't extrapolate.",
-"Van Westendorp: psychological optimum = crossing of \"too cheap\" × \"too expensive\"."
-],
-"score": [
-"Choice-based segmentation: group by probability of response, not similarity of needs.",
-"CART: successive splits on the best predictor (Gini, entropy); needs lots of data; risk of overfitting.",
-"Logit: P = 1 / (1 + e^−(β0 + Σ βx))",
-"Marginal impact of an action is maximal at p = 50%.",
-"Trigger a purchase → target the most likely; influence a behaviour → target the undecided.",
-"Score = probability × expected amount; score classes A to D."
-],
-"resalloc": [
-"Resource = valuable (productive) AND available in limited quantity: budget, salespeople, time, R&D.",
-"Two questions: size the optimal level of investment, then allocate that budget across options.",
-"Sizing: % of sales (inertia), competitor benchmark, or ROI optimisation, the best one but it requires the response function.",
-"Response function: sales as a function of effort (diminishing returns); the optimal budget maximises profit, not sales.",
-"A specific response function per market / segment / region (different customers, potentials, competition).",
-"Estimation: historical data (variability?), experiments (costly, risky), managerial judgement (fast, consensual).",
-"Delphi: expert panel, 2+ questionnaire rounds, anonymous synthesis by a facilitator, revisions, convergence to mean/median.",
-"Calibration: Y0 (no visits), Y1 (unchanged), Y2 (+50%), Y3 (maximum) → AdBudg curve: a = saturation, b = minimum sales, d = competition/noise.",
-"No consensus: test several estimates; if the result changes, the point is critical → more data needed.",
-"20-salespeople study: +11.9% (with recommendations) vs +3.8% (control); +8.1 pts, p < .025; ~half a day per salesperson."
-],
-"synth": [
-"Who are my customers? → segmentation.",
-"Which offer to launch? → conjoint analysis.",
-"How am I perceived? → positioning.",
-"At what price? → Gabor-Granger, Van Westendorp, conjoint.",
-"Whom to target? → CART, logit, scoring.",
-"Where to put my media budget? → response models, MMM."
-]
-},
-"infos": [
-[
-"Your groups",
-[
-"Case study 1: group A9",
-"Case study 2: group B11",
-"Term project: group C5, presentation Monday 30 November (due Sunday 29 at midnight)"
-]
-],
-[
-"Assessment",
-[
-"Case study 1: 20%",
-"Case study 2: 20%",
-"Term project: 30%",
-"No final exam; individual grades adjusted by peer evaluations."
-]
-],
-[
-"Penalties",
-[
-"In-class survey not filled or rushed (S3, S5): −1",
-"Peer evaluations not filled: −1 per deliverable",
-"2 or more absences: −4",
-"Free-riding: 0 on the deliverable",
-"Research bonus (Sona): up to +1 point"
-]
-],
-[
-"Handing in a case study",
-[
-"Random groups of 3 to 5, never the same teammate twice.",
-"Self-contained PowerPoint only (no report, no Excel).",
-"Due Sunday at midnight before the session, group number in the subject and the file name.",
-"Case 1 (internships): trends, partworths, first-choice simulation, optimal offer at minimum salary, segmentation of partworths without standardising.",
-"Case 2 (sneakers): trends, perceptual map, preferences, positioning recommendation, Gabor-Granger price."
-]
-],
-[
-"Term project",
-[
-"Groups of 4-5 by preference.",
-"Pitch = one slide: context, tension, method (due Thursday 5/11 at midnight).",
-"One method, two at most.",
-"Questionnaire: same scales, no branching, 1-7 scales rather than yes/no, non-overlapping categories, one idea per question.",
-"Presentations on 30/11 or 7/12; due the Sunday before."
-]
-],
-[
-"Tools",
-[
-"Enginius software (licence provided by ESSEC).",
-"S1: in-class Allegro exercise (\"Allegro Data\" file on Moodle).",
-"Virtual TA: MyESSEC → Tools → Gemini → \"Data-Driven Marketing Virtual TA\".",
-"Computers and phones not allowed in class unless stated otherwise (reminder of 12 October after the quiz 1 results)."
-]
-]
-]
-},
-"it": {
-"title": {
-"dt": "Digital transformation (6 Oct)",
-"dm": "IS strategy and Digital Matrix (13 Oct)",
-"cloud": "Sourcing and cloud (27 Oct)",
-"proj": "IT projects and ERP (3 Nov)",
-"data": "Data analytics and AI (7 Nov)",
-"cyber": "Data and cybersecurity (10 Nov)",
-"plat": "Platforms and digital economy (17 Nov)",
-"reg": "Digital regulation (24 Nov)"
-},
-"eval": "Written paper final exam: 45% (Tuesday 8 December, 16:30-17:30, time confirmed on the course Moodle page; true/false, MCQ and open questions; 2-page cheat sheet allowed). In-class group work: 30%. Oral participation: 25%. Attendance compulsory.",
-"pending": [
-"IT, AI and sustainability"
-],
-"ess": {
-"dt": [
-"Managing IS (strategy, projects, suppliers) vs managing through IS (analytics, platforms, AI).",
-"Landmarks: TCP/IP (1974), Web (CERN, 1989, public in 1993), Minitel, iPhone (9 January 2007), GAFAM and BATX.",
-"COBOL: 70 to 80% of active code of critical systems, 95% of card and ATM transactions."
-],
-"dm": [
-"IS = technology + tasks + people; strategy = where to go and how (Pearlson and Saunders).",
-"Digital transformation = integration of SMACIT across the whole firm; a managerial problem before a technical one.",
-"Competitive advantage: Barney (1991), Porter (1985); Porter's 5 forces, IT acts on each.",
-"Digital Matrix (Venkatraman): incumbents, tech entrepreneurs, digital giants × edge, core, root.",
-"Rules Matrix: orchestrate and participate, co-creation of capabilities, amplify human talent with machines."
-],
-"cloud": [
-"IS outsourcing = paying a vendor to perform one's IS activities; scopes: operations, applications, support, business processes.",
-"For: costs, core business, access to tech/talent, flexibility. Against: dependence, transaction costs, loss of control, slower innovation.",
-"Three deals: traditional outsourcing, transformation outsourcing (BPM), strategic cloud/AI agreements (not necessarily strict outsourcing).",
-"Outsourcing/insourcing = boundaries of the firm; offshore/nearshore = geography. Sacem case: external audit as a lever, floodable server room, SALMA project (professional host, €717K + €330K/yr).",
-"Cloud: pay-per-use billing, web access, customisation by configuration, IaaS/PaaS/SaaS layers.",
-"Success: sophistication of the sourcing decision, of the selection (RFI → short list → RFP, joint business+IT evaluation), and contractual (SLA) + relational governance."
-],
-"proj": [
-"Project management = final deliverable + finite duration and budget (vs ongoing management).",
-"Waterfall: good for fixed scope and requirements, heavy documentation; weak against discoveries along the way (overplanning, knowing before having seen).",
-"Agile Manifesto: individuals and interactions, working software, customer collaboration, responding to change: principles → methods (Scrum, DevOps, XP) → practices (user stories, meetings, prototyping).",
-"Scrum artifacts: product backlog (all requirements as user stories), sprint backlog (selection + plan, task board), increment = working software at each sprint end.",
-"User story: \"As a <role>, I want <goal> so that <benefit>\" + optional acceptance criteria.",
-"Roles: Product Owner (vision, backlog, priorities, acceptance criteria), Development Team (≤ ~10, cross-functional, autonomous), Scrum Master (process coach).",
-"Meetings: sprint planning, daily Scrum, sprint review, retrospective; sprint of 2 to 4 weeks.",
-"Agile is no miracle: depends on context; ambidexterity between efficiency/innovation, standardisation/differentiation, stability/agility, control/autonomy.",
-"Enterprise IS = large software supporting processes, information flows, reporting and analytics; 3 families: ERP, SCM, CRM.",
-"ERP: integrated database, industry best practices, tracks resources / processes / structure / data (e.g. SAP S/4HANA).",
-"SCM: buying-making-moving, network of suppliers-manufacturer-distributors-customers, reduces lead times and inventory.",
-"CRM: unified customer view, satisfaction and loyalty; operational, analytical, communicative components (e.g. Salesforce).",
-"5 recommendations for an ERP: management sponsorship, external experts, user training, multidisciplinary approach, incremental implementation."
-],
-"data": [
-"Analytics = analysis of data with mathematical techniques to inform or improve decisions. 3 types: descriptive (what happened; aggregation, data mining), predictive (what will happen; statistical models, e.g. credit scores), prescriptive (what to do; optimisation and scenario simulation).",
-"3 Vs of big data: Volume (mega/gigabytes), Velocity (real time, hourly, daily, monthly), Variety (text, click stream, audio, video).",
-"Benefits of analytics: efficiency and productivity (operational), faster and better decisions (tactical), better financial performance (strategic). Data can also be monetised and sold (\"pay for attention\" model)."
-],
-"cyber": [
-"Cyber-resilience: anticipate, resist, recover, adapt, beyond prevention alone, which is never perfect.",
-"4 categories of cybercrime: individuals, property (digital assets), organisations and governments, society.",
-"Cybercrime: $8.15 trillion in 2023 → $10.5 trillion expected in 2025; France $93.46bn; 69% companies, 20% local authorities, 11% healthcare (2023).",
-"\"Microsoft bug\" of 19 July 2024 = CrowdStrike Falcon Sensor update; ≈ $5.4bn for the Fortune 500 (Parametrix).",
-"Y2K: COBOL dates in YYMMDD, $300-600bn; Blayais (27 Dec 1999): one event can defeat several supposedly independent protections.",
-"GDPR (2018), AI Act (2025, risk-based), DSA (2023), Data Act/DGA (2023), DMA (2024, gatekeepers).",
-"NIS-2 (2022): ≈ 160,000 entities, notification within 24 h, fines up to €10M or 2% of global turnover; CER (2022/2024, 10 sectors); DORA (17 Jan 2025, finance).",
-"French SNR (April 2022, SGDSN); OFAC (Nov 2023, police - cybercrime); ARIANE (2026, DINUM + DITP - State IS)."
-],
-"plat": [
-"3 laws of the digital economy: Metcalfe's law (V ∝ N², direct and indirect network effects → winner-takes-all/most); zero marginal cost (1st copy $100M, the 10 millionth $0 → infinite scalability); high switching costs and lock-in (Apple iOS ecosystem, Microsoft 365 stack).",
-"Market cap shift: 2005 world top 10 = oil/banking/industry → today Big Tech and AI infrastructure; tech accounts for more than 80% of S&P 500 value creation over 10 years; asset-light giants earn a better ROIC than industrials.",
-"Attention economy: attention drives value (Herbert Simon: \"a wealth of information creates a poverty of attention\"); algorithmic signals (likes, shares, watch time) ⇒ monetisation (Meta, Alphabet; data as raw material).",
-"Dominant models: advertising/AdTech (free services monetising behaviour), subscription/SaaS (perpetual licence → recurring revenue ARR/MRR, gross margin > 80%), IaaS (AWS, Azure, Google Cloud = \"tollbooths\" of digital infrastructure; AWS = majority of Amazon's operating profit).",
-"Multi-sided platforms: connect buyers/sellers, creators/viewers, drivers/passengers (Uber, Airbnb, App Store) and take 15 to 30% take-rate for trust, discovery and payment rails.",
-"Tesla case: the vehicle becomes a \"computer on wheels\"; software, connectivity and battery = 50-60% of the value of new-generation cars; traditional auto margins 5-8% vs software 70%+; software features (FSD) create lifetime customer value after the sale.",
-"Physical bottlenecks: ASML = global monopoly (100%) on EUV lithography; TSMC makes > 90% of the most advanced chips; Nvidia = monopoly on AI GPUs; data centres and energy = new bottlenecks of the 2020s.",
-"Course summary: dominance goes to zero-marginal-cost assets; network effects produce winner-takes-all; value migrates to software and cloud; tech chains have critical single-point-of-failure bottlenecks."
-],
-"reg": [
-"Cyber-regulation = regulating cyberspace (\"cyber\" from cybernetics, Norbert Wiener 1948). It must be regulated because it combines technology, economy, power, regulation and society, and raises political stakes: economic and information power, surveillance, cybersecurity, cyberwar, free speech, digital sovereignty.",
-"History: US antitrust against Microsoft (1990s-2001), then the EU sanctions giants through competition law (Microsoft €497M in 2004 and €561M in 2013; Google Shopping €2.42bn in 2017; Android €4.34bn in 2018; AdSense €1.49bn in 2019). Limit: a fine is not the restoration of competition.",
-"From punitive to ex ante rules: the DMA sets obligations on gatekeepers before any abuse is proven (classic antitrust asks whether the law was broken). Initial gatekeepers: Alphabet, Amazon, Apple, ByteDance, Meta, Microsoft. DMA fines: Apple €500M (anti-steering) and Meta €200M (\"consent or pay\"), 23 April 2025; Google €460M + €430M (23 July 2026).",
-"GDPR (2016, applied 2018): consent, purpose limitation, minimisation, rights of access/rectification/erasure, DPO, breach notification, fines up to €20M or 4% of global turnover. DSA (2022, applied 2024): algorithmic transparency, risk assessments, VLOP audits, protection of minors. DMA (2022, applied 2023): no self-preferencing, open APIs, side-loading, portability; fines up to 10% of turnover (20% for repeat).",
-"NIS-2 (2022, applied 2024): critical infrastructure (energy, health, finance, transport, cloud, data centres); incident notification within 24 h, supply-chain risk, fines up to €10M or 2% of turnover; about 160,000 entities. DORA (applicable 17 Jan 2025): operational resilience of the financial sector (ICT risk, incidents, resilience testing, third parties, continuity). MiCA (Dec 2024): crypto-assets, ART vs EMT.",
-"AI Act (2024, phased application from 2025): 4 risk levels: minimal (anti-spam), limited (chatbots, transparency), high (recruitment, credit scoring, strict rules), unacceptable (social scoring, banned). CRA (2024, obligations from 2026): mandatory cybersecurity of digital products, vulnerability reporting, security updates; fines up to €15M or 2.5% of turnover. Data Act (2023, applicable 2025): access to connected-device data, cloud switching without fees from 2027.",
-"Others: Copyright directive (2019, article 17: proactive monitoring, press neighbouring right); right to repair (2024, USB-C, update transparency, against planned obsolescence); eIDAS 2 (2024, European digital identity wallet by end 2026); under discussion in November 2026: Digital Omnibus, Cybersecurity Act 2, Digital Networks Act, business wallets, CSAM regulation.",
-"United States: USA PATRIOT Act (2001, expands investigative powers, not unlimited access to data); FISA 702 (foreign intelligence targeting non-Americans located outside the US, under conditions); CLOUD Act (2018, US providers may have to produce data even if stored abroad, under legal process). Geopolitical tension: Trump tariff threats (25 August 2025) against digital rules.",
-"Takeaways: (1) cyber-regulation aims to frame cyberspace in all its dimensions; (2) the EU has produced many texts in 20 years; (3) its limits are geopolitical, legal and linked to innovation. In-class case: 2-page memo to an investor, identifying the EU/US texts that apply, explaining why they apply or not, and ending with a clear recommendation."
-]
-},
-"infos": [
-[
-"Assessment",
-[
-"Written paper final exam: 45%. Tuesday 8 December, 16:30-17:30 (time confirmed on the course Moodle page).",
-"Closed questions (true/false, MCQ) and open questions; 2-page cheat sheet allowed.",
-"In-class group work: 30% (you are in group E; fixed groups).",
-"Oral participation: 25%.",
-"Attendance compulsory: more than 2 absences, even justified, = course not validated."
-]
-],
-[
-"Course format",
-[
-"In person on Tuesday evenings, plus a session on Saturday 7 November at 13:15.",
-"Synchronous elements (classes, discussions, group work) and asynchronous (videos, readings).",
-"Gemini Notebook \"Major Issues of Digital\": learning assistant, to link to a Google account."
-]
-],
-[
-"To prepare",
-[
-"6 Oct: video 1 (debrief after class) + Digital Transformation quiz; assignment \"Top Market Cap from 1998 to 2025\".",
-"13 Oct: in-class group exercise on the Digital Matrix in the automotive industry (3 to 5 slides as PDF, \"Rules Matrix\" template on Moodle).",
-"13 Oct: videos 2 and 3 before class; Digital Matrix quiz after.",
-"3 Nov: readings.",
-"7 Nov (Saturday): videos 4 and 5.",
-"10 Nov: video 6.",
-"17 Nov: videos 7, 8 and 9; Platforms quiz after.",
-"24 Nov: Cyber Regulation group exercise cancelled (Judith's info); readings; debrief video after.",
-"1 Dec: readings."
-]
-],
-[
-"Materials and preparation",
-[
-"ResilienceLab hackathon (10 Nov, room P.109): the group split by letter is in the \"STUDENT GROUPS\" file on the course Moodle page (sit at your letter's table on arrival).",
-"Course Moodle groups: you are in group E (fixed groups). The \"STUDENT GROUPS\" file only lists the ResilienceLab hackathon teams, not the course groups."
-]
-]
-]
-}
+ "str": {
+  "title": {
+   "intro": "Introduction to strategy",
+   "ext": "External analysis",
+   "int": "Internal analysis",
+   "bls": "Business strategy (S4)",
+   "plt": "Platforms, internet and AI (S5)",
+   "ma": "Boundaries of the firm: M&A (S6)"
+  },
+  "eval": "Individual participation 25% · interim and final quizzes (Wooclap, individual) 25% · final group presentation 50%.",
+  "pending": [
+   "Strategy and societal issues"
+  ],
+  "ess": {
+   "intro": [
+    "Core question: why do some companies perform better than others?",
+    "Rumelt: diagnosis → guiding policy → coherent actions (e.g. Southwest Airlines).",
+    "Bad strategy: avoiding the problem, confusing goals with strategy, bad objectives, fluff.",
+    "Vision (why, C-level) → strategy (what, top management) → tactics (how, field).",
+    "Changing the rules of the game: Apple (blue ocean)."
+   ],
+   "ext": [
+    "External analysis: the firm chooses, the context does not. Three layers: macro (PESTEL), industry (5 forces), firm.",
+    "Four channels to profit: demand, costs, competition, rules.",
+    "PESTEL: prioritise by impact × predictability (plan, scenarios, monitor, set aside).",
+    "Five forces: entrants, suppliers, buyers, substitutes, rivalry; the stronger they are, the less profitable the industry.",
+    "SWOT: internal (strengths, weaknesses) vs external (opportunities, threats, from PESTEL and the 5 forces); useful only if it ends in a choice.",
+    "Uber: strong buyers and rivalry → unattractive industry; profit through scale and ecosystem; S+O option: demand platform for robotaxis.",
+    "Airline case: low cost (one aircraft type, point-to-point, fast turnarounds) = 47 years of Southwest profit; Covid: traffic -90%, resilience is a choice (cash, flexibility, options).",
+    "Intended strategy → realised and emergent strategy (levers: structure, systems, people)."
+   ],
+   "int": [
+    "External analysis: where is the profit? Internal analysis: who can capture it? Business-specific effects matter more than industry in the data cited.",
+    "Resources (what the firm owns) → capabilities (what it can do) → competitive advantage.",
+    "VRIO: Valuable, Rare, Imperfectly imitable, Organized to exploit. Parity ≠ temporary advantage ≠ sustained advantage; without O, unexploited advantage.",
+    "Imitation is slowed by history, causal ambiguity and social complexity. Dynamic capabilities: sense, seize, reconfigure.",
+    "Value chain: primary and support activities; Zara and Southwest win through a system of activities that reinforce each other.",
+    "Choosing a place: upstream/downstream integration, specialisation, control of a bottleneck. Margins along the chain are not directly comparable.",
+    "Consulting: six families; organised by industry × function × geography; pyramid model. Headcount/salary figures are approximate, dated and on different scopes.",
+    "Commercial due diligence = market/position (S2), operational = resources/capabilities (S3), completed by financial, legal and technical experts."
+   ],
+   "bls": [
+    "Business strategy = 3 choices: who (which customers), what (which needs, which promise), how (which resources and activities). Choosing also means giving up.",
+    "Competitive advantage: create more value than rivals, as the customer perceives it. WTP €100, price €70, cost €50 → customer surplus €30, margin €20.",
+    "Two levers: lower cost (more margin, or lower price at equal margin) or raise willingness to pay (differentiation). The advantage exists only if customers see it (Bezos: the customer is a guest, we are the host).",
+    "Porter: 2 sources of advantage (cost, differentiation) × 2 scopes (broad market, narrow segment) = cost leadership (Ryanair, Lidl), differentiation (Apple, Zara), cost focus (Dacia, hotelF1), differentiation focus (Hermès, Ferrari).",
+    "Cost leadership: lowest cost for an acceptable product, price at market level; low cost is not low price. Sources: scale, learning, simplicity, cheap inputs.",
+    "Differentiation: the test is that the premium the customer pays exceeds the cost of the difference (Hermès: craft and scarcity; Zara: speed).",
+    "Focus: serve one segment better (risk: niche too small); hybrid (IKEA, Toyota): more value at moderate cost, possible with a strong system despite Porter's \"stuck in the middle\" warning.",
+    "Fit (Porter 1996): a position = a system of coherent activities + trade-offs (Ryanair: one aircraft, secondary airports, fast turnarounds, no connections). Without trade-offs, no position.",
+    "Each strategy answers the 5 forces differently: cost protects against price wars and powerful buyers; differentiation builds loyalty and makes offers incomparable.",
+    "Advantage cycle: build → exploit → imitate → erode → renew. Erosion by imitation, technology, low-end entrants, tastes. Responses: defend, extend, renew. Price advantages erode fast, culture-based ones slowly.",
+    "Fashion thread: four firms, one wardrobe. Operating margin: Hermès 41%, Inditex ≈20%, H&M 8%, Shein ≈4% (last full year; Hermès, H&M, Shein 2025, Inditex fiscal 2024). Each margin reflects a positioning choice.",
+    "Reading the positions: Primark and Ryanair = cost leadership; Hermès = differentiation focus; Apple = differentiation; Zara and IKEA = hybrids; Shein = cost + speed; H&M = debatable (cheaper than Zara? more fashionable than Primark?).",
+    "Why customers choose: only two levers: pay less (low price, no frills) or get more (quality, design, brand, speed, trust). Cost works on the first, differentiation on the second.",
+    "New market space (\"blue ocean\"): make competition irrelevant (Cirque du Soleil: theatre + circus); hard to repeat, easy to imitate once proven."
+   ],
+   "plt": [
+    "4-question reading method: which cost/barrier falls (5 forces) → where is durable value (VRIN) → which decision is forced (rivals) → which risk/trade-off. The object changes, not the method.",
+    "Schumpeter (1942): creative destruction: innovation replaces the old economy, it does not add to it. Christensen (1997): low-end disruption: a simple, cheaper offer wins the bottom of the market then moves up. Often both (Amazon started with books).",
+    "Internet: 4 costs fall to (almost) zero: search, copy, distribute, match (Goldfarb & Tucker, 2019) → easy entry, intermediaries lose their paid role.",
+    "Near-zero marginal cost: fixed cost is the barrier; scale pays (the biggest can price lowest); free becomes possible if a second payer exists (advertisers, other side).",
+    "Long tail (Anderson 2004): niches added up can rival hits; Elberse (2008) nuance: hits still carry a large share of revenue.",
+    "Pipeline (Zara) sells, platform (Vinted) connects: it owns the connection between the two sides, neither the item nor the sale. Most firms are hybrids (Zalando).",
+    "4 network effects: direct (messaging), cross-side (Airbnb hosts/travellers), negative (spam, congestion), local (ride-hailing per city). They raise the entry barrier but each has a limit.",
+    "Chicken-and-egg of a two-sided market: seed one side, subsidise, go local, do things that don't scale (Airbnb NY 2009: door-to-door photos, revenue ×2).",
+    "Who pays = a strategic choice: monetise the side that values the transaction most (Vinted: buyers pay, sellers free); this decides which side to attract first.",
+    "4 platform risks: leakage (dealing outside), quality/moderation (central cost), regulation (DMA 2022/1925 applicable since 2023, session 7), dependence on one player's rules.",
+    "Models: free funded by ads (Amazon ads $68.6bn in 2025, launched 2012); sell the outcome not the product (Rolls-Royce Power-by-the-Hour, 1962); subscription = initial revenue dip, pays only if customers stay (Adobe: revenue -7.9% in 2013 while subscription +69%).",
+    "SaaS: ARR = MRR × 12; NRR > 100% = growth without new customers; churn = losses that cost years; Rule of 40 = growth + margin (30% + 15% = 45).",
+    "Amazon 2025: AWS = 18% of net sales ($716.9bn) but 57% of operating income ($80bn): the most visible business is not the profit engine; strategy is the portfolio."
+   ],
+   "ma": [
+    "Corporate strategy: which businesses to be in, which stages of the value chain, which countries; M&A moves a boundary, and selling a business is also a strategic choice.",
+    "An acquisition is an action, not a strategy (Rumelt): for each deal ask which diagnosis it answers and why buy rather than build or ally (borrow).",
+    "5 reasons to buy tied to course tools: scale → 5 forces (Vusion-Pricer); control of a stage → value chain (Amazon-Whole Foods); capability → VRIO (Facebook-Instagram, Vusion-Memory); enter a market → entry barriers (Walmart-Jet.com); transform → corporate (Microsoft-Nokia, failure).",
+    "Build: full control and its culture, but slow (choose if you have the skills and time). Borrow: speed and shared risk, but dependence (if access is enough). Buy: speed + control, but premium and integration risk (if control is needed and integration possible). Capron & Mitchell (2012).",
+    "Organic vs acquisition: organic costs no premium but takes years; acquisition brings customers, team and know-how at once at the price of a premium and a culture merger.",
+    "Cited M&A failure rate: 70-90% (Christensen et al., HBR 2011); 12 cents lost per dollar spent at announcement (1998-2001, Moeller et al.). The seller usually captures the premium.",
+    "Value for the buyer = synergies - premium - integration costs. Cost synergies are often delivered, revenue synergies often disappoint; winner's curse in auctions.",
+    "Failure factors: overpaying, overestimated synergies, culture clash, slow integration, distraction from the core, ignored regulators. Failures are decided before signing or in the first 100 days.",
+    "Strategic buyer (synergies, pays cash or shares, can pay more) vs financial buyer (return then resale, cash often with debt, founders often kept).",
+    "3 valuation methods: comparables (multiple × metric, depends on the market), precedent transactions (include control premium, e.g. Pricer +29.6%), DCF (sensitive to assumptions). EV - net debt = equity value. Maximum price = standalone value + synergies actually capturable.",
+    "Divestment in 6 steps: prepare → approach → first offers → due diligence → signing → closing. Dual track: sale and fundraising in parallel to test price and keep a fallback.",
+    "Price is also terms: earn-out and warranties (private), premium and fairness opinion (listed), carve-out, LBO, stock merger (who controls?).",
+    "After closing: prepare → reassure (day 1) → organise (100 days) → integrate (years 1-3). Degrees of integration (Haspeslagh & Jemison): absorption, symbiosis, holding, preservation, depending on need for resource sharing × need for autonomy.",
+    "M&A follows the cost of money: record 2021 ($6.8tn), trough 2022-23, record megadeals in 2025 (68 deals > $10bn). In 2024 buyers sought savings (59% scale), in 2025 growth and capabilities (60% scope), per Bain."
+   ]
+  },
+  "infos": [
+   [
+    "Assessment",
+    [
+     "Individual participation: 25% (written comments possible after each session; unprepared interventions count negatively).",
+     "Interim and final quizzes, individual: 25% (Wooclap in class; mid-term quiz 19 Nov, final quiz 3 Dec).",
+     "Final group presentation: 50%. Official grading: diagnosis 30% (PESTEL, 5 forces, VRIN), recommendation 40% (platform, boundaries or business model, with risks), clarity 15%, questions 15%; same grade for the whole group."
+    ]
+   ],
+   [
+    "Group project",
+    [
+     "Group of 3 or 4; 15-20 minute presentation + 5 minutes of questions on the strategic outlook of a company of your choice (enough public data; not a case seen in class; first come, first served).",
+     "Email the professor before 19 November to get the company validated, with the group members' names.",
+     "Content: current situation, market and competition, resources and capabilities, challenges and opportunities, clear recommendations to management (3-5 year strategy, risks included, societal issues section).",
+     "Upload the slides before the presentation; presentations on 3 and 10 December."
+    ]
+   ],
+   [
+    "Rules",
+    [
+     "Be on time (lateness costs participation points), name card in front of you.",
+     "Phones and laptops put away when asked.",
+     "AI allowed but higher expectations: the professor will check that you understand what you say."
+    ]
+   ]
+  ]
+ },
+ "mm": {
+  "title": {
+   "cadre": "Framework and models",
+   "seg": "Segmentation",
+   "conj": "Conjoint analysis",
+   "pos": "Positioning",
+   "price": "Pricing",
+   "score": "Scoring and targeting",
+   "resalloc": "Resource allocation",
+   "synth": "Summary"
+  },
+  "eval": "Case study 1: 20% · Case study 2: 20% · Term project: 30%. No final exam. Individual grades adjusted by peer evaluations.",
+  "pending": [
+   "S8"
+  ],
+  "ess": {
+   "cadre": [
+    "Marketing = identify (or create), acquire and keep customers, profitably.",
+    "Model = stylised representation of reality, built for a specific purpose.",
+    "Response model: links a marketing effort to sales (S-curve between a minimum and a maximum).",
+    "Allocating a budget in proportion to market share ignores the marginal response to spending.",
+    "No model is true, some are useful: 50% data, 50% manager."
+   ],
+   "seg": [
+    "Good segment: distinct, homogeneous, identifiable, substantial, useful.",
+    "Bases = why segments differ (needs, benefits). Descriptors = who they are and how to reach them (age, income, media).",
+    "Form segments on bases, never on descriptors.",
+    "d(a,b) = √Σ (xa − xb)²",
+    "Different scales → standardise.",
+    "Dendrogram: cut before the big jump. Scree plot: look for the elbow.",
+    "Discriminant analysis: predict the segment from descriptors; hit rate = correctly classified / total."
+   ],
+   "conj": [
+    "Product = bundle of attribute levels; utility = sum of partworths (0-100 scale).",
+    "Attribute importance = gap between its best and worst partworth.",
+    "Minimum profiles = Σ (levels − 1) + 1   (5 attributes × 5 levels → 21)",
+    "Estimation: regression of ratings on 0/1 variables; choice-based conjoint uses a binary regression.",
+    "Choice rules: first choice (house), share of preference (meal), logit (clothing), alpha-rule (known shares).",
+    "Design: 4 to 6 attributes, 2 to 4 levels, no correlated attributes.",
+    "Simulations: new product, new entrant, cannibalisation, niches."
+   ],
+   "pos": [
+    "Perceptual map: close = strong competition, on dimensions relevant to customers.",
+    "Vectors: same direction = correlated; opposite = negatively correlated; 90° = independent; far from origin = significant.",
+    "Orthogonal projection to rank brands on an attribute.",
+    "Perceptions matter more than reality (Volvo, the drill, Débitel); wishful marketing is a \"death wish\".",
+    "The map is relative; the analyst interprets the axes.",
+    "Add preferences: a distinctive position may interest nobody."
+   ],
+   "price": [
+    "Profit = (Price − Cost) × Volume",
+    "Value salami: created value lies between the seller's minimum price and the buyer's maximum price; the price shares it.",
+    "Strategies: cost, competition, demand, value, discrimination.",
+    "Value-in-use = costs the product saves the customer (seals: $35).",
+    "Discrimination: different prices by reservation price; limits: arbitrage, legality, feeling of unfairness.",
+    "Gabor-Granger: purchase intent at randomly shown prices → optimal price; interpolate, don't extrapolate.",
+    "Van Westendorp: psychological optimum = crossing of \"too cheap\" × \"too expensive\"."
+   ],
+   "score": [
+    "Choice-based segmentation: group by probability of response, not similarity of needs.",
+    "CART: successive splits on the best predictor (Gini, entropy); needs lots of data; risk of overfitting.",
+    "Logit: P = 1 / (1 + e^−(β0 + Σ βx))",
+    "Marginal impact of an action is maximal at p = 50%.",
+    "Trigger a purchase → target the most likely; influence a behaviour → target the undecided.",
+    "Score = probability × expected amount; score classes A to D."
+   ],
+   "resalloc": [
+    "Resource = valuable (productive) AND available in limited quantity: budget, salespeople, time, R&D.",
+    "Two questions: size the optimal level of investment, then allocate that budget across options.",
+    "Sizing: % of sales (inertia), competitor benchmark, or ROI optimisation, the best one but it requires the response function.",
+    "Response function: sales as a function of effort (diminishing returns); the optimal budget maximises profit, not sales.",
+    "A specific response function per market / segment / region (different customers, potentials, competition).",
+    "Estimation: historical data (variability?), experiments (costly, risky), managerial judgement (fast, consensual).",
+    "Delphi: expert panel, 2+ questionnaire rounds, anonymous synthesis by a facilitator, revisions, convergence to mean/median.",
+    "Calibration: Y0 (no visits), Y1 (unchanged), Y2 (+50%), Y3 (maximum) → AdBudg curve: a = saturation, b = minimum sales, d = competition/noise.",
+    "No consensus: test several estimates; if the result changes, the point is critical → more data needed.",
+    "20-salespeople study: +11.9% (with recommendations) vs +3.8% (control); +8.1 pts, p < .025; ~half a day per salesperson."
+   ],
+   "synth": [
+    "Who are my customers? → segmentation.",
+    "Which offer to launch? → conjoint analysis.",
+    "How am I perceived? → positioning.",
+    "At what price? → Gabor-Granger, Van Westendorp, conjoint.",
+    "Whom to target? → CART, logit, scoring.",
+    "Where to put my media budget? → response models, MMM."
+   ]
+  },
+  "infos": [
+   [
+    "Your groups",
+    [
+     "Case study 1: group A9",
+     "Case study 2: group B11",
+     "Term project: group C5, presentation Monday 30 November (due Sunday 29 at midnight)"
+    ]
+   ],
+   [
+    "Assessment",
+    [
+     "Case study 1: 20%",
+     "Case study 2: 20%",
+     "Term project: 30%",
+     "No final exam; individual grades adjusted by peer evaluations."
+    ]
+   ],
+   [
+    "Penalties",
+    [
+     "In-class survey not filled or rushed (S3, S5): −1",
+     "Peer evaluations not filled: −1 per deliverable",
+     "2 or more absences: −4",
+     "Free-riding: 0 on the deliverable",
+     "Research bonus (Sona): up to +1 point"
+    ]
+   ],
+   [
+    "Handing in a case study",
+    [
+     "Random groups of 3 to 5, never the same teammate twice.",
+     "Self-contained PowerPoint only (no report, no Excel).",
+     "Due Sunday at midnight before the session, group number in the subject and the file name.",
+     "Case 1 (internships): trends, partworths, first-choice simulation, optimal offer at minimum salary, segmentation of partworths without standardising.",
+     "Case 2 (sneakers): trends, perceptual map, preferences, positioning recommendation, Gabor-Granger price."
+    ]
+   ],
+   [
+    "Term project",
+    [
+     "Groups of 4-5 by preference.",
+     "Pitch = one slide: context, tension, method (due Thursday 5/11 at midnight).",
+     "One method, two at most.",
+     "Questionnaire: same scales, no branching, 1-7 scales rather than yes/no, non-overlapping categories, one idea per question.",
+     "Presentations on 30/11 or 7/12; due the Sunday before."
+    ]
+   ],
+   [
+    "Tools",
+    [
+     "Enginius software (licence provided by ESSEC).",
+     "S1: in-class Allegro exercise (\"Allegro Data\" file on Moodle).",
+     "Virtual TA: MyESSEC → Tools → Gemini → \"Data-Driven Marketing Virtual TA\".",
+     "Computers and phones not allowed in class unless stated otherwise (reminder of 12 October after the quiz 1 results)."
+    ]
+   ]
+  ]
+ },
+ "it": {
+  "title": {
+   "dt": "Digital transformation",
+   "dm": "IS strategy and Digital Matrix",
+   "cloud": "Sourcing and cloud",
+   "proj": "IT projects and ERP",
+   "data": "Data analytics and AI",
+   "cyber": "Data and cybersecurity",
+   "plat": "Platforms and digital economy",
+   "reg": "Digital regulation"
+  },
+  "eval": "Written paper final exam: 45% (Tuesday 8 December, 16:30-17:30, time confirmed on the course Moodle page; true/false, MCQ and open questions; 2-page cheat sheet allowed). In-class group work: 30%. Oral participation: 25%. Attendance compulsory.",
+  "pending": [
+   "IT, AI and sustainability"
+  ],
+  "ess": {
+   "dt": [
+    "Managing IS (strategy, projects, suppliers) vs managing through IS (analytics, platforms, AI).",
+    "Landmarks: TCP/IP (1974), Web (CERN, 1989, public in 1993), Minitel, iPhone (9 January 2007), GAFAM and BATX.",
+    "COBOL: 70 to 80% of active code of critical systems, 95% of card and ATM transactions."
+   ],
+   "dm": [
+    "IS = technology + tasks + people; strategy = where to go and how (Pearlson and Saunders).",
+    "Digital transformation = integration of SMACIT across the whole firm; a managerial problem before a technical one.",
+    "Competitive advantage: Barney (1991), Porter (1985); Porter's 5 forces, IT acts on each.",
+    "Digital Matrix (Venkatraman): incumbents, tech entrepreneurs, digital giants × edge, core, root.",
+    "Rules Matrix: orchestrate and participate, co-creation of capabilities, amplify human talent with machines."
+   ],
+   "cloud": [
+    "IS outsourcing = paying a vendor to perform one's IS activities; scopes: operations, applications, support, business processes.",
+    "For: costs, core business, access to tech/talent, flexibility. Against: dependence, transaction costs, loss of control, slower innovation.",
+    "Three deals: traditional outsourcing, transformation outsourcing (BPM), strategic cloud/AI agreements (not necessarily strict outsourcing).",
+    "Outsourcing/insourcing = boundaries of the firm; offshore/nearshore = geography. Sacem case: external audit as a lever, floodable server room, SALMA project (professional host, €717K + €330K/yr).",
+    "Cloud: pay-per-use billing, web access, customisation by configuration, IaaS/PaaS/SaaS layers.",
+    "Success: sophistication of the sourcing decision, of the selection (RFI → short list → RFP, joint business+IT evaluation), and contractual (SLA) + relational governance."
+   ],
+   "proj": [
+    "Project management = final deliverable + finite duration and budget (vs ongoing management).",
+    "Waterfall: good for fixed scope and requirements, heavy documentation; weak against discoveries along the way (overplanning, knowing before having seen).",
+    "Agile Manifesto: individuals and interactions, working software, customer collaboration, responding to change: principles → methods (Scrum, DevOps, XP) → practices (user stories, meetings, prototyping).",
+    "Scrum artifacts: product backlog (all requirements as user stories), sprint backlog (selection + plan, task board), increment = working software at each sprint end.",
+    "User story: \"As a <role>, I want <goal> so that <benefit>\" + optional acceptance criteria.",
+    "Roles: Product Owner (vision, backlog, priorities, acceptance criteria), Development Team (≤ ~10, cross-functional, autonomous), Scrum Master (process coach).",
+    "Meetings: sprint planning, daily Scrum, sprint review, retrospective; sprint of 2 to 4 weeks.",
+    "Agile is no miracle: depends on context; ambidexterity between efficiency/innovation, standardisation/differentiation, stability/agility, control/autonomy.",
+    "Enterprise IS = large software supporting processes, information flows, reporting and analytics; 3 families: ERP, SCM, CRM.",
+    "ERP: integrated database, industry best practices, tracks resources / processes / structure / data (e.g. SAP S/4HANA).",
+    "SCM: buying-making-moving, network of suppliers-manufacturer-distributors-customers, reduces lead times and inventory.",
+    "CRM: unified customer view, satisfaction and loyalty; operational, analytical, communicative components (e.g. Salesforce).",
+    "5 recommendations for an ERP: management sponsorship, external experts, user training, multidisciplinary approach, incremental implementation."
+   ],
+   "data": [
+    "Analytics = analysis of data with mathematical techniques to inform or improve decisions. 3 types: descriptive (what happened; aggregation, data mining), predictive (what will happen; statistical models, e.g. credit scores), prescriptive (what to do; optimisation and scenario simulation).",
+    "3 Vs of big data: Volume (mega/gigabytes), Velocity (real time, hourly, daily, monthly), Variety (text, click stream, audio, video).",
+    "Benefits of analytics: efficiency and productivity (operational), faster and better decisions (tactical), better financial performance (strategic). Data can also be monetised and sold (\"pay for attention\" model)."
+   ],
+   "cyber": [
+    "Cyber-resilience: anticipate, resist, recover, adapt, beyond prevention alone, which is never perfect.",
+    "4 categories of cybercrime: individuals, property (digital assets), organisations and governments, society.",
+    "Cybercrime: $8.15 trillion in 2023 → $10.5 trillion expected in 2025; France $93.46bn; 69% companies, 20% local authorities, 11% healthcare (2023).",
+    "\"Microsoft bug\" of 19 July 2024 = CrowdStrike Falcon Sensor update; ≈ $5.4bn for the Fortune 500 (Parametrix).",
+    "Y2K: COBOL dates in YYMMDD, $300-600bn; Blayais (27 Dec 1999): one event can defeat several supposedly independent protections.",
+    "GDPR (2018), AI Act (2025, risk-based), DSA (2023), Data Act/DGA (2023), DMA (2024, gatekeepers).",
+    "NIS-2 (2022): ≈ 160,000 entities, notification within 24 h, fines up to €10M or 2% of global turnover; CER (2022/2024, 10 sectors); DORA (17 Jan 2025, finance).",
+    "French SNR (April 2022, SGDSN); OFAC (Nov 2023, police - cybercrime); ARIANE (2026, DINUM + DITP - State IS)."
+   ],
+   "plat": [
+    "3 laws of the digital economy: Metcalfe's law (V ∝ N², direct and indirect network effects → winner-takes-all/most); zero marginal cost (1st copy $100M, the 10 millionth $0 → infinite scalability); high switching costs and lock-in (Apple iOS ecosystem, Microsoft 365 stack).",
+    "Market cap shift: 2005 world top 10 = oil/banking/industry → today Big Tech and AI infrastructure; tech accounts for more than 80% of S&P 500 value creation over 10 years; asset-light giants earn a better ROIC than industrials.",
+    "Attention economy: attention drives value (Herbert Simon: \"a wealth of information creates a poverty of attention\"); algorithmic signals (likes, shares, watch time) ⇒ monetisation (Meta, Alphabet; data as raw material).",
+    "Dominant models: advertising/AdTech (free services monetising behaviour), subscription/SaaS (perpetual licence → recurring revenue ARR/MRR, gross margin > 80%), IaaS (AWS, Azure, Google Cloud = \"tollbooths\" of digital infrastructure; AWS = majority of Amazon's operating profit).",
+    "Multi-sided platforms: connect buyers/sellers, creators/viewers, drivers/passengers (Uber, Airbnb, App Store) and take 15 to 30% take-rate for trust, discovery and payment rails.",
+    "Tesla case: the vehicle becomes a \"computer on wheels\"; software, connectivity and battery = 50-60% of the value of new-generation cars; traditional auto margins 5-8% vs software 70%+; software features (FSD) create lifetime customer value after the sale.",
+    "Physical bottlenecks: ASML = global monopoly (100%) on EUV lithography; TSMC makes > 90% of the most advanced chips; Nvidia = monopoly on AI GPUs; data centres and energy = new bottlenecks of the 2020s.",
+    "Course summary: dominance goes to zero-marginal-cost assets; network effects produce winner-takes-all; value migrates to software and cloud; tech chains have critical single-point-of-failure bottlenecks."
+   ],
+   "reg": [
+    "Cyber-regulation = regulating cyberspace (\"cyber\" from cybernetics, Norbert Wiener 1948). It must be regulated because it combines technology, economy, power, regulation and society, and raises political stakes: economic and information power, surveillance, cybersecurity, cyberwar, free speech, digital sovereignty.",
+    "History: US antitrust against Microsoft (1990s-2001), then the EU sanctions giants through competition law (Microsoft €497M in 2004 and €561M in 2013; Google Shopping €2.42bn in 2017; Android €4.34bn in 2018; AdSense €1.49bn in 2019). Limit: a fine is not the restoration of competition.",
+    "From punitive to ex ante rules: the DMA sets obligations on gatekeepers before any abuse is proven (classic antitrust asks whether the law was broken). Initial gatekeepers: Alphabet, Amazon, Apple, ByteDance, Meta, Microsoft. DMA fines: Apple €500M (anti-steering) and Meta €200M (\"consent or pay\"), 23 April 2025; Google €460M + €430M (23 July 2026).",
+    "GDPR (2016, applied 2018): consent, purpose limitation, minimisation, rights of access/rectification/erasure, DPO, breach notification, fines up to €20M or 4% of global turnover. DSA (2022, applied 2024): algorithmic transparency, risk assessments, VLOP audits, protection of minors. DMA (2022, applied 2023): no self-preferencing, open APIs, side-loading, portability; fines up to 10% of turnover (20% for repeat).",
+    "NIS-2 (2022, applied 2024): critical infrastructure (energy, health, finance, transport, cloud, data centres); incident notification within 24 h, supply-chain risk, fines up to €10M or 2% of turnover; about 160,000 entities. DORA (applicable 17 Jan 2025): operational resilience of the financial sector (ICT risk, incidents, resilience testing, third parties, continuity). MiCA (Dec 2024): crypto-assets, ART vs EMT.",
+    "AI Act (2024, phased application from 2025): 4 risk levels: minimal (anti-spam), limited (chatbots, transparency), high (recruitment, credit scoring, strict rules), unacceptable (social scoring, banned). CRA (2024, obligations from 2026): mandatory cybersecurity of digital products, vulnerability reporting, security updates; fines up to €15M or 2.5% of turnover. Data Act (2023, applicable 2025): access to connected-device data, cloud switching without fees from 2027.",
+    "Others: Copyright directive (2019, article 17: proactive monitoring, press neighbouring right); right to repair (2024, USB-C, update transparency, against planned obsolescence); eIDAS 2 (2024, European digital identity wallet by end 2026); under discussion in November 2026: Digital Omnibus, Cybersecurity Act 2, Digital Networks Act, business wallets, CSAM regulation.",
+    "United States: USA PATRIOT Act (2001, expands investigative powers, not unlimited access to data); FISA 702 (foreign intelligence targeting non-Americans located outside the US, under conditions); CLOUD Act (2018, US providers may have to produce data even if stored abroad, under legal process). Geopolitical tension: Trump tariff threats (25 August 2025) against digital rules.",
+    "Takeaways: (1) cyber-regulation aims to frame cyberspace in all its dimensions; (2) the EU has produced many texts in 20 years; (3) its limits are geopolitical, legal and linked to innovation. In-class case: 2-page memo to an investor, identifying the EU/US texts that apply, explaining why they apply or not, and ending with a clear recommendation."
+   ]
+  },
+  "infos": [
+   [
+    "Assessment",
+    [
+     "Written paper final exam: 45%. Tuesday 8 December, 16:30-17:30 (time confirmed on the course Moodle page).",
+     "Closed questions (true/false, MCQ) and open questions; 2-page cheat sheet allowed.",
+     "In-class group work: 30% (you are in group E; fixed groups).",
+     "Oral participation: 25%.",
+     "Attendance compulsory: more than 2 absences, even justified, = course not validated."
+    ]
+   ],
+   [
+    "Course format",
+    [
+     "In person on Tuesday evenings, plus a session on Saturday 7 November at 13:15.",
+     "Synchronous elements (classes, discussions, group work) and asynchronous (videos, readings).",
+     "Gemini Notebook \"Major Issues of Digital\": learning assistant, to link to a Google account."
+    ]
+   ],
+   [
+    "To prepare",
+    [
+     "6 Oct: video 1 (debrief after class) + Digital Transformation quiz; assignment \"Top Market Cap from 1998 to 2025\".",
+     "13 Oct: in-class group exercise on the Digital Matrix in the automotive industry (3 to 5 slides as PDF, \"Rules Matrix\" template on Moodle).",
+     "13 Oct: videos 2 and 3 before class; Digital Matrix quiz after.",
+     "3 Nov: readings.",
+     "7 Nov (Saturday): videos 4 and 5.",
+     "10 Nov: video 6.",
+     "17 Nov: videos 7, 8 and 9; Platforms quiz after.",
+     "24 Nov: Cyber Regulation group exercise cancelled (Judith's info); readings; debrief video after.",
+     "1 Dec: readings."
+    ]
+   ],
+   [
+    "Materials and preparation",
+    [
+     "ResilienceLab hackathon (10 Nov, room P.109): the group split by letter is in the \"STUDENT GROUPS\" file on the course Moodle page (sit at your letter's table on arrival).",
+     "Course Moodle groups: you are in group E (fixed groups). The \"STUDENT GROUPS\" file only lists the ResilienceLab hackathon teams, not the course groups."
+    ]
+   ]
+  ]
+ }
 }
