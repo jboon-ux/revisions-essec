@@ -38,22 +38,14 @@ details.source-text pre, pre.source-pre { font-size: 7.5pt; white-space: pre-wra
 .q .ans { color: #1D7A4E; font-weight: 700; }
 .q .ex { color: #555; font-size: 9.5pt; }
 
-/* compact mode */
-body { font-size: 8.4pt; line-height: 1.32; }
-.cover { height: auto; display: block; margin-bottom: 6px; }
-.cover h1 { font-size: 20pt; margin: 2px 0; } .cover h2 { font-size: 10pt; margin: 0 0 6px; } .cover .meta { font-size: 8.5pt; padding: 3px 9px; } .cover .assess { padding: 5px 9px; margin-top: 6px; font-size: 8pt; }
-.main { columns: 2; column-gap: 7mm; column-fill: balance; }
-h1.ch { page-break-before: avoid; break-after: avoid; font-size: 11.5pt; margin: 9px 0 3px; column-span: none; border-bottom-width: 2px; }
-h4 { font-size: 9.2pt; margin: 7px 0 2px; break-after: avoid; }
-h2, h3 { font-size: 9.6pt; margin: 6px 0 2px; break-after: avoid; }
-p { margin: 2px 0 3px; } ul, ol { margin: 2px 0 3px; padding-left: 15px; } li { margin: 0; }
-.key, .warn, .def { padding: 4px 7px; margin: 4px 0; border-radius: 4px; }
-.f { font-size: 7.6pt; line-height: 1.35; padding: 4px 6px; margin: 4px 0; }
-table { font-size: 7.6pt; margin: 4px 0; } th, td { padding: 1.5px 3px; }
-.exo { padding: 4px 7px; margin: 5px 0; page-break-inside: auto; }
-.toc { columns: 3; column-gap: 12px; font-size: 8pt; } .toc div { margin: 1px 0; }
-p.readings { font-size: 8pt; margin: 1px 0 4px; }
-.q { margin: 0 0 4px; } .q .qq { font-weight: 700; } .q ol { display: inline; margin: 0; padding: 0; list-style: none; }
-.q ol li { display: inline; margin-right: 6px; } .q ol li:before { content: counter(o,lower-alpha) ") "; }
-.q ol { counter-reset: o; } .q ol li { counter-increment: o; }
-.q .ex { font-size: 7.8pt; }
+
+/* synthèse lisible */
+@page { margin: 14mm 14mm 16mm 14mm; }
+body { font-size: 10.5pt; line-height: 1.5; }
+.cover { height: auto; display: block; margin-bottom: 10px; }
+.cover h1 { font-size: 24pt; } .cover .assess { font-size: 9pt; }
+h1.ch { page-break-before: auto; break-after: avoid; font-size: 15pt; margin: 22px 0 6px; }
+h4 { font-size: 11.5pt; margin: 14px 0 4px; break-after: avoid; }
+.key { padding: 9px 14px; } .key li { margin: 3px 0; }
+table { font-size: 9.5pt; page-break-inside: avoid; }
+.toc { columns: 2; }
