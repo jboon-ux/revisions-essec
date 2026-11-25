@@ -9,12 +9,18 @@ L = {
  'fr': dict(k='Fiche de révision synthétique', toc='Sommaire', ev='Évaluation', ess='L\'essentiel', infos='Infos pratiques', plan='Plan du cours', ex='Exercices', exams='Examens blancs et fiches', mcq='QCM d\'entraînement', ans='Réponse', pend='Chapitres à venir (pas encore de support)', cover_note='Les chapitres reprennent les supports du cours publiés sur Moodle. Les corrections marquées « proposée » sont celles de Instinct, pas du professeur.', gen='Généré le 25 nov. 2026 à partir du site de révision.'),
  'en': dict(k='Condensed revision sheet', toc='Contents', ev='Assessment', ess='In one look', infos='Practical info', plan='Course plan', ex='Exercises', exams='Mock exams and sheets', mcq='Practice MCQs', ans='Answer', pend='Upcoming chapters (no material yet)', cover_note='Chapters follow the course material published on Moodle. Solutions marked "suggested" or "proposed" are Instinct\'s own, not the professor\'s.', gen='Generated on 25 Nov 2026 from the revision site.'),
 }
+DROP = re.compile(r"objectifs|ce que vise|outline|course plan|d'où vient|étymolog|brève histoire|citations|software is eating|origine|y2k|bug de l'an 2000|blayais|exercice de classe|azincourt|aims to do|session (learning )?(goals|objectives)|where the word|brief history|quotes to know|year 2000|class exercise", re.I)
+def trim(h):
+    parts = re.split(r'(?=<h4>)', h)
+    return ''.join(p for p in parts if not (p.startswith('<h4>') and DROP.search(re.sub('<[^>]+>', '', p[4:p.find('</h4>')]))))
+TRIV = re.compile(r"stratos|azincourt|\bcitation|est attribué|attributed to|étymolog|etymolog|kennedy|origine du mot|word .strategy. come", re.I)
 def op(h): return h.replace('<details class="cor">', '<details class="cor" open>')
 def build(sid, lang):
     d = json.load(open(f'{ROOT}/data/{sid}.json')); t = L[lang]
     fr = {x[0]: x[2] for x in d['fr']}; en = {x[0]: x[2] for x in d['en']}
     body = lambda cid: ((en.get(cid) if lang == 'en' else fr.get(cid)) or fr.get(cid) or en.get(cid, ''))
-    ess = {x[0]: x[1] for x in d['ess']}
+    ess = {x[0]: [b for b in x[1] if not TRIV.search(b)] for x in d['ess']}
+    nq0 = len(d['qcm']); d['qcm'] = [q for q in d['qcm'] if not TRIV.search(q[1] + ' ' + ' '.join(q[2]) + ' ' + (q[4] if len(q) > 4 else ''))]; print(sid, lang, 'qcm dropped', nq0 - len(d['qcm']))
     qc = {}
     for q in d['qcm']: qc.setdefault(q[0], []).append(q)
     out = [f'<div class="cover"><div class="k">{E(d["code"])} · ESSEC MiM 1 · {"Automne" if lang=="fr" else "Fall"} 2026</div><h1>{E(d["name"])}</h1><h2>{t["k"]} · {E(d["prof"])}</h2><div class="meta"><b>{t["ev"]}.</b> {E(d["eval"])}</div><div class="assess">{t["cover_note"]}<br><small>{t["gen"]}</small></div></div>']
@@ -24,7 +30,7 @@ def build(sid, lang):
     for i, (cid, title) in enumerate(d['chapters']):
         e = ess.get(cid, [])
         eh = f'<div class="key"><b>{t["ess"]}.</b><ul>' + ''.join(f'<li>{x}</li>' for x in e) + '</ul></div>' if e else ''
-        out.append(f'<h1 class="ch"><span class="num">{i+1:02d}</span>{E(title)}</h1>{eh}{op(body(cid))}')
+        out.append(f'<h1 class="ch"><span class="num">{i+1:02d}</span>{E(title)}</h1>{eh}{op(trim(body(cid)))}')
     ex = d.get('exercises') or []
     if ex:
         out.append(f'<h1 class="ch"><span class="num">§</span>{t["ex"]}</h1>')
