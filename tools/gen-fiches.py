@@ -23,12 +23,16 @@ def synth(h):
             t = p[:p.find('</h4>') + 5] if p.startswith('<h4>') else ''
             out.append(t + ''.join(bl))
     return ''.join(out)
+TT = {'Programme et règles du cours': 'Course programme and rules', 'Supports et préparation': 'Materials and preparation'}
 def op(h): return h.replace('<details class="cor">', '<details class="cor" open>')
 def build(sid, lang):
     d = json.load(open(f'{ROOT}/data/{sid}.json')); t = L[lang]
     fr = {x[0]: x[2] for x in d['fr']}; en = {x[0]: x[2] for x in d['en']}
     body = lambda cid: ((en.get(cid) if lang == 'en' else fr.get(cid)) or fr.get(cid) or en.get(cid, ''))
     ess = {x[0]: [b for b in x[1] if not TRIV.search(b)] for x in d['ess']}
+    EN = json.load(open(f'{ROOT}/tools/ess-en.json')).get(sid) if lang == 'en' else None
+    if EN:
+        d['infos'] = EN['infos']; ess = EN['ess']; d['chapters'] = [[c, EN['title'][c]] for c, _ in d['chapters']]; d['eval'] = EN['eval']; d['pending'] = EN['pending']
     nq0 = len(d['qcm']); d['qcm'] = [q for q in d['qcm'] if not TRIV.search(q[1] + ' ' + ' '.join(q[2]) + ' ' + (q[4] if len(q) > 4 else ''))]; print(sid, lang, 'qcm dropped', nq0 - len(d['qcm']))
     qc = {}
     for q in d['qcm']: qc.setdefault(q[0], []).append(q)
@@ -58,7 +62,7 @@ def build(sid, lang):
         for x in inf: out.append(f'<h4>{E(x[0])}</h4><ul>' + ''.join(f'<li>{E(l)}</li>' for l in x[1]) + '</ul>')
         for x in ic:
             h = x.get(lang) or x.get('fr') or x.get('en')
-            out.append(f'<h4>{E(x["title"])}</h4>{h}')
+            out.append(f'<h4>{E(TT.get(x["title"], x["title"]) if lang == "en" else x["title"])}</h4>{h}')
     return f'<!DOCTYPE html><html lang="{lang}"><head><meta charset="utf-8"><title>{E(d["name"])}</title><style>{CSS}</style></head><body>{"".join(out)}</body></html>'
 for sid in ('mm', 'it', 'law', 'str', 'fin'):
     for lang in ('fr', 'en'):

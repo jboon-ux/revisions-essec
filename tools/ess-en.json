@@ -1,0 +1,119 @@
+{
+"str": {
+"title": {
+"intro": "Introduction to strategy (8 Oct)",
+"ext": "External analysis (15 Oct)",
+"int": "Internal analysis (22 Oct)",
+"bls": "Business strategy (S4)",
+"plt": "Platforms, internet and AI (S5)",
+"ma": "Boundaries of the firm: M&A (S6)"
+},
+"eval": "Individual participation 25% · interim and final quizzes (Wooclap, individual) 25% · final group presentation 50%.",
+"pending": [
+"Strategy and societal issues"
+],
+"ess": {
+"intro": [
+"Core question: why do some companies perform better than others?",
+"Rumelt: diagnosis → guiding policy → coherent actions (e.g. Southwest Airlines).",
+"Bad strategy: avoiding the problem, confusing goals with strategy, bad objectives, fluff.",
+"Vision (why, C-level) → strategy (what, top management) → tactics (how, field).",
+"Changing the rules of the game: Apple (blue ocean)."
+],
+"ext": [
+"External analysis: the firm chooses, the context does not. Three layers: macro (PESTEL), industry (5 forces), firm.",
+"Four channels to profit: demand, costs, competition, rules.",
+"PESTEL: prioritise by impact × predictability (plan, scenarios, monitor, set aside).",
+"Five forces: entrants, suppliers, buyers, substitutes, rivalry; the stronger they are, the less profitable the industry.",
+"SWOT: internal (strengths, weaknesses) vs external (opportunities, threats, from PESTEL and the 5 forces); useful only if it ends in a choice.",
+"Uber: strong buyers and rivalry → unattractive industry; profit through scale and ecosystem; S+O option: demand platform for robotaxis.",
+"Airline case: low cost (one aircraft type, point-to-point, fast turnarounds) = 47 years of Southwest profit; Covid: traffic -90%, resilience is a choice (cash, flexibility, options).",
+"Intended strategy → realised and emergent strategy (levers: structure, systems, people)."
+],
+"int": [
+"External analysis: where is the profit? Internal analysis: who can capture it? Business-specific effects matter more than industry in the data cited.",
+"Resources (what the firm owns) → capabilities (what it can do) → competitive advantage.",
+"VRIO: Valuable, Rare, Imperfectly imitable, Organized to exploit. Parity ≠ temporary advantage ≠ sustained advantage; without O, unexploited advantage.",
+"Imitation is slowed by history, causal ambiguity and social complexity. Dynamic capabilities: sense, seize, reconfigure.",
+"Value chain: primary and support activities; Zara and Southwest win through a system of activities that reinforce each other.",
+"Choosing a place: upstream/downstream integration, specialisation, control of a bottleneck. Margins along the chain are not directly comparable.",
+"Consulting: six families; organised by industry × function × geography; pyramid model. Headcount/salary figures are approximate, dated and on different scopes.",
+"Commercial due diligence = market/position (S2), operational = resources/capabilities (S3), completed by financial, legal and technical experts."
+],
+"bls": [
+"Business strategy = 3 choices: who (which customers), what (which needs, which promise), how (which resources and activities). Choosing also means giving up.",
+"Competitive advantage: create more value than rivals, as the customer perceives it. WTP €100, price €70, cost €50 → customer surplus €30, margin €20.",
+"Two levers: lower cost (more margin, or lower price at equal margin) or raise willingness to pay (differentiation). The advantage exists only if customers see it (Bezos: the customer is a guest, we are the host).",
+"Porter: 2 sources of advantage (cost, differentiation) × 2 scopes (broad market, narrow segment) = cost leadership (Ryanair, Lidl), differentiation (Apple, Zara), cost focus (Dacia, hotelF1), differentiation focus (Hermès, Ferrari).",
+"Cost leadership: lowest cost for an acceptable product, price at market level; low cost is not low price. Sources: scale, learning, simplicity, cheap inputs.",
+"Differentiation: the test is that the premium the customer pays exceeds the cost of the difference (Hermès: craft and scarcity; Zara: speed).",
+"Focus: serve one segment better (risk: niche too small); hybrid (IKEA, Toyota): more value at moderate cost, possible with a strong system despite Porter's \"stuck in the middle\" warning.",
+"Fit (Porter 1996): a position = a system of coherent activities + trade-offs (Ryanair: one aircraft, secondary airports, fast turnarounds, no connections). Without trade-offs, no position.",
+"Each strategy answers the 5 forces differently: cost protects against price wars and powerful buyers; differentiation builds loyalty and makes offers incomparable.",
+"Advantage cycle: build → exploit → imitate → erode → renew. Erosion by imitation, technology, low-end entrants, tastes. Responses: defend, extend, renew. Price advantages erode fast, culture-based ones slowly.",
+"Fashion thread: four firms, one wardrobe. Operating margin: Hermès 41%, Inditex ≈20%, H&M 8%, Shein ≈4% (last full year; Hermès, H&M, Shein 2025, Inditex fiscal 2024). Each margin reflects a positioning choice.",
+"Reading the positions: Primark and Ryanair = cost leadership; Hermès = differentiation focus; Apple = differentiation; Zara and IKEA = hybrids; Shein = cost + speed; H&M = debatable (cheaper than Zara? more fashionable than Primark?).",
+"Why customers choose: only two levers: pay less (low price, no frills) or get more (quality, design, brand, speed, trust). Cost works on the first, differentiation on the second.",
+"New market space (\"blue ocean\"): make competition irrelevant (Cirque du Soleil: theatre + circus); hard to repeat, easy to imitate once proven."
+],
+"plt": [
+"4-question reading method: which cost/barrier falls (5 forces) → where is durable value (VRIN) → which decision is forced (rivals) → which risk/trade-off. The object changes, not the method.",
+"Schumpeter (1942): creative destruction: innovation replaces the old economy, it does not add to it. Christensen (1997): low-end disruption: a simple, cheaper offer wins the bottom of the market then moves up. Often both (Amazon started with books).",
+"Internet: 4 costs fall to (almost) zero: search, copy, distribute, match (Goldfarb & Tucker, 2019) → easy entry, intermediaries lose their paid role.",
+"Near-zero marginal cost: fixed cost is the barrier; scale pays (the biggest can price lowest); free becomes possible if a second payer exists (advertisers, other side).",
+"Long tail (Anderson 2004): niches added up can rival hits; Elberse (2008) nuance: hits still carry a large share of revenue.",
+"Pipeline (Zara) sells, platform (Vinted) connects: it owns the connection between the two sides, neither the item nor the sale. Most firms are hybrids (Zalando).",
+"4 network effects: direct (messaging), cross-side (Airbnb hosts/travellers), negative (spam, congestion), local (ride-hailing per city). They raise the entry barrier but each has a limit.",
+"Chicken-and-egg of a two-sided market: seed one side, subsidise, go local, do things that don't scale (Airbnb NY 2009: door-to-door photos, revenue ×2).",
+"Who pays = a strategic choice: monetise the side that values the transaction most (Vinted: buyers pay, sellers free); this decides which side to attract first.",
+"4 platform risks: leakage (dealing outside), quality/moderation (central cost), regulation (DMA 2022/1925 applicable since 2023, session 7), dependence on one player's rules.",
+"Models: free funded by ads (Amazon ads $68.6bn in 2025, launched 2012); sell the outcome not the product (Rolls-Royce Power-by-the-Hour, 1962); subscription = initial revenue dip, pays only if customers stay (Adobe: revenue -7.9% in 2013 while subscription +69%).",
+"SaaS: ARR = MRR × 12; NRR > 100% = growth without new customers; churn = losses that cost years; Rule of 40 = growth + margin (30% + 15% = 45).",
+"Amazon 2025: AWS = 18% of net sales ($716.9bn) but 57% of operating income ($80bn): the most visible business is not the profit engine; strategy is the portfolio."
+],
+"ma": [
+"Corporate strategy: which businesses to be in, which stages of the value chain, which countries; M&A moves a boundary, and selling a business is also a strategic choice.",
+"An acquisition is an action, not a strategy (Rumelt): for each deal ask which diagnosis it answers and why buy rather than build or ally (borrow).",
+"5 reasons to buy tied to course tools: scale → 5 forces (Vusion-Pricer); control of a stage → value chain (Amazon-Whole Foods); capability → VRIO (Facebook-Instagram, Vusion-Memory); enter a market → entry barriers (Walmart-Jet.com); transform → corporate (Microsoft-Nokia, failure).",
+"Build: full control and its culture, but slow (choose if you have the skills and time). Borrow: speed and shared risk, but dependence (if access is enough). Buy: speed + control, but premium and integration risk (if control is needed and integration possible). Capron & Mitchell (2012).",
+"Organic vs acquisition: organic costs no premium but takes years; acquisition brings customers, team and know-how at once at the price of a premium and a culture merger.",
+"Cited M&A failure rate: 70-90% (Christensen et al., HBR 2011); 12 cents lost per dollar spent at announcement (1998-2001, Moeller et al.). The seller usually captures the premium.",
+"Value for the buyer = synergies - premium - integration costs. Cost synergies are often delivered, revenue synergies often disappoint; winner's curse in auctions.",
+"Failure factors: overpaying, overestimated synergies, culture clash, slow integration, distraction from the core, ignored regulators. Failures are decided before signing or in the first 100 days.",
+"Strategic buyer (synergies, pays cash or shares, can pay more) vs financial buyer (return then resale, cash often with debt, founders often kept).",
+"3 valuation methods: comparables (multiple × metric, depends on the market), precedent transactions (include control premium, e.g. Pricer +29.6%), DCF (sensitive to assumptions). EV - net debt = equity value. Maximum price = standalone value + synergies actually capturable.",
+"Divestment in 6 steps: prepare → approach → first offers → due diligence → signing → closing. Dual track: sale and fundraising in parallel to test price and keep a fallback.",
+"Price is also terms: earn-out and warranties (private), premium and fairness opinion (listed), carve-out, LBO, stock merger (who controls?).",
+"After closing: prepare → reassure (day 1) → organise (100 days) → integrate (years 1-3). Degrees of integration (Haspeslagh & Jemison): absorption, symbiosis, holding, preservation, depending on need for resource sharing × need for autonomy.",
+"M&A follows the cost of money: record 2021 ($6.8tn), trough 2022-23, record megadeals in 2025 (68 deals > $10bn). In 2024 buyers sought savings (59% scale), in 2025 growth and capabilities (60% scope), per Bain."
+]
+},
+"infos": [
+[
+"Assessment",
+[
+"Individual participation: 25% (written comments possible after each session; unprepared interventions count negatively).",
+"Interim and final quizzes, individual: 25% (Wooclap in class; mid-term quiz 19 Nov, final quiz 3 Dec).",
+"Final group presentation: 50%. Official grading: diagnosis 30% (PESTEL, 5 forces, VRIN), recommendation 40% (platform, boundaries or business model, with risks), clarity 15%, questions 15%; same grade for the whole group."
+]
+],
+[
+"Group project",
+[
+"Group of 3 or 4; 15-20 minute presentation + 5 minutes of questions on the strategic outlook of a company of your choice (enough public data; not a case seen in class; first come, first served).",
+"Email the professor before 19 November to get the company validated, with the group members' names.",
+"Content: current situation, market and competition, resources and capabilities, challenges and opportunities, clear recommendations to management (3-5 year strategy, risks included, societal issues section).",
+"Upload the slides before the presentation; presentations on 3 and 10 December."
+]
+],
+[
+"Rules",
+[
+"Be on time (lateness costs participation points), name card in front of you.",
+"Phones and laptops put away when asked.",
+"AI allowed but higher expectations: the professor will check that you understand what you say."
+]
+]
+]
+}
+}
