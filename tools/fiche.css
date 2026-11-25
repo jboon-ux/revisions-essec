@@ -42,7 +42,7 @@ details.source-text pre, pre.source-pre { font-size: 7.5pt; white-space: pre-wra
 /* synthèse lisible */
 @page { margin: 14mm 14mm 16mm 14mm; }
 body { font-size: 10.5pt; line-height: 1.5; }
-.cover { height: auto; display: block; margin-bottom: 10px; }
+.cover { height: auto; display: block; margin-bottom: 4px; }
 .cover h1 { font-size: 24pt; } .cover .assess { font-size: 9pt; }
 h1.ch { page-break-before: auto; break-after: avoid; font-size: 15pt; margin: 22px 0 6px; }
 h4 { font-size: 11.5pt; margin: 14px 0 4px; break-after: avoid; }
