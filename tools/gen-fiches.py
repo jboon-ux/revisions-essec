@@ -6,10 +6,10 @@ ROOT = sys.argv[1] if len(sys.argv) > 1 else '.'
 E = html.escape
 CSS = open(f'{ROOT}/tools/fiche.css').read()
 L = {
- 'fr': dict(k='Fiche synthèse', toc='Sommaire', ev='Évaluation', ess='L\'essentiel', infos='Infos pratiques', plan='Plan du cours', ex='Exercices', exams='Examens blancs et fiches', mcq='QCM d\'entraînement', ans='Réponse', pend='Chapitres à venir (pas encore de support)', cover_note='Les chapitres reprennent les supports du cours publiés sur Moodle. Les corrections marquées « proposée » sont celles de Instinct, pas du professeur.', gen='Généré le 25 nov. 2026 à partir du site de révision.'),
- 'en': dict(k='Summary sheet', toc='Contents', ev='Assessment', ess='In one look', infos='Practical info', plan='Course plan', ex='Exercises', exams='Mock exams and sheets', mcq='Practice MCQs', ans='Answer', pend='Upcoming chapters (no material yet)', cover_note='Chapters follow the course material published on Moodle. Solutions marked "suggested" or "proposed" are Instinct\'s own, not the professor\'s.', gen='Generated on 25 Nov 2026 from the revision site.'),
+ 'fr': dict(k='Fiche synthèse', toc='Sommaire', ev='Évaluation', ess='L\'essentiel', infos='Infos pratiques', plan='Plan du cours', ex='Exercices', exams='Examens blancs et fiches', mcq='QCM d\'entraînement', ans='Réponse', pend='Séances sans slides publiées sur Moodle', cover_note='Les chapitres reprennent les supports du cours publiés sur Moodle. Les corrections marquées « proposée » sont celles de Instinct, pas du professeur.', gen='Généré le 27 nov. 2026 à partir du site de révision.'),
+ 'en': dict(k='Summary sheet', toc='Contents', ev='Assessment', ess='In one look', infos='Practical info', plan='Course plan', ex='Exercises', exams='Mock exams and sheets', mcq='Practice MCQs', ans='Answer', pend='Sessions without published slides on Moodle', cover_note='Chapters follow the course material published on Moodle. Solutions marked "suggested" or "proposed" are Instinct\'s own, not the professor\'s.', gen='Generated on 27 Nov 2026 from the revision site.'),
 }
-DROP = re.compile(r"objectifs|ce que vise|outline|course plan|d'où vient|étymolog|brève histoire|citations|software is eating|origine|y2k|bug de l'an 2000|blayais|exercice de classe|azincourt|aims to do|session (learning )?(goals|objectives)|where the word|brief history|quotes to know|year 2000|class exercise", re.I)
+DROP = re.compile(r"objectifs|ce que vise|outline|course plan|d'où vient|étymolog|brève histoire|citations|software is eating|origine|y2k|bug de l'an 2000|blayais|exercice de classe|azincourt|aims to do|session (learning )?(goals|objectives)|where the word|brief history|quotes to know|year 2000|class exercise|course objectives|objectifs du cours|some definitions|a few definitions|quelques définitions|consulting", re.I)
 def trim(h):
     parts = re.split(r'(?=<h4>)', h)
     return ''.join(p for p in parts if not (p.startswith('<h4>') and DROP.search(re.sub('<[^>]+>', '', p[4:p.find('</h4>')]))))
@@ -38,11 +38,13 @@ def build(sid, lang):
     for q in d['qcm']: qc.setdefault(q[0], []).append(q)
     out = [f'<div class="cover"><div class="k">{E(d["code"])} · ESSEC MiM 1</div><h1>{E(d["name"])}</h1><h2>{t["k"]}</h2></div>']
     out.append(f'<h1 class="ch"><span class="num">§</span>{t["toc"]}</h1><div class="toc">' + ''.join(f'<div><b>{i+1}.</b> {E(c[1])}</div>' for i, c in enumerate(d['chapters'])) + '</div>')
-    if False: out.append(f'<p class="readings"><b>{t["pend"]}:</b> ' + E(' · '.join(d['pending'])) + '</p>')
+    if d.get('pending'): out.append(f'<p class="readings"><b>{t["pend"]}:</b> ' + E(' · '.join(d['pending'])) + '</p>')
     for i, (cid, title) in enumerate(d['chapters']):
         e = ess.get(cid, [])
         eh = ''
-        out.append(f'<h1 class="ch"><span class="num">{i+1:02d}</span>{E(title)}</h1>{eh}{op(synth(trim(body(cid))))}')
+        bh = trim(body(cid))
+        if sid != 'str': bh = synth(bh)
+        out.append(f'<h1 class="ch"><span class="num">{i+1:02d}</span>{E(title)}</h1>{eh}{op(bh)}')
     ex = []
     if ex:
         out.append(f'<h1 class="ch"><span class="num">§</span>{t["ex"]}</h1>')
