@@ -6,12 +6,12 @@
    "int": "Internal analysis",
    "bls": "Business strategy (S4)",
    "plt": "Platforms, internet and AI (S5)",
-   "ma": "Boundaries of the firm: M&A (S6)"
+   "ma": "Boundaries of the firm: M&A (S6)",
+   "mem": "The Memory case (S7)"
   },
   "eval": "Individual participation 25% · interim and final quizzes (Wooclap, individual) 25% · final group presentation 50%.",
   "pending": [
-   "Strategy and societal issues (S7)",
-   "Strategy and business models (S8)"
+   "Strategy and society & business models (S8)"
   ],
   "ess": {
    "intro": [
@@ -87,6 +87,14 @@
     "Price is also terms: earn-out and warranties (private), premium and fairness opinion (listed), carve-out, LBO, stock merger (who controls?).",
     "After closing: prepare → reassure (day 1) → organise (100 days) → integrate (years 1-3). Degrees of integration (Haspeslagh & Jemison): absorption, symbiosis, holding, preservation, depending on need for resource sharing × need for autonomy.",
     "M&A follows the cost of money: record 2021 ($6.8tn), trough 2022-23, record megadeals in 2025 (68 deals > $10bn). In 2024 buyers sought savings (59% scale), in 2025 growth and capabilities (60% scope), per Bain."
+   ],
+   "mem": [
+    "The Memory case: software + experts turning retailers' sales data into decisions (assortment, prices, promotions); founded 2018, profitable (52% EBITDA), never funded.",
+    "Diagnosis: home market won, dependent on 3 retailers (97% of revenue, owners of the data), half software half services, no network abroad → cannot scale alone.",
+    "Guiding policy: lean on a bigger partner to become a global software and data player, staying neutral between retailers (rules out: a retailer partner, going abroad alone, more custom work).",
+    "Dual track (funds + corporates): competition sets the price and protects against a walk-away; Carrefour refused to preserve neutrality (= the value).",
+    "Vusion chosen at the same price (€80m): certainty, 100% cash at closing, plan and people; commercial synergies disappointed (revenue synergies are the hardest).",
+    "A maximum is not a payment: €80m received at closing + €5m+€3m+€1m earn-out; the 'up to €50m' super bonus stayed out of reach."
    ]
   },
   "infos": [
@@ -95,7 +103,7 @@
     [
      "Individual participation: 25% (written comments possible after each session; unprepared interventions count negatively).",
      "Interim and final quizzes, individual: 25% (Wooclap in class; mid-term quiz 19 Nov, final quiz 3 Dec).",
-     "Final group presentation: 50%. Official grading: diagnosis 30% (PESTEL, 5 forces, VRIN), recommendation 40% (platform, boundaries or business model, with risks), clarity 15%, questions 15%; same grade for the whole group."
+     "Final group presentation: 50%. Official grading: diagnosis 30% (PESTEL, 5 forces, VRIN), recommendation 40% (platform, boundaries or business model, with risks and a societal section), clarity 15%, questions 15%; same grade for the whole group."
     ]
    ],
    [
