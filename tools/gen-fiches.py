@@ -29,6 +29,7 @@ def build(sid, lang):
     d = json.load(open(f'{ROOT}/data/{sid}.json')); t = L[lang]
     fr = {x[0]: x[2] for x in d['fr']}; en = {x[0]: x[2] for x in d['en']}
     body = lambda cid: ((en.get(cid) if lang == 'en' else fr.get(cid)) or fr.get(cid) or en.get(cid, ''))
+    PDFB = dict(d.get('pdf', {}).get(lang, []))
     ess = {x[0]: [b for b in x[1] if not TRIV.search(b)] for x in d['ess']}
     EN = json.load(open(f'{ROOT}/tools/ess-en.json')).get(sid) if lang == 'en' else None
     if EN:
@@ -42,7 +43,7 @@ def build(sid, lang):
     for i, (cid, title) in enumerate(d['chapters']):
         e = ess.get(cid, [])
         eh = ''
-        bh = trim(body(cid))
+        bh = trim(PDFB.get(cid) or body(cid))
         if sid != 'str': bh = synth(bh)
         out.append(f'<h1 class="ch"><span class="num">{i+1:02d}</span>{E(title)}</h1>{eh}{op(bh)}')
     ex = []
